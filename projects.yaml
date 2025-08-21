@@ -1,6 +1,14 @@
 configuration:
   markdown_header_file: "config/header.md"
   markdown_footer_file: "config/footer.md"
+  min_stars: 0
+  min_projectrank: 0
+  min_description_length: 0
+  max_description_length: 299792458 # = ∞ in daily life
+  require_license: False
+  allowed_licenses: [all]
+  ascii_description: False
+  category_heading: robust
 
 categories:
   - category: docs

@@ -3,17 +3,129 @@ configuration:
   markdown_footer_file: "config/footer.md"
 
 categories:
-  # - category: "data-engineering"
-  #   title: "Machine Learning & Data Engineering"
-  #   subtitle: "Best-of lists about machine learning, data engieering, data science, or other topics related to big data."
+  - category: docs
+    title: 📔 Documentation
+    subtitle: Supplements to the [official documentation](https://typst.app/docs/), such as examples, translations, and local builds.
+  - category: writing
+    title: 📝 Writing
+    subtitle: Tools for composing articles and books.
 
 labels:
-  # - label: "python"
-  #   image: "https://www.python.org/static/favicon.ico"
-  #   description: "Best-of list with Python projects"
+  - label: cli
+    name: 🤖 CLI
+    description: Command-line binaries.
+  - label: runnable
+    name: 📦 Runnable
+    description: Runnable projects that needs a proper environment (e.g., pip/npm install).
+  - label: api
+    name: 🔌 API
+    description: Libraries providing API for development.
+  - label: app
+    name: 🎨 App
+    description: Local apps with graphical user interface.
+  - label: web
+    name: 🦋 Web
+    description: Web pages and Web apps.
+  - label: extension
+    name: 🧩 Extension
+    description: Browser addons and user scripts.
+  - label: multilingual
+    name: 🗺️ Multilingual
+    description: Projects that are available in multiple languages or scripts.
+  - label: non-english
+    name: 🐧 non-English
+    description: Projects that are not available in English.
 
 projects:
-  # - name: best-of-ml-python
-  #   github_id: ml-tooling/best-of-ml-python
-  #   labels: ["python"]
-  #   category: "data-engineering"
+  - name: Typst Examples Book
+    github_id: sitandr/typst-examples-book
+    category: docs
+    labels: [web]
+
+  - name: Typst 日本語ドキュメント
+    github_id: typst-jp/typst-jp.github.io
+    category: docs
+    labels: [web, non-english]
+
+  - name: Typst 中文社区导航
+    github_id: typst-doc-cn/guide
+    category: docs
+    labels: [web, non-english]
+
+  - name: The Raindrop-Blue Book (Typst中文教程)
+    github_id: typst-doc-cn/tutorial
+    category: docs
+    labels: [web, non-english]
+
+  - name: clreq-gap for typst
+    github_id: typst-doc-cn/clreq
+    category: docs
+    labels: [web, multilingual]
+
+  - name: typst-docs-l10n
+    github_id: typst-doc-cn/docs
+    category: docs
+    labels: [runnable, api]
+
+  - name: Typst MdBook Docs
+    github_id: JL710/typst-mdbook-docs
+    category: docs
+    labels: [runnable]
+    # NOTE: This description was manually recorded on 2025-08-21.
+    description: |
+      This tool generates Typst documentation in Markdown and builds an MdBook from it.
+
+  - name: jcbhmr/typst-docs
+    github_id: jcbhmr/typst-docs
+    category: docs
+    labels: [web, multilingual]
+
+  - name: Engage-Press/typst-docs
+    github_id: Engage-Press/typst-docs
+    category: docs
+    labels: [runnable]
+
+  - name: Its-Just-Nans/typst.github.io
+    github_id: Its-Just-Nans/typst.github.io
+    category: docs
+    labels: [web, multilingual]
+
+  - name: Typst-Automatic-Translation
+    github_id: Yourouchour/Typst-Automatic-Translation
+    category: docs
+    labels: [extension, multilingual]
+
+  - name: tinymist
+    github_id: Myriad-Dreamin/tinymist
+    category: writing
+    labels: [extension, cli, api]
+    cargo_id: tinymist-query
+
+  - name: typst-lsp
+    github_id: nvarner/typst-lsp
+    category: writing
+    labels: [extension, cli]
+
+  - name: typstyle
+    github_id: typstyle-rs/typstyle
+    category: writing
+    labels: [cli, extension, web, api]
+    cargo_id: typstyle-core
+    npm_id: "@typstyle/typstyle-wasm-bundler"
+    greasy_fork_id: 542164
+
+  - name: typstfmt
+    github_id: astrale-sharp/typstfmt
+    category: writing
+    labels: [cli, extension, api]
+    cargo_id: typstfmt
+
+  - name: Katvan
+    github_id: IgKh/katvan
+    category: writing
+    labels: [app]
+
+  - name: TyX
+    github_id: tyx-editor/TyX
+    category: writing
+    labels: [app]

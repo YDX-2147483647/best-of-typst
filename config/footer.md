@@ -28,7 +28,7 @@
 Contributions are encouraged and always welcome! If you like to add or update projects, choose one of the following ways:
 
 - Open an issue by selecting one of the provided categories from the [issue page](https://github.com/YDX-2147483647/best-of-typst/issues/new/choose) and fill in the requested information.
-- Modify the [projects.yaml](https://github.com/YDX-2147483647/best-of-typst/blob/main/projects.yaml) with your additions or changes, and submit a pull request. This can also be done directly via the [Github UI](https://github.com/YDX-2147483647/best-of-typst/edit/main/projects.yaml).
+- Modify the [projects.yaml](https://github.com/YDX-2147483647/best-of-typst/blob/main/projects.yaml) with your additions or changes, and submit a pull request. This can also be done directly via the [GitHub UI](https://github.com/YDX-2147483647/best-of-typst/edit/main/projects.yaml).
 
 For more information on how to add or update projects, please read the [contribution guidelines](https://github.com/YDX-2147483647/best-of-typst/blob/main/CONTRIBUTING.md). By participating in this project, you agree to abide by its [Code of Conduct](https://github.com/YDX-2147483647/best-of-typst/blob/main/.github/CODE_OF_CONDUCT.md).
 

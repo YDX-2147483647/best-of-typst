@@ -12,19 +12,39 @@ configuration:
 
 categories:
   - category: docs
-    title: 📔 Documentation
+    title: 📚 Documentation
     subtitle: Supplements to the [official documentation](https://typst.app/docs/), such as examples, translations, and local builds.
   - category: writing
     title: 📝 Writing
-    subtitle: Tools for composing articles and books.
+    subtitle: Compose articles and books.
+  - category: math
+    title: 📐 Math
+    subtitle: Typeset mathematical formulae.
+  - category: ref
+    title: 🧾 Bibliography
+    subtitle: Links, citations, and bibliography.
+  - category: mix
+    title: ⚔️ Mix writing
+    subtitle: Mix Typst into other documents.
+  - category: convert
+    title: 🎩 Conversion
+    subtitle: Convert a Typst document from or into other formats, and generate online websites. (in addition to [Pandoc](https://pandoc.org))
+  - category: pkg
+    title: 🚀 Package development
+    subitile: Facilitate development of Typst packages and templates.
+  - category: coding
+    title: 💻 Programming
+    subtitle: Bindings to programming languages and deployable robots.
+  - category: misc
+    title: 🐱‍🐉 Miscellaneous
 
 labels:
   - label: cli
     name: 🤖 CLI
-    description: Command-line binaries.
+    description: Command-line programs with pre-built binaries available.
   - label: runnable
-    name: 📦 Runnable
-    description: Runnable projects that needs a proper environment (e.g., pip/npm install).
+    name: 🥡 Runnable
+    description: Runnable projects that needs a proper environment (e.g., pip/npm/cargo install).
   - label: api
     name: 🔌 API
     description: Libraries providing API for development.
@@ -37,6 +57,9 @@ labels:
   - label: extension
     name: 🧩 Extension
     description: Browser addons and user scripts.
+  - label: typst-package
+    name: 🌌 Typst package
+    description: Projects that are also available as Typst packages, and experimental unpublished local packages.
   - label: multilingual
     name: 🗺️ Multilingual
     description: Projects that are available in multiple languages or scripts.
@@ -57,6 +80,11 @@ projects:
 
   - name: Typst 中文社区导航
     github_id: typst-doc-cn/guide
+    category: docs
+    labels: [web, non-english]
+
+  - name: Typst 中文文档网站
+    github_id: typst-doc-cn/typst-doc-cn.github.io
     category: docs
     labels: [web, non-english]
 
@@ -137,3 +165,263 @@ projects:
     github_id: tyx-editor/TyX
     category: writing
     labels: [app]
+
+  - name: Shiro A
+    github_id: Myriad-Dreamin/shiroa
+    category: convert
+    labels: [cli]
+
+  - name: Typlite
+    cargo_id: typlite
+    github_id: Myriad-Dreamin/tinymist
+    category: convert
+    labels: [cli]
+
+  - name: Typsite
+    github_id: Glomzzz/typsite
+    category: convert
+    labels: [cli]
+
+  - name: Typsidian
+    github_id: fogsong233/Typsidian
+    category: mix
+    labels: [extension]
+
+  - name: UTPM
+    github_id: typst-community/utpm
+    category: pkg
+    labels: [cli]
+
+  - name: typship
+    github_id: sjfhsjfh/typship
+    category: pkg
+    labels: [cli]
+
+  - name: wasi-stub
+    homepage: https://github.com/astrale-sharp/wasm-minimal-protocol#wasi-stub
+    github_id: astrale-sharp/wasm-minimal-protocol
+    category: pkg
+    labels: [cli]
+
+  - name: wasm-minimal-protocol
+    cargo_id: wasm-minimal-protocol
+    github_id: astrale-sharp/wasm-minimal-protocol
+    category: pkg
+    labels: [api]
+
+  - name: typst-wasm-protocol
+    cargo_id: typst-wasm-protocol
+    github_id: sjfhsjfh/typst-wasm
+    category: pkg
+    labels: [api]
+
+  - name: Tytanic
+    github_id: typst-community/tytanic
+    category: pkg
+    labels: [cli]
+
+  - name: typst.ts
+    github_id: Myriad-Dreamin/typst.ts
+    category: coding
+    labels: [api, cli]
+
+  - name: Typst Upgrade
+    github_id: Coekjan/typst-upgrade
+    category: misc
+    labels: [cli]
+
+  - name: typstscript
+    github_id: ChaseRensberger/typstscript
+    category: misc
+    labels: [cli]
+    # NOTE: This description was manually recorded on 2025-08-21.
+    description: |
+      A CLI tool for creating Typst screenplay projects.
+
+  - name: mdbook-typst-highlight
+    github_id: sitandr/mdbook-typst-highlight
+    category: mix
+    labels: [cli]
+
+  - name: mdbook Typst Doc Preprocessor
+    github_id: fenjalien/mdbook-typst-doc
+    category: mix
+    # As of 2025-08-21, only the linux binary is provided.
+    labels: [cli, runnable]
+
+  - name: mdbook-typst-math
+    github_id: duskmoon314/mdbook-typst-math
+    cargo_id: mdbook-typst-math
+    category: mix
+    labels: [runnable]
+
+  - name: LegNeato/mdbook-typst
+    cargo_id: mdbook-typst
+    github_id: LegNeato/mdbook-typst
+    category: convert
+    labels: [runnable]
+
+  - name: KaiserY/mdbook-typst-pdf
+    cargo_id: mdbook-typst-pdf
+    github_id: KaiserY/mdbook-typst-pdf
+    category: convert
+    # As of 2025-08-21, only linux binaries are provided.
+    labels: [cli, runnable]
+
+  - name: xudesheng/mdbook-typstpdf
+    cargo_id: mdbook-typstpdf
+    github_id: xudesheng/mdbook-typstpdf
+    category: convert
+    labels: [runnable]
+
+  - name: showman
+    pypi_id: showman
+    github_id: ntjess/showman
+    category: pkg
+    labels: [runnable]
+
+  - name: Typer
+    homepage: https://huggingface.co/rkstgr/typer-1.5b-base-gguf
+    category: docs
+    # NOTE: This description was manually recorded on 2025-08-21.
+    description: |
+      Typer is the first LLM trained specifically for Typst, a performant modern typesetting system for generating PDF documents.
+
+  - name: typst-package-check
+    github_id: typst/package-check
+    category: pkg
+    labels: [runnable]
+
+  - name: tylant
+    npm_id: "@myriaddreamin/tylant"
+    github_id: Myriad-Dreamin/tylant
+    category: convert
+    labels: [runnable]
+
+  - name: Manual de Typst en español
+    homepage: https://forum.typst.app/t/help-in-spanish-to-start-using-typst-pequeno-manual-de-ayuda-en-espanol-para-empezar-en-typst/2252/4
+    github_id: ToniGL68/ayuda-typst
+    category: docs
+    labels: [non-english]
+
+  - name: Tyler
+    github_id: mkpoli/tyler
+    category: pkg
+    labels: [runnable]
+    npm_id: "@mkpoli/tyler"
+
+  - name: GitHub info on Typst Universe
+    greasy_fork_id: 541162
+    category: docs
+    labels: [extension]
+
+  - name: Typst rules based on ast-grep
+    github_id: YDX-2147483647/ast-grep-typst
+    category: coding
+    labels: [web, cli]
+
+  - name: RenderCV
+    github_id: rendercv/rendercv
+    category: misc
+    labels: [runnable]
+    pypi_id: rendercv
+
+  - name: typstudio
+    github_id: Cubxity/typstudio
+    category: writing
+    labels: [app]
+
+  - name: obsidian-typst
+    github_id: fenjalien/obsidian-typst
+    category: mix
+    labels: [extension]
+
+  - name: Typst Preview VSCode
+    github_id: Enter-tainer/typst-preview
+    category: writing
+    labels: [extension]
+
+  - name: MiTeX
+    github_id: mitex-rs/mitex
+    category: math
+    labels: [runnable, web, typst-package]
+
+  - name: Scientific Diagrams
+    github_id: janosh/diagrams
+    category: docs
+    labels: [web]
+
+  - name: Typix
+    github_id: loqusion/typix
+    category: coding
+    labels: [runnable]
+
+  - name: BeauTyXT
+    github_id: soupslurpr/BeauTyXT
+    category: writing
+    labels: [app]
+
+  - name: Detypify
+    github_id: QuarticCat/detypify
+    category: math
+    labels: [web, extension]
+
+  - name: Typic
+    # Formerly detypstify/detypstify
+    github_id: detypstify/typic
+    category: math
+    labels: [web]
+
+  - name: typst-py
+    pypi_id: typst
+    github_id: messense/typst-py
+    category: coding
+    labels: [api]
+
+  - name: yank
+    github_id: roosta/yank
+    category: ref
+    labels: [extension]
+
+  - name: Excel to Typst Converter
+    github_id: hongjr03/excel-to-typst
+    category: convert
+    labels: [web]
+
+  - name: typst-ansi-web
+    github_id: pgbiel/typst-ansi-web
+    category: mix
+    labels: [web, app]
+
+  - name: typst-ansi-hl
+    github_id: frozolotl/typst-ansi-hl
+    category: Mix
+    labels: [runnable]
+
+  - name: cslper
+    github_id: csimide/cslper
+    category: ref
+    labels: [runnable, non-english]
+
+  - name: citext
+    github_id: Shuenhoy/citext
+    category: ref
+    labels: [typst-package, non-english]
+
+  - name: bxbibwrite
+    homepage: https://gist.github.com/zr-tex8r/444ba5e27b3deff157b4ed7f62a0fe1a
+    category: ref
+    # NOTE: This description was manually recorded on 2025-08-21.
+    description: |
+      Typst：文献リストを直書きするやつ
+    labels: [typst-package, non-english]
+
+  - name: typst-set-font
+    github_id: YDX-2147483647/typst-set-font
+    category: docs
+    labels: [web, non-english]
+
+  - name: YDX-2147483647/faq-bot
+    github_id: YDX-2147483647/faq-bot
+    category: coding
+    labels: [non-english]

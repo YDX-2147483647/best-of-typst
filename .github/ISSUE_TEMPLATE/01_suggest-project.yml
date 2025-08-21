@@ -1,0 +1,51 @@
+name: "📦  Suggest a project"
+description: "Do you like to suggest a project that hasn't been added to this best-of list yet?"
+title: "Add project: "
+labels: ["add-project"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please make sure that the project was not already added or suggested to this best-of list.
+
+        (Existing projects are recorded in [projects.yaml](https://github.com/YDX-2147483647/best-of-typst/blob/main/projects.yaml) and [README.md](https://github.com/YDX-2147483647/best-of-typst/blob/main/README.md), and others’ requests are in [Issues](https://github.com/YDX-2147483647/best-of-typst/issues?q=is%3Aopen+label%3Aadd-project))
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Project details
+
+        Please fill out as much of the following information as possible.
+
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: GitHub, Gitee, Greasy Fork…
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Choose one of the existing categories from the README.md or projects.yaml file
+      options:
+        # sync-categories: start
+        - TODO
+        # sync-categories: end
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Additional context
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Add any other context or additional information about the project.
+      placeholder: (Optional)

@@ -550,3 +550,141 @@ projects:
     license: GPL-3.0-or-later
     description: |
       Create documents with typst, the new markup-based typesetting system that is powerful and easy to learn.
+
+  - name: Bib Kit
+    github_id: MordragT/bib_kit
+    category: ref
+    labels: [extension]
+
+  - name: Typst Telegram Bot
+    github_id: daskol/typst-telegram-bot
+    category: coding
+
+  - name: mattfbacon/typst-bot
+    github_id: mattfbacon/typst-bot
+    category: coding
+
+  - name: gitlab-ci-typst
+    gitlab_id: IvanSanchez/gitlab-ci-typst
+    category: coding
+
+  - name: lvignoli/typst-action
+    github_id: lvignoli/typst-action
+    category: coding
+
+  - name: typst-pandoc
+    github_id: lvignoli/typst-pandoc
+    category: convert
+    labels: [extension]
+
+  - name: typst-live
+    github_id: ItsEthra/typst-live
+    category: writing
+    cargo_id: typst-live
+    labels: [runnable]
+
+  - name: textlint-plugin-typst
+    github_id: textlint/textlint-plugin-typst
+    category: writing
+    npm_id: textlint-plugin-typst
+    labels: [extension]
+
+  - name: typstwriter
+    github_id: Bzero/typstwriter
+    category: writing
+    labels: [app, runnable]
+    pypi_id: typstwriter
+
+  - name: SapienAI
+    github_id: Academic-ID/sapienAI
+    category: misc
+    labels: [runnable, web]
+
+  - name: SeniorMars/tree-sitter-typst
+    github_id: SeniorMars/tree-sitter-typst
+    category: writing
+    labels: [extension]
+
+  - name: uben0/tree-sitter-typst
+    github_id: uben0/tree-sitter-typst
+    category: writing
+    labels: [extension]
+
+  - name: frozolotl/tree-sitter-typst
+    github_id: frozolotl/tree-sitter-typst
+    category: writing
+    labels: [extension]
+
+  - name: Typst Sync
+    github_id: OrangeX4/vscode-typst-sync
+    category: pkg
+    labels: [extension]
+
+  - name: inktyp
+    github_id: herlev/inktyp
+    category: mix
+    labels: [extension, runnable]
+
+  - name: org-typst-preview.el
+    github_id: remimimimimi/org-typst-preview.el
+    category: mix
+
+  - name: Typstar
+    github_id: arne314/typstar
+    category: writing
+    labels: [extension]
+
+  - name: typst-conceal.vim
+    github_id: MrPicklePinosaur/typst-conceal.vim
+    category: writing
+    labels: [extension]
+
+  - name: Typst Sympy Calculator
+    github_id: OrangeX4/vscode-typst-sympy-calculator
+    category: misc
+    labels: [extension]
+
+  - name: Typst math VS Code Extension
+    github_id: supersurviveur/typst-math
+    category: math
+    labels: [extension]
+
+  - name: typst.nvim
+    github_id: SeniorMars/typst.nvim
+    category: writing
+    labels: [extension]
+
+  - name: Typstd
+    github_id: daskol/typstd
+    category: writing
+    labels: [extension]
+
+  - name: meow_king/typst-ts-mode
+    homepage: https://codeberg.org/meow_king/typst-ts-mode
+    category: writing
+    labels: [extension]
+
+  - name: leetcode.typ
+    github_id: lucifer1004/leetcode.typ
+    category: misc
+
+  - name: typst-rb
+    github_id: actsasflinn/typst-rb
+    homepage: https://rubygems.org/gems/typst
+    category: coding
+    labels: [api]
+
+  - name: Typstry.jl
+    github_id: jakobjpeters/Typstry.jl
+    category: coding
+    labels: [api]
+
+  - name: Typst Matplotlib Backend
+    github_id: daskol/mpl-typst
+    category: coding
+    labels: [api]
+
+  - name: Typst HTTP API
+    github_id: slashformotion/typst-http-api
+    category: coding
+    labels: [runnable, web]

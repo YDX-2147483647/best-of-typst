@@ -728,3 +728,120 @@ projects:
     pypi_id: pypst
     category: coding
     labels: [api]
+
+  - name: Kvasir
+    github_id: LDemetrios/Kvasir
+    category: writing
+    labels: [extension, multilingual]
+    # NOTE: This description was manually recorded on 2025-08-22.
+    description: |
+      Kvasir (/kwɑ'zer/) is an (unofficial) plugin for JetBrains platform adding support for Typst language.
+
+  - name: Django Typst
+    github_id: a-musing-moose/django-typst-engine
+    pypi_id: django_typst
+    category: coding
+    labels: [extension]
+
+  - name: Press
+    category: coding
+    github_id: RossSmyth/press
+    labels: [api]
+
+  - name: php-typst
+    category: coding
+    github_id: aszenz/php-typst
+    labels: [api]
+
+  - name: inkscape2cetz
+    category: convert
+    github_id: PhosCity/inkscape2cetz
+    labels: [extension]
+
+  - name: Tide
+    category: writing
+    github_id: Nxllpointer/tide
+    labels: [runnable]
+
+  - name: Velyst
+    category: coding
+    github_id: voxell-tech/velyst
+    labels: [api]
+    cargo_id: velyst
+
+  - name: Typstify
+    category: writing
+    github_id: iXORTech/Typstify
+    labels: [app]
+
+  - name: Typst as Library
+    category: coding
+    github_id: tfachmann/typst-as-library
+
+  - name: discourse-typst
+    category: coding
+    github_id: Heinenen/discourse-typst
+    labels: [extension]
+
+  - name: Jupyter to Typst converter
+    category: convert
+    github_id: 8LWXpg/jupyter2typst
+    labels: [cli]
+
+  - name: TyKo
+    category: coding
+    github_id: LDemetrios/TyKo
+    # NOTE: This description was manually recorded on 2025-08-22.
+    description: |
+      Kotlin bindings for Typst
+    labels: [api, multilingual]
+
+  - name: 全球文种的字体与布局
+    category: misc
+    github_id: 7sDream/fonts-and-layout-zhCN
+    labels: [non-english]
+
+  - name: Wypst
+    category: math
+    github_id: 0xbolt/wypst
+    labels: [api]
+    npm_id: wypst
+
+  - name: obsidian-wypst
+    github_id: 0xbolt/obsidian-wypst
+    category: mix
+    labels: [extension]
+
+  - name: typst-preview.el
+    category: writing
+    labels: [extension]
+    github_id: havarddj/typst-preview.el
+
+  - name: Prettypst
+    category: writing
+    github_id: antonWetzel/prettypst
+    labels: [runnable, extension]
+
+  - name: Serifian
+    github_id: kwangkim/Serifian
+    category: writing
+    labels: [app]
+
+  - name: typst-notebook
+    category: mix
+    labels: [runnable]
+    github_id: freundTech/typst-notebook
+
+  - name: typst-gh-action
+    category: coding
+    github_id: thehydrogen/typst-gh-action
+
+  - name: Shell Escape for Typst
+    category: mix
+    github_id: elteammate/typst-shell-escape
+    labels: [typst-package]
+
+  - name: typst_cxx
+    category: coding
+    gitlab_id: typst_cxx/typst_cxx
+    labels: [api]

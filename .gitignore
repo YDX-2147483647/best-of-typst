@@ -13,6 +13,8 @@ target/
 .project
 .classpath
 .vscode/*
+!.vscode/settings.json
+!.vscode/*.schema.json
 # Ignore all local history of files
 **/.history
 
@@ -88,4 +90,3 @@ hs_err_pid*
 *.swo
 temp/*
 .DS_Store
-

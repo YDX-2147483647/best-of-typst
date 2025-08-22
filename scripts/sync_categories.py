@@ -1,6 +1,8 @@
 """Sync categories
 
 projects.yaml → .github/ISSUE_TEMPLATE/01_suggest-project.yml
+
+Note that this script does NOT update `.vscode/projects.schema.json`.
 """
 
 from __future__ import annotations

@@ -1,0 +1,175 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "title": "Best of Typst (TCDM) projects index",
+  "description": "See also https://github.com/YDX-2147483647/best-of-generator.",
+  "type": "object",
+  "properties": {
+    "configuration": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "subtitle": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "title"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "labels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "label",
+          "name"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "github_id": {
+            "type": "string"
+          },
+          "gitlab_id": {
+            "type": "string"
+          },
+          "homepage": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "docs",
+              "writing",
+              "math",
+              "ref",
+              "mix",
+              "convert",
+              "pkg",
+              "docs-infra",
+              "coding",
+              "misc"
+            ]
+          },
+          "labels": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "cli",
+                "runnable",
+                "api",
+                "app",
+                "web",
+                "extension",
+                "typst-package",
+                "multilingual",
+                "non-english"
+              ]
+            }
+          },
+          "cargo_id": {
+            "type": "string"
+          },
+          "npm_id": {
+            "type": "string"
+          },
+          "pypi_id": {
+            "type": "string"
+          },
+          "greasy_fork_id": {
+            "type": "integer"
+          },
+          "license": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "category"
+        ],
+        "anyOf": [
+          {
+            "required": [
+              "github_id"
+            ]
+          },
+          {
+            "required": [
+              "gitlab_id"
+            ]
+          },
+          {
+            "required": [
+              "homepage"
+            ]
+          },
+          {
+            "required": [
+              "cargo_id"
+            ]
+          },
+          {
+            "required": [
+              "npm_id"
+            ]
+          },
+          {
+            "required": [
+              "pypi_id"
+            ]
+          },
+          {
+            "required": [
+              "greasy_fork_id"
+            ]
+          }
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "configuration",
+    "categories",
+    "labels",
+    "projects"
+  ],
+  "additionalProperties": false
+}

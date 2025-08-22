@@ -13,7 +13,7 @@ configuration:
 categories:
   - category: docs
     title: 📚 Documentation
-    subtitle: Supplements to the [official documentation](https://typst.app/docs/), such as examples, translations, and local builds.
+    subtitle: Supplement to the [official Typst documentation](https://typst.app/docs/), such as examples and translations.
   - category: writing
     title: 📝 Writing
     subtitle: Compose articles and books.
@@ -32,6 +32,9 @@ categories:
   - category: pkg
     title: 🚀 Package development
     subitile: Facilitate development of Typst packages and templates.
+  - category: docs-infra
+    title: 🏗 Documentation infrastructure
+    subtitle: Infrastructure of building the [Typst documentation](https://typst.app/docs/), such as local preview.
   - category: coding
     title: 💻 Programming
     subtitle: Bindings to programming languages and deployable robots.
@@ -100,12 +103,12 @@ projects:
 
   - name: typst-docs-l10n
     github_id: typst-doc-cn/docs
-    category: docs
+    category: docs-infra
     labels: [runnable, api]
 
   - name: Typst MdBook Docs
     github_id: JL710/typst-mdbook-docs
-    category: docs
+    category: docs-infra
     labels: [runnable]
     # NOTE: This description was manually recorded on 2025-08-21.
     description: |
@@ -113,22 +116,22 @@ projects:
 
   - name: jcbhmr/typst-docs
     github_id: jcbhmr/typst-docs
-    category: docs
+    category: docs-infra
     labels: [web, multilingual]
 
   - name: Engage-Press/typst-docs
     github_id: Engage-Press/typst-docs
-    category: docs
+    category: docs-infra
     labels: [runnable]
 
   - name: Its-Just-Nans/typst.github.io
     github_id: Its-Just-Nans/typst.github.io
-    category: docs
+    category: docs-infra
     labels: [web, multilingual]
 
   - name: Typst-Automatic-Translation
     github_id: Yourouchour/Typst-Automatic-Translation
-    category: docs
+    category: docs-infra
     labels: [extension, multilingual]
 
   - name: tinymist

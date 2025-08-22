@@ -822,6 +822,16 @@ projects:
     github_id: antonWetzel/prettypst
     labels: [runnable, extension]
 
+  - name: gotypst
+    category: coding
+    github_id: francescoalemanno/gotypst
+    labels: [api]
+
+  - name: Prism-Typst
+    github_id: Mc-Zen/prism-typst
+    category: mix
+    labels: [extension]
+
   - name: Serifian
     github_id: kwangkim/Serifian
     category: writing

@@ -205,6 +205,9 @@ projects:
     github_id: astrale-sharp/wasm-minimal-protocol
     category: pkg
     labels: [cli]
+    # NOTE: This description was manually recorded on 2025-08-22.
+    description: |
+      A tool allowing you to take a wasi compliant WebAssembly file and replace all functions wasi depends on by meaningless stubs.
 
   - name: wasm-minimal-protocol
     cargo_id: wasm-minimal-protocol
@@ -307,6 +310,9 @@ projects:
     github_id: ToniGL68/ayuda-typst
     category: docs
     labels: [non-english]
+    # NOTE: This description was manually recorded on 2025-08-22.
+    description: |
+      Help in Spanish to start using typst (Pequeño manual de ayuda en español para empezar en typst)
 
   - name: Tyler
     github_id: mkpoli/tyler
@@ -410,7 +416,12 @@ projects:
   - name: citext
     github_id: Shuenhoy/citext
     category: ref
-    labels: [typst-package, non-english]
+    labels: [typst-package]
+    # NOTE: This description was manually recorded on 2025-08-22.
+    description: |
+      This package provides:
+      1. Bilingual bibliography hack before official Typst support for CSL-M (typst/citationberg#5).
+      2. `parencite` `citep` like support
 
   - name: bxbibwrite
     homepage: https://gist.github.com/zr-tex8r/444ba5e27b3deff157b4ed7f62a0fe1a
@@ -484,6 +495,9 @@ projects:
     homepage: https://codeberg.org/akida/mathyml
     category: math
     labels: [typst-package]
+    # NOTE: This description was manually recorded on 2025-08-22.
+    description: |
+      Convert your equations to MathML
 
   - name: typstfun
     homepage: https://www.ctan.org/pkg/typstfun
@@ -527,15 +541,22 @@ projects:
     homepage: https://typress-web.vercel.app
     labels: [runnable, web]
 
-  - name: liliut
+  - name: Liliut
     github_id: Myriad-Dreamin/liliut
     category: misc
     labels: [api]
+    # NOTE: This description was manually recorded on 2025-08-22.
+    description: |
+      Liliut (Lilium-Typst) is a Visual Novel Engine powered by Astro and Typst.
+      Liliut (Lilium-Typst) 是一款基于 Astro 和 Typst 的视觉小说引擎。
 
   - name: Typst To Tex (ttt)
     gitlab_id: TheZoq2/ttt
     category: convert
     labels: [runnable]
+    # NOTE: This description was manually recorded on 2025-08-22.
+    description: |
+      It compiles a typst document to a latex document doing most of the heavy lifting, and allows you to do the final touchups with inline latex, maintaining a source of truth.
 
   - name: mnemo
     github_id: lemueldls/mnemo
@@ -663,6 +684,9 @@ projects:
     homepage: https://codeberg.org/meow_king/typst-ts-mode
     category: writing
     labels: [extension]
+    # NOTE: This description was manually recorded on 2025-08-22.
+    description: |
+      Typst tree sitter major mode for Emacs.
 
   - name: leetcode.typ
     github_id: lucifer1004/leetcode.typ

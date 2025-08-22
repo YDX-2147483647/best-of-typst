@@ -205,6 +205,9 @@ projects:
     github_id: astrale-sharp/wasm-minimal-protocol
     category: pkg
     labels: [cli]
+    # NOTE: This description was manually recorded on 2025-08-22.
+    description: |
+      A tool allowing you to take a wasi compliant WebAssembly file and replace all functions wasi depends on by meaningless stubs.
 
   - name: wasm-minimal-protocol
     cargo_id: wasm-minimal-protocol
@@ -307,6 +310,9 @@ projects:
     github_id: ToniGL68/ayuda-typst
     category: docs
     labels: [non-english]
+    # NOTE: This description was manually recorded on 2025-08-22.
+    description: |
+      Help in Spanish to start using typst (Pequeño manual de ayuda en español para empezar en typst)
 
   - name: Tyler
     github_id: mkpoli/tyler
@@ -410,7 +416,12 @@ projects:
   - name: citext
     github_id: Shuenhoy/citext
     category: ref
-    labels: [typst-package, non-english]
+    labels: [typst-package]
+    # NOTE: This description was manually recorded on 2025-08-22.
+    description: |
+      This package provides:
+      1. Bilingual bibliography hack before official Typst support for CSL-M (typst/citationberg#5).
+      2. `parencite` `citep` like support
 
   - name: bxbibwrite
     homepage: https://gist.github.com/zr-tex8r/444ba5e27b3deff157b4ed7f62a0fe1a
@@ -484,6 +495,9 @@ projects:
     homepage: https://codeberg.org/akida/mathyml
     category: math
     labels: [typst-package]
+    # NOTE: This description was manually recorded on 2025-08-22.
+    description: |
+      Convert your equations to MathML
 
   - name: typstfun
     homepage: https://www.ctan.org/pkg/typstfun
@@ -527,15 +541,22 @@ projects:
     homepage: https://typress-web.vercel.app
     labels: [runnable, web]
 
-  - name: liliut
+  - name: Liliut
     github_id: Myriad-Dreamin/liliut
     category: misc
     labels: [api]
+    # NOTE: This description was manually recorded on 2025-08-22.
+    description: |
+      Liliut (Lilium-Typst) is a Visual Novel Engine powered by Astro and Typst.
+      Liliut (Lilium-Typst) 是一款基于 Astro 和 Typst 的视觉小说引擎。
 
   - name: Typst To Tex (ttt)
     gitlab_id: TheZoq2/ttt
     category: convert
     labels: [runnable]
+    # NOTE: This description was manually recorded on 2025-08-22.
+    description: |
+      It compiles a typst document to a latex document doing most of the heavy lifting, and allows you to do the final touchups with inline latex, maintaining a source of truth.
 
   - name: mnemo
     github_id: lemueldls/mnemo
@@ -663,6 +684,9 @@ projects:
     homepage: https://codeberg.org/meow_king/typst-ts-mode
     category: writing
     labels: [extension]
+    # NOTE: This description was manually recorded on 2025-08-22.
+    description: |
+      Typst tree sitter major mode for Emacs.
 
   - name: leetcode.typ
     github_id: lucifer1004/leetcode.typ
@@ -703,4 +727,131 @@ projects:
     github_id: tilman151/pypst
     pypi_id: pypst
     category: coding
+    labels: [api]
+
+  - name: Kvasir
+    github_id: LDemetrios/Kvasir
+    category: writing
+    labels: [extension, multilingual]
+    # NOTE: This description was manually recorded on 2025-08-22.
+    description: |
+      Kvasir (/kwɑ'zer/) is an (unofficial) plugin for JetBrains platform adding support for Typst language.
+
+  - name: Django Typst
+    github_id: a-musing-moose/django-typst-engine
+    pypi_id: django_typst
+    category: coding
+    labels: [extension]
+
+  - name: Press
+    category: coding
+    github_id: RossSmyth/press
+    labels: [api]
+
+  - name: php-typst
+    category: coding
+    github_id: aszenz/php-typst
+    labels: [api]
+
+  - name: inkscape2cetz
+    category: convert
+    github_id: PhosCity/inkscape2cetz
+    labels: [extension]
+
+  - name: Tide
+    category: writing
+    github_id: Nxllpointer/tide
+    labels: [runnable]
+
+  - name: Velyst
+    category: coding
+    github_id: voxell-tech/velyst
+    labels: [api]
+    cargo_id: velyst
+
+  - name: Typstify
+    category: writing
+    github_id: iXORTech/Typstify
+    labels: [app]
+
+  - name: Typst as Library
+    category: coding
+    github_id: tfachmann/typst-as-library
+
+  - name: discourse-typst
+    category: coding
+    github_id: Heinenen/discourse-typst
+    labels: [extension]
+
+  - name: Jupyter to Typst converter
+    category: convert
+    github_id: 8LWXpg/jupyter2typst
+    labels: [cli]
+
+  - name: TyKo
+    category: coding
+    github_id: LDemetrios/TyKo
+    # NOTE: This description was manually recorded on 2025-08-22.
+    description: |
+      Kotlin bindings for Typst
+    labels: [api, multilingual]
+
+  - name: 全球文种的字体与布局
+    category: misc
+    github_id: 7sDream/fonts-and-layout-zhCN
+    labels: [non-english]
+
+  - name: Wypst
+    category: math
+    github_id: 0xbolt/wypst
+    labels: [api]
+    npm_id: wypst
+
+  - name: obsidian-wypst
+    github_id: 0xbolt/obsidian-wypst
+    category: mix
+    labels: [extension]
+
+  - name: typst-preview.el
+    category: writing
+    labels: [extension]
+    github_id: havarddj/typst-preview.el
+
+  - name: Prettypst
+    category: writing
+    github_id: antonWetzel/prettypst
+    labels: [runnable, extension]
+
+  - name: gotypst
+    category: coding
+    github_id: francescoalemanno/gotypst
+    labels: [api]
+
+  - name: Prism-Typst
+    github_id: Mc-Zen/prism-typst
+    category: mix
+    labels: [extension]
+
+  - name: Serifian
+    github_id: kwangkim/Serifian
+    category: writing
+    labels: [app]
+
+  - name: typst-notebook
+    category: mix
+    labels: [runnable]
+    github_id: freundTech/typst-notebook
+
+  - name: typst-gh-action
+    category: coding
+    github_id: thehydrogen/typst-gh-action
+
+  - name: Shell Escape for Typst
+    category: mix
+    github_id: elteammate/typst-shell-escape
+    labels: [typst-package]
+
+  - name: typst_cxx
+    category: coding
+    gitlab_id: typst_cxx/typst_cxx
     labels: [api]

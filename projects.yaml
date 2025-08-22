@@ -688,3 +688,19 @@ projects:
     github_id: slashformotion/typst-http-api
     category: coding
     labels: [runnable, web]
+
+  - name: zeta ζ
+    github_id: lentilus/zeta
+    category: writing
+    labels: [extension, cli, runnable]
+
+  - name: Nonsense™
+    github_id: SylvanFranklin/nonsense
+    category: misc
+    labels: [web, typst-package]
+
+  - name: Pypst
+    github_id: tilman151/pypst
+    pypi_id: pypst
+    category: coding
+    labels: [api]

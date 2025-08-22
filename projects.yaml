@@ -31,7 +31,7 @@ categories:
     subtitle: Convert a Typst document from or into other formats, and generate online websites. (in addition to [Pandoc](https://pandoc.org))
   - category: pkg
     title: 🚀 Package development
-    subitile: Facilitate development of Typst packages and templates.
+    subtitle: Facilitate development of Typst packages and templates.
   - category: docs-infra
     title: 🏗 Documentation infrastructure
     subtitle: Infrastructure of building the [Typst documentation](https://typst.app/docs/), such as local preview.
@@ -442,7 +442,7 @@ projects:
     labels: [extension]
 
   - name: niuiic/typst-preview.nvim
-    github_id: al-kot/typst-preview.nvim
+    github_id: niuiic/typst-preview.nvim
     category: writing
     labels: [extension]
 
@@ -488,7 +488,7 @@ projects:
   - name: typstfun
     homepage: https://www.ctan.org/pkg/typstfun
     category: docs
-    github_id: https://github.com/lvjr/typstfun
+    github_id: lvjr/typstfun
 
   - name: TexText
     github_id: textext/textext

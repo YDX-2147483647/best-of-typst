@@ -13,7 +13,7 @@ configuration:
 categories:
   - category: docs
     title: 📚 Documentation
-    subtitle: Supplements to the [official documentation](https://typst.app/docs/), such as examples, translations, and local builds.
+    subtitle: Supplement to the [official Typst documentation](https://typst.app/docs/), such as examples and translations.
   - category: writing
     title: 📝 Writing
     subtitle: Compose articles and books.
@@ -31,7 +31,10 @@ categories:
     subtitle: Convert a Typst document from or into other formats, and generate online websites. (in addition to [Pandoc](https://pandoc.org))
   - category: pkg
     title: 🚀 Package development
-    subitile: Facilitate development of Typst packages and templates.
+    subtitle: Facilitate development of Typst packages and templates.
+  - category: docs-infra
+    title: 🏗 Documentation infrastructure
+    subtitle: Infrastructure of building the [Typst documentation](https://typst.app/docs/), such as local preview.
   - category: coding
     title: 💻 Programming
     subtitle: Bindings to programming languages and deployable robots.
@@ -56,7 +59,7 @@ labels:
     description: Web pages and Web apps.
   - label: extension
     name: 🧩 Extension
-    description: Browser addons and user scripts.
+    description: Browser addons and user scripts, and other kinds of extensions.
   - label: typst-package
     name: 🌌 Typst package
     description: Projects that are also available as Typst packages, and experimental unpublished local packages.
@@ -100,12 +103,12 @@ projects:
 
   - name: typst-docs-l10n
     github_id: typst-doc-cn/docs
-    category: docs
+    category: docs-infra
     labels: [runnable, api]
 
   - name: Typst MdBook Docs
     github_id: JL710/typst-mdbook-docs
-    category: docs
+    category: docs-infra
     labels: [runnable]
     # NOTE: This description was manually recorded on 2025-08-21.
     description: |
@@ -113,22 +116,22 @@ projects:
 
   - name: jcbhmr/typst-docs
     github_id: jcbhmr/typst-docs
-    category: docs
+    category: docs-infra
     labels: [web, multilingual]
 
   - name: Engage-Press/typst-docs
     github_id: Engage-Press/typst-docs
-    category: docs
+    category: docs-infra
     labels: [runnable]
 
   - name: Its-Just-Nans/typst.github.io
     github_id: Its-Just-Nans/typst.github.io
-    category: docs
+    category: docs-infra
     labels: [web, multilingual]
 
   - name: Typst-Automatic-Translation
     github_id: Yourouchour/Typst-Automatic-Translation
-    category: docs
+    category: docs-infra
     labels: [extension, multilingual]
 
   - name: tinymist
@@ -223,7 +226,8 @@ projects:
   - name: typst.ts
     github_id: Myriad-Dreamin/typst.ts
     category: coding
-    labels: [api, cli]
+    labels: [api, cli, extension]
+    npm_id: "@myriaddreamin/typst.ts"
 
   - name: Typst Upgrade
     github_id: Coekjan/typst-upgrade
@@ -395,7 +399,7 @@ projects:
 
   - name: typst-ansi-hl
     github_id: frozolotl/typst-ansi-hl
-    category: Mix
+    category: mix
     labels: [runnable]
 
   - name: cslper
@@ -425,3 +429,278 @@ projects:
     github_id: YDX-2147483647/faq-bot
     category: coding
     labels: [non-english]
+
+  - name: tola
+    github_id: KawaYww/tola-ssg
+    category: convert
+    cargo_id: tola
+    labels: [runnable]
+
+  - name: chomosuke/typst-preview.nvim
+    github_id: chomosuke/typst-preview.nvim
+    category: writing
+    labels: [extension]
+
+  - name: niuiic/typst-preview.nvim
+    github_id: niuiic/typst-preview.nvim
+    category: writing
+    labels: [extension]
+
+  - name: al-kot/typst-preview.nvim
+    github_id: al-kot/typst-preview.nvim
+    category: writing
+    labels: [extension]
+
+  - name: typst.vim
+    github_id: kaarmu/typst.vim
+    category: writing
+    labels: [extension]
+
+  - name: Markdown-It Typst Math
+    github_id: Lowmst/markdown-it-typst-math
+    category: math
+    labels: [extension]
+    npm_id: "@lowmst/markdown-it-typst-math"
+
+  - name: ParaN3xus/typst-snippets
+    github_id: ParaN3xus/typst-snippets
+    category: misc
+
+  - name: astro-typst
+    github_id: OverflowCat/astro-typst
+    category: mix
+    npm_id: astro-typst
+    labels: [api]
+
+  - name: typst-package-template
+    github_id: typst-community/typst-package-template
+    category: pkg
+
+  - name: typst-community/setup-typst
+    github_id: typst-community/setup-typst
+    category: coding
+
+  - name: mathyml
+    homepage: https://codeberg.org/akida/mathyml
+    category: math
+    labels: [typst-package]
+
+  - name: typstfun
+    homepage: https://www.ctan.org/pkg/typstfun
+    category: docs
+    github_id: lvjr/typstfun
+
+  - name: TexText
+    github_id: textext/textext
+    category: mix
+    labels: [extension]
+
+  - name: TypsTeX
+    github_id: admk/typstex
+    category: mix
+    labels: [api]
+
+  - name: tex2typst
+    github_id: qwinsi/tex2typst
+    category: math
+    labels: [web, api]
+    npm_id: tex2typst
+
+  - name: tex2typ
+    github_id: ParaN3xus/tex2typ
+    category: math
+    labels: [web]
+
+  - name: typst-undergradmath
+    github_id: johanvx/typst-undergradmath
+    category: docs
+
+  - name: klirr
+    github_id: Sajjon/klirr
+    category: misc
+    cargo_id: klirr
+    labels: [cli]
+
+  - name: Typress
+    github_id: ParaN3xus/typress
+    category: math
+    homepage: https://typress-web.vercel.app
+    labels: [runnable, web]
+
+  - name: liliut
+    github_id: Myriad-Dreamin/liliut
+    category: misc
+    labels: [api]
+
+  - name: Typst To Tex (ttt)
+    gitlab_id: TheZoq2/ttt
+    category: convert
+    labels: [runnable]
+
+  - name: mnemo
+    github_id: lemueldls/mnemo
+    category: misc
+
+  - name: Typewriter
+    homepage: https://flathub.org/apps/app.drey.Typewriter
+    category: writing
+    labels: [app]
+    # NOTE: The following info are recorded manually on 2025-08-22.
+    # https://gitlab.gnome.org/JanGernert/typewriter
+    license: GPL-3.0-or-later
+    description: |
+      Create documents with typst, the new markup-based typesetting system that is powerful and easy to learn.
+
+  - name: Bib Kit
+    github_id: MordragT/bib_kit
+    category: ref
+    labels: [extension]
+
+  - name: Typst Telegram Bot
+    github_id: daskol/typst-telegram-bot
+    category: coding
+
+  - name: mattfbacon/typst-bot
+    github_id: mattfbacon/typst-bot
+    category: coding
+
+  - name: gitlab-ci-typst
+    gitlab_id: IvanSanchez/gitlab-ci-typst
+    category: coding
+
+  - name: lvignoli/typst-action
+    github_id: lvignoli/typst-action
+    category: coding
+
+  - name: typst-pandoc
+    github_id: lvignoli/typst-pandoc
+    category: convert
+    labels: [extension]
+
+  - name: typst-live
+    github_id: ItsEthra/typst-live
+    category: writing
+    cargo_id: typst-live
+    labels: [runnable]
+
+  - name: textlint-plugin-typst
+    github_id: textlint/textlint-plugin-typst
+    category: writing
+    npm_id: textlint-plugin-typst
+    labels: [extension]
+
+  - name: typstwriter
+    github_id: Bzero/typstwriter
+    category: writing
+    labels: [app, runnable]
+    pypi_id: typstwriter
+
+  - name: SapienAI
+    github_id: Academic-ID/sapienAI
+    category: misc
+    labels: [runnable, web]
+
+  - name: SeniorMars/tree-sitter-typst
+    github_id: SeniorMars/tree-sitter-typst
+    category: writing
+    labels: [extension]
+
+  - name: uben0/tree-sitter-typst
+    github_id: uben0/tree-sitter-typst
+    category: writing
+    labels: [extension]
+
+  - name: frozolotl/tree-sitter-typst
+    github_id: frozolotl/tree-sitter-typst
+    category: writing
+    labels: [extension]
+
+  - name: Typst Sync
+    github_id: OrangeX4/vscode-typst-sync
+    category: pkg
+    labels: [extension]
+
+  - name: inktyp
+    github_id: herlev/inktyp
+    category: mix
+    labels: [extension, runnable]
+
+  - name: org-typst-preview.el
+    github_id: remimimimimi/org-typst-preview.el
+    category: mix
+
+  - name: Typstar
+    github_id: arne314/typstar
+    category: writing
+    labels: [extension]
+
+  - name: typst-conceal.vim
+    github_id: MrPicklePinosaur/typst-conceal.vim
+    category: writing
+    labels: [extension]
+
+  - name: Typst Sympy Calculator
+    github_id: OrangeX4/vscode-typst-sympy-calculator
+    category: misc
+    labels: [extension]
+
+  - name: Typst math VS Code Extension
+    github_id: supersurviveur/typst-math
+    category: math
+    labels: [extension]
+
+  - name: typst.nvim
+    github_id: SeniorMars/typst.nvim
+    category: writing
+    labels: [extension]
+
+  - name: Typstd
+    github_id: daskol/typstd
+    category: writing
+    labels: [extension]
+
+  - name: meow_king/typst-ts-mode
+    homepage: https://codeberg.org/meow_king/typst-ts-mode
+    category: writing
+    labels: [extension]
+
+  - name: leetcode.typ
+    github_id: lucifer1004/leetcode.typ
+    category: misc
+
+  - name: typst-rb
+    github_id: actsasflinn/typst-rb
+    homepage: https://rubygems.org/gems/typst
+    category: coding
+    labels: [api]
+
+  - name: Typstry.jl
+    github_id: jakobjpeters/Typstry.jl
+    category: coding
+    labels: [api]
+
+  - name: Typst Matplotlib Backend
+    github_id: daskol/mpl-typst
+    category: coding
+    labels: [api]
+
+  - name: Typst HTTP API
+    github_id: slashformotion/typst-http-api
+    category: coding
+    labels: [runnable, web]
+
+  - name: zeta ζ
+    github_id: lentilus/zeta
+    category: writing
+    labels: [extension, cli, runnable]
+
+  - name: Nonsense™
+    github_id: SylvanFranklin/nonsense
+    category: misc
+    labels: [web, typst-package]
+
+  - name: Pypst
+    github_id: tilman151/pypst
+    pypi_id: pypst
+    category: coding
+    labels: [api]

@@ -7,7 +7,7 @@
 
   TCDM covers the others.
 
-- [**Awesome Typst**](https://github.com/qjcg/awesome-typst) created in 2023 by qjcg is the earliest list. (TCDM will import its data in near future.)
+- [**Awesome Typst**](https://github.com/qjcg/awesome-typst) created in 2023 by qjcg is the earliest list. It provides part of the initial data of TCDM.
 
   Unlike Awesome Typst, TCDM ranks project by a calculated project-quality score. In addition, inactive projects will be automatically hidden in TCDM.
 

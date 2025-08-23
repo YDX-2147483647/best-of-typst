@@ -53,7 +53,9 @@ def build_transformers(project_yaml: str) -> dict[str, Transformer]:
         "Name": lambda v: {"name": v.strip()},
         "URL": url_to_id,
         "Category": lambda v: {
-            "category": next(c["category"] for c in categories if c["title"] == v)
+            "category": next(
+                c["category"] for c in categories if c["title"] == v.strip()
+            )
         },
     }
 

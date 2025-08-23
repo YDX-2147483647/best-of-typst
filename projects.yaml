@@ -859,3 +859,4 @@ projects:
   - name: syntastica-typst
     github_id: RubixDev/syntastica-typst
     category: misc
+    labels: [typst-package]

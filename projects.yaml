@@ -77,7 +77,7 @@ projects:
     labels: [web]
 
   - name: Typst 日本語ドキュメント
-    github_id: typst-jp/typst-jp.github.io
+    github_id: typst-jp/docs
     category: docs
     labels: [web, non-english]
 

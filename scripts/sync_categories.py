@@ -55,7 +55,7 @@ def transform(issue_template: str, projects_yaml: dict) -> str:
         elif not in_interlude:
             rows.append(r)
 
-    return "\n".join(rows)
+    return "\n".join(rows) + "\n"
 
 
 if __name__ == "__main__":

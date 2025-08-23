@@ -35,7 +35,16 @@ body:
       description: Choose one of the existing categories from the README.md or projects.yaml file
       options:
         # sync-categories: start
-        - TODO
+        - 📚 Documentation
+        - 📝 Writing
+        - 📐 Math
+        - 🧾 Bibliography
+        - ⚔️ Mix writing
+        - 🎩 Conversion
+        - 🚀 Package development
+        - 🏗 Documentation infrastructure
+        - 💻 Programming
+        - 🐱‍🐉 Miscellaneous
         # sync-categories: end
 
   - type: markdown

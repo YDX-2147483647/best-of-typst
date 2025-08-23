@@ -855,3 +855,8 @@ projects:
     category: coding
     gitlab_id: typst_cxx/typst_cxx
     labels: [api]
+
+  - name: syntastica-typst
+    github_id: RubixDev/syntastica-typst
+    category: misc
+    labels: [typst-package]

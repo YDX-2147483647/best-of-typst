@@ -152,6 +152,9 @@ projects:
     cargo_id: typstyle-core
     npm_id: "@typstyle/typstyle-wasm-bundler"
     greasy_fork_id: 542164
+    # NOTE: This description was manually recorded on 2025-08-23, to override that on Greasy Fork.
+    description: |
+      Beautiful and reliable typst code formatter
 
   - name: typstfmt
     github_id: astrale-sharp/typstfmt
@@ -566,11 +569,9 @@ projects:
     homepage: https://flathub.org/apps/app.drey.Typewriter
     category: writing
     labels: [app]
-    # NOTE: The following info are recorded manually on 2025-08-22.
-    # https://gitlab.gnome.org/JanGernert/typewriter
+    gitlab_id: https://gitlab.gnome.org/api/graphql::JanGernert/typewriter
+    # NOTE: This license was recorded manually on 2025-08-23.
     license: GPL-3.0-or-later
-    description: |
-      Create documents with typst, the new markup-based typesetting system that is powerful and easy to learn.
 
   - name: Bib Kit
     github_id: MordragT/bib_kit

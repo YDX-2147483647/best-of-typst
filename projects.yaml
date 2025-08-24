@@ -911,6 +911,8 @@ projects:
     category: misc
 
   - name: tex2typst-rs
+    homepage: https://xyy-cas.github.io/tex2typst-UI/
     github_id: xyy-cas/tex2typst-rs
     category: math
     cargo_id: tex2typst-rs
+    labels: [api, web]

@@ -913,3 +913,4 @@ projects:
   - name: typst-as-lib
     github_id: Relacibo/typst-as-lib
     category: coding
+    cargo_id: typst-as-lib

@@ -909,3 +909,7 @@ projects:
   - name: typst-community/typst-install
     github_id: typst-community/typst-install
     category: misc
+
+  - name: tex2typst-rs
+    github_id: xyy-cas/tex2typst-rs
+    category: math

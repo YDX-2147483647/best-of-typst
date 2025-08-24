@@ -827,6 +827,7 @@ projects:
   - name: gotypst
     category: coding
     github_id: francescoalemanno/gotypst
+    go_id: github.com/francescoalemanno/gotypst
     labels: [api]
 
   - name: Prism-Typst

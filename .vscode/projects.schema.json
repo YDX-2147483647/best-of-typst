@@ -110,6 +110,9 @@
           "pypi_id": {
             "type": "string"
           },
+          "go_id": {
+            "type": "string"
+          },
           "greasy_fork_id": {
             "type": "integer"
           },
@@ -153,6 +156,11 @@
           {
             "required": [
               "pypi_id"
+            ]
+          },
+          {
+            "required": [
+              "go_id"
             ]
           },
           {

@@ -8,7 +8,7 @@ body:
       value: |
         Please make sure that the project was not already added or suggested to this best-of list.
 
-        (Existing projects are recorded in [projects.yaml](https://github.com/YDX-2147483647/best-of-typst/blob/main/projects.yaml) and [README.md](https://github.com/YDX-2147483647/best-of-typst/blob/main/README.md), and others’ requests are in [Issues](https://github.com/YDX-2147483647/best-of-typst/issues?q=is%3Aopen+label%3Aadd-project))
+        (Existing projects are recorded in [projects.yaml](https://github.com/YDX-2147483647/best-of-typst/blob/main/projects.yaml) or [README.md](https://github.com/YDX-2147483647/best-of-typst/blob/main/README.md), and others’ requests are in [Issues](https://github.com/YDX-2147483647/best-of-typst/issues?q=is%3Aopen+label%3Aadd-project))
 
   - type: markdown
     attributes:
@@ -16,6 +16,7 @@ body:
         ### Project details
 
         Please fill out as much of the following information as possible.
+        It will assist human review and also help the robot draft a pull request.
 
   - type: input
     id: name
@@ -27,7 +28,8 @@ body:
     id: url
     attributes:
       label: URL
-      description: GitHub, Gitee, Greasy Fork…
+      description: GitHub, GitLab, Gitee, Greasy Fork…
+
   - type: dropdown
     id: category
     attributes:
@@ -46,6 +48,35 @@ body:
         - 💻 Programming
         - 🐱‍🐉 Miscellaneous
         # sync-categories: end
+
+  - type: checkboxes
+    id: labels
+    attributes:
+      label: Labels
+      description: Select one or more labels.
+      options:
+        # sync-labels: start
+        - label: 🤖 CLI — Command-line programs with pre-built binaries available.
+        - label: 🥡 Runnable — Runnable projects that needs a proper environment (e.g., pip/npm/cargo install).
+        - label: 🔌 API — Libraries providing API for development.
+        - label: 🎨 App — Local apps with graphical user interface.
+        - label: 🦋 Web — Web pages and Web apps.
+        - label: 🧩 Extension — Browser addons and user scripts, and other kinds of extensions.
+        - label: 🌌 Typst package — Projects that are also available as Typst packages, and experimental unpublished local packages.
+        - label: 🗺️ Multilingual — Projects that are available in multiple languages or scripts.
+        - label: 🐧 non-English — Projects that are not available in English.
+        # sync-labels: end
+
+  - type: textarea
+    attributes:
+      label: Package registries
+      description: Links to the project in package registries or catalogs (if any).
+      placeholder: |
+        Examples:
+        https://pypi.org/project/showman/
+        https://www.npmjs.com/package/astro-typst
+        https://crates.io/crates/typstyle or https://lib.rs/crates/tinymist
+        https://pkg.go.dev/github.com/francescoalemanno/gotypst
 
   - type: markdown
     attributes:

@@ -29,7 +29,7 @@ if TYPE_CHECKING:
 def url_to_id(url: str) -> dict[str, str]:
     u = urlparse(url.strip())
     match u.netloc:
-        case "github.com" | "gitee.com":
+        case "github.com" | "gitee.com" | "gitlab.com":
             key = f"{u.netloc.removesuffix('.com')}_id"
             return {key: u.path.removeprefix("/").removesuffix("/")}
         case "greasyfork.org":
@@ -57,6 +57,8 @@ def build_transformers(project_yaml: str) -> dict[str, Transformer]:
                 c["category"] for c in categories if c["title"] == v.strip()
             )
         },
+        # TODO: Support _Labels_
+        # TODO: Support _Package registries_
     }
 
 

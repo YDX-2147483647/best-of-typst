@@ -22,7 +22,7 @@ categories:
     subtitle: Typeset mathematical formulae.
   - category: ref
     title: 🧾 Bibliography
-    subtitle: Links, citations, and bibliography.
+    subtitle: Links, citations, and bibliography. (in addition to the official [hayagriva](https://github.com/typst/hayagriva))
   - category: mix
     title: ⚔️ Mix writing
     subtitle: Mix Typst into other documents.
@@ -291,6 +291,7 @@ projects:
     labels: [runnable]
 
   - name: Typer
+    github_id: rkstgr/Typer
     homepage: https://huggingface.co/rkstgr/typer-1.5b-base-gguf
     category: docs
     # NOTE: This description was manually recorded on 2025-08-21.
@@ -861,3 +862,50 @@ projects:
     github_id: RubixDev/syntastica-typst
     category: misc
     labels: [typst-package]
+
+  - name: Webapp for converting BibTeX to Hayagriva
+    category: ref
+    github_id: JonasLoos/bibtex-to-hayagriva-webapp
+    labels: [web]
+
+  - name: tohaya
+    category: ref
+    github_id: FNNDSC/tohaya
+    labels: [web, cli]
+    cargo_id: tohaya
+    npm_id: tohaya
+
+  - name: TypstBench
+    category: misc
+    github_id: rkstgr/TypstBench
+    labels: [runnable]
+
+  - name: citation-js/plugin-hayagriva
+    category: ref
+    github_id: citation-js/plugin-hayagriva
+    npm_id: "@citation-js/plugin-hayagriva"
+    labels: [extension, api]
+
+  - name: citationberg.js
+    category: ref
+    github_id: jcbhmr/citationberg.js
+    npm_id: citationberg
+    labels: [api]
+
+  - name: typst.js
+    category: coding
+    github_id: typst-community/typst.js
+    npm_id: typst
+    labels: [api]
+
+  - name: HackingGate/typst-out
+    github_id: HackingGate/typst-out
+    category: coding
+
+  - name: typst-community/setup-hayagriva
+    github_id: typst-community/setup-hayagriva
+    category: ref
+
+  - name: typst-community/typst-install
+    github_id: typst-community/typst-install
+    category: misc

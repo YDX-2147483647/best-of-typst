@@ -913,3 +913,4 @@ projects:
   - name: tex2typst-rs
     github_id: xyy-cas/tex2typst-rs
     category: math
+    cargo_id: tex2typst-rs

@@ -40,14 +40,69 @@ def url_to_id(url: str) -> dict[str, str]:
             raise Exception(f"Cannot recognize URL netloc “{u.netloc}”: {url}")
 
 
+def parse_labels(
+    labels_section: str, labels_config: list[dict[str, str]]
+) -> dict[str, str]:
+    """Parse selected labels from checkboxes"""
+    # Create mapping from display name to internal label
+    label_mapping = {label["name"]: label["label"] for label in labels_config}
+
+    selected_labels: list[str] = []
+
+    for line in labels_section.strip().splitlines():
+        if line.startswith("- [x]"):
+            # Extract the label name (emoji + text before the first '—')
+            match = re.match(r"- \[x\] (.+?) —", line)
+            if match:
+                label = match.group(1).strip()
+                assert label in label_mapping, f"unknown label: {label}"
+                selected_labels.append(label_mapping[label])
+
+    if selected_labels:
+        return {"labels": f"[{', '.join(selected_labels)}]"}
+    return {}
+
+
+def parse_package_registries(registries_text: str) -> dict[str, str]:
+    """Parse package registry URLs and extract IDs"""
+    result = {}
+
+    for line in registries_text.strip().splitlines():
+        url = line.strip()
+        if not url:
+            continue
+
+        parsed = urlparse(url)
+        path = parsed.path
+        match parsed.netloc:
+            case "pypi.org":
+                # Example: https://pypi.org/project/showman/
+                result["pypi_id"] = path.removeprefix("/project/").removesuffix("/")
+            case "www.npmjs.com":
+                # Example: https://www.npmjs.com/package/astro-typst
+                result["npm_id"] = path.removeprefix("/package/")
+            case "crates.io" | "lib.rs":
+                # Example: https://crates.io/crates/typstyle or https://lib.rs/crates/tinymist
+                result["cargo_id"] = path.removeprefix("/crates/")
+            case "pkg.go.dev":
+                # Example: https://pkg.go.dev/github.com/francescoalemanno/gotypst
+                result["go_id"] = path.removeprefix("/")
+            case other:
+                assert False, f"{other} is not supported yet: {url}"
+
+    return result
+
+
 def build_transformers(project_yaml: str) -> dict[str, Transformer]:
     """
     @param project_yaml: content of `project.yaml`
     @return transformers: { original_key: original_value ⇒ { key: value} }
     """
     yaml = YAML(typ="safe")
+    project_config = yaml.load(project_yaml)
 
-    categories = yaml.load(project_yaml)["categories"]
+    categories = project_config["categories"]
+    labels = project_config["labels"]
 
     return {
         "Name": lambda v: {"name": v.strip()},
@@ -57,8 +112,8 @@ def build_transformers(project_yaml: str) -> dict[str, Transformer]:
                 c["category"] for c in categories if c["title"] == v.strip()
             )
         },
-        # TODO: Support _Labels_
-        # TODO: Support _Package registries_
+        "Labels": lambda v: parse_labels(v, labels),
+        "Package registries": parse_package_registries,
     }
 
 
@@ -80,7 +135,7 @@ def parse_issue_body(body: str, transformers: dict[str, Transformer]) -> dict[st
 
 def dump(project: dict[str, str], project_yaml: str) -> str:
     last_line = project_yaml.splitlines()[-1]
-    tab = re.match(R"^(\s*)  ", last_line).group(1)
+    tab = re.match(R"^(\s*)  ", last_line).group(1) # type: ignore
     return f"{tab}- " + f"\n{tab}  ".join(f"{k}: {v}" for k, v in project.items())
 
 

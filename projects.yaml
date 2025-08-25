@@ -923,3 +923,9 @@ projects:
     category: coding
     cargo_id: typst-as-lib
     labels: [api]
+
+  - name: go-typst
+    github_id: Dadido3/go-typst
+    category: coding
+    labels: [api]
+    go_id: github.com/Dadido3/go-typst

@@ -9,9 +9,9 @@ python := env_var_or_default('PYTHON','python')
 bootstrap:
     {{ python }} -m pip install --upgrade ruamel.yaml
 
-# Sync categories
-sync-categories *ARGS:
-    {{ python }} ./scripts/sync_categories.py ./projects.yaml ./.github/ISSUE_TEMPLATE/01_suggest-project.yml {{ ARGS }}
+# Sync categories and labels to the issue template form
+sync-issue-form *ARGS:
+    {{ python }} ./scripts/sync_issue_form.py ./projects.yaml ./.github/ISSUE_TEMPLATE/01_suggest-project.yml {{ ARGS }}
 
 # List suggestions of adding projects
 list-project-suggestions:

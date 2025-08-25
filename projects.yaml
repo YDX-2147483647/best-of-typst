@@ -827,6 +827,7 @@ projects:
   - name: gotypst
     category: coding
     github_id: francescoalemanno/gotypst
+    go_id: github.com/francescoalemanno/gotypst
     labels: [api]
 
   - name: Prism-Typst
@@ -916,3 +917,9 @@ projects:
     category: math
     cargo_id: tex2typst-rs
     labels: [api, web]
+
+  - name: typst-as-lib
+    github_id: Relacibo/typst-as-lib
+    category: coding
+    cargo_id: typst-as-lib
+    labels: [api]

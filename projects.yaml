@@ -910,3 +910,9 @@ projects:
   - name: typst-community/typst-install
     github_id: typst-community/typst-install
     category: misc
+
+  - name: typst-as-lib
+    github_id: Relacibo/typst-as-lib
+    category: coding
+    cargo_id: typst-as-lib
+    labels: [api]

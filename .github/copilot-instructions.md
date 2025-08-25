@@ -24,7 +24,7 @@ Run these commands in order to set up the development environment:
 
 3. **Verify dependencies are working:**
    ```bash
-   python -c "import yaml; yaml.safe_load(open('projects.yaml'))"
+   python -c "from ruamel.yaml import YAML; YAML(typ='safe').load('projects.yaml')"
    ```
    - Should run without error if dependencies are properly installed
    - Use this to test if ruamel.yaml is available before proceeding
@@ -33,7 +33,7 @@ Run these commands in order to set up the development environment:
    ```bash
    pip install "best-of @ git+https://github.com/YDX-2147483647/best-of-generator.git@best-of-bits"
    ```
-   - Takes 20-25 seconds. NEVER CANCEL. Set timeout to 60+ minutes.
+   - Takes 20-25 seconds.
    - This is the core tool that generates README.md from projects.yaml
 
 ### Core Commands
@@ -86,7 +86,7 @@ just list-project-suggestions
 
 1. **Validate YAML syntax:**
    ```bash
-   python -c "import yaml; yaml.safe_load(open('projects.yaml'))"
+   python -c "from ruamel.yaml import YAML; YAML(typ='safe').load('projects.yaml')"
    ```
 
 2. **Check for duplicate project names:**
@@ -159,7 +159,7 @@ The repository includes several automated workflows:
 - Install best-of generator if generation commands are needed
 
 ### YAML validation errors:
-- Use `python -c "import yaml; yaml.safe_load(open('projects.yaml'))"` to check syntax
+- Use `python -c "from ruamel.yaml import YAML; YAML(typ='safe').load('projects.yaml')"` to check syntax
 - Common issues: incorrect indentation, missing quotes for special characters
 
 ### GitHub CLI authentication:
@@ -208,11 +208,11 @@ When committing changes, exclude these files/directories:
 # Setup
 sudo apt-get update && sudo apt-get install -y just
 just bootstrap  # May fail in restricted environments - that's OK
-python -c "import yaml; yaml.safe_load(open('projects.yaml'))"  # Verify dependencies
+python -c "from ruamel.yaml import YAML; YAML(typ='safe').load('projects.yaml')"  # Verify dependencies
 pip install "best-of @ git+https://github.com/YDX-2147483647/best-of-generator.git@best-of-bits"
 
 # Validation (these work offline)
-python -c "import yaml; yaml.safe_load(open('projects.yaml'))"
+python -c "from ruamel.yaml import YAML; YAML(typ='safe').load('projects.yaml')"
 just sync-issue-form
 just build-for-pandoc
 

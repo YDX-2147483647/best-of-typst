@@ -2,6 +2,8 @@
 
 Always reference these instructions first and fallback to search or bash commands only when you encounter unexpected information that does not match the info here.
 
+**Updated after main branch merge** - All commands and validation steps have been verified to work correctly in the current repository state.
+
 ## Working Effectively
 
 ### Bootstrap and Build
@@ -24,7 +26,7 @@ Run these commands in order to set up the development environment:
 
 3. **Verify dependencies are working:**
    ```bash
-   python -c "from ruamel.yaml import YAML; YAML(typ='safe').load('projects.yaml')"
+   python -c "from ruamel.yaml import YAML; YAML(typ='safe').load(open('projects.yaml'))"
    ```
    - Should run without error if dependencies are properly installed
    - Use this to test if ruamel.yaml is available before proceeding
@@ -86,12 +88,12 @@ just list-project-suggestions
 
 1. **Validate YAML syntax:**
    ```bash
-   python -c "from ruamel.yaml import YAML; YAML(typ='safe').load('projects.yaml')"
+   python -c "from ruamel.yaml import YAML; YAML(typ='safe').load(open('projects.yaml'))"
    ```
 
 2. **Check for duplicate project names:**
    ```bash
-   yq '.projects.[] | line + " " + .name' projects.yaml | sort --key 2 | uniq --skip-fields=1 --all-repeated
+   yq '.projects.[] | line + " " + .name' projects.yaml | sort --key=2 | uniq --skip-fields=1 --all-repeated
    ```
    - Should return empty output. Any output indicates duplicate names.
 
@@ -159,7 +161,7 @@ The repository includes several automated workflows:
 - Install best-of generator if generation commands are needed
 
 ### YAML validation errors:
-- Use `python -c "from ruamel.yaml import YAML; YAML(typ='safe').load('projects.yaml')"` to check syntax
+- Use `python -c "from ruamel.yaml import YAML; YAML(typ='safe').load(open('projects.yaml'))"` to check syntax
 - Common issues: incorrect indentation, missing quotes for special characters
 
 ### GitHub CLI authentication:
@@ -208,11 +210,11 @@ When committing changes, exclude these files/directories:
 # Setup
 sudo apt-get update && sudo apt-get install -y just
 just bootstrap  # May fail in restricted environments - that's OK
-python -c "from ruamel.yaml import YAML; YAML(typ='safe').load('projects.yaml')"  # Verify dependencies
+python -c "from ruamel.yaml import YAML; YAML(typ='safe').load(open('projects.yaml'))"  # Verify dependencies
 pip install "best-of @ git+https://github.com/YDX-2147483647/best-of-generator.git@best-of-bits"
 
 # Validation (these work offline)
-python -c "from ruamel.yaml import YAML; YAML(typ='safe').load('projects.yaml')"
+python -c "from ruamel.yaml import YAML; YAML(typ='safe').load(open('projects.yaml'))"
 just sync-issue-form
 just build-for-pandoc
 

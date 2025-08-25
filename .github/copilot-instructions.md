@@ -26,7 +26,7 @@ Run these commands in order to set up the development environment:
 
 3. **Verify dependencies are working:**
    ```bash
-   python -c "from ruamel.yaml import YAML; YAML(typ='safe').load(open('projects.yaml'))"
+   python -c "from ruamel.yaml import YAML; YAML(typ='safe').load('projects.yaml')"
    ```
    - Should run without error if dependencies are properly installed
    - Use this to test if ruamel.yaml is available before proceeding
@@ -88,21 +88,35 @@ just list-project-suggestions
 
 1. **Validate YAML syntax:**
    ```bash
-   python -c "from ruamel.yaml import YAML; YAML(typ='safe').load(open('projects.yaml'))"
+   python -c "from ruamel.yaml import YAML; YAML(typ='safe').load('projects.yaml')"
    ```
 
-2. **Check for duplicate project names:**
+2. **Validate YAML schema:**
+   ```bash
+   # Install boon (JSON Schema validator)
+   wget https://github.com/santhosh-tekuri/boon/releases/download/v0.6.1/boon-x86_64-unknown-linux-gnu.tar.gz
+   tar -xzf boon-x86_64-unknown-linux-gnu.tar.gz
+   sudo mv boon /usr/local/bin/boon
+   
+   # Validate against schema
+   boon scripts/projects.schema.json projects.yaml
+   ```
+   - Validates projects.yaml structure against the JSON schema
+   - Ensures all required fields are present and types are correct
+   - Checks category and label enum values are valid
+
+3. **Check for duplicate project names:**
    ```bash
    yq '.projects.[] | line + " " + .name' projects.yaml | sort --key=2 | uniq --skip-fields=1 --all-repeated
    ```
    - Should return empty output. Any output indicates duplicate names.
 
-3. **Sync issue forms after modifying projects.yaml:**
+4. **Sync issue forms after modifying projects.yaml:**
    ```bash
    just sync-issue-form
    ```
 
-4. **Test build process:**
+5. **Test build process:**
    ```bash
    just build-for-pandoc
    ```
@@ -136,12 +150,13 @@ just list-project-suggestions
 ### Important Scripts:
 - `scripts/sync_issue_form.py` - Syncs categories to GitHub issue templates
 - `scripts/add_project.py` - Adds projects from GitHub issues
+- `scripts/projects.schema.json` - JSON schema for validating projects.yaml structure
 
 ## GitHub Workflows
 
 The repository includes several automated workflows:
 
-1. **check.yml** - Validates projects.yaml for duplicate names
+1. **check.yml** - Validates projects.yaml for duplicate names and schema compliance
 2. **update-best-of-list.yml** - Automatically updates the best-of list monthly
 3. **add-project.yml** - Handles project additions from issues
 4. **deploy.yml** - Deploys to GitHub Pages
@@ -161,8 +176,9 @@ The repository includes several automated workflows:
 - Install best-of generator if generation commands are needed
 
 ### YAML validation errors:
-- Use `python -c "from ruamel.yaml import YAML; YAML(typ='safe').load(open('projects.yaml'))"` to check syntax
-- Common issues: incorrect indentation, missing quotes for special characters
+- Use `python -c "from ruamel.yaml import YAML; YAML(typ='safe').load('projects.yaml')"` to check syntax
+- Use `boon scripts/projects.schema.json projects.yaml` to validate against schema
+- Common issues: incorrect indentation, missing quotes for special characters, invalid category/label values
 
 ### GitHub CLI authentication:
 - Commands using `gh` CLI require proper GitHub authentication
@@ -210,11 +226,11 @@ When committing changes, exclude these files/directories:
 # Setup
 sudo apt-get update && sudo apt-get install -y just
 just bootstrap  # May fail in restricted environments - that's OK
-python -c "from ruamel.yaml import YAML; YAML(typ='safe').load(open('projects.yaml'))"  # Verify dependencies
+python -c "from ruamel.yaml import YAML; YAML(typ='safe').load('projects.yaml')"  # Verify dependencies
 pip install "best-of @ git+https://github.com/YDX-2147483647/best-of-generator.git@best-of-bits"
 
 # Validation (these work offline)
-python -c "from ruamel.yaml import YAML; YAML(typ='safe').load(open('projects.yaml'))"
+python -c "from ruamel.yaml import YAML; YAML(typ='safe').load('projects.yaml')"
 just sync-issue-form
 just build-for-pandoc
 

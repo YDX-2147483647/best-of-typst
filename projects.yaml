@@ -911,6 +911,13 @@ projects:
     github_id: typst-community/typst-install
     category: misc
 
+  - name: tex2typst-rs
+    homepage: https://xyy-cas.github.io/tex2typst-UI/
+    github_id: xyy-cas/tex2typst-rs
+    category: math
+    cargo_id: tex2typst-rs
+    labels: [api, web]
+
   - name: typst-as-lib
     github_id: Relacibo/typst-as-lib
     category: coding

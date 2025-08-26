@@ -935,3 +935,8 @@ projects:
     category: convert
     cargo_id: d2typ
     labels: [cli]
+
+  - name: johannesbrandenburger/typst-mcp
+    github_id: johannesbrandenburger/typst-mcp
+    category: docs
+    labels: [runnable]

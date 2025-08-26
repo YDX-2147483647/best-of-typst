@@ -924,6 +924,12 @@ projects:
     cargo_id: typst-as-lib
     labels: [api]
 
+  - name: go-typst
+    github_id: Dadido3/go-typst
+    category: coding
+    labels: [api]
+    go_id: github.com/Dadido3/go-typst
+
   - name: d2typ
     github_id: acture/d2typ
     category: convert

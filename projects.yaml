@@ -935,3 +935,8 @@ projects:
     category: convert
     cargo_id: d2typ
     labels: [cli]
+
+  - name: Typst Basic VS Code Extension
+    github_id: clysto/typst-vscode
+    category: writing
+    labels: [extension]

@@ -923,3 +923,9 @@ projects:
     category: coding
     cargo_id: typst-as-lib
     labels: [api]
+
+  - name: d2typ
+    github_id: acture/d2typ
+    category: convert
+    cargo_id: d2typ
+    labels: [cli]

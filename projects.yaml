@@ -935,3 +935,8 @@ projects:
     category: convert
     cargo_id: d2typ
     labels: [cli]
+
+  - name: FujishigeTemma/typst-mcp
+    github_id: FujishigeTemma/typst-mcp
+    category: docs
+    labels: [runnable]

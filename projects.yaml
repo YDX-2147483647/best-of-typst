@@ -935,3 +935,8 @@ projects:
     category: convert
     cargo_id: d2typ
     labels: [cli]
+
+  - name: Typst Companion
+    github_id: CFiggers/typst-companion
+    category: writing
+    labels: [extension]

@@ -940,3 +940,13 @@ projects:
     github_id: FujishigeTemma/typst-mcp
     category: docs
     labels: [runnable]
+
+  - name: Typst Basic VS Code Extension
+    github_id: clysto/typst-vscode
+    category: writing
+    labels: [extension]
+
+  - name: Typst Companion
+    github_id: CFiggers/typst-companion
+    category: writing
+    labels: [extension]

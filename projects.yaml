@@ -955,3 +955,8 @@ projects:
     github_id: CFiggers/typst-companion
     category: writing
     labels: [extension]
+
+  - name: tyraria
+    github_id: ParaN3xus/tyraria
+    category: writing
+    labels: [web]

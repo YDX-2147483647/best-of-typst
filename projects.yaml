@@ -940,3 +940,8 @@ projects:
     github_id: clysto/typst-vscode
     category: writing
     labels: [extension]
+
+  - name: Typst Companion
+    github_id: CFiggers/typst-companion
+    category: writing
+    labels: [extension]

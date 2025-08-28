@@ -960,3 +960,9 @@ projects:
     github_id: ParaN3xus/tyraria
     category: writing
     labels: [web]
+
+  - name: bevy_typst_textures
+    github_id: fallible-algebra/bevy_typst_textures
+    category: coding
+    labels: [api]
+    cargo_id: bevy_typst_textures

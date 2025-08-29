@@ -968,6 +968,12 @@ projects:
     category: writing
     labels: [web]
 
+  - name: crates_io_og_image
+    github_id: rust-lang/crates_io_og_image
+    category: misc
+    labels: [api]
+    cargo_id: crates_io_og_image
+
   - name: Typst as lib
     github_id: Relacibo/typst-as-lib
     category: coding

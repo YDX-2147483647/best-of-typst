@@ -30,5 +30,4 @@ request](https://github.com/YDX-2147483647/best-of-typst/pulls), or directly edi
 [projects.yaml](https://github.com/YDX-2147483647/best-of-typst/edit/main/projects.yaml). Contributions are very
 welcome!
 
-> 🧙‍♂️ Discover other [best-of lists](https://best-of.org) or [create your
-own](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
+> ⚠ This is an unofficial list, and most projects on it are not affiliated with [Typst GmbH](https://typst.app/legal/).

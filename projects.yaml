@@ -379,6 +379,7 @@ projects:
     github_id: QuarticCat/detypify
     category: math
     labels: [web, extension]
+    npm_id: detypify-service
 
   - name: Typic
     # Formerly detypstify/detypstify
@@ -518,16 +519,22 @@ projects:
     category: mix
     labels: [api]
 
-  - name: tex2typst
+  - name: qwinsi/tex2typst
     github_id: qwinsi/tex2typst
     category: math
     labels: [web, api]
     npm_id: tex2typst
 
-  - name: tex2typ
+  - name: ParaN3xus/tex2typ
     github_id: ParaN3xus/tex2typ
     category: math
     labels: [web]
+
+  - name: continuous-foundation/tex-to-typst
+    github_id: continuous-foundation/tex-to-typst
+    category: math
+    labels: [api]
+    npm_id: tex-to-typst
 
   - name: typst-undergradmath
     github_id: johanvx/typst-undergradmath
@@ -966,3 +973,9 @@ projects:
     category: misc
     labels: [api]
     cargo_id: crates_io_og_image
+
+  - name: Typst as lib
+    github_id: Relacibo/typst-as-lib
+    category: coding
+    labels: [api]
+    cargo_id: typst-as-lib

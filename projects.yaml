@@ -991,3 +991,9 @@ projects:
     category: coding
     labels: [api]
     npm_id: serialize-typst-value
+
+  - name: java-typst
+    github_id: fatihcatalkaya/java-typst
+    category: coding
+    labels: [api]
+    maven_id: io.github.fatihcatalkaya:java-typst

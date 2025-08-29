@@ -991,3 +991,9 @@ projects:
     category: coding
     labels: [api]
     npm_id: serialize-typst-value
+
+  - name: Typst-Embedded-Package
+    github_id: tguichaoua/typst-embedded-package
+    category: coding
+    labels: [api]
+    cargo_id: typst-embedded-package

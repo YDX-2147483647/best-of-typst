@@ -104,6 +104,9 @@
           "cargo_id": {
             "type": "string"
           },
+          "maven_id": {
+            "type": "string"
+          },
           "npm_id": {
             "type": "string"
           },
@@ -146,6 +149,11 @@
           {
             "required": [
               "cargo_id"
+            ]
+          },
+          {
+            "required": [
+              "maven_id"
             ]
           },
           {

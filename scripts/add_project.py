@@ -87,6 +87,9 @@ def parse_package_registries(registries_text: str) -> dict[str, str]:
             case "pkg.go.dev":
                 # Example: https://pkg.go.dev/github.com/francescoalemanno/gotypst
                 result["go_id"] = path.removeprefix("/")
+            case "central.sonatype.com" | "search.maven.org":
+                # Example: https://search.maven.org/artifact/io.github.fatihcatalkaya/java-typst
+                result["maven_id"] = path.removeprefix("/artifact/").replace("/", ":")
             case other:
                 assert False, f"{other} is not supported yet: {url}"
 
@@ -135,7 +138,7 @@ def parse_issue_body(body: str, transformers: dict[str, Transformer]) -> dict[st
 
 def dump(project: dict[str, str], project_yaml: str) -> str:
     last_line = project_yaml.splitlines()[-1]
-    tab = re.match(R"^(\s*)  ", last_line).group(1) # type: ignore
+    tab = re.match(R"^(\s*)  ", last_line).group(1)  # type: ignore
     return f"{tab}- " + f"\n{tab}  ".join(f"{k}: {v}" for k, v in project.items())
 
 

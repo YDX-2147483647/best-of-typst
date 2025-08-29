@@ -967,3 +967,9 @@ projects:
     github_id: ParaN3xus/tyraria
     category: writing
     labels: [web]
+
+  - name: Typst as lib
+    github_id: Relacibo/typst-as-lib
+    category: coding
+    labels: [api]
+    cargo_id: typst-as-lib

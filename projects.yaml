@@ -985,3 +985,9 @@ projects:
     category: coding
     labels: [api]
     cargo_id: typst-as-lib
+
+  - name: serialize-typst-value
+    github_id: LinusU/serialize-typst-value
+    category: coding
+    labels: [api]
+    npm_id: serialize-typst-value

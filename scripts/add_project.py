@@ -96,16 +96,16 @@ def parse_package_registries(registries_text: str) -> dict[str, str]:
     return result
 
 
-def build_transformers(project_yaml: str) -> dict[str, Transformer]:
+def build_transformers(projects_yaml: str) -> dict[str, Transformer]:
     """
-    @param project_yaml: content of `project.yaml`
+    @param projects_yaml: content of `projects.yaml`
     @return transformers: { original_key: original_value ⇒ { key: value} }
     """
     yaml = YAML(typ="safe")
-    project_config = yaml.load(project_yaml)
+    projects_config = yaml.load(projects_yaml)
 
-    categories = project_config["categories"]
-    labels = project_config["labels"]
+    categories = projects_config["categories"]
+    labels = projects_config["labels"]
 
     return {
         "Name": lambda v: {"name": v.strip()},
@@ -136,35 +136,35 @@ def parse_issue_body(body: str, transformers: dict[str, Transformer]) -> dict[st
     return project
 
 
-def dump(project: dict[str, str], project_yaml: str) -> str:
-    last_line = project_yaml.splitlines()[-1]
+def dump(project: dict[str, str], projects_yaml: str) -> str:
+    last_line = projects_yaml.splitlines()[-1]
     tab = re.match(R"^(\s*)  ", last_line).group(1)  # type: ignore
     return f"{tab}- " + f"\n{tab}  ".join(f"{k}: {v}" for k, v in project.items())
 
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Append a project from stdin to project.yaml",
+        description="Append a project from stdin to projects.yaml",
         epilog=f"""This script does not request GitHub API. Use it with GitHub CLI.
 
-    gh issue view … --json body | python {__file__} ./project.yaml""",
+    gh issue view … --json body | python {__file__} ./projects.yaml""",
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
-    parser.add_argument("project_yaml", type=Path, help="Path to project.yaml")
+    parser.add_argument("projects_yaml", type=Path, help="Path to projects.yaml")
     return parser
 
 
 if __name__ == "__main__":
     args = build_parser().parse_args()
-    project_yaml_path: Path = args.project_yaml
-    project_yaml = project_yaml_path.read_text(encoding="utf-8")
+    projects_yaml_path: Path = args.projects_yaml
+    projects_yaml = projects_yaml_path.read_text(encoding="utf-8")
 
     project = parse_issue_body(
         body=json.loads(input())["body"],
-        transformers=build_transformers(project_yaml),
+        transformers=build_transformers(projects_yaml),
     )
 
-    patch = dump(project, project_yaml)
+    patch = dump(project, projects_yaml)
     print(patch)
-    with project_yaml_path.open("a", encoding="utf-8") as f:
+    with projects_yaml_path.open("a", encoding="utf-8") as f:
         f.write(f"\n{patch}\n")

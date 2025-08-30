@@ -17,32 +17,27 @@ jobs:
         with:
           sparse-checkout: |
             projects.yaml
-            scripts/projects.schema.json
+            justfile
+            scripts
           sparse-checkout-cone-mode: false
-      - name: Install boon
+      
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: just
+      - name: Install boon and yq
         run: |
           wget https://github.com/santhosh-tekuri/boon/releases/download/v0.6.1/boon-x86_64-unknown-linux-gnu.tar.gz
           tar -xzf boon-x86_64-unknown-linux-gnu.tar.gz
           sudo mv boon /usr/local/bin/boon
 
-      - name: Get names
-        uses: mikefarah/yq@master
-        id: projects-names
-        with:
-          cmd: yq '.projects.[] | line + " " + .name' projects.yaml
-      - name: Make sure names are unique
-        run: |
-          duplicates=$(echo "${{ steps.projects-names.outputs.result }}" | sort --key 2 | uniq --skip-fields=1 --all-repeated)
-
-          if [ -n "$duplicates" ]; then
-            echo "# Some projects' names are duplicate" >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
-            echo '```' >> $GITHUB_STEP_SUMMARY
-            echo "$duplicates" >> $GITHUB_STEP_SUMMARY
-            echo '```' >> $GITHUB_STEP_SUMMARY
-            exit 1
-          fi
+          curl -sS https://webi.sh/yq | sh
+          source ~/.config/envman/PATH.env
+      - run: just bootstrap
 
       - name: Validate according to the schema
         run: |
           boon scripts/projects.schema.json projects.yaml
+      - name: Check the uniqueness
+        shell: bash
+        run: |
+            just check-uniq | tee -a $GITHUB_STEP_SUMMARY

@@ -21,6 +21,10 @@ list-project-suggestions:
 add-project ISSUE_NUMBER:
     gh issue view {{ ISSUE_NUMBER }} --json body | {{ python }} ./scripts/add_project.py ./projects.yaml
 
+# Check the uniqueness of projects
+check-uniq *ARGS:
+    {{ python }} ./scripts/check_uniq.py ./projects.yaml {{ ARGS }}
+
 # Build `build/index.md` from `README.md` for `pandoc --from gfm`
 build-for-pandoc:
     #!/usr/bin/env bash

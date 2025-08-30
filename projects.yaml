@@ -980,12 +980,6 @@ projects:
     labels: [api]
     cargo_id: crates_io_og_image
 
-  - name: Typst as lib
-    github_id: Relacibo/typst-as-lib
-    category: coding
-    labels: [api]
-    cargo_id: typst-as-lib
-
   - name: serialize-typst-value
     github_id: LinusU/serialize-typst-value
     category: coding

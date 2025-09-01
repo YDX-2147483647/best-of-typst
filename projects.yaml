@@ -997,3 +997,8 @@ projects:
     category: coding
     labels: [api]
     maven_id: io.github.fatihcatalkaya:java-typst
+
+  - name: obsidian-typst-mate
+    github_id: azyarashi/obsidian-typst-mate
+    category: mix
+    labels: [extension]

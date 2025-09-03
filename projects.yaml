@@ -1002,3 +1002,9 @@ projects:
     github_id: azyarashi/obsidian-typst-mate
     category: mix
     labels: [extension]
+
+  - name: Touying Exporter
+    github_id: touying-typ/touying-exporter
+    category: convert
+    labels: [runnable]
+    pypi_id: touying

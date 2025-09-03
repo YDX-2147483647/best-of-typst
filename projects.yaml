@@ -1002,3 +1002,9 @@ projects:
     github_id: azyarashi/obsidian-typst-mate
     category: mix
     labels: [extension]
+
+  - name: typfont
+    github_id: hooyuser/typst_font_manager
+    category: misc
+    labels: [cli]
+    cargo_id: typst_font_manager

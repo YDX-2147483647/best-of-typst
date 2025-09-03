@@ -352,6 +352,7 @@ projects:
 
   - name: Typst Preview VSCode
     github_id: Enter-tainer/typst-preview
+    cargo_id: typst-preview
     category: writing
     labels: [extension]
 

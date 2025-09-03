@@ -142,6 +142,7 @@ projects:
 
   - name: typst-lsp
     github_id: nvarner/typst-lsp
+    cargo_id: typst-lsp
     category: writing
     labels: [extension, cli]
 

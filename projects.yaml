@@ -672,9 +672,10 @@ projects:
     labels: [extension]
 
   - name: Typst Sympy Calculator
-    github_id: OrangeX4/vscode-typst-sympy-calculator
+    github_id: OrangeX4/typst-sympy-calculator
+    pypi_id: typst-sympy-calculator
     category: misc
-    labels: [extension]
+    labels: [extension, runnable]
 
   - name: Typst math VS Code Extension
     github_id: supersurviveur/typst-math

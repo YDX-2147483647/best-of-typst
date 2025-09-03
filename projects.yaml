@@ -1002,3 +1002,8 @@ projects:
     github_id: azyarashi/obsidian-typst-mate
     category: mix
     labels: [extension]
+
+  - name: Hayagen form UI
+    github_id: SabrinaJewson/hayagen
+    category: ref
+    labels: [web]

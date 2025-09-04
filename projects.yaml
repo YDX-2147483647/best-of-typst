@@ -1006,6 +1006,12 @@ projects:
     category: mix
     labels: [extension]
 
+  - name: typsytex
+    gitlab_id: nullst/typsytex
+    category: convert
+    labels: [runnable]
+    pypi_id: typsytex
+
   - name: Touying Exporter
     github_id: touying-typ/touying-exporter
     category: convert

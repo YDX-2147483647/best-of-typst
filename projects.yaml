@@ -1010,3 +1010,9 @@ projects:
     github_id: SabrinaJewson/hayagen
     category: ref
     labels: [web]
+
+  - name: typfont
+    github_id: hooyuser/typst_font_manager
+    category: misc
+    labels: [cli]
+    cargo_id: typst_font_manager

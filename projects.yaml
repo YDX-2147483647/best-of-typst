@@ -142,6 +142,7 @@ projects:
 
   - name: typst-lsp
     github_id: nvarner/typst-lsp
+    cargo_id: typst-lsp
     category: writing
     labels: [extension, cli]
 
@@ -352,6 +353,7 @@ projects:
 
   - name: Typst Preview VSCode
     github_id: Enter-tainer/typst-preview
+    cargo_id: typst-preview
     category: writing
     labels: [extension]
 
@@ -670,9 +672,10 @@ projects:
     labels: [extension]
 
   - name: Typst Sympy Calculator
-    github_id: OrangeX4/vscode-typst-sympy-calculator
+    github_id: OrangeX4/typst-sympy-calculator
+    pypi_id: typst-sympy-calculator
     category: misc
-    labels: [extension]
+    labels: [extension, runnable]
 
   - name: Typst math VS Code Extension
     github_id: supersurviveur/typst-math
@@ -1008,3 +1011,14 @@ projects:
     category: convert
     labels: [runnable]
     pypi_id: touying
+
+  - name: Hayagen form UI
+    github_id: SabrinaJewson/hayagen
+    category: ref
+    labels: [web]
+
+  - name: typfont
+    github_id: hooyuser/typst_font_manager
+    category: misc
+    labels: [cli]
+    cargo_id: typst_font_manager

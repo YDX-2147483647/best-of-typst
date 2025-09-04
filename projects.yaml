@@ -1006,6 +1006,12 @@ projects:
     category: mix
     labels: [extension]
 
+  - name: Touying Exporter
+    github_id: touying-typ/touying-exporter
+    category: convert
+    labels: [runnable]
+    pypi_id: touying
+
   - name: Hayagen form UI
     github_id: SabrinaJewson/hayagen
     category: ref

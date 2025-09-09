@@ -1038,3 +1038,8 @@ projects:
     category: convert
     labels: [runnable]
     go_id: github.com/mewmew/typast/cmd/offline-typ
+
+  - name: pandoc typst setup template
+    github_id: terefang/pandoc-typst-setup-template
+    category: convert
+    labels: [runnable]

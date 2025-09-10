@@ -1043,3 +1043,8 @@ projects:
     github_id: terefang/pandoc-typst-setup-template
     category: convert
     labels: [runnable]
+
+  - name: Typst concealer
+    github_id: PartyWumpus/typst-concealer
+    category: writing
+    labels: [extension]

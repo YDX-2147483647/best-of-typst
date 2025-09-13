@@ -1050,3 +1050,9 @@ projects:
     github_id: PartyWumpus/typst-concealer
     category: writing
     labels: [extension]
+
+  - name: textlint-plugin-typst
+    github_id: textlint/textlint-plugin-typst
+    category: writing
+    labels: [runnable, extension]
+    npm_id: textlint-plugin-typst

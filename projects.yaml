@@ -31,10 +31,10 @@ categories:
     subtitle: Convert a Typst document from or into other formats, and generate online websites. (in addition to [Pandoc](https://pandoc.org))
   - category: pkg
     title: 🚀 Package development
-    subtitle: Facilitate development of Typst packages and templates.
+    subtitle: Facilitate development of [Typst packages and templates](https://github.com/typst/packages).
   - category: docs-infra
     title: 🏗 Documentation infrastructure
-    subtitle: Infrastructure of building the [Typst documentation](https://typst.app/docs/), such as local preview.
+    subtitle: Infrastructure of building the [Typst documentation](https://typst.app/docs/), such as [local preview](https://github.com/typst/typst/issues/2089).
   - category: coding
     title: 💻 Programming
     subtitle: Bindings to programming languages and deployable robots.

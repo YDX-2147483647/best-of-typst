@@ -1050,3 +1050,8 @@ projects:
     github_id: PartyWumpus/typst-concealer
     category: writing
     labels: [extension]
+
+  - name: MixTex-OCR-WebRebuild
+    github_id: e-zz/MixTex-OCR-WebRebuild
+    category: math
+    labels: [runnable]

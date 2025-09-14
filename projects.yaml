@@ -1051,12 +1051,6 @@ projects:
     category: writing
     labels: [extension]
 
-  - name: textlint-plugin-typst
-    github_id: textlint/textlint-plugin-typst
-    category: writing
-    labels: [runnable, extension]
-    npm_id: textlint-plugin-typst
-
   - name: MixTex-OCR-WebRebuild
     github_id: e-zz/MixTex-OCR-WebRebuild
     category: math

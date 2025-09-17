@@ -1055,3 +1055,8 @@ projects:
     github_id: e-zz/MixTex-OCR-WebRebuild
     category: math
     labels: [runnable]
+
+  - name: gistd
+    github_id: Myriad-Dreamin/gistd
+    category: misc
+    labels: [web]

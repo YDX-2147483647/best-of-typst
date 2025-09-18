@@ -1060,3 +1060,9 @@ projects:
     github_id: Myriad-Dreamin/gistd
     category: misc
     labels: [web]
+
+  - name: 11ty-pst
+    github_id: uwni/11ty-pst
+    category: mix
+    labels: [extension]
+    npm_id: eleventy-plugin-typst

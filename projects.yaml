@@ -1066,3 +1066,7 @@ projects:
     category: mix
     labels: [extension]
     npm_id: eleventy-plugin-typst
+
+  - name: Test status check
+    github_id: YDX-2147483647/best-of-typst
+    category: misc

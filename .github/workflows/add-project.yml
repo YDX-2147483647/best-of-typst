@@ -46,4 +46,4 @@ jobs:
 
             - [ ] I have read the [CONTRIBUTING](https://github.com/best-of-lists/best-of/blob/main/CONTRIBUTING.md) guidelines.
             - [x] I have not modified the `README.md` file. Projects are only supposed to be added or updated within the `projects.yaml` file since the `README.md` file is automatically generated.
-          draft: true
+          draft: always-true

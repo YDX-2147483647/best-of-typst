@@ -1066,3 +1066,7 @@ projects:
     category: mix
     labels: [extension]
     npm_id: eleventy-plugin-typst
+
+  - name: test-ci
+    github_id: test-ci
+    category: misc

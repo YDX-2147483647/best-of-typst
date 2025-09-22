@@ -1066,3 +1066,8 @@ projects:
     category: mix
     labels: [extension]
     npm_id: eleventy-plugin-typst
+
+  - name: typst-docs-web
+    github_id: typst-community/typst-docs-web
+    category: docs-infra
+    labels: [web, multilingual]

@@ -1071,3 +1071,8 @@ projects:
     github_id: typst-community/typst-docs-web
     category: docs-infra
     labels: [web, multilingual]
+
+  - name: Oicana
+    github_id: oicana/oicana
+    category: misc
+    labels: [api]

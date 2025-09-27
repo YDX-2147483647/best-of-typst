@@ -1076,3 +1076,8 @@ projects:
     github_id: oicana/oicana
     category: misc
     labels: [api]
+
+  - name: Typst Studio
+    gitlab_id: gnoooo/typst_studio
+    category: writing
+    labels: [app]

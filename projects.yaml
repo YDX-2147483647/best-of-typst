@@ -1082,6 +1082,12 @@ projects:
     category: writing
     labels: [app]
 
+  - name: pagemaker
+    github_id: sanderboer/typst-pagemaker
+    category: convert
+    labels: [runnable]
+    pypi_id: typst-pagemaker
+
   - name: Tanim
     github_id: liquidhelium/tanim
     category: misc

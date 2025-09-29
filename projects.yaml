@@ -1087,3 +1087,9 @@ projects:
     category: convert
     labels: [runnable]
     pypi_id: typst-pagemaker
+
+  - name: Tanim
+    github_id: liquidhelium/tanim
+    category: misc
+    labels: [runnable]
+    cargo_id: tanim-cli

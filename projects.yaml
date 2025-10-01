@@ -1093,3 +1093,8 @@ projects:
     category: misc
     labels: [runnable]
     cargo_id: tanim-cli
+
+  - name: Typst dev builds
+    github_id: typst-community/dev-builds
+    category: misc
+    labels: [cli]

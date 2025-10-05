@@ -1098,3 +1098,8 @@ projects:
     github_id: typst-community/dev-builds
     category: misc
     labels: [cli]
+
+  - name: quiver
+    github_id: varkor/quiver
+    category: mix
+    labels: [web]

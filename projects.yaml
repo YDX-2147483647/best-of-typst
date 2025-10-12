@@ -47,13 +47,13 @@ labels:
     description: Command-line programs with pre-built binaries available.
   - label: runnable
     name: 🥡 Runnable
-    description: Runnable projects that needs a proper environment (e.g., pip/npm/cargo install).
+    description: Runnable projects that need a proper environment (e.g., pip/npm/cargo install).
   - label: api
     name: 🔌 API
     description: Libraries providing API for development.
   - label: app
     name: 🎨 App
-    description: Local apps with graphical user interface.
+    description: Local apps with graphical interfaces, typically provided as installers or portable versions.
   - label: web
     name: 🦋 Web
     description: Web pages and Web apps.

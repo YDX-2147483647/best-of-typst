@@ -1111,3 +1111,8 @@ projects:
     # NOTE: This description was manually recorded on 2025-10-12.
     description: |
       A minimalist, local-first Typst editor.
+
+  - name: TeXlyre
+    github_id: TeXlyre/texlyre
+    category: writing
+    labels: [runnable, web]

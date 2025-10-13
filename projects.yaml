@@ -1,10 +1,17 @@
 configuration:
   markdown_header_file: "config/header.md"
   markdown_footer_file: "config/footer.md"
+
   min_stars: 0
   min_projectrank: 0
   min_description_length: 0
   max_description_length: 299792458 # = ∞ in daily life
+
+  # Lower the thresholds because Typst is a young project changing rapidly.
+  project_inactive_months: 3
+  # For reference, it took 7 months to release Typst v0.14.0-rc.1.
+  project_dead_months: 8
+
   require_license: False
   allowed_licenses: [all]
   ascii_description: False
@@ -47,13 +54,13 @@ labels:
     description: Command-line programs with pre-built binaries available.
   - label: runnable
     name: 🥡 Runnable
-    description: Runnable projects that needs a proper environment (e.g., pip/npm/cargo install).
+    description: Runnable projects that need a proper environment (e.g., pip/npm/cargo install).
   - label: api
     name: 🔌 API
     description: Libraries providing API for development.
   - label: app
     name: 🎨 App
-    description: Local apps with graphical user interface.
+    description: Local apps with graphical interfaces, typically provided as installers or portable versions.
   - label: web
     name: 🦋 Web
     description: Web pages and Web apps.

@@ -57,9 +57,9 @@ body:
       options:
         # sync-labels: start
         - label: 🤖 CLI — Command-line programs with pre-built binaries available.
-        - label: 🥡 Runnable — Runnable projects that needs a proper environment (e.g., pip/npm/cargo install).
+        - label: 🥡 Runnable — Runnable projects that need a proper environment (e.g., pip/npm/cargo install).
         - label: 🔌 API — Libraries providing API for development.
-        - label: 🎨 App — Local apps with graphical user interface.
+        - label: 🎨 App — Local apps with graphical interfaces, typically provided as installers or portable versions.
         - label: 🦋 Web — Web pages and Web apps.
         - label: 🧩 Extension — Browser addons and user scripts, and other kinds of extensions.
         - label: 🌌 Typst package — Projects that are also available as Typst packages, and experimental unpublished local packages.

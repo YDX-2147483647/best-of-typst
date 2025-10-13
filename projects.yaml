@@ -1103,3 +1103,8 @@ projects:
     github_id: varkor/quiver
     category: mix
     labels: [web]
+
+  - name: TeXlyre
+    github_id: TeXlyre/texlyre
+    category: writing
+    labels: [runnable, web]

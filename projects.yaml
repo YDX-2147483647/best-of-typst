@@ -1123,3 +1123,8 @@ projects:
     github_id: TeXlyre/texlyre
     category: writing
     labels: [runnable, web]
+
+  - name: Kodama
+    github_id: kokic/kodama
+    category: convert
+    labels: [cli, non-english]

@@ -1128,3 +1128,8 @@ projects:
     github_id: kokic/kodama
     category: convert
     labels: [cli, non-english]
+
+  - name: typacker
+    github_id: vanleefxp/typacker
+    category: pkg
+    labels: [runnable]

@@ -1133,3 +1133,9 @@ projects:
     github_id: vanleefxp/typacker
     category: pkg
     labels: [runnable]
+
+  - name: typst-go
+    github_id: hiifong/typst-go
+    category: coding
+    labels: [api]
+    go_id: github.com/hiifong/typst-go

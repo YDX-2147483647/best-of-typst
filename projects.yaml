@@ -1141,6 +1141,9 @@ projects:
     go_id: github.com/hiifong/typst-go
 
   - name: typeset.live
+    # Not to be confused with https://typst.app/universe/package/typsy.
     github_id: arashatt/typsy
     category: writing
     labels: [web]
+    # NOTE: This homepage was manually recorded on 2025-10-20.
+    homepage: https://typeset.live

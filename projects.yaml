@@ -1139,3 +1139,8 @@ projects:
     category: coding
     labels: [api]
     go_id: github.com/hiifong/typst-go
+
+  - name: typeset.live
+    github_id: arashatt/typsy
+    category: writing
+    labels: [web]

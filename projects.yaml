@@ -1147,3 +1147,12 @@ projects:
     labels: [web]
     # NOTE: This homepage was manually recorded on 2025-10-20.
     homepage: https://typeset.live
+
+  - name: daktilo
+    homepage: https://codeberg.org/sbinet/daktilo
+    category: coding
+    labels: [api]
+    go_id: codeberg.org/sbinet/daktilo
+    # NOTE: This description was manually recorded on 2025-10-22.
+    description: |
+      A simple-minded Cgo interface to Typst with extra Go tools for Typst

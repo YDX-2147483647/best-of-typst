@@ -1156,3 +1156,7 @@ projects:
     # NOTE: This description was manually recorded on 2025-10-22.
     description: |
       A simple-minded Cgo interface to Typst with extra Go tools for Typst
+
+  - name: Typst Dependency Checker Action
+    github_id: TomVer99/typst-check-deps
+    category: misc

@@ -1160,3 +1160,8 @@ projects:
   - name: Typst Dependency Checker Action
     github_id: TomVer99/typst-check-deps
     category: misc
+
+  - name: typst-mutilate
+    github_id: frozolotl/typst-mutilate
+    category: misc
+    labels: [runnable]

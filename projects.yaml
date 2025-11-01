@@ -1165,3 +1165,9 @@ projects:
     github_id: frozolotl/typst-mutilate
     category: misc
     labels: [runnable]
+
+  - name: python-markdown-typst
+    github_id: eWloYW8/python-markdown-typst
+    category: mix
+    labels: [api, extension]
+    pypi_id: markdown-typst

@@ -1171,3 +1171,8 @@ projects:
     category: mix
     labels: [api, extension]
     pypi_id: markdown-typst
+
+  - name: Typst Extension for Zed
+    github_id: zed-extensions/typst
+    category: writing
+    labels: [extension]

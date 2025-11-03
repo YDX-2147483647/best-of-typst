@@ -1174,5 +1174,6 @@ projects:
 
   - name: Typst Extension for Zed
     github_id: zed-extensions/typst
+    homepage: https://zed.dev/extensions/typst
     category: writing
     labels: [extension]

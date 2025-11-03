@@ -1171,3 +1171,9 @@ projects:
     category: mix
     labels: [api, extension]
     pypi_id: markdown-typst
+
+  - name: slidev-addon-typst
+    github_id: shigma/slidev-addon-typst
+    category: mix
+    labels: [extension]
+    npm_id: slidev-addon-typst

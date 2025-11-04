@@ -1171,3 +1171,8 @@ projects:
     category: mix
     labels: [api, extension]
     pypi_id: markdown-typst
+
+  - name: Snippyst
+    github_id: Snippyst/frontend
+    category: docs
+    labels: [web]

@@ -1177,3 +1177,8 @@ projects:
     category: mix
     labels: [extension]
     npm_id: slidev-addon-typst
+
+  - name: Snippyst
+    github_id: Snippyst/frontend
+    category: docs
+    labels: [web]

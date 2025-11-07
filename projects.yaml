@@ -1188,3 +1188,8 @@ projects:
     github_id: Snippyst/frontend
     category: docs
     labels: [web]
+
+  - name: compile-typst-site
+    github_id: wade-cheng/compile-typst-site
+    category: convert
+    labels: [cli]

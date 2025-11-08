@@ -1193,3 +1193,12 @@ projects:
     github_id: wade-cheng/compile-typst-site
     category: convert
     labels: [cli]
+
+  - name: nypst
+    github_id: YPares/monurepo
+    homepage: https://github.com/YPares/monurepo/tree/master/nypst
+    # NOTE: This description was manually recorded on 2025-11-09.
+    description: |
+      Generate Typst code programmatically with Nu code.
+    category: coding
+    labels: [api]

@@ -188,6 +188,9 @@ projects:
   - name: Typlite
     # Override the homepage from GitHub
     homepage: https://crates.io/crates/typlite
+    # NOTE: This description was manually recorded on 2025-11-09, to override tinymist's description on GitHub.
+    description: |
+      Converts a subset of typst to markdown, LaTeX, and Word.
     cargo_id: typlite
     github_id: Myriad-Dreamin/tinymist
     category: convert

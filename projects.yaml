@@ -1202,3 +1202,12 @@ projects:
     category: convert
     labels: [runnable]
     pypi_id: typ2docx
+
+  - name: nypst
+    github_id: YPares/monurepo
+    homepage: https://github.com/YPares/monurepo/tree/master/nypst
+    # NOTE: This description was manually recorded on 2025-11-09.
+    description: |
+      Generate Typst code programmatically with Nu code.
+    category: coding
+    labels: [api]

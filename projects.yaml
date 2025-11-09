@@ -1193,3 +1193,9 @@ projects:
     github_id: wade-cheng/compile-typst-site
     category: convert
     labels: [cli]
+
+  - name: typ2docx
+    github_id: sghng/typ2docx
+    category: convert
+    labels: [runnable]
+    pypi_id: typ2docx

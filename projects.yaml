@@ -511,12 +511,11 @@ projects:
     category: coding
 
   - name: mathyml
-    homepage: https://codeberg.org/akida/mathyml
+    codeberg_id: akida/mathyml
+    # NOTE: This license was manually recorded on 2025-11-10.
+    license: MIT
     category: math
     labels: [typst-package]
-    # NOTE: This description was manually recorded on 2025-08-22.
-    description: |
-      Convert your equations to MathML
 
   - name: typstfun
     homepage: https://www.ctan.org/pkg/typstfun
@@ -705,12 +704,11 @@ projects:
     labels: [extension]
 
   - name: meow_king/typst-ts-mode
-    homepage: https://codeberg.org/meow_king/typst-ts-mode
+    codeberg_id: meow_king/typst-ts-mode
+    # NOTE: This license was manually recorded on 2025-11-10.
+    license: GPL-3.0
     category: writing
     labels: [extension]
-    # NOTE: This description was manually recorded on 2025-08-22.
-    description: |
-      Typst tree sitter major mode for Emacs.
 
   - name: leetcode.typ
     github_id: lucifer1004/leetcode.typ
@@ -1115,12 +1113,12 @@ projects:
     labels: [web]
 
   - name: Typesetter
-    homepage: https://codeberg.org/haydn/typesetter
+    homepage: https://typesetter.trowell.net
+    codeberg_id: haydn/typesetter
+    # NOTE: This license was manually recorded on 2025-11-10.
+    license: GPL-3.0
     category: writing
     labels: [app]
-    # NOTE: This description was manually recorded on 2025-10-12.
-    description: |
-      A minimalist, local-first Typst editor.
 
   - name: TeXlyre
     github_id: TeXlyre/texlyre
@@ -1152,13 +1150,12 @@ projects:
     homepage: https://typeset.live
 
   - name: daktilo
-    homepage: https://codeberg.org/sbinet/daktilo
+    codeberg_id: sbinet/daktilo
+    # NOTE: This license was manually recorded on 2025-11-10.
+    license: BSD-3-Clause
     category: coding
     labels: [api]
     go_id: codeberg.org/sbinet/daktilo
-    # NOTE: This description was manually recorded on 2025-10-22.
-    description: |
-      A simple-minded Cgo interface to Typst with extra Go tools for Typst
 
   - name: Typst Dependency Checker Action
     github_id: TomVer99/typst-check-deps

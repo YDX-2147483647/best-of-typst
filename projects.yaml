@@ -1208,3 +1208,8 @@ projects:
       Generate Typst code programmatically with Nu code.
     category: coding
     labels: [api]
+
+  - name: typst-languagetool
+    github_id: antonWetzel/typst-languagetool
+    category: writing
+    labels: [runnable, extension]

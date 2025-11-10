@@ -66,6 +66,9 @@
           "gitlab_id": {
             "type": "string"
           },
+          "codeberg_id": {
+            "type": "string"
+          },
           "homepage": {
             "type": "string"
           },
@@ -134,6 +137,17 @@
           {
             "required": [
               "github_id"
+            ]
+          },
+          {
+            "required": [
+              "gitlab_id"
+            ]
+          },
+          {
+            "required": [
+              "codeberg_id",
+              "license"
             ]
           },
           {

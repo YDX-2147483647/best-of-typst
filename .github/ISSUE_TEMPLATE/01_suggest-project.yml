@@ -28,7 +28,7 @@ body:
     id: url
     attributes:
       label: URL
-      description: GitHub, GitLab, Gitee, Greasy Fork…
+      description: GitHub, GitLab, Codeberg, Greasy Fork…
 
   - type: dropdown
     id: category

@@ -29,8 +29,8 @@ if TYPE_CHECKING:
 def url_to_id(url: str) -> dict[str, str]:
     u = urlparse(url.strip())
     match u.netloc:
-        case "github.com" | "gitee.com" | "gitlab.com":
-            key = f"{u.netloc.removesuffix('.com')}_id"
+        case "github.com" | "gitee.com" | "gitlab.com" | "codeberg.org":
+            key = f"{u.netloc.removesuffix('.com').removesuffix('.org')}_id"
             return {key: u.path.removeprefix("/").removesuffix("/")}
         case "greasyfork.org":
             m = re.match(R"^/scripts/(?P<id>\d+)-", u.path)

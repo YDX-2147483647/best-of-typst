@@ -1218,3 +1218,8 @@ projects:
     github_id: jmpunkt/ox-typst
     category: mix
     labels: [extension]
+
+  - name: Typst CLI Docs
+    github_id: Ayanprogrammer11/typst-cli-docs
+    category: docs
+    labels: [web]

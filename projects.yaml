@@ -1208,3 +1208,8 @@ projects:
       Generate Typst code programmatically with Nu code.
     category: coding
     labels: [api]
+
+  - name: ox-typst.el
+    github_id: jmpunkt/ox-typst
+    category: mix
+    labels: [extension]

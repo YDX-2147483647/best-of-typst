@@ -13,13 +13,13 @@
 </p>
 
 <p align="center">
-  <a href="https://best-of.org" title="Best-of Badge"><img src="http://bit.ly/3o3EHNN"></a>
+  <a href="https://best-of.org" title="Best-of Badge"><img src="http://bit.ly/3o3EHNN" alt="🏆 best-of"></a>
   <a href="#Contents" title="Project Count"><img
-      src="https://img.shields.io/badge/projects-{project_count}-blue.svg?color=5ac4bf"></a>
+      src="https://img.shields.io/badge/projects-{project_count}-blue.svg?color=5ac4bf" alt="projects {project_count}"></a>
   <a href="#Contribution" title="Contributions are welcome"><img
-      src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
+      src="https://img.shields.io/badge/contributions-welcome-green.svg" alt="contributions welcome"></a>
   <a href="https://github.com/YDX-2147483647/best-of-typst/releases" title="Best-of Updates"><img
-      src="https://img.shields.io/github/release-date/YDX-2147483647/best-of-typst?color=green&label=updated"></a>
+      src="https://img.shields.io/github/release-date/YDX-2147483647/best-of-typst?color=green&label=updated" alt="updated date (shown in the image)"></a>
 </p>
 
 This list contains {project_count} awesome open-source projects with a total of {stars_count} stars grouped into

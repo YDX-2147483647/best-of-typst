@@ -19,6 +19,7 @@ body {
   margin: 0 auto;
   padding-inline: 1em;
 
+  line-height: 1.6;
   font-family: system-ui;
 }
 
@@ -193,11 +194,14 @@ section.category {
   }
 }
 
-.tag:hover {
-  background-color: #e6e6e6;
-  border-radius: 0.25em;
-  padding-inline: 0.25em;
-  margin-inline: -0.25em;
+.tag {
+  display: inline-block;
+  &:hover {
+    background-color: #e6e6e6;
+    border-radius: 0.25em;
+    padding-inline: 0.25em;
+    margin-inline: -0.25em;
+  }
 }
 
 @media (prefers-color-scheme: dark) {

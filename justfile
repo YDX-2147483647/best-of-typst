@@ -25,12 +25,17 @@ add-project ISSUE_NUMBER:
 check-uniq *ARGS:
     {{ python }} ./scripts/check_uniq.py ./projects.yaml {{ ARGS }}
 
+# Build `build/next.html`
+build-typ:
+    mkdir -p build
+    uv run scripts/history_to_json.py > build/latest.json
+    typst compile typ/main.typ build/next.html --root . --features html
+
 # Build `build/index.md` from `README.md` for `pandoc --from gfm`
 build-for-pandoc:
     #!/usr/bin/env bash
     set -euxo pipefail
 
-    rm -rf build
     mkdir -p build
     cd build
 

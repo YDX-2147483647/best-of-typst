@@ -1209,6 +1209,11 @@ projects:
     category: coding
     labels: [api]
 
+  - name: typst-languagetool
+    github_id: antonWetzel/typst-languagetool
+    category: writing
+    labels: [runnable, extension]
+
   - name: ox-typst.el
     github_id: jmpunkt/ox-typst
     category: mix

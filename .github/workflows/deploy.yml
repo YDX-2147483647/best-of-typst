@@ -5,8 +5,11 @@ on:
     branches:
       - main
     paths:
+      # Ignore regular updates to projects.yaml.
       - README.md
       - justfile
+      - typ/*
+      - history/*
   workflow_dispatch:
 
 permissions:
@@ -38,6 +41,7 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+
       - run: just build-for-pandoc
       - name: Convert to HTML
         uses: docker://pandoc/core:3
@@ -47,6 +51,9 @@ jobs:
             --from gfm+alerts
             --standalone
             --output build/index.html
+
+      - run: just build-typ
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:

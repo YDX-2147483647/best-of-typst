@@ -1,21 +1,26 @@
 /* General styles */
 
+:root {
+  --fg-color: black;
+  --bg-color: white;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fg-color: white;
+    --bg-color: #282828;
+  }
+}
+
 body {
-  background-color: white;
-  color: black;
+  background-color: var(--bg-color);
+  color: var(--fg-color);
 
   max-width: 40em;
   margin: 0 auto;
   padding-inline: 1em;
 
+  line-height: 1.6;
   font-family: system-ui;
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #282828;
-    color: white;
-  }
 }
 
 h1 {
@@ -131,6 +136,21 @@ main {
 }
 
 section.category {
+  /* Make headings sticky */
+  & > h2 {
+    position: sticky;
+    background-color: var(--bg-color);
+    top: 0;
+
+    margin-top: 1.25em;
+    margin-bottom: 0.25em;
+    padding-block: 0.75em;
+
+    & + * {
+      margin-top: 0;
+    }
+  }
+
   /* Select shown and hidden projects */
   & > ul, & > details > ul {
     list-style: none;
@@ -174,11 +194,14 @@ section.category {
   }
 }
 
-.tag:hover {
-  background-color: #e6e6e6;
-  border-radius: 0.25em;
-  padding-inline: 0.25em;
-  margin-inline: -0.25em;
+.tag {
+  display: inline-block;
+  &:hover {
+    background-color: #e6e6e6;
+    border-radius: 0.25em;
+    padding-inline: 0.25em;
+    margin-inline: -0.25em;
+  }
 }
 
 @media (prefers-color-scheme: dark) {

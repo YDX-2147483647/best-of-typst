@@ -34,6 +34,7 @@
   keywords: ("typst", "community", "best-of", "tooling"),
 )
 #html.style(read("style.css"))
+#html.script(type: "module", read("tooltip.js"))
 
 #show: html.main
 

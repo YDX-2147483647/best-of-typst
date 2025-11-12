@@ -55,12 +55,13 @@ jobs:
         uses: docker://pandoc/core:3
         with:
           args: >-
-            build/index.md
+            build/pandoc.md
             --from gfm+alerts
             --standalone
-            --output build/index.html
+            --output build/pandoc.html
 
       - run: just build-typ
+      - run: cp projects.yaml build/
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4

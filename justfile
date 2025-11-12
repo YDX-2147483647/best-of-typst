@@ -40,7 +40,7 @@ build-for-pandoc:
     cd build
 
     # Write metadata
-    cat > index.md <<- "EOF"
+    cat > pandoc.md <<- "EOF"
     ---
     title: Best of Typst (TCDM)
     lang: en

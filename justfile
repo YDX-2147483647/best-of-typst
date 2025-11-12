@@ -25,13 +25,13 @@ add-project ISSUE_NUMBER:
 check-uniq *ARGS:
     {{ python }} ./scripts/check_uniq.py ./projects.yaml {{ ARGS }}
 
-# Build `build/next.html`
+# Build `build/index.html`
 build-typ:
     mkdir -p build
     uv run scripts/history_to_json.py > build/latest.json
-    typst compile typ/main.typ build/next.html --root . --features html
+    typst compile typ/main.typ build/index.html --root . --features html
 
-# Build `build/index.md` from `README.md` for `pandoc --from gfm`
+# Build `build/pandoc.md` from `README.md` for `pandoc --from gfm`
 build-for-pandoc:
     #!/usr/bin/env bash
     set -euxo pipefail
@@ -67,4 +67,4 @@ build-for-pandoc:
     cat ../README.md \
         | sed '1,5d' \
         | grep --invert-match '<a href="#contents">.* alt="Back to top"></a>' \
-        >> index.md
+        >> pandoc.md

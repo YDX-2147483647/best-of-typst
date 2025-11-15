@@ -16,6 +16,10 @@
     ),
     rule: html.hr,
   ),
+  html: (
+    picture: (attrs, body) => html.picture(..attrs, body),
+    source: ("void", attrs => html.elem("source", attrs: attrs)),
+  ),
 )
 
 /// Preprocess the header and footer markdown files

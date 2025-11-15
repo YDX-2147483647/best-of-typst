@@ -39,12 +39,10 @@
 /// Get the number of months from the first non-none candidate to today
 #let to-today(..candidates) = {
   assert.eq(candidates.named(), (:))
-  candidates
-    .pos()
-    .map(s => if s != none {
-      diff-month(today, parse-datetime(s))
-    })
-    .first()
+  let first = candidates.pos().filter(s => s != none).first(default: none)
+  if first != none {
+    diff-month(today, parse-datetime(first))
+  }
 }
 
 #let _tag(title: "", body) = {

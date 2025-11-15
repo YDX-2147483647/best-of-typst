@@ -1223,3 +1223,8 @@ projects:
     github_id: Ayanprogrammer11/typst-cli-docs
     category: docs
     labels: [web]
+
+  - name: Blender Typst Importer
+    github_id: kolibril13/blender_typst_importer
+    category: mix
+    labels: [extension]

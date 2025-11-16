@@ -1231,6 +1231,7 @@ projects:
 
   - name: typst-cffi
     codeberg_id: sbinet/typst-cffi
+    license: BSD-3
     category: coding
     labels: [api]
     cargo_id: typst-cffi

@@ -20,6 +20,8 @@
       src="https://img.shields.io/badge/contributions-welcome-green.svg" alt="contributions welcome"></a>
   <a href="https://github.com/YDX-2147483647/best-of-typst/releases" title="Best-of Updates"><img
       src="https://img.shields.io/github/release-date/YDX-2147483647/best-of-typst?color=green&label=updated" alt="updated date (shown in the image)"></a>
+  <a href="https://github.com/YDX-2147483647/best-of-typst"><img alt="Source GitHub" src="https://img.shields.io/badge/Source-GitHub-lightgray?logo=github"></a>
+  <a href="https://codeberg.org/YDX/best-of-typst"><img alt="Mirror Codeberg" src="https://img.shields.io/badge/Mirror-Codeberg-2185D0?logo=codeberg&labelColor=white"></a>
 </p>
 
 This list contains {project_count} awesome open-source projects with a total of {stars_count} stars grouped into

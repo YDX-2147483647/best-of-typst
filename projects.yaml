@@ -1228,3 +1228,10 @@ projects:
     github_id: kolibril13/blender_typst_importer
     category: mix
     labels: [extension]
+
+  - name: typst-cffi
+    codeberg_id: sbinet/typst-cffi
+    license: BSD-3
+    category: coding
+    labels: [api]
+    cargo_id: typst-cffi

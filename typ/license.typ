@@ -8,6 +8,7 @@
 
 /// List of licenses. Note that this is _not_ identical to `best_of.license.LICENSES`.
 /// The first one in `names` is the canonical name, usually SPDX ID.
+/// And for simplicity, we don't distinguish between *-or-later and *-only.
 #let _licenses = (
   (
     human: "MIT License",
@@ -41,7 +42,7 @@
   ),
   (
     human: "GNU General Public License v3.0",
-    names: ("GPL-3.0", "GPL3", "GPL-3", "GPLv3"),
+    names: ("GPL-3.0", "GPL3", "GPL-3", "GPLv3", "GPL-3.0-or-later", "GPL-3.0-only"),
     url: "https://choosealicense.com/licenses/gpl-3.0/",
     risky: true,
   ),
@@ -59,7 +60,7 @@
   ),
   (
     human: "GNU Affero General Public License v3.0",
-    names: ("AGPL-3.0", "AGPL-3"),
+    names: ("AGPL-3.0", "AGPL-3", "AGPL-3.0-or-later", "AGPL-3.0-only"),
     url: "https://choosealicense.com/licenses/agpl-3.0/",
     risky: true,
   ),
@@ -77,6 +78,11 @@
     human: "Eclipse Public License 2.0",
     names: ("EPL-2.0", "EPL-2"),
     url: "https://choosealicense.com/licenses/epl-2.0/",
+  ),
+  (
+    human: "European Union Public License 1.2",
+    names: ("EUPL-1.2",),
+    url: "https://choosealicense.com/licenses/eupl-1.2/",
   ),
   (
     human: "Creative Commons Attribution-ShareAlike 4.0 International",

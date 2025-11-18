@@ -8,14 +8,29 @@
     num /= 1000.0
   }
 
-  str(num).replace(regex("\.\d+$"), "")
+  str(num).replace(regex("(\d+)\.(\d+)$"), m => {
+    let (int-digits, frac-digits) = m.captures
+    int-digits
+    let frac-len = 3 - int-digits.len()
+    if frac-len > 0 {
+      "."
+      (frac-digits + "00").slice(0, frac-len)
+    }
+  })
   ("", "K", "M", "B", "T").at(magnitude)
 }
 #{
+  assert.eq(simplify-number(1), "1")
+  assert.eq(simplify-number(19), "19")
   assert.eq(simplify-number(193), "193")
   assert.eq(simplify-number(-193), "−193")
   assert.eq(simplify-number(10.0), "10")
-  assert.eq(simplify-number(26366), "26K")
+  assert.eq(simplify-number(1016), "1.01K")
+  assert.eq(simplify-number(2100), "2.10K")
+  assert.eq(simplify-number(2005), "2.00K")
+  assert.eq(simplify-number(3382), "3.38K")
+  assert.eq(simplify-number(26366), "26.3K")
+  assert.eq(simplify-number(158342011), "158M")
 }
 
 /// Parse a string as datetime.

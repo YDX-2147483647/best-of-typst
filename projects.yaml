@@ -210,11 +210,13 @@ projects:
     github_id: typst-community/utpm
     category: pkg
     labels: [cli]
+    cargo_id: utpm
 
   - name: typship
     github_id: sjfhsjfh/typship
     category: pkg
     labels: [cli]
+    cargo_id: typship
 
   - name: wasi-stub
     homepage: https://github.com/astrale-sharp/wasm-minimal-protocol#wasi-stub
@@ -241,12 +243,14 @@ projects:
     github_id: typst-community/tytanic
     category: pkg
     labels: [cli]
+    cargo_id: tytanic
 
   - name: typst.ts
     github_id: Myriad-Dreamin/typst.ts
     category: coding
     labels: [api, cli, extension]
     npm_id: "@myriaddreamin/typst.ts"
+    cargo_id: typst-ts-core
 
   - name: Typst Upgrade
     github_id: Coekjan/typst-upgrade
@@ -1193,6 +1197,7 @@ projects:
     github_id: wade-cheng/compile-typst-site
     category: convert
     labels: [cli]
+    cargo_id: compile-typst-site
 
   - name: typ2docx
     github_id: sghng/typ2docx

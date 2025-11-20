@@ -1087,7 +1087,9 @@ projects:
   - name: Oicana
     github_id: oicana/oicana
     category: misc
-    labels: [api]
+    labels: [api, cli]
+    cargo_id: oicana_cli
+    npm_id: "@oicana/node"
 
   - name: Typst Studio
     gitlab_id: gnoooo/typst_studio

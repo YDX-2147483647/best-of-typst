@@ -1248,3 +1248,8 @@ projects:
     category: coding
     labels: [api]
     pypi_id: typstpy
+
+  - name: typst-mutilate
+    github_id: frozolotl/typst-mutilate
+    category: misc
+    labels: [runnable]

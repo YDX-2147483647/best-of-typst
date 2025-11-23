@@ -1248,3 +1248,8 @@ projects:
     category: coding
     labels: [api]
     pypi_id: typstpy
+
+  - name: typst-function Extension For Quarto
+    github_id: christopherkenny/typst-function
+    category: mix
+    labels: [extension]

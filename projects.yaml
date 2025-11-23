@@ -1248,3 +1248,8 @@ projects:
     category: coding
     labels: [api]
     pypi_id: typstpy
+
+  - name: TypstGenerator.jl
+    github_id: onecalfman/TypstGenerator.jl
+    category: coding
+    labels: [api]

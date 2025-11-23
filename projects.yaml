@@ -1248,3 +1248,8 @@ projects:
     category: coding
     labels: [api]
     pypi_id: typstpy
+
+  - name: TypstJlyfish.jl
+    github_id: andreasKroepelin/TypstJlyfish.jl
+    category: mix
+    labels: [extension]

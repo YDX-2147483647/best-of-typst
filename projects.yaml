@@ -1268,3 +1268,8 @@ projects:
     github_id: y-sunflower/r2typ
     category: coding
     labels: [api]
+
+  - name: Zotero for Typst
+    gitlab_id: SolidTux/zotero-for-typst
+    category: ref
+    labels: [extension]

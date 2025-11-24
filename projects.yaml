@@ -1268,3 +1268,8 @@ projects:
     github_id: y-sunflower/r2typ
     category: coding
     labels: [api]
+
+  - name: Typst PDF embedder (typst-pdf.py)
+    gitlab_id: balping/typst-pdf-embedder
+    category: mix
+    labels: [runnable]

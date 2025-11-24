@@ -1271,5 +1271,8 @@ projects:
 
   - name: Typst PDF embedder (typst-pdf.py)
     gitlab_id: balping/typst-pdf-embedder
+    # NOTE: This description was manually recorded on 2025-11-24.
+    description: |
+      This repository provides a wrapper around the typst binary that enables embedding pdf files in documents. Vector graphics and selectable and searchable text are preserved!
     category: mix
     labels: [runnable]

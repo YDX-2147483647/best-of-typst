@@ -1271,5 +1271,9 @@ projects:
 
   - name: Zotero for Typst
     gitlab_id: SolidTux/zotero-for-typst
+    homepage: https://marketplace.visualstudio.com/items?itemName=SolidTux.zotero-for-typst
+    # NOTE: This description was manually recorded on 2025-11-24.
+    description: |
+      Zotero integration for Typst file in VS Code. This requires the Better BibTeX plugin and a running Zotero instance.
     category: ref
     labels: [extension]

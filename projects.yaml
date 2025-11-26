@@ -1285,3 +1285,8 @@ projects:
       Zotero integration for Typst file in VS Code. This requires the Better BibTeX plugin and a running Zotero instance.
     category: ref
     labels: [extension]
+
+  - name: Typst-expert Extension for Gemini-code
+    github_id: kongdd/typst-llm-expert
+    category: docs
+    labels: [extension]

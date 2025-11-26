@@ -1285,3 +1285,8 @@ projects:
       Zotero integration for Typst file in VS Code. This requires the Better BibTeX plugin and a running Zotero instance.
     category: ref
     labels: [extension]
+
+  - name: typstsharp
+    github_id: evolvedlight/typstsharp
+    category: coding
+    labels: [api]

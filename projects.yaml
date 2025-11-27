@@ -1286,6 +1286,11 @@ projects:
     category: ref
     labels: [extension]
 
+  - name: Typst-expert Extension for Gemini-code
+    github_id: kongdd/typst-llm-expert
+    category: docs
+    labels: [extension]
+
   - name: typstsharp
     github_id: evolvedlight/typstsharp
     category: coding

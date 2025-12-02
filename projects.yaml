@@ -1295,3 +1295,8 @@ projects:
     github_id: evolvedlight/typstsharp
     category: coding
     labels: [api]
+
+  - name: LaTeX-math-expressions-in-Typst
+    github_id: amanuensisfrances/latex-math-expressions-in-typst
+    category: math
+    labels: [typst-package]

@@ -1298,5 +1298,8 @@ projects:
 
   - name: ThetaOmega01/tex_to_typst
     github_id: ThetaOmega01/tex_to_typst
+    # NOTE: This description was manually recorded on 2025-12-02.
+    description: |
+      Automatically converts standard LaTeX to Typst format via clipboard monitoring using Pandoc.
     category: math
     labels: [runnable]

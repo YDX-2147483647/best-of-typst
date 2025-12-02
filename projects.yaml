@@ -1295,3 +1295,8 @@ projects:
     github_id: evolvedlight/typstsharp
     category: coding
     labels: [api]
+
+  - name: typst-hugo
+    github_id: wenbin-liu/typst-hugo
+    category: convert
+    labels: [cli, multilingual]

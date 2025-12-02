@@ -1295,3 +1295,8 @@ projects:
     github_id: evolvedlight/typstsharp
     category: coding
     labels: [api]
+
+  - name: Typst Grammar
+    github_id: michidk/typst-grammar
+    category: misc
+    labels: [extension]

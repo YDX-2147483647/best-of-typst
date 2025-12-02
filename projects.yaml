@@ -1295,3 +1295,8 @@ projects:
     github_id: evolvedlight/typstsharp
     category: coding
     labels: [api]
+
+  - name: typster
+    github_id: wflixu/typster
+    category: writing
+    labels: [app]

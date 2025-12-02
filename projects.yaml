@@ -1295,3 +1295,8 @@ projects:
     github_id: evolvedlight/typstsharp
     category: coding
     labels: [api]
+
+  - name: ThetaOmega01/tex_to_typst
+    github_id: ThetaOmega01/tex_to_typst
+    category: math
+    labels: [runnable]

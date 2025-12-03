@@ -1296,6 +1296,12 @@ projects:
     category: coding
     labels: [api]
 
+  - name: typst-hugo
+    github_id: wenbin-liu/typst-hugo
+    category: convert
+    homepage: https://wenbin-liu.github.io/typst-hugo-demo/
+    labels: [cli, multilingual]
+
   - name: Typst Grammar
     github_id: michidk/typst-grammar
     category: misc

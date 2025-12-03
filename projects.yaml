@@ -1295,3 +1295,13 @@ projects:
     github_id: evolvedlight/typstsharp
     category: coding
     labels: [api]
+
+  - name: TypstPackageManuals
+    github_id: lief-y/TypstPackageManuals
+    # NOTE: This homepage was manually recorded on 2025-12-02. The account may have been renamed, so the homepage shown on the GitHub repo is wrong.
+    homepage: https://lief-y.github.io/TypstPackageManuals/
+    # NOTE: This description was manually recorded on 2025-12-02.
+    description: |
+      Html Versions of Manuals of Typst Packages (fletcher, ctheorems, cetz-plot).
+    category: docs
+    labels: [web]

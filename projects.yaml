@@ -1296,6 +1296,11 @@ projects:
     category: coding
     labels: [api]
 
+  - name: Typst Grammar
+    github_id: michidk/typst-grammar
+    category: misc
+    labels: [extension]
+
   - name: ThetaOmega01/tex_to_typst
     github_id: ThetaOmega01/tex_to_typst
     # NOTE: This description was manually recorded on 2025-12-02.

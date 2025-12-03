@@ -1296,6 +1296,11 @@ projects:
     category: coding
     labels: [api]
 
+  - name: LaTeX-math-expressions-in-Typst
+    github_id: amanuensisfrances/latex-math-expressions-in-typst
+    category: math
+    labels: [typst-package]
+
   - name: TypstPackageManuals
     github_id: lief-y/TypstPackageManuals
     # NOTE: This homepage was manually recorded on 2025-12-02. The account may have been renamed, so the homepage shown on the GitHub repo is wrong.

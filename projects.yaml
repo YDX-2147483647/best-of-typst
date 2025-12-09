@@ -1344,5 +1344,6 @@ projects:
 
   - name: LSP-Tinymist
     github_id: sublimelsp/LSP-Tinymist
+    homepage: https://packagecontrol.io/packages/LSP-Tinymist
     category: writing
     labels: [extension]

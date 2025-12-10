@@ -1341,3 +1341,9 @@ projects:
     description: |
        A ready to copy-paste file into LLMs, to make them instantly aware of all the areas in Typst. (Trust me, they don't get the typst syntax well even after a web search. So I created this!). I have tried it in CLAUDE and it works really well! I am sure it'll work with other AI models like ChatGPT, gemini, etc.
     category: docs
+
+  - name: LSP-Tinymist
+    github_id: sublimelsp/LSP-Tinymist
+    homepage: https://packagecontrol.io/packages/LSP-Tinymist
+    category: writing
+    labels: [extension]

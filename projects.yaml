@@ -1347,3 +1347,8 @@ projects:
     homepage: https://packagecontrol.io/packages/LSP-Tinymist
     category: writing
     labels: [extension]
+
+  - name: lilBchii/tide
+    github_id: lilBchii/tide
+    category: writing
+    labels: [app]

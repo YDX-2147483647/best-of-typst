@@ -784,7 +784,7 @@ projects:
     github_id: PhosCity/inkscape2cetz
     labels: [extension]
 
-  - name: Tide
+  - name: Nxllpointer/Tide
     category: writing
     github_id: Nxllpointer/tide
     labels: [runnable]
@@ -1348,7 +1348,7 @@ projects:
     category: writing
     labels: [extension]
 
-  - name: lilBchii/tide
+  - name: lilBchii/Tide
     github_id: lilBchii/tide
     category: writing
     labels: [app]

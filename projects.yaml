@@ -1347,3 +1347,8 @@ projects:
     homepage: https://packagecontrol.io/packages/LSP-Tinymist
     category: writing
     labels: [extension]
+
+  - name: TypstEdit
+    github_id: SuperMegaFort/TypstEdit
+    category: writing
+    labels: [app]

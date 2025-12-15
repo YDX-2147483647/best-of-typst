@@ -1348,6 +1348,11 @@ projects:
     category: writing
     labels: [extension]
 
+  - name: TypstFFIApp
+    github_id: bingqiao/TypstFFIApp
+    category: writing
+    labels: [runnable]
+
   - name: Typwriter
     github_id: Ahdeyyy/typwriter
     category: writing

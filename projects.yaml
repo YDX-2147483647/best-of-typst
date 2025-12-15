@@ -1347,3 +1347,8 @@ projects:
     homepage: https://packagecontrol.io/packages/LSP-Tinymist
     category: writing
     labels: [extension]
+
+  - name: codemirror-lang-typst
+    github_id: kxxt/codemirror-lang-typst
+    category: writing
+    labels: [extension]

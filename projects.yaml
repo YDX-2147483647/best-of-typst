@@ -1348,6 +1348,11 @@ projects:
     category: writing
     labels: [extension]
 
+  - name: Typst Studio WASM
+    github_id: automataIA/wasm-typst-studio-rs
+    category: writing
+    labels: [runnable, web]
+
   - name: TypstEdit
     github_id: SuperMegaFort/TypstEdit
     category: writing

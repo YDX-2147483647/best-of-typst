@@ -1352,3 +1352,18 @@ projects:
     github_id: lilBchii/tide
     category: writing
     labels: [app]
+
+  - name: TypstFFIApp
+    github_id: bingqiao/TypstFFIApp
+    category: writing
+    labels: [runnable]
+
+  - name: Typwriter
+    github_id: Ahdeyyy/typwriter
+    category: writing
+    labels: [app]
+
+  - name: codemirror-lang-typst
+    github_id: kxxt/codemirror-lang-typst
+    category: writing
+    labels: [extension]

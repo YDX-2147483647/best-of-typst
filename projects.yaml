@@ -1348,6 +1348,11 @@ projects:
     category: writing
     labels: [extension]
 
+  - name: TypstEdit
+    github_id: SuperMegaFort/TypstEdit
+    category: writing
+    labels: [app]
+
   - name: lilBchii/Tide
     github_id: lilBchii/tide
     category: writing

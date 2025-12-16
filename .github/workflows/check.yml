@@ -63,7 +63,7 @@ jobs:
       - run: just build-typ
 
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-artifact@v5
+      - uses: actions/upload-artifact@v6
         with:
           name: build-typ
           path: ./build

@@ -1377,3 +1377,8 @@ projects:
     github_id: kxxt/codemirror-lang-typst
     category: writing
     labels: [extension]
+
+  - name: typst-fumadocs
+    github_id: typst-g7-32/typst-fumadocs
+    category: docs-infra
+    labels: [runnable, web]

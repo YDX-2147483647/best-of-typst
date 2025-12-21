@@ -16,7 +16,8 @@
 #let categories = raw_categories.map(((category, ..rest)) => (category, rest)).to-dict()
 #let categorized = categorize-projects(projects, categories)
 #let statistics = (
-  project_count: projects.len(),
+  // We use a complex formula here, because `projects.len()` might be too large as it also counts deleted projects.
+  project_count: categorized.values().map(c => c.projects.len() + c.hidden-projects.len()).sum(),
   category_count: categories.len(),
   stars_count: projects.map(p => p.star_count).sum(),
 )

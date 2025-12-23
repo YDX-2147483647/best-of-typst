@@ -1382,3 +1382,8 @@ projects:
     github_id: typst-g7-32/typst-fumadocs
     category: docs-infra
     labels: [runnable, web]
+
+  - name: Image2Typst
+    github_id: Wellshh/Image2Typst
+    category: math
+    labels: [runnable, web]

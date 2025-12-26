@@ -1387,3 +1387,8 @@ projects:
     github_id: Wellshh/Image2Typst
     category: math
     labels: [runnable, web]
+
+  - name: typst-ppt-addin
+    github_id: johannesber/typst-ppt-addin
+    category: mix
+    labels: [extension, runnable]

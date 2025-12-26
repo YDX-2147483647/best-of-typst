@@ -55,6 +55,17 @@
     title: "{} open issues".replace("{}", str(p.open_issue_count)),
   )[#icon #simplify-number(p.open_issue_count) open]
 }
+/// Display `*_dependent_project_count` with an icon, if it exists.
+#let _icon-deps(icon, project, package-manager) = {
+  let key = package-manager + "_dependent_project_count"
+  _icon-info(
+    icon,
+    // The key may not exist, if all projects do not have this field.
+    // This is likely for rare package managers.
+    project.at(key, default: none),
+    title: babel(en: "depended by {} projects", zh: "被{}个项目使用"),
+  )
+}
 
 
 /// Display metrics if there is any.
@@ -91,7 +102,7 @@
       _icon-info("👨‍💻", p.contributor_count, title: babel(en: "{} contributors", zh: "{}个贡献者")),
       _icon-info("🔀", p.fork_count, title: "{} forks"),
       _icon-info("📥", p.github_release_downloads, title: babel(en: "{} release downloads", zh: "{}次下载")),
-      _icon-info("📦", p.github_dependent_project_count, title: BABEL.dependent-project-count),
+      _icon-deps("📦", p, "github"),
       _icon-issue("📋", p),
       _icon-date("⏱️", p.last_commit_pushed_at, title: BABEL.last-commit-pushed-at),
     )
@@ -103,7 +114,7 @@
 
     _metrics(
       _icon-info("📥", p.pypi_monthly_downloads, suffix: BABEL.per-month, title: BABEL.monthly-downloads),
-      _icon-info("📦", p.pypi_dependent_project_count, title: BABEL.dependent-project-count),
+      _icon-deps("📦", p, "pypi"),
       _icon-date("⏱️", p.pypi_latest_release_published_at, title: BABEL.latest-release-published-at),
     )
 
@@ -131,13 +142,24 @@
 
     raw(block: true, lang: "sh", "git clone " + p.gitlab_url)
   },
+  gitee_id: p => {
+    _link(p.gitee_url)[Gitee]
+
+    _metrics(
+      _icon-info("🔀", p.fork_count, title: "{} forks"),
+      _icon-issue("📋", p),
+      _icon-date("⏱️", p.updated_at, title: babel(en: "updated at {}", zh: "更新于{}")),
+    )
+
+    raw(block: true, lang: "sh", "git clone " + p.gitee_url)
+  },
   conda_id: _not-implemented("conda"),
   npm_id: p => {
     _link(p.npm_url)[npm]
 
     _metrics(
       _icon-info("📥", p.npm_monthly_downloads, suffix: BABEL.per-month, title: BABEL.monthly-downloads),
-      _icon-info("📦", p.npm_dependent_project_count, title: BABEL.dependent-project-count),
+      _icon-deps("📦", p, "npm"),
       _icon-date("⏱️", p.npm_latest_release_published_at, title: BABEL.latest-release-published-at),
     )
 
@@ -172,7 +194,7 @@
 
     _metrics(
       _icon-info("📥", p.cargo_monthly_downloads, suffix: BABEL.per-month, title: BABEL.monthly-downloads),
-      _icon-info("📦", p.cargo_dependent_project_count, title: BABEL.dependent-project-count),
+      _icon-deps("📦", p, "cargo"),
       _icon-date("⏱️", p.cargo_latest_release_published_at, title: BABEL.latest-release-published-at),
     )
 
@@ -182,13 +204,12 @@
     _link(p.go_url)[Go]
 
     _metrics(
-      _icon-info("📦", p.go_dependent_project_count, title: BABEL.dependent-project-count),
+      _icon-deps("📦", p, "go"),
       _icon-date("⏱️", p.go_latest_release_published_at, title: BABEL.latest-release-published-at),
     )
 
     raw(block: true, lang: "sh", "go install " + p.go_id)
   },
-  gitee_id: _not-implemented("gitee"),
   greasy_fork_id: p => {
     _link(p.greasy_fork_url)[Greasy Fork]
 
@@ -212,7 +233,7 @@
   let integrations = ()
 
   for (key, builder) in _integration_map {
-    // The key may do not exist, if the integration was added after the run.
+    // The key may not exist, if the integration was added after the run or not used by any project.
     if key in project and project.at(key, default: none) != none {
       integrations.push(builder(project))
     }

@@ -39,10 +39,6 @@
 ///
 /// One-off strings are not saved here. They should be managed in place.
 #let BABEL = (
-  dependent-project-count: babel(
-    en: "depended by {} projects",
-    zh: "被{}个项目使用",
-  ),
   last-commit-pushed-at: babel(
     en: "the last commit was pushed at {}",
     zh: "最后一次提交推送于{}",

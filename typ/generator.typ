@@ -127,9 +127,14 @@
 #let _labels-info(p, labels) = {
   p.labels.map(target => {
     let info = labels.find(l => l.label == target)
-    assert.ne(info, none)
+    assert.ne(
+      info,
+      none,
+      message: "Found undeclared label: {}. Labels must be declared in projects.yaml.".replace("{}", target),
+    )
 
-    _tag(title: info.description, info.name)
+    // Not all labels have descriptions.
+    _tag(title: info.at("description", default: info.name), info.name)
   })
 }
 

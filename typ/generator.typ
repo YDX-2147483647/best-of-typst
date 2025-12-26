@@ -33,6 +33,7 @@
 #import "default-config.typ": default-configuration
 #import "integrations.typ": project-body
 #import "license.typ": get-license
+#import "babel.typ": babel
 
 #let today = datetime.today()
 
@@ -53,7 +54,7 @@
 /// Generate metrics info the project `p`.
 /// Returns an array of metrics as contents, variable-length.
 #let _metrics-info(p, config) = {
-  let rank = _tag(title: "Combined quality score: " + str(p.projectrank), {
+  let rank = _tag(title: babel(en: "Combined quality score: ", zh: "综合质量分数：") + str(p.projectrank), {
     if p.projectrank_placing == 1 {
       "🥇"
     } else if p.projectrank_placing == 2 {
@@ -80,7 +81,10 @@
       inactive-months != none and config.project_dead_months != none and config.project_dead_months < inactive-months
     ) {
       _tag(
-        title: "Dead project ({} months no activity)".replace("{}", str(config.project_dead_months)),
+        title: babel(
+          en: "Dead project ({} months no activity)",
+          zh: "项目不再维护（已{}个月无活动）",
+        ).replace("{}", str(config.project_dead_months)),
         "💀",
       )
     } else if (
@@ -89,22 +93,28 @@
         and config.project_inactive_months < inactive-months
     ) {
       _tag(
-        title: "Inactive project ({} months no activity)".replace("{}", str(config.project_inactive_months)),
+        title: babel(
+          en: "Inactive project ({} months no activity)",
+          zh: "项目不活跃（已{}个月无活动）",
+        ).replace("{}", str(config.project_inactive_months)),
         "💤",
       )
     } else if total-month != none and config.project_new_months != none and config.project_new_months >= total-month {
       _tag(
-        title: "New project (less than {} months old)".replace("{}", str(config.project_new_months)),
+        title: babel(
+          en: "New project (less than {} months old)",
+          zh: "新项目（创建不到{}个月）",
+        ).replace("{}", str(config.project_new_months)),
         "🐣",
       )
     } else if p.trending != none {
       if p.trending > 0 {
-        _tag(title: "Trending up", "📈")
+        _tag(title: babel(en: "Trending up", zh: "排名正在上升"), "📈")
       } else if p.trending < 0 {
-        _tag(title: "Trending down", "📉")
+        _tag(title: babel(en: "Trending down", zh: "排名正在下降"), "📉")
       }
     } else if p.new_addition != none and p.new_addition {
-      _tag(title: "Recently added", "➕")
+      _tag(title: babel(en: "Recently added", zh: "最近添加"), "➕")
     }
   }
 
@@ -134,7 +144,10 @@
       _tag(title: title, body)
     }
   } else {
-    _tag(title: "Warning: no license can be found")[❗~No license]
+    _tag(
+      title: babel(en: "Warning: no license can be found", zh: "警告：未识别到许可证"),
+      [❗~#babel(en: "No license", zh: "无许可证")],
+    )
   }
 }
 
@@ -163,7 +176,7 @@
     if integrations != none {
       integrations
     } else [
-      _No project information available._
+      _#babel(en: "No project information available.", zh: "未查到项目信息")_
     ]
   })
 }

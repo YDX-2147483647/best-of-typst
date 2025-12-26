@@ -26,10 +26,10 @@ check-uniq *ARGS:
     {{ python }} ./scripts/check_uniq.py ./projects.yaml {{ ARGS }}
 
 # Build `build/index.html`
-build-typ:
+build-typ LANG="en":
     mkdir -p build
     uv run scripts/history_to_json.py > build/latest.json
-    typst compile typ/main.typ build/index.html --root . --features html
+    typst compile typ/main.typ build/index.html --root . --features html --input lang={{ LANG }}
 
 # Build `build/pandoc.md` from `README.md` for `pandoc --from gfm`
 build-for-pandoc:

@@ -30,10 +30,7 @@
     // Fix the parsing problem of newlines in `<img>`
     .replace(regex("<img\s+src"), "<img src")
     // Evaluate macros
-    .replace(
-      "{project_count}",
-      simplify-number(project_count),
-    )
+    .replace("{project_count}", simplify-number(project_count))
     .replace("{category_count}", simplify-number(category_count))
     .replace("{stars_count}", simplify-number(stars_count))
 }

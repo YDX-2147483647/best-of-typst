@@ -25,6 +25,27 @@ add-project ISSUE_NUMBER:
 check-uniq *ARGS:
     {{ python }} ./scripts/check_uniq.py ./projects.yaml {{ ARGS }}
 
+# Package the typst generator as a publishable template package
+[arg('version', pattern='\d+\.\d+\.\d+')]
+package version:
+    -rm -r package/
+    mkdir -p package/example/
+    cp scripts/history_to_json.py package/example/
+    cp -r typ package/
+    mv package/typ/main.typ package/example/
+    mv package/typ/{typst.toml,README.md,LICENSE,thumbnail.webp} package/
+
+    sd '^# NOTE: .+$' '' package/typst.toml
+    sd --fixed-strings 'version = "0.0.0"' \
+        {{ quote('version = "' + version + '"') }} \
+        package/typst.toml
+    sd --fixed-strings ' @preview/tcdm:0.0.0 ' \
+        {{ quote(' @preview/tcdm:' + version + ' ') }} \
+        package/README.md
+    sd --fixed-strings '#import "lib.typ":' \
+        {{ quote('#import "@preview/tcdm:' + version + '":') }} \
+        package/example/main.typ
+
 # Build `build/index.html`
 build-typ LANG="en":
     mkdir -p build

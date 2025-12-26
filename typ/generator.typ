@@ -185,3 +185,54 @@
     ]
   })
 }
+
+#let generate-categories(categorized-projects, config, labels) = {
+  assert.eq(config.category_heading, "robust")
+
+  for (id, cat) in categorized-projects {
+    show: html.section.with(class: "category")
+
+    [#[= #cat.title]#label(id)]
+    if "subtitle" in cat {
+      md.render(cat.subtitle, ..md.config)
+    }
+
+    [#metadata((
+      n-projects: cat.projects.len() + cat.hidden-projects.len(),
+      subtitle: if "subtitle" in cat { cat.subtitle },
+    ))<category-meta>]
+
+    for p in cat.projects {
+      list.item(generate-project(p, config, labels))
+    }
+
+    html.details({
+      html.summary[Show #cat.hidden-projects.len() hidden projects…]
+      for p in cat.hidden-projects {
+        list.item(generate-project(p, config, labels))
+      }
+    })
+  }
+}
+
+#let generate-outline() = {
+  show outline.entry.where(level: 1): it => {
+    let meta = query(selector(<category-meta>).after(it.element.location()))
+      .map(meta => meta.value)
+      .first(default: none)
+
+    link(
+      it.element.location(),
+      if meta != none and meta.subtitle != none {
+        html.span(title: meta.subtitle, it.body())
+      } else {
+        it.body()
+      },
+    )
+
+    if meta != none {
+      emph(babel(en: " — {} projects", zh: "——{}个项目").replace("{}", repr(meta.n-projects)))
+    }
+  }
+  [#outline() <Contents>]
+}

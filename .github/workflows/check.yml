@@ -26,7 +26,7 @@ jobs:
             justfile
             scripts
           sparse-checkout-cone-mode: false
-      
+
       - uses: taiki-e/install-action@v2
         with:
           tool: just
@@ -46,7 +46,8 @@ jobs:
       - name: Check the uniqueness
         shell: bash
         run: |
-            just check-uniq | tee -a $GITHUB_STEP_SUMMARY
+          just check-uniq | tee -a $GITHUB_STEP_SUMMARY
+
   typ:
     name: Check typst code
     runs-on: ubuntu-latest
@@ -61,9 +62,22 @@ jobs:
           typst-version: v0.14.0
 
       - run: just build-typ
-
-      - uses: actions/configure-pages@v5
       - uses: actions/upload-artifact@v6
         with:
           name: build-typ
           path: ./build
+
+  tcdm:
+    name: Check the tcdm package
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: just,sd
+      - run: just --shell=bash package 0.0.0
+        # This recipe requires the bash brace expansion.
+      - uses: actions/upload-artifact@v6
+        with:
+          name: tcdm-package
+          path: ./package

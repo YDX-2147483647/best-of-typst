@@ -1,28 +1,8 @@
-#import "markdown.typ" as md
-#import "projects-collection.typ": categorize-projects
-#import "utils.typ": diff-month, parse-datetime, simplify-number
-#import "default-config.typ": default-configuration
-#import "generator.typ": generate-project
-
-// Read data sources
-
-#let projects = json("/build/latest.json")
-#let (configuration: raw_configuration, categories: raw_categories, labels) = yaml("/projects.yaml")
-#let configuration = default-configuration + raw_configuration
-#let today = datetime.today()
-
-// Calculate data
-
-#let categories = raw_categories.map(((category, ..rest)) => (category, rest)).to-dict()
-#let categorized = categorize-projects(projects, categories)
-#let statistics = (
-  // We use a complex formula here, because `projects.len()` might be too large as it also counts deleted projects.
-  project_count: categorized.values().map(c => c.projects.len() + c.hidden-projects.len()).sum(),
-  category_count: categories.len(),
-  stars_count: projects.map(p => p.star_count).sum(),
+#import "lib.typ": load, md
+#let (configuration, statistics, assets, body) = load(
+  projects-data: json("/build/latest.json"),
+  projects-yaml: yaml("/projects.yaml"),
 )
-
-// Write document
 
 #set text(lang: "en")
 #set document(
@@ -34,11 +14,9 @@
   author: "YDX-2147483647",
   keywords: ("typst", "community", "best-of", "tooling"),
 )
-#html.style(read("style.css"))
-#html.script(type: "module", read("tooltip.js"))
+#assets
 
 #show: html.main
-
 
 #md.render(
   md.preprocess(read("/" + configuration.markdown_header_file), ..statistics),
@@ -51,50 +29,7 @@
   (The old version is still alive at #link("./pandoc.html", `pandoc.html`).)
 ]
 
-#show outline.entry.where(level: 1): it => {
-  let meta = query(selector(<category-meta>).after(it.element.location())).map(meta => meta.value).first(default: none)
-
-  link(
-    it.element.location(),
-    if meta != none and meta.subtitle != none {
-      html.span(title: meta.subtitle, it.body())
-    } else {
-      it.body()
-    },
-  )
-
-  if meta != none {
-    [ --- _#meta.n-projects projects_]
-  }
-}
-#outline() <Contents>
-
-#for (id, cat) in categorized {
-  assert.eq(configuration.category_heading, "robust")
-
-  show: html.section.with(class: "category")
-
-  [#[= #cat.title]#label(id)]
-  if "subtitle" in cat {
-    md.render(cat.subtitle, ..md.config)
-  }
-
-  [#metadata((
-    n-projects: cat.projects.len() + cat.hidden-projects.len(),
-    subtitle: if "subtitle" in cat { cat.subtitle },
-  ))<category-meta>]
-
-  for p in cat.projects {
-    list.item(generate-project(p, configuration, labels))
-  }
-
-  html.details({
-    html.summary[Show #cat.hidden-projects.len() hidden projects…]
-    for p in cat.hidden-projects {
-      list.item(generate-project(p, configuration, labels))
-    }
-  })
-}
+#body
 
 #md.render(
   md.preprocess(read("/" + configuration.markdown_footer_file), ..statistics),

@@ -1,3 +1,5 @@
+#import "babel.typ": babel
+
 // Based on the most used open-source licenses:
 // https://libraries.io/licenses
 // https://spdx.org/licenses/
@@ -96,8 +98,8 @@
   if query.starts-with(regex("https?://")) {
     return (
       url: query,
-      name: "Custom",
-      title: "Warning: a custom license",
+      name: babel(en: "Custom", zh: "自编"),
+      title: babel(en: "Warning: a custom license", zh: "警告：自编了许可证"),
       warning: true,
     )
   }
@@ -107,7 +109,7 @@
         (
           url: l.url,
           name: l.names.first(),
-          title: l.human + " (Warning: risky license)",
+          title: l.human + babel(en: " (Warning: risky license)", zh: "（警告：许可证有风险）"),
           warning: true,
         )
       } else {
@@ -123,7 +125,7 @@
   return (
     url: none,
     name: query,
-    title: "Warning: an unknown license",
+    title: babel(en: "Warning: an unknown license", zh: "警告：许可证未知"),
     warning: true,
   )
 }

@@ -1397,3 +1397,8 @@ projects:
     github_id: dbccccccc/TypstPad
     category: math
     labels: [web]
+
+  - name: dooc_embed_typst
+    github_id: destroyerOfOfficeChairs/dooc_embed_typst
+    category: coding
+    labels: [api]

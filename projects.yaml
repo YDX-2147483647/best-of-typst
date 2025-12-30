@@ -1402,3 +1402,8 @@ projects:
     github_id: destroyerOfOfficeChairs/dooc_embed_typst
     category: coding
     labels: [api]
+
+  - name: Typst for Obsidian
+    github_id: k0src/Typst-for-Obsidian
+    category: writing
+    labels: [extension]

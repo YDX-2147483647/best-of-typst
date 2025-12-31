@@ -1422,3 +1422,8 @@ projects:
     github_id: typst-g7-32/typst-mdx-docs
     category: docs-infra
     labels: [runnable]
+
+  - name: Weibian
+    github_id: hanwenguo/weibian
+    category: convert
+    labels: [cli]

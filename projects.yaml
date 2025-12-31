@@ -1407,3 +1407,8 @@ projects:
     github_id: destroyerOfOfficeChairs/dooc_embed_typst
     category: coding
     labels: [api]
+
+  - name: Typst commute editor
+    github_id: EricWay1024/tikzcd-editor
+    category: mix
+    labels: [web]

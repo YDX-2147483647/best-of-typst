@@ -1408,6 +1408,11 @@ projects:
     category: coding
     labels: [api]
 
+  - name: Typst for Obsidian
+    github_id: k0src/Typst-for-Obsidian
+    category: writing
+    labels: [extension]
+
   - name: Typst commute editor
     github_id: EricWay1024/tikzcd-editor
     category: mix

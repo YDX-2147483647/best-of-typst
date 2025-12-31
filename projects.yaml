@@ -1412,3 +1412,8 @@ projects:
     github_id: EricWay1024/tikzcd-editor
     category: mix
     labels: [web]
+
+  - name: Typst Docs to MDX Converter & Translation Pipeline
+    github_id: typst-g7-32/typst-mdx-docs
+    category: docs-infra
+    labels: [runnable]

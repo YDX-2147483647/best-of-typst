@@ -1315,10 +1315,15 @@ projects:
     category: math
     labels: [runnable]
 
-  - name: typster
+  - name: wflixu/typster
     github_id: wflixu/typster
     category: writing
-    labels: [app]
+    labels: [app, non-english]
+
+  - name: benzlokzik/typster
+    github_id: benzlokzik/typster
+    category: writing
+    labels: [runnable]
 
   - name: LaTeX-math-expressions-in-Typst
     github_id: amanuensisfrances/latex-math-expressions-in-typst

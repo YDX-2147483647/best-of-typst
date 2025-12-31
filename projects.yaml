@@ -1427,3 +1427,8 @@ projects:
     github_id: hanwenguo/weibian
     category: convert
     labels: [cli]
+
+  - name: Equation Renderer
+    github_id: a-for-short/html-typst-equation-renderer
+    category: math
+    labels: [runnable]

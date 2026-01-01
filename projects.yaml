@@ -1432,3 +1432,8 @@ projects:
     github_id: a-for-short/html-typst-equation-renderer
     category: math
     labels: [runnable]
+
+  - name: Typst Online Editor
+    github_id: Mapaor/typst-online-editor
+    category: writing
+    labels: [web]

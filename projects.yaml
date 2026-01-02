@@ -1315,10 +1315,15 @@ projects:
     category: math
     labels: [runnable]
 
-  - name: typster
+  - name: wflixu/typster
     github_id: wflixu/typster
     category: writing
-    labels: [app]
+    labels: [app, non-english]
+
+  - name: benzlokzik/typster
+    github_id: benzlokzik/typster
+    category: writing
+    labels: [runnable]
 
   - name: LaTeX-math-expressions-in-Typst
     github_id: amanuensisfrances/latex-math-expressions-in-typst
@@ -1396,4 +1401,60 @@ projects:
   - name: TypstPad
     github_id: dbccccccc/TypstPad
     category: math
+    labels: [web]
+
+  - name: dooc_embed_typst
+    github_id: destroyerOfOfficeChairs/dooc_embed_typst
+    category: coding
+    labels: [api]
+
+  - name: Typst for Obsidian
+    github_id: k0src/Typst-for-Obsidian
+    category: writing
+    labels: [extension]
+
+  - name: Typst commute editor
+    github_id: EricWay1024/tikzcd-editor
+    category: mix
+    labels: [web]
+
+  - name: Typst Docs to MDX Converter & Translation Pipeline
+    github_id: typst-g7-32/typst-mdx-docs
+    category: docs-infra
+    labels: [runnable]
+
+  - name: Weibian
+    github_id: hanwenguo/weibian
+    category: convert
+    labels: [cli]
+
+  - name: Equation Renderer
+    github_id: a-for-short/html-typst-equation-renderer
+    category: math
+    labels: [runnable]
+
+  - name: typst-author skill
+    github_id: apcamargo/typst-author
+    category: docs
+    labels: [extension]
+
+  - name: Typst Online Editor
+    github_id: Mapaor/typst-online-editor
+    category: writing
+    labels: [web]
+
+  - name: Adjust Heading in Tree
+    github_id: ffy6511/Adjust-heading-in-tree
+    category: writing
+    labels: [extension, multilingual]
+
+  - name: typst-fillable
+    github_id: carpe-diem/typst-fillable
+    category: mix
+    labels: [api]
+    pypi_id: typst-fillable
+
+  - name: Hayagriva Manager
+    github_id: jassielof/hayagriva-manager
+    category: ref
     labels: [web]

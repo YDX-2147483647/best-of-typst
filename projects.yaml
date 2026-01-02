@@ -1437,3 +1437,19 @@ projects:
     github_id: Mapaor/typst-online-editor
     category: writing
     labels: [web]
+
+  - name: Adjust Heading in Tree
+    github_id: ffy6511/Adjust-heading-in-tree
+    category: writing
+    labels: [extension, multilingual]
+
+  - name: typst-fillable
+    github_id: carpe-diem/typst-fillable
+    category: mix
+    labels: [api]
+    pypi_id: typst-fillable
+
+  - name: Hayagriva Manager
+    github_id: jassielof/hayagriva-manager
+    category: ref
+    labels: [web]

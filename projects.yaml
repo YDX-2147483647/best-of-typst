@@ -1432,3 +1432,8 @@ projects:
     github_id: a-for-short/html-typst-equation-renderer
     category: math
     labels: [runnable]
+
+  - name: Adjust Heading in Tree
+    github_id: ffy6511/Adjust-heading-in-tree
+    category: writing
+    labels: [extension, multilingual]

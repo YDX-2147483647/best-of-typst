@@ -1458,3 +1458,8 @@ projects:
     github_id: jassielof/hayagriva-manager
     category: ref
     labels: [web]
+
+  - name: Typst Table Paste
+    github_id: leichaoL/typst-table-paste
+    category: convert
+    labels: [extension, multilingual]

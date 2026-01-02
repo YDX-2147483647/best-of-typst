@@ -1433,6 +1433,11 @@ projects:
     category: math
     labels: [runnable]
 
+  - name: typst-author skill
+    github_id: apcamargo/typst-author
+    category: docs
+    labels: [extension]
+
   - name: Typst Online Editor
     github_id: Mapaor/typst-online-editor
     category: writing

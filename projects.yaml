@@ -1443,3 +1443,8 @@ projects:
     category: mix
     labels: [api]
     pypi_id: typst-fillable
+
+  - name: Hayagriva Manager
+    github_id: jassielof/hayagriva-manager
+    category: ref
+    labels: [web]

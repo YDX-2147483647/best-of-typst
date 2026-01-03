@@ -1459,6 +1459,11 @@ projects:
     category: ref
     labels: [web]
 
+  - name: typst-undergradmath-zh
+    github_id: tzhtaylor/typst-undergradmath-zh
+    category: docs
+    labels: [non-english]
+
   - name: Typst Table Paste
     github_id: leichaoL/typst-table-paste
     category: convert

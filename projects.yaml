@@ -1468,3 +1468,8 @@ projects:
     github_id: leichaoL/typst-table-paste
     category: convert
     labels: [extension, multilingual]
+
+  - name: Hayagriva对GB/T 7714—2015的支持情况
+    github_id: YDX-2147483647/hayagriva-gb-tracking
+    category: ref
+    labels: [api, web, non-english]

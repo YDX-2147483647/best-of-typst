@@ -1473,3 +1473,9 @@ projects:
     github_id: YDX-2147483647/hayagriva-gb-tracking
     category: ref
     labels: [api, web, non-english]
+
+  - name: Tylax
+    github_id: scipenai/tylax
+    category: math
+    labels: [runnable, api, web, multilingual]
+    cargo_id: tylax

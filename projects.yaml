@@ -1474,6 +1474,12 @@ projects:
     category: ref
     labels: [api, web, non-english]
 
+  - name: Tylax
+    github_id: scipenai/tylax
+    category: math
+    labels: [runnable, api, web, multilingual]
+    cargo_id: tylax
+
   - name: Noteworthy
     github_id: sihooleebd/noteworthy
     category: misc

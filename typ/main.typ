@@ -1,4 +1,5 @@
-#import "lib.typ": load, md
+#import "lib.typ": load, md, placeholder
+
 #let (configuration, statistics, assets, body) = load(
   projects-data: json("/build/latest.json"),
   projects-yaml: yaml("/projects.yaml"),
@@ -19,7 +20,14 @@
 #show: html.main
 
 #md.render(
-  md.preprocess(read("/" + configuration.markdown_header_file), ..statistics),
+  md.preprocess(
+    if "markdown_header_file" in configuration {
+      read("/" + configuration.markdown_header_file)
+    } else {
+      placeholder.header-md
+    },
+    ..statistics,
+  ),
   ..md.config,
 )
 
@@ -31,7 +39,9 @@
 
 #body
 
-#md.render(
-  md.preprocess(read("/" + configuration.markdown_footer_file), ..statistics),
-  ..md.config,
-)
+#if "markdown_footer_file" in configuration {
+  md.render(
+    md.preprocess(read("/" + configuration.markdown_footer_file), ..statistics),
+    ..md.config,
+  )
+}

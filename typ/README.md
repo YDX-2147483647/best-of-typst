@@ -10,7 +10,16 @@ It loads metadata fetched by the canonical [best-of-generator][], and generates 
 
 2. Run `typst init @preview/tcdm:0.0.0 typ` at the root of the project. This should create a `typ/` directory next to `projects.yaml`.
 
-3. Edit `typ/main.typ` as you need.
+3. Edit `typ/main.typ` and replace placeholder contents with real ones.
+
+```diff
+  #let (configuration, statistics, assets, body) = load(
+-   projects-data: json(placeholder.latest-history-json),
+-   projects-yaml: yaml(placeholder.projects-yaml),
++   projects-data: json("/build/latest.json"),
++   projects-yaml: yaml("/projects.yaml"),
+  )
+```
 
 4. Append the following to your build script, and publish the `build/` directory.
 

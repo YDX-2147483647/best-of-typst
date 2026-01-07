@@ -1,4 +1,5 @@
 #import "markdown.typ" as md
+#import "example-config.typ" as placeholder
 
 /// Parameters:
 /// - projects-data: `json("/build/latest.json")`
@@ -25,9 +26,9 @@
   let categorized = categorize-projects(projects-data, categories)
   let statistics = (
     // We use a complex formula here, because `projects.len()` might be too large as it also counts deleted projects.
-    project_count: categorized.values().map(c => c.projects.len() + c.hidden-projects.len()).sum(),
+    project_count: categorized.values().map(c => c.projects.len() + c.hidden-projects.len()).sum(default: 0),
     category_count: categories.len(),
-    stars_count: projects-data.map(p => p.star_count).sum(),
+    stars_count: projects-data.map(p => p.star_count).sum(default: 0),
   )
 
   // Write document

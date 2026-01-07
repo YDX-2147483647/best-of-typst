@@ -1473,3 +1473,8 @@ projects:
     github_id: YDX-2147483647/hayagriva-gb-tracking
     category: ref
     labels: [api, web, non-english]
+
+  - name: Noteworthy
+    github_id: sihooleebd/noteworthy
+    category: misc
+    labels: [runnable]

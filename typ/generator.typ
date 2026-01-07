@@ -206,12 +206,14 @@
       list.item(generate-project(p, config, labels))
     }
 
-    html.details({
-      html.summary[Show #cat.hidden-projects.len() hidden projects…]
-      for p in cat.hidden-projects {
-        list.item(generate-project(p, config, labels))
-      }
-    })
+    if cat.hidden-projects.len() > 0 {
+      html.details({
+        html.summary[Show #cat.hidden-projects.len() hidden projects…]
+        for p in cat.hidden-projects {
+          list.item(generate-project(p, config, labels))
+        }
+      })
+    }
   }
 }
 

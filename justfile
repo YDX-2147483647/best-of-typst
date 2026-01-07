@@ -39,12 +39,22 @@ package version:
     sd --fixed-strings 'version = "0.0.0"' \
         {{ quote('version = "' + version + '"') }} \
         package/typst.toml
+
     sd --fixed-strings ' @preview/tcdm:0.0.0 ' \
         {{ quote(' @preview/tcdm:' + version + ' ') }} \
         package/README.md
+
     sd --fixed-strings '#import "lib.typ":' \
         {{ quote('#import "@preview/tcdm:' + version + '":') }} \
         package/example/main.typ
+    sd --fixed-strings 'json("/build/latest.json")' \
+        'json(placeholder.latest-history-json)' \
+        package/example/main.typ
+    sd --fixed-strings 'yaml("/projects.yaml")' \
+        'yaml(placeholder.projects-yaml)' \
+        package/example/main.typ
+
+    # 🎉 Successfully created the package/ directory.
 
 # Build `build/index.html`
 build-typ LANG="en":

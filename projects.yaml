@@ -1484,3 +1484,8 @@ projects:
     github_id: sihooleebd/noteworthy
     category: misc
     labels: [runnable]
+
+  - name: CSL sanitizer for Hayagriva
+    github_id: typst-doc-cn/csl-sanitizer
+    category: ref
+    labels: [runnable, multilingual]

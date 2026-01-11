@@ -1489,3 +1489,8 @@ projects:
     github_id: typst-doc-cn/csl-sanitizer
     category: ref
     labels: [runnable, multilingual]
+
+  - name: equation-maker
+    github_id: nleanba/equation-maker
+    category: math
+    labels: [runnable]

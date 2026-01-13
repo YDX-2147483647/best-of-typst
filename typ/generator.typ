@@ -208,7 +208,9 @@
 
     if cat.hidden-projects.len() > 0 {
       html.details({
-        html.summary[Show #cat.hidden-projects.len() hidden projects…]
+        html.summary(
+          babel(en: "Show {} hidden projects…", zh: "显示{}个隐藏项目……").replace("{}", str(cat.hidden-projects.len())),
+        )
         for p in cat.hidden-projects {
           list.item(generate-project(p, config, labels))
         }

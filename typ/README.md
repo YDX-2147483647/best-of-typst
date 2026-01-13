@@ -39,6 +39,6 @@ typst compile typ/main.typ build/index.html --root . --features html --input lan
 
 - The example scaffold is licensed under [MIT-0](https://choosealicense.com/licenses/mit-0/ "MIT No Attribution | Choose a License") for ease of use.
 
-Note that these licenses are different from CC BY-SA 4.0 [used by the main TCDM project](https://ydx-2147483647.github.io/best-of-typst/#license).
+Note that these licenses are different from CC BY-SA 4.0 [used by the main TCDM project](https://ydx-2147483647.github.io/best-of-typst/#License).
 
 [best-of-generator]: https://github.com/best-of-lists/best-of-generator

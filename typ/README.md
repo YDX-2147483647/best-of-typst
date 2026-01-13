@@ -42,3 +42,13 @@ typst compile typ/main.typ build/index.html --root . --features html --input lan
 Note that these licenses are different from CC BY-SA 4.0 [used by the main TCDM project](https://ydx-2147483647.github.io/best-of-typst/#License).
 
 [best-of-generator]: https://github.com/best-of-lists/best-of-generator
+
+## Changelog
+
+### 0.0.2
+
+Add the missing zh translation for _Show {} hidden projects…_ at the end of each category. This text is shown only if there is at least one hidden project in the category.
+
+### 0.0.1
+
+Initial release derived from the TCDM project.

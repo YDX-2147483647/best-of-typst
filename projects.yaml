@@ -1344,7 +1344,7 @@ projects:
     homepage: https://gist.github.com/Ayanprogrammer11/dfb420e81685acf68ca4dfa4f3081233
     # NOTE: This description was manually recorded on 2025-12-05.
     description: |
-       A ready to copy-paste file into LLMs, to make them instantly aware of all the areas in Typst. (Trust me, they don't get the typst syntax well even after a web search. So I created this!). I have tried it in CLAUDE and it works really well! I am sure it'll work with other AI models like ChatGPT, gemini, etc.
+      A ready to copy-paste file into LLMs, to make them instantly aware of all the areas in Typst. (Trust me, they don't get the typst syntax well even after a web search. So I created this!). I have tried it in CLAUDE and it works really well! I am sure it'll work with other AI models like ChatGPT, gemini, etc.
     category: docs
 
   - name: LSP-Tinymist
@@ -1494,3 +1494,11 @@ projects:
     github_id: nleanba/equation-maker
     category: math
     labels: [runnable]
+
+  - name: tip
+    category: writing
+    homepage: https://git.sr.ht/~mafty/tip
+    # NOTE: This description was manually recorded on 2026-01-13.
+    description: |
+      Typst Inline Preview, tip, seeks to emulate the fantastic experience of writing latex in org-mode with org-latex-preview.
+    labels: [extension]

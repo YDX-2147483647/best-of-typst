@@ -1507,4 +1507,6 @@ projects:
     github_id: Mapaor/markdown2typst
     category: convert
     labels: [api, web]
+    # This overrides the npm package page set on GitHub.
+    homepage: https://mapaor.github.io/markdown2typst/
     npm_id: markdown2typst

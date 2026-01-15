@@ -1498,7 +1498,7 @@ projects:
   - name: tip
     category: writing
     homepage: https://git.sr.ht/~mafty/tip
-    labels: [extension]
     # NOTE: This description was manually recorded on 2026-01-13.
     description: |
       Typst Inline Preview, tip, seeks to emulate the fantastic experience of writing latex in org-mode with org-latex-preview.
+    labels: [extension]

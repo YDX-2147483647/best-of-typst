@@ -1502,3 +1502,11 @@ projects:
     description: |
       Typst Inline Preview, tip, seeks to emulate the fantastic experience of writing latex in org-mode with org-latex-preview.
     labels: [extension]
+
+  - name: markdown2typst
+    github_id: Mapaor/markdown2typst
+    category: convert
+    labels: [api, web]
+    # This overrides the npm package page set on GitHub.
+    homepage: https://mapaor.github.io/markdown2typst/
+    npm_id: markdown2typst

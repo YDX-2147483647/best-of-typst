@@ -1510,3 +1510,8 @@ projects:
     # This overrides the npm package page set on GitHub.
     homepage: https://mapaor.github.io/markdown2typst/
     npm_id: markdown2typst
+
+  - name: rheo
+    github_id: freecomputinglab/rheo
+    category: convert
+    labels: [cli]

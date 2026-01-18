@@ -1511,6 +1511,11 @@ projects:
     homepage: https://mapaor.github.io/markdown2typst/
     npm_id: markdown2typst
 
+  - name: rheo
+    github_id: freecomputinglab/rheo
+    category: convert
+    labels: [cli]
+
   - name: hyrious/typst-syntax-highlight
     github_id: hyrious/typst-syntax-highlight
     category: writing

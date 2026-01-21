@@ -31,12 +31,6 @@
   ..md.config,
 )
 
-#quote(block: true)[
-  💡 We are migrating the website generator from Pandoc to Typst.
-  If you encounter any issue, please #link("https://github.com/YDX-2147483647/best-of-typst/issues/39")[report it in GitHub Issue \#39].
-  (The old version is still alive at #link("./pandoc.html", `pandoc.html`).)
-]
-
 #body
 
 #if "markdown_footer_file" in configuration {

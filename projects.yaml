@@ -513,6 +513,7 @@ projects:
   - name: typst-community/setup-typst
     github_id: typst-community/setup-typst
     category: coding
+    labels: [multilingual]
 
   - name: mathyml
     codeberg_id: akida/mathyml

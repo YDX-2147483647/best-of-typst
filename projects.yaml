@@ -1519,5 +1519,7 @@ projects:
 
   - name: hyrious/typst-syntax-highlight
     github_id: hyrious/typst-syntax-highlight
+    # This overrides typst.app set on GitHub
+    homepage: https://github.com/hyrious/typst-syntax-highlight
     category: writing
     labels: [extension]

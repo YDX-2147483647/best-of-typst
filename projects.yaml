@@ -1523,3 +1523,13 @@ projects:
     homepage: https://github.com/hyrious/typst-syntax-highlight
     category: writing
     labels: [extension]
+
+  - name: CopyLaTeX
+    github_id: Mapaor/copy-latex-firefox-extension
+    # This overrides the addons.mozilla.org page set on GitHub.
+    homepage: https://mapaor.github.io/copy-latex-firefox-extension/
+    # NOTE: This description was manually recorded on 2026-01-21 and added _and Chrome_.
+    description: |
+      Firefox and Chrome extensions to quickly copy LaTeX or Typst code from mathematical expressions on the internet
+    category: math
+    labels: [extension]

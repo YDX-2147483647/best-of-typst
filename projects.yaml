@@ -1533,3 +1533,9 @@ projects:
       Firefox and Chrome extensions to quickly copy LaTeX or Typst code from mathematical expressions on the internet
     category: math
     labels: [extension]
+
+  - name: typst-batch
+    github_id: tola-ssg/typst-batch
+    category: coding
+    labels: [api]
+    cargo_id: typst-batch

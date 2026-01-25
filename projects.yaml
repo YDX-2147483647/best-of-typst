@@ -1539,3 +1539,8 @@ projects:
     category: coding
     labels: [api]
     cargo_id: typst-batch
+
+  - name: Typst Skill for Claude Code
+    github_id: lucifer1004/claude-skill-typst
+    category: docs
+    labels: [extension]

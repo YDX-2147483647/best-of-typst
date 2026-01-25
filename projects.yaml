@@ -1544,3 +1544,8 @@ projects:
     github_id: lucifer1004/claude-skill-typst
     category: docs
     labels: [extension]
+
+  - name: Cursor for Typst
+    github_id: sumsupee/cursorfortypst
+    category: writing
+    labels: [web]

@@ -1549,3 +1549,8 @@ projects:
     github_id: sumsupee/cursorfortypst
     category: writing
     labels: [web]
+
+  - name: Typst Extra Docs
+    github_id: typst-community/extra-docs
+    category: docs
+    labels: [web]

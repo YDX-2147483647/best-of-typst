@@ -1385,7 +1385,7 @@ projects:
     labels: [extension]
 
   - name: typst-fumadocs
-    github_id: typst-g7-32/typst-fumadocs
+    github_id: typst-gost/typst-fumadocs
     category: docs-infra
     labels: [runnable, web]
 
@@ -1420,7 +1420,7 @@ projects:
     labels: [web]
 
   - name: Typst Docs to MDX Converter & Translation Pipeline
-    github_id: typst-g7-32/typst-mdx-docs
+    github_id: typst-gost/typst-mdx-docs
     category: docs-infra
     labels: [runnable]
 

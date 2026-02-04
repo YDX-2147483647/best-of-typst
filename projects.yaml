@@ -1559,3 +1559,8 @@ projects:
     codeberg_id: ensko/typst-package-template
     license: MIT
     category: pkg
+
+  - name: Tanim the Script
+    github_id: WenSimEHRP/tanim
+    category: misc
+    labels: [runnable]

@@ -1554,3 +1554,7 @@ projects:
     github_id: typst-community/extra-docs
     category: docs
     labels: [web]
+
+  - name: typst-package-template (for codeberg/forgejo)
+    codeberg_id: ensko/typst-package-template
+    category: pkg

@@ -1557,4 +1557,5 @@ projects:
 
   - name: typst-package-template (for codeberg/forgejo)
     codeberg_id: ensko/typst-package-template
+    license: MIT
     category: pkg

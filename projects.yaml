@@ -1564,3 +1564,8 @@ projects:
     github_id: WenSimEHRP/tanim
     category: misc
     labels: [runnable]
+
+  - name: nimpylib/wasm-minimal-protocol
+    github_id: nimpylib/wasm-minimal-protocol
+    category: pkg
+    labels: [api]

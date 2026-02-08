@@ -1569,3 +1569,7 @@ projects:
     github_id: nimpylib/wasm-minimal-protocol
     category: pkg
     labels: [api]
+
+  - name: github-stats-typst
+    github_id: lucifer1004/github-stats-typst
+    category: misc

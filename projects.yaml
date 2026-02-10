@@ -1573,3 +1573,9 @@ projects:
   - name: github-stats-typst
     github_id: lucifer1004/github-stats-typst
     category: misc
+
+  - name: TiefDown Converter
+    github_id: Tiefseetauchner/TiefDownConverter
+    category: convert
+    labels: [runnable]
+    cargo_id: tiefdownconverter

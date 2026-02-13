@@ -1579,3 +1579,9 @@ projects:
     category: convert
     labels: [runnable]
     cargo_id: tiefdownconverter
+
+  - name: typst-bake
+    github_id: elgar328/typst-bake
+    category: coding
+    labels: [api]
+    cargo_id: typst-bake

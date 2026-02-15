@@ -1434,8 +1434,8 @@ projects:
     category: math
     labels: [runnable]
 
-  - name: typst-author skill
-    github_id: apcamargo/typst-author
+  - name: Typst agent skills
+    github_id: apcamargo/typst-skills
     category: docs
     labels: [extension]
 

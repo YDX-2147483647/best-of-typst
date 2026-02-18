@@ -1585,3 +1585,8 @@ projects:
     category: coding
     labels: [api]
     cargo_id: typst-bake
+
+  - name: PPTypst
+    github_id: Splines/pptypst
+    category: mix
+    labels: [runnable, extension]

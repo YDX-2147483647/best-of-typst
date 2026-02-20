@@ -1594,4 +1594,6 @@ projects:
   - name: Citar-Typst
     codeberg_id: ashton314/citar-typst
     category: writing
+    # NOTE: This license was manually recorded on 2026-02-20.
+    license: GPLv3
     labels: [extension]

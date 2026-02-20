@@ -1590,3 +1590,8 @@ projects:
     github_id: Splines/pptypst
     category: mix
     labels: [runnable, extension]
+
+  - name: Citar-Typst
+    codeberg_id: ashton314/citar-typst
+    category: writing
+    labels: [extension]

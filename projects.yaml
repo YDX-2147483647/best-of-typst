@@ -1598,6 +1598,12 @@ projects:
     license: GPLv3
     labels: [extension]
 
+  - name: typub
+    github_id: lucifer1004/typub
+    category: convert
+    labels: [cli, multilingual]
+    cargo_id: typub
+
   - name: peterhellberg/typ
     github_id: peterhellberg/typ
     category: pkg

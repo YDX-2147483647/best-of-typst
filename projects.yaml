@@ -1597,3 +1597,8 @@ projects:
     # NOTE: This license was manually recorded on 2026-02-20.
     license: GPLv3
     labels: [extension]
+
+  - name: peterhellberg/typ
+    github_id: peterhellberg/typ
+    category: pkg
+    labels: [api]

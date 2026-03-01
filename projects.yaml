@@ -1603,3 +1603,8 @@ projects:
     category: convert
     labels: [cli, multilingual]
     cargo_id: typub
+
+  - name: peterhellberg/typ
+    github_id: peterhellberg/typ
+    category: pkg
+    labels: [api]

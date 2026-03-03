@@ -1608,3 +1608,8 @@ projects:
     github_id: peterhellberg/typ
     category: pkg
     labels: [api]
+
+  - name: em-dee-pdf
+    github_id: brendandebeasi/em-dee-pdf
+    category: convert
+    labels: [runnable, api]

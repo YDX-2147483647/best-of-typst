@@ -62,7 +62,7 @@ jobs:
           typst-version: v0.14.0
 
       - run: just build-typ
-      - uses: actions/upload-artifact@v6
+      - uses: actions/upload-artifact@v7
         with:
           name: build-typ
           path: ./build
@@ -77,7 +77,7 @@ jobs:
           tool: just,sd
       - run: just --shell=bash package 0.0.0
         # This recipe requires the bash brace expansion.
-      - uses: actions/upload-artifact@v6
+      - uses: actions/upload-artifact@v7
         with:
           name: tcdm-package
           path: ./package

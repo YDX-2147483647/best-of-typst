@@ -1608,3 +1608,8 @@ projects:
     github_id: peterhellberg/typ
     category: pkg
     labels: [api]
+
+  - name: typst-synthform
+    github_id: neruthes/typst-synthform
+    category: mix
+    labels: [runnable, typst-package]

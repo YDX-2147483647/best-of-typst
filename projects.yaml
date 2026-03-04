@@ -1613,3 +1613,8 @@ projects:
     github_id: brendandebeasi/em-dee-pdf
     category: convert
     labels: [runnable, api]
+
+  - name: typst-synthform
+    github_id: neruthes/typst-synthform
+    category: mix
+    labels: [runnable, typst-package]

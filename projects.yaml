@@ -1609,6 +1609,11 @@ projects:
     category: pkg
     labels: [api]
 
+  - name: em-dee-pdf
+    github_id: brendandebeasi/em-dee-pdf
+    category: convert
+    labels: [runnable, api]
+
   - name: typst-synthform
     github_id: neruthes/typst-synthform
     category: mix

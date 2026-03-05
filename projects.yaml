@@ -1618,3 +1618,8 @@ projects:
     github_id: neruthes/typst-synthform
     category: mix
     labels: [runnable, typst-package]
+
+  - name: Wasm protocol genrator (wasmpg)
+    github_id: Robotechnic/WebAssembly-protocol-generator
+    category: pkg
+    labels: [runnable]

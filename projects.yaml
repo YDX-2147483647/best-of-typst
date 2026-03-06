@@ -1618,3 +1618,11 @@ projects:
     github_id: neruthes/typst-synthform
     category: mix
     labels: [runnable, typst-package]
+
+  - name: Wasm protocol genrator (wasmpg)
+    github_id: Robotechnic/WebAssembly-protocol-generator
+    category: pkg
+    # NOTE: This description was manually recorded on 2026-03-05.
+    description: |
+      A simple tool to generate a protocol for a wasm module. It generates functions for c and typst to encode and decode the protocol. The protocol is defined in a simple file format that ressembles a list of c structs.
+    labels: [runnable]

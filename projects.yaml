@@ -1626,3 +1626,8 @@ projects:
     description: |
       A simple tool to generate a protocol for a wasm module. It generates functions for c and typst to encode and decode the protocol. The protocol is defined in a simple file format that ressembles a list of c structs.
     labels: [runnable]
+
+  - name: Typst Preview - macOS Quick Look Extension
+    github_id: WangHaoZhengMing/typst_preview
+    category: misc
+    labels: [runnable, multilingual]

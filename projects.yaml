@@ -1631,3 +1631,8 @@ projects:
     github_id: WangHaoZhengMing/libtypst
     category: coding
     labels: [api]
+
+  - name: Typst Preview - macOS Quick Look Extension
+    github_id: WangHaoZhengMing/typst_preview
+    category: misc
+    labels: [runnable, multilingual]

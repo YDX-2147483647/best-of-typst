@@ -24,7 +24,7 @@ EXPECT: list[tuple[str, str, int]] = [
     # tinymist and typlite
     ("github_id", "Myriad-Dreamin/tinymist", 2),
     # the crate and wasi-stub
-    ("github_id", "astrale-sharp/wasm-minimal-protocol", 2),
+    ("github_id", "typst-community/wasm-minimal-protocol", 2),
 ]
 
 

@@ -219,17 +219,18 @@ projects:
     cargo_id: typship
 
   - name: wasi-stub
-    homepage: https://github.com/astrale-sharp/wasm-minimal-protocol#wasi-stub
-    github_id: astrale-sharp/wasm-minimal-protocol
+    homepage: https://github.com/typst-community/wasm-minimal-protocol#wasi-stub
+    github_id: typst-community/wasm-minimal-protocol
+    cargo_id: wasi-stub
     category: pkg
     labels: [cli]
-    # NOTE: This description was manually recorded on 2025-08-22.
+    # NOTE: This description was manually recorded on 2026-03-06, to override wasm-minimal-protocol's description on GitHub.
     description: |
-      A tool allowing you to take a wasi compliant WebAssembly file and replace all functions wasi depends on by meaningless stubs.
+      Detect all WASI-related imports in a WebAssembly file, and replace them with stubs that do nothing.
 
   - name: wasm-minimal-protocol
     cargo_id: wasm-minimal-protocol
-    github_id: astrale-sharp/wasm-minimal-protocol
+    github_id: typst-community/wasm-minimal-protocol
     category: pkg
     labels: [api]
 

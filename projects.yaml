@@ -1637,3 +1637,9 @@ projects:
     github_id: WangHaoZhengMing/typst_preview
     category: misc
     labels: [runnable, multilingual]
+
+  - name: derive_typst_intoval
+    github_id: KillTheMule/derive_typst_intoval
+    category: coding
+    labels: [api]
+    cargo_id: derive_typst_intoval

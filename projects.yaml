@@ -1645,6 +1645,7 @@ projects:
     cargo_id: derive_typst_intoval
 
   - name: Typst.Native
+    nuget_id: Typst.Native
     github_id: leus/Typst.Native
     category: coding
     labels: [api]

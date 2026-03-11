@@ -1643,3 +1643,8 @@ projects:
     category: coding
     labels: [api]
     cargo_id: derive_typst_intoval
+
+  - name: Typst.Native
+    github_id: leus/Typst.Native
+    category: coding
+    labels: [api]

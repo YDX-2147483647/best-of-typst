@@ -582,6 +582,7 @@ projects:
 
   - name: Typst To Tex (ttt)
     gitlab_id: TheZoq2/ttt
+    codeberg_id: thezoq2/ttt
     category: convert
     labels: [runnable]
     # NOTE: This description was manually recorded on 2025-08-22.

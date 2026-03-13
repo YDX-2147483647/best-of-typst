@@ -1650,3 +1650,8 @@ projects:
     github_id: leus/Typst.Native
     category: coding
     labels: [api]
+
+  - name: Typst Universe with Stars
+    github_id: orangex4/typst-universe-with-stars
+    category: docs
+    labels: [web]

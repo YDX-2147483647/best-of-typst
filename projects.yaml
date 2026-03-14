@@ -1650,3 +1650,9 @@ projects:
     github_id: leus/Typst.Native
     category: coding
     labels: [api]
+
+  - name: sertyp
+    github_id: Uhrendoktor/sertyp
+    category: pkg
+    labels: [api, typst-package]
+    cargo_id: sertyp

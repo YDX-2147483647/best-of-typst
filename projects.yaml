@@ -1665,5 +1665,7 @@ projects:
   - name: notion2typst
     github_id: Mapaor/nast
     category: convert
-    labels: [api]
-    npm_id: @nast/notion2typst
+    labels: [api, web]
+    # This homepage overrides GitHub and npm.
+    homepage: https://n2t.fisica.cat
+    npm_id: "@nast/notion2typst"

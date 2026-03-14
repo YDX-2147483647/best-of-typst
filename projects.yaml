@@ -1655,3 +1655,9 @@ projects:
     github_id: orangex4/typst-universe-with-stars
     category: docs
     labels: [web]
+
+  - name: sertyp
+    github_id: Uhrendoktor/sertyp
+    category: pkg
+    labels: [api, typst-package]
+    cargo_id: sertyp

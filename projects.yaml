@@ -1661,3 +1661,11 @@ projects:
     category: pkg
     labels: [api, typst-package]
     cargo_id: sertyp
+
+  - name: notion2typst
+    github_id: Mapaor/nast
+    category: convert
+    labels: [api, web]
+    # This homepage overrides GitHub and npm.
+    homepage: https://n2t.fisica.cat
+    npm_id: "@nast/notion2typst"

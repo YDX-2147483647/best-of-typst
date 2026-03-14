@@ -1651,6 +1651,11 @@ projects:
     category: coding
     labels: [api]
 
+  - name: Typst Universe with Stars
+    github_id: orangex4/typst-universe-with-stars
+    category: docs
+    labels: [web]
+
   - name: sertyp
     github_id: Uhrendoktor/sertyp
     category: pkg

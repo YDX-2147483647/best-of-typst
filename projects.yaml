@@ -39,6 +39,9 @@ categories:
   - category: pkg
     title: 🚀 Package development
     subtitle: Facilitate development of [Typst packages and templates](https://github.com/typst/packages).
+  - category: wasm
+    title: 🔢 WASM plugin development
+    subtitle: Facilitate development of [Typst WebAssembly plugins](https://typst.app/docs/reference/foundations/plugin/).
   - category: docs-infra
     title: 🏗 Documentation infrastructure
     subtitle: Infrastructure of building the [Typst documentation](https://typst.app/docs/), such as [local preview](https://github.com/typst/typst/issues/2089).
@@ -222,7 +225,7 @@ projects:
     homepage: https://github.com/typst-community/wasm-minimal-protocol#wasi-stub
     github_id: typst-community/wasm-minimal-protocol
     cargo_id: wasi-stub
-    category: pkg
+    category: wasm
     labels: [cli]
     # NOTE: This description was manually recorded on 2026-03-06, to override wasm-minimal-protocol's description on GitHub.
     description: |
@@ -231,13 +234,13 @@ projects:
   - name: wasm-minimal-protocol
     cargo_id: wasm-minimal-protocol
     github_id: typst-community/wasm-minimal-protocol
-    category: pkg
+    category: wasm
     labels: [api]
 
   - name: typst-wasm-protocol
     cargo_id: typst-wasm-protocol
     github_id: sjfhsjfh/typst-wasm
-    category: pkg
+    category: wasm
     labels: [api]
 
   - name: Tytanic
@@ -1569,7 +1572,7 @@ projects:
 
   - name: nimpylib/wasm-minimal-protocol
     github_id: nimpylib/wasm-minimal-protocol
-    category: pkg
+    category: wasm
     labels: [api]
 
   - name: github-stats-typst
@@ -1608,7 +1611,7 @@ projects:
 
   - name: peterhellberg/typ
     github_id: peterhellberg/typ
-    category: pkg
+    category: wasm
     labels: [api]
 
   - name: em-dee-pdf
@@ -1623,7 +1626,7 @@ projects:
 
   - name: Wasm protocol genrator (wasmpg)
     github_id: Robotechnic/WebAssembly-protocol-generator
-    category: pkg
+    category: wasm
     # NOTE: This description was manually recorded on 2026-03-05.
     description: |
       A simple tool to generate a protocol for a wasm module. It generates functions for c and typst to encode and decode the protocol. The protocol is defined in a simple file format that ressembles a list of c structs.

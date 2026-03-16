@@ -82,6 +82,7 @@
               "mix",
               "convert",
               "pkg",
+              "wasm",
               "docs-infra",
               "coding",
               "misc"

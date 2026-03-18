@@ -1672,3 +1672,8 @@ projects:
     # This homepage overrides GitHub and npm.
     homepage: https://n2t.fisica.cat
     npm_id: "@nast/notion2typst"
+
+  - name: Typst2Latex
+    github_id: aualbert/typst2latex
+    category: convert
+    labels: [runnable]

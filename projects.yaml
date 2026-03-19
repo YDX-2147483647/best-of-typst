@@ -469,7 +469,7 @@ projects:
     labels: [non-english]
 
   - name: tola
-    github_id: KawaYww/tola-ssg
+    github_id: tola-rs/tola-ssg
     category: convert
     cargo_id: tola
     labels: [runnable]
@@ -687,7 +687,7 @@ projects:
     category: writing
     labels: [extension]
 
-  - name: typst-conceal.vim
+  - name: MrPicklePinosaur/typst-conceal.vim
     github_id: MrPicklePinosaur/typst-conceal.vim
     category: writing
     labels: [extension]
@@ -835,12 +835,12 @@ projects:
 
   - name: Wypst
     category: math
-    github_id: 0xbolt/wypst
+    github_id: andredalbosco/wypst
     labels: [api]
     npm_id: wypst
 
   - name: obsidian-wypst
-    github_id: 0xbolt/obsidian-wypst
+    github_id: andredalbosco/obsidian-wypst
     category: mix
     labels: [extension]
 
@@ -1064,7 +1064,7 @@ projects:
     category: convert
     labels: [runnable]
 
-  - name: Typst concealer
+  - name: PartyWumpus/typst-concealer
     github_id: PartyWumpus/typst-concealer
     category: writing
     labels: [extension]
@@ -1379,7 +1379,7 @@ projects:
     category: writing
     labels: [runnable]
 
-  - name: Typwriter
+  - name: Ahdeyyy/Typwriter
     github_id: Ahdeyyy/typwriter
     category: writing
     labels: [app]
@@ -1655,7 +1655,7 @@ projects:
     labels: [api]
 
   - name: Typst Universe with Stars
-    github_id: orangex4/typst-universe-with-stars
+    github_id: OrangeX4/typst-universe-with-stars
     category: docs
     labels: [web]
 
@@ -1676,4 +1676,184 @@ projects:
   - name: Typst2Latex
     github_id: aualbert/typst2latex
     category: convert
+    labels: [runnable]
+
+  - name: typst-raw-lang-tags
+    github_id: ultimatile/typst-raw-lang-tags
+    category: docs
+    labels: [runnable]
+
+  - name: typdiff
+    github_id: sou1118/typdiff
+    cargo_id: typdiff
+    category: writing
+    labels: [cli]
+
+  - name: typst-test-helper.nvim
+    github_id: saecki/typst-test-helper.nvim
+    category: coding
+    labels: [extension]
+
+  - name: Typst PDF Embedder
+    github_id: jheuel/typst_embed_pdf
+    category: mix
+    labels: [runnable]
+    # NOTE: This description was manually recorded on 2026-03-18 to override GitHub.
+    description: |
+      A workflow for embedding external PDF pages into Typst documents, preserving selectable text and annotations. It uses a combination of Typst macros and a Python script to precisely overlay or underlay PDF content in the generated output.
+
+  - name: docpack
+    cargo_id: docpack
+    github_id: Acture/docpack
+    category: convert
+    labels: [cli]
+
+  - name: Pandoc Typst Catppuccin
+    github_id: 13m0n4de/pandoc-typst-catppuccin
+    category: convert
+    labels: [non-english]
+
+  - name: Typenaut
+    pypi_id: typenaut
+    github_id: BrokenSource/Typenaut
+    category: coding
+    labels: [api]
+
+  - name: typsphinx
+    pypi_id: typsphinx
+    github_id: YuSabo90002/typsphinx
+    category: convert
+    labels: [extension]
+
+  - name: typst-raster
+    github_id: RayZ3R0/typst-raster
+    npm_id: typst-raster
+    labels: [api]
+    category: coding
+
+  - name: md-typ-pdf
+    github_id: Magi3r/md-typ-pdf
+    category: convert
+    labels: [runnable]
+
+  - name: markdown-it-typst
+    github_id: Xecades/markdown-it-typst
+    npm_id: "@xecades/markdown-it-typst"
+    category: mix
+    labels: [extension]
+
+  - name: typtaps
+    github_id: IrregularPersona/TypTaps
+    category: writing
+    # NOTE: This description was manually recorded on 2026-03-18 to override GitHub.
+    description: |
+      A minimal Typst editor with live preview.
+    labels: [runnable]
+
+  - name: Kino
+    github_id: aualbert/kino
+    category: misc
+    labels: [runnable, typst-package]
+
+  - name: Typst Toolbox
+    github_id: Quorafind/typst-toolbox
+    # NOTE: This description was manually recorded on 2026-03-18 to override GitHub.
+    description: |
+      A comprehensive Typst integration toolbox for Obsidian, enabling seamless Markdown-to-Typst conversion, document export, and DOCX viewing.
+    category: mix
+    labels: [extension, multilingual]
+
+  - name: MDXport
+    github_id: cosformula/mdxport
+    category: misc
+    labels: [web]
+
+  - name: typst_pyimage
+    pypi_id: typst-pyimage
+    github_id: patrick-kidger/typst_pyimage
+    category: mix
+    labels: [runnable]
+
+  - name: PPT-AGENT
+    github_id: EMOAIRX/ppt-agent
+    category: writing
+    labels: [web, non-english]
+
+  - name: typst-lua
+    github_id: rousbound/typst-lua
+    category: coding
+    labels: [api]
+
+  - name: matryoshka
+    github_id: freundTech/typst-matryoshka
+    category: misc
+    labels: [typst-package]
+
+  - name: typst-hs
+    github_id: jgm/typst-hs
+    category: coding
+    labels: [api]
+
+  - name: ExTypst
+    github_id: viniciusmuller/ex_typst
+    category: coding
+    labels: [api]
+
+  - name: typit
+    github_id: megatank58/typit
+    category: coding
+
+  - name: "@InTypBot / Typst Inline Math Bot"
+    github_id: asqarslanov/in-typ-bot
+    category: coding
+
+  - name: jeffa5/typstfmt
+    category: writing
+    github_id: jeffa5/typstfmt
+    # NOTE: This description was manually recorded on 2026-03-18 to override GitHub.
+    # The repo was moved to https://git.jeffas.net/typstfmt/files/README.md.html, but there are no new commits.
+    description: |
+      A formatter for Typst code, with flake.nix and pre-commit.
+    labels: [runnable]
+
+  - name: typst-on-gh
+    github_id: wentam/typst-on-gh
+    # NOTE: This description was manually recorded on 2026-03-18.
+    description: |
+      Tricking GitHub into displaying rendered typst documents
+    category: misc
+
+  - name: math-conceal.nvim
+    github_id: pxwg/math-conceal.nvim
+    category: math
+    labels: [extension, multilingual]
+
+  - name: TypstForm.wl
+    github_id: anandijain/TypstForm.wl
+    category: coding
+    # NOTE: This description was manually recorded on 2026-03-18.
+    description: |
+      Make Typst strings in Wolfram Mathematica.
+    labels: [api]
+
+  - name: 0x6b/typwriter
+    github_id: 0x6b/typwriter
+    cargo_id: typwriter
+    category: coding
+
+  - name: Typst-Coder
+    github_id: TechxGenus/Typst-Coder
+    # NOTE: This description was manually recorded on 2026-03-18.
+    description: |
+      Collect relevant data and training models to improve Typst support in AI programming tools.
+    category: misc
+
+  - name: SummaryTables.jl
+    github_id: PumasAI/SummaryTables.jl
+    category: coding
+    labels: [api]
+
+  - name: typst-font-compare
+    github_id: frozolotl/typst-font-compare
+    category: misc
     labels: [runnable]

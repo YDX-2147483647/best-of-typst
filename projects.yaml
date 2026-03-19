@@ -1857,3 +1857,8 @@ projects:
     github_id: frozolotl/typst-font-compare
     category: misc
     labels: [runnable]
+
+  - name: Typist
+    github_id: Lin0u0/Typist
+    category: writing
+    labels: [app, multilingual]

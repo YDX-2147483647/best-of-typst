@@ -1858,7 +1858,7 @@ projects:
     category: misc
     labels: [runnable]
 
-  - name: Typist
-    github_id: Lin0u0/Typist
+  - name: InkPond
+    github_id: Lin0u0/InkPond
     category: writing
     labels: [app, multilingual]

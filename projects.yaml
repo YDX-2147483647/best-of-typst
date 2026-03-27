@@ -1108,7 +1108,7 @@ projects:
     labels: [app]
 
   - name: pagemaker
-    github_id: sanderboer/typst-pagemaker
+    github_id: maucworks/typst-pagemaker
     category: convert
     labels: [runnable]
     pypi_id: typst-pagemaker

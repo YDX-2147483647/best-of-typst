@@ -178,7 +178,7 @@ projects:
     category: writing
     labels: [app]
 
-  - name: typos
+  - name: dailydaniel/typos
     github_id: dailydaniel/typos
     category: writing
     labels: [app]

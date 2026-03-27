@@ -181,7 +181,7 @@ projects:
   - name: dailydaniel/typos
     github_id: dailydaniel/typos
     category: writing
-    labels: [app]
+    labels: [app, cli]
 
   - name: TyX
     github_id: tyx-editor/TyX

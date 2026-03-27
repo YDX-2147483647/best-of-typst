@@ -178,6 +178,11 @@ projects:
     category: writing
     labels: [app]
 
+  - name: dailydaniel/typos
+    github_id: dailydaniel/typos
+    category: writing
+    labels: [app, cli]
+
   - name: TyX
     github_id: tyx-editor/TyX
     category: writing

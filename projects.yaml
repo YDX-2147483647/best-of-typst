@@ -1867,3 +1867,8 @@ projects:
     github_id: Lin0u0/InkPond
     category: writing
     labels: [app, multilingual]
+
+  - name: statzhero/typst-skill
+    github_id: statzhero/typst-skill
+    category: docs
+    labels: [extension]

@@ -1444,7 +1444,7 @@ projects:
     category: math
     labels: [runnable]
 
-  - name: Typst agent skills
+  - name: apcamargo/typst-skills
     github_id: apcamargo/typst-skills
     category: docs
     labels: [extension]
@@ -1550,7 +1550,7 @@ projects:
     labels: [api]
     cargo_id: typst-batch
 
-  - name: Typst Skill for Claude Code
+  - name: lucifer1004/claude-skill-typst
     github_id: lucifer1004/claude-skill-typst
     category: docs
     labels: [extension]

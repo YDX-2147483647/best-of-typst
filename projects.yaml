@@ -1875,5 +1875,6 @@ projects:
 
   - name: noclaps/cite
     codeberg_id: noClaps/cite
+    license: 0BSD
     category: ref
     labels: [runnable]

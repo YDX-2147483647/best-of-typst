@@ -1872,3 +1872,8 @@ projects:
     github_id: statzhero/typst-skill
     category: docs
     labels: [extension]
+
+  - name: noclaps/cite
+    codeberg_id: noClaps/cite
+    category: ref
+    labels: [runnable]

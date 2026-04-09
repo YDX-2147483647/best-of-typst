@@ -1878,3 +1878,8 @@ projects:
     license: 0BSD
     category: ref
     labels: [runnable]
+
+  - name: MoYeRanqianzhi/typst-skill
+    github_id: MoYeRanqianzhi/typst-skill
+    category: docs
+    labels: [extension]

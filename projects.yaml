@@ -770,9 +770,6 @@ projects:
     github_id: LDemetrios/Kvasir
     category: writing
     labels: [extension, multilingual]
-    # NOTE: This description was manually recorded on 2025-08-22.
-    description: |
-      Kvasir (/kwɑ'zer/) is an (unofficial) plugin for JetBrains platform adding support for Typst language.
 
   - name: Django Typst
     github_id: a-musing-moose/django-typst-engine

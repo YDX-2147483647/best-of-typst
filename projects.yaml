@@ -1880,3 +1880,8 @@ projects:
     github_id: MoYeRanqianzhi/typst-skill
     category: docs
     labels: [extension]
+
+  - name: Hieroglyphic
+    github_id: FineFindus/Hieroglyphic
+    category: math
+    labels: [app, multilingual]

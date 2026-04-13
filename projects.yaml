@@ -1885,3 +1885,8 @@ projects:
     github_id: FineFindus/Hieroglyphic
     category: math
     labels: [app, multilingual]
+
+  - name: typstation
+    github_id: vertsineu/typstation
+    category: math
+    labels: [web]

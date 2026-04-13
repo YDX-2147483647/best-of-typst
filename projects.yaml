@@ -1885,3 +1885,8 @@ projects:
     github_id: FineFindus/Hieroglyphic
     category: math
     labels: [app, multilingual]
+
+  - name: jassielof/wasm-zig-typst
+    github_id: jassielof/wasm-zig-typst
+    category: wasm
+    labels: [api]

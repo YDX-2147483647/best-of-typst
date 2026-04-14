@@ -1886,6 +1886,11 @@ projects:
     category: math
     labels: [app, multilingual]
 
+  - name: typstation
+    github_id: vertsineu/typstation
+    category: math
+    labels: [web]
+
   - name: typ2pptx
     github_id: touying-typ/typ2pptx
     category: convert

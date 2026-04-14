@@ -1663,7 +1663,7 @@ projects:
 
   - name: sertyp
     github_id: Uhrendoktor/sertyp
-    category: pkg
+    category: wasm
     labels: [api, typst-package]
     cargo_id: sertyp
 

@@ -1890,3 +1890,9 @@ projects:
     github_id: vertsineu/typstation
     category: math
     labels: [web]
+
+  - name: typ2pptx
+    github_id: touying-typ/typ2pptx
+    category: convert
+    labels: [runnable]
+    pypi_id: typ2pptx

@@ -1896,3 +1896,9 @@ projects:
     category: convert
     labels: [runnable]
     pypi_id: typ2pptx
+
+  - name: typwire
+    github_id: T1mVo/typwire
+    category: wasm
+    labels: [api]
+    cargo_id: typwire

@@ -1886,6 +1886,11 @@ projects:
     category: math
     labels: [app, multilingual]
 
+  - name: jassielof/wasm-zig-typst
+    github_id: jassielof/wasm-zig-typst
+    category: wasm
+    labels: [api]
+
   - name: typstation
     github_id: vertsineu/typstation
     category: math

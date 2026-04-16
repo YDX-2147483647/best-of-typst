@@ -1907,3 +1907,8 @@ projects:
     category: wasm
     labels: [api]
     cargo_id: typwire
+
+  - name: tinymist-clientfeatures.nvim
+    github_id: qwjyh/tinymist-clientfeatures.nvim
+    category: writing
+    labels: [extension]

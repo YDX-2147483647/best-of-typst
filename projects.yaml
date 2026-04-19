@@ -1912,3 +1912,8 @@ projects:
     github_id: qwjyh/tinymist-clientfeatures.nvim
     category: writing
     labels: [extension]
+
+  - name: Typlica
+    github_id: liquidhelium/typlica
+    category: docs
+    labels: [web, multilingual]

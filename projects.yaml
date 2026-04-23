@@ -1917,3 +1917,8 @@ projects:
     github_id: liquidhelium/typlica
     category: docs
     labels: [web, multilingual]
+
+  - name: Typst Side Agent
+    github_id: dbccccccc/Typst-Side-Agent
+    category: writing
+    labels: [extension]

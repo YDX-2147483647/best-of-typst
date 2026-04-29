@@ -1922,3 +1922,8 @@ projects:
     github_id: dbccccccc/Typst-Side-Agent
     category: writing
     labels: [extension]
+
+  - name: Typstit
+    github_id: alexanderkoller/typstit
+    category: mix
+    labels: [app]

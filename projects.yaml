@@ -1922,3 +1922,8 @@ projects:
     github_id: dbccccccc/Typst-Side-Agent
     category: writing
     labels: [extension]
+
+  - name: qnote
+    github_id: Omibranch/qnote
+    category: writing
+    labels: [app, multilingual]

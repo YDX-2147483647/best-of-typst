@@ -1923,6 +1923,11 @@ projects:
     category: writing
     labels: [extension]
 
+  - name: Typstit
+    github_id: alexanderkoller/typstit
+    category: mix
+    labels: [app]
+
   - name: qnote
     github_id: Omibranch/qnote
     category: writing

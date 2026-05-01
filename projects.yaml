@@ -1932,3 +1932,8 @@ projects:
     github_id: Omibranch/qnote
     category: writing
     labels: [app, multilingual]
+
+  - name: jupytypst
+    github_id: ParaN3xus/jupytypst
+    category: misc
+    labels: [runnable]

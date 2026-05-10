@@ -1942,3 +1942,4 @@ projects:
     github_id: MicheleYin/Typst-Editor
     category: writing
     labels: [app]
+    homepage: https://typst-editor-landing-page.vercel.app

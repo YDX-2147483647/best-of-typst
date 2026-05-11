@@ -1943,3 +1943,8 @@ projects:
     category: writing
     labels: [app]
     homepage: https://typst-editor-landing-page.vercel.app
+
+  - name: Typstracer
+    github_id: rjain37/typstracer
+    category: docs
+    labels: [web]

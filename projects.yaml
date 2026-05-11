@@ -1947,4 +1947,7 @@ projects:
   - name: Typstracer
     github_id: rjain37/typstracer
     category: docs
+    # NOTE: This description was manually recorded on 2026-05-12.
+    description: |
+       A Typst speed typsetting game. See how many famous equations you can replicate in three minutes!
     labels: [web]

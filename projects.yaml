@@ -1957,3 +1957,9 @@ projects:
     category: math
     labels: [api]
     npm_id: kern-typ
+
+  - name: typ-tables
+    github_id: BenGale93/typ-tables
+    category: coding
+    labels: [api]
+    pypi_id: typ-tables

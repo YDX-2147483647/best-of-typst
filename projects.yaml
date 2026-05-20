@@ -1963,3 +1963,9 @@ projects:
     category: coding
     labels: [api]
     pypi_id: typ-tables
+
+  - name: GoTPM
+    github_id: npikall/gotpm
+    category: pkg
+    labels: [cli]
+    go_id: github.com/npikall/gotpm

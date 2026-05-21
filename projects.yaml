@@ -1969,3 +1969,8 @@ projects:
     category: pkg
     labels: [cli]
     go_id: github.com/npikall/gotpm
+
+  - name: Collabst
+    github_id: collabst/collabst
+    category: writing
+    labels: [runnable]

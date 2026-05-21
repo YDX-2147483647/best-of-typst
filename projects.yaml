@@ -1969,3 +1969,9 @@ projects:
     category: pkg
     labels: [cli]
     go_id: github.com/npikall/gotpm
+
+  - name: Inkhaven
+    github_id: vulogov/blackInkhaven
+    category: writing
+    labels: [cli]
+    cargo_id: inkhaven

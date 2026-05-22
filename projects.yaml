@@ -1870,9 +1870,14 @@ projects:
     category: docs
     labels: [extension]
 
-  - name: noclaps/cite
-    codeberg_id: noClaps/cite
-    license: 0BSD
+  - name: noClaps/cite
+    github_id: noClaps/cite
+    # codeberg_id: noClaps/cite
+    # go_id: codeberg.org/noclaps/cite
+    # Initially in 2026-04, the project lived on Codeberg.org and was written in Go. https://pkg.go.dev/codeberg.org/noclaps/cite
+    # Later it was moved to CodeFloe.com. https://pkg.go.dev/codefloe.com/noclaps/cite
+    # Then in 2026-05, it was moved to GitHub.com and rewritten in Rust. https://github.com/noClaps/cite/commit/3484e1d0a3885e7f4ea508f6b69aadfc640a44a2
+    # According to the git history, it was also once written in TypeScript, JavaScript, and Swift.
     category: ref
     labels: [runnable]
 

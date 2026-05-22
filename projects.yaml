@@ -1970,6 +1970,11 @@ projects:
     labels: [cli]
     go_id: github.com/npikall/gotpm
 
+  - name: Collabst
+    github_id: collabst/collabst
+    category: writing
+    labels: [runnable]
+
   - name: Inkhaven
     github_id: vulogov/blackInkhaven
     category: writing

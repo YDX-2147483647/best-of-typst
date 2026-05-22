@@ -1974,3 +1974,9 @@ projects:
     github_id: collabst/collabst
     category: writing
     labels: [runnable]
+
+  - name: Inkhaven
+    github_id: vulogov/blackInkhaven
+    category: writing
+    labels: [cli]
+    cargo_id: inkhaven

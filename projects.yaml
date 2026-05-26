@@ -1626,7 +1626,7 @@ projects:
     category: mix
     labels: [runnable, typst-package]
 
-  - name: Wasm protocol genrator (wasmpg)
+  - name: Wasm protocol generator (wasmpg)
     github_id: Robotechnic/WebAssembly-protocol-generator
     category: wasm
     # NOTE: This description was manually recorded on 2026-03-05.

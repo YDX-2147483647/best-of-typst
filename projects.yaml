@@ -1985,3 +1985,9 @@ projects:
     category: writing
     labels: [cli]
     cargo_id: inkhaven
+
+  - name: typst-go-wasm
+    github_id: varunbpatil/typst-go-wasm
+    category: coding
+    labels: [api]
+    go_id: github.com/varunbpatil/typst-go-wasm

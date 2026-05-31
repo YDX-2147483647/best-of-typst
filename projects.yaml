@@ -1991,3 +1991,8 @@ projects:
     category: coding
     labels: [api]
     go_id: github.com/varunbpatil/typst-go-wasm
+
+  - name: haya-view-test
+    github_id: YDX-2147483647/haya-view-test
+    category: ref
+    labels: [web]

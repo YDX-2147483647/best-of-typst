@@ -1996,3 +1996,8 @@ projects:
     github_id: YDX-2147483647/haya-view-test
     category: ref
     labels: [web]
+
+  - name: Calepin
+    github_id: vincentarelbundock/calepin
+    category: mix
+    labels: [cli, extension]

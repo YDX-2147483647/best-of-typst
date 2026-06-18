@@ -2005,4 +2005,4 @@ projects:
   - name: "Typst: From Zero to Hero"
     github_id: CRStefano/Typst-Handbook-A-Comprehensive-Guide
     category: docs
-    labels: [non-english]
+    labels: [multilingual]

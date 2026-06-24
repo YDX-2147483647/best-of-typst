@@ -186,7 +186,7 @@ projects:
   - name: TyX
     github_id: tyx-editor/TyX
     category: writing
-    labels: [app]
+    labels: [web, app]
 
   - name: Shiro A
     github_id: Myriad-Dreamin/shiroa

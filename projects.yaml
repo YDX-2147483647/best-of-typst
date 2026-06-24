@@ -2006,3 +2006,8 @@ projects:
     github_id: CRStefano/Typst-Handbook-A-Comprehensive-Guide
     category: docs
     labels: [multilingual]
+
+  - name: Typst WYSIWYG
+    github_id: ortic/typst-wysiwyg
+    category: writing
+    labels: [runnable, web]

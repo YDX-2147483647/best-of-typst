@@ -2006,3 +2006,8 @@ projects:
     github_id: CRStefano/Typst-Handbook-A-Comprehensive-Guide
     category: docs
     labels: [multilingual]
+
+  - name: Typst Optical Kerning Bench
+    github_id: Hyperrick/typst-optical-kerning-bench
+    category: docs
+    labels: [web]

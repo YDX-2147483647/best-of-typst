@@ -2007,6 +2007,11 @@ projects:
     category: docs
     labels: [multilingual]
 
+  - name: typst-xcc-wrapper
+    github_id: ParaN3xus/typst-xcc-wrapper
+    category: wasm
+    labels: [typst-package]
+
   - name: imprint
     github_id: gunasekar/imprint
     category: misc

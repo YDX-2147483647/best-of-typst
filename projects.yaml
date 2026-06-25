@@ -2011,3 +2011,18 @@ projects:
     github_id: Hyperrick/typst-optical-kerning-bench
     category: docs
     labels: [web]
+
+  - name: Typst WYSIWYG
+    github_id: ortic/typst-wysiwyg
+    category: writing
+    labels: [runnable, web]
+
+  - name: typst-xcc-wrapper
+    github_id: ParaN3xus/typst-xcc-wrapper
+    category: wasm
+    labels: [typst-package]
+
+  - name: imprint
+    github_id: gunasekar/imprint
+    category: misc
+    labels: [runnable]

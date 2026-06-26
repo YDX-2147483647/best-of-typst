@@ -2030,4 +2030,6 @@ projects:
   - name: InkyCap
     codeberg_id: InkyCap/app
     category: misc
+    # NOTE: This license was manually recorded on 2026-06-26.
+    license: LiLiQ-P-1.1
     labels: [app]

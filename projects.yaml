@@ -2026,3 +2026,8 @@ projects:
     github_id: gunasekar/imprint
     category: misc
     labels: [runnable]
+
+  - name: InkyCap
+    codeberg_id: InkyCap/app
+    category: misc
+    labels: [app]

@@ -1079,7 +1079,7 @@ projects:
   - name: gistd
     github_id: Myriad-Dreamin/gistd
     category: misc
-    labels: [web]
+    labels: [web, multilingual, extension]
 
   - name: 11ty-pst
     github_id: uwni/11ty-pst

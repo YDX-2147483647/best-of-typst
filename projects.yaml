@@ -2033,3 +2033,8 @@ projects:
     # NOTE: This license was manually recorded on 2026-06-26.
     license: LiLiQ-P-1.1
     labels: [app]
+
+  - name: Typst 交互式教程
+    github_id: Myriad-Dreamin/interactive-typst-tutorial
+    category: docs
+    labels: [web, non-english]

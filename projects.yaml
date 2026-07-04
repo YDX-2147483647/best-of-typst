@@ -803,7 +803,7 @@ projects:
     labels: [api]
     cargo_id: velyst
 
-  - name: Typstify
+  - name: iXORTech/Typstify
     category: writing
     github_id: iXORTech/Typstify
     labels: [app]

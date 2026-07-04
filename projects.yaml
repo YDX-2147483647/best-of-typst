@@ -2038,3 +2038,8 @@ projects:
     github_id: Myriad-Dreamin/interactive-typst-tutorial
     category: docs
     labels: [web, non-english]
+
+  - name: Typstify/Typstify
+    github_id: typstify/typstify
+    category: writing
+    labels: [app]

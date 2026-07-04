@@ -2038,3 +2038,8 @@ projects:
     github_id: Myriad-Dreamin/interactive-typst-tutorial
     category: docs
     labels: [web, non-english]
+
+  - name: aburousan/typsteditor
+    github_id: aburousan/typsteditor
+    category: writing
+    labels: [runnable, app]

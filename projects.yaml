@@ -803,7 +803,7 @@ projects:
     labels: [api]
     cargo_id: velyst
 
-  - name: Typstify
+  - name: iXORTech/Typstify
     category: writing
     github_id: iXORTech/Typstify
     labels: [app]
@@ -2043,3 +2043,13 @@ projects:
     github_id: aburousan/typsteditor
     category: writing
     labels: [runnable, app]
+
+  - name: TypM
+    github_id: jassielof/typm
+    category: pkg
+    labels: [runnable]
+
+  - name: Typstify/Typstify
+    github_id: typstify/typstify
+    category: writing
+    labels: [app]

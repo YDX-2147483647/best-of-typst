@@ -2039,6 +2039,11 @@ projects:
     category: docs
     labels: [web, non-english]
 
+  - name: TypM
+    github_id: jassielof/typm
+    category: pkg
+    labels: [runnable]
+
   - name: Typstify/Typstify
     github_id: typstify/typstify
     category: writing

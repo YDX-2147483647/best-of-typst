@@ -2039,8 +2039,8 @@ projects:
     category: docs
     labels: [web, non-english]
 
-  - name: aburousan/typsteditor
-    github_id: aburousan/typsteditor
+  - name: Hilbert
+    github_id: aburousan/hilbert-editor
     category: writing
     labels: [runnable, app]
 

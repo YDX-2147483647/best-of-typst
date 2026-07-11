@@ -2053,3 +2053,8 @@ projects:
     github_id: typstify/typstify
     category: writing
     labels: [app]
+
+  - name: tynding
+    github_id: y-sunflower/tynding
+    category: coding
+    labels: [api]

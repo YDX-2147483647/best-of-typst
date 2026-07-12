@@ -1891,8 +1891,8 @@ projects:
     category: math
     labels: [app, multilingual]
 
-  - name: jassielof/wasm-zig-typst
-    github_id: jassielof/wasm-zig-typst
+  - name: typst-community/wasm-zig-typst
+    github_id: typst-community/wasm-zig-typst
     category: wasm
     labels: [api]
 

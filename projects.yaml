@@ -2058,3 +2058,7 @@ projects:
     github_id: y-sunflower/tynding
     category: coding
     labels: [api]
+
+  - name: typst-community/json-schemas
+    github_id: typst-community/json-schemas
+    category: pkg

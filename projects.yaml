@@ -2066,3 +2066,8 @@ projects:
   - name: typst-community/json-schemas
     github_id: typst-community/json-schemas
     category: pkg
+
+  - name: TOSS
+    github_id: gzz2000/TOSS
+    category: writing
+    labels: [runnable, web]

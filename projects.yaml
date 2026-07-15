@@ -2071,3 +2071,8 @@ projects:
     github_id: gzz2000/TOSS
     category: writing
     labels: [runnable, web]
+
+  - name: Typsastra
+    github_id: Sovichea/typsastra
+    category: writing
+    labels: [app]

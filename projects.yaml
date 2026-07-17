@@ -2076,3 +2076,9 @@ projects:
     github_id: Sovichea/typsastra
     category: writing
     labels: [app]
+
+  - name: tytable
+    github_id: EinMaulwurf/tytable
+    category: coding
+    labels: [api]
+    pypi_id: tytable

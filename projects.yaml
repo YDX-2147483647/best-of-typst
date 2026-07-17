@@ -2076,3 +2076,9 @@ projects:
     github_id: Sovichea/typsastra
     category: writing
     labels: [app]
+
+  - name: typst-wasm
+    github_id: typst-wasm/typst-wasm
+    category: coding
+    labels: [api]
+    npm_id: typst-wasm

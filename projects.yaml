@@ -2082,3 +2082,14 @@ projects:
     category: coding
     labels: [api]
     npm_id: typst-wasm
+
+  - name: tytable
+    github_id: EinMaulwurf/tytable
+    category: coding
+    labels: [api]
+    pypi_id: tytable
+
+  - name: Presio
+    github_id: benedict-armstrong/presio
+    category: misc
+    labels: [web, typst-package]

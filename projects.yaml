@@ -2077,6 +2077,12 @@ projects:
     category: writing
     labels: [app]
 
+  - name: tytable
+    github_id: EinMaulwurf/tytable
+    category: coding
+    labels: [api]
+    pypi_id: tytable
+
   - name: Presio
     github_id: benedict-armstrong/presio
     category: misc

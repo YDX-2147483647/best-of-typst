@@ -2068,7 +2068,7 @@ projects:
     category: pkg
 
   - name: TOSS
-    github_id: gzz2000/TOSS
+    github_id: pku-typst/TOSS
     category: writing
     labels: [runnable, web]
 

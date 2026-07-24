@@ -1370,8 +1370,15 @@ projects:
     category: writing
     labels: [runnable, web]
 
-  - name: TypstEdit
+  - name: SuperMegaFort/TypstEdit
     github_id: SuperMegaFort/TypstEdit
+    category: writing
+    labels: [app]
+
+  - name: tmagri/TypstEdit
+    # This repo contains commits from SuperMegaFort/TypstEdit.
+    # https://github.com/tmagri/TypstEdit/commits?after=2c5326082e64a9f2c1bf4207f2d05b96a23593b5+174
+    github_id: tmagri/TypstEdit
     category: writing
     labels: [app]
 

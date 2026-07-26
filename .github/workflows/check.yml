@@ -59,7 +59,7 @@ jobs:
       - uses: astral-sh/setup-uv@v7
       - uses: typst-community/setup-typst@v5
         with:
-          typst-version: v0.14.0
+          typst-versions-file: .github/typst-versions.yaml
 
       - run: just build-typ
       - uses: actions/upload-artifact@v7

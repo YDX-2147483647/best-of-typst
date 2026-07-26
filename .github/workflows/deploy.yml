@@ -48,7 +48,7 @@ jobs:
       - uses: astral-sh/setup-uv@v7
       - uses: typst-community/setup-typst@v5
         with:
-          typst-version: v0.14.2
+          typst-versions-file: .github/typst-versions.yaml
 
       - run: just build-for-pandoc
       - name: Convert to HTML

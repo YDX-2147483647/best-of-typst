@@ -40,7 +40,7 @@ categories:
     title: 🚀 Package development
     subtitle: Facilitate development of [Typst packages and templates](https://github.com/typst/packages).
   - category: wasm
-    title: 🔢 WASM plugin development
+    title: 🔢 Wasm plugin development
     subtitle: Facilitate development of [Typst WebAssembly plugins](https://typst.app/docs/reference/foundations/plugin/).
   - category: docs-infra
     title: 🏗 Documentation infrastructure

@@ -45,6 +45,10 @@ Note that these licenses are different from CC BY-SA 4.0 [used by the main TCDM 
 
 ## Changelog
 
+### 0.0.3
+
+In previous versions, deleted GitHub projects with a homepage set manually trigger _error: expected string, found none_ via `_link(p.github_url)[GitHub]`. Now these projects will be hidden correctly.
+
 ### 0.0.2
 
 Add the missing zh translation for _Show {} hidden projects…_ at the end of each category. This text is shown only if there is at least one hidden project in the category.

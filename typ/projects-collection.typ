@@ -7,7 +7,12 @@
   // The key may not exist, if all projects do not have this field.
   let has(key) = p.at(key, default: none) != none
 
-  if has("github_id") and p.github_url == none and p.homepage == "{}" {
+  if (
+    has("github_id")
+      and p.github_url == none
+      and (p.homepage == "{}" or not p.homepage.starts-with("https://github.com/"))
+  ) {
+    // For deleted projects, homepages fetched from GitHub will be `{}`, but homepages set manually may still look valid.
     true
   } else if has("greasy_fork_id") and p.greasy_fork_code_url == none and p.homepage == none {
     true

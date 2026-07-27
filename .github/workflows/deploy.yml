@@ -41,6 +41,7 @@ jobs:
             history/*
             config/*
             projects.yaml
+            .github/typst-versions.yaml
           sparse-checkout-cone-mode: false
       - uses: extractions/setup-just@v4
         env:

@@ -45,9 +45,21 @@ Note that these licenses are different from CC BY-SA 4.0 [used by the main TCDM 
 
 ## Changelog
 
+### 0.0.3
+
+Changed:
+
+- Update cmarker [from v0.1.8 to v0.1.10](https://github.com/SabrinaJewson/cmarker.typ/compare/v0.1.8...v0.1.10) and remove an [outdated workaround for document set rules](https://github.com/SabrinaJewson/cmarker.typ/issues/56).
+
+Fixed:
+
+- In previous versions, deleted GitHub projects with a homepage set manually trigger _error: expected string, found none_ via `_link(p.github_url)[GitHub]`. Now these projects will be hidden correctly.
+
 ### 0.0.2
 
-Add the missing zh translation for _Show {} hidden projects…_ at the end of each category. This text is shown only if there is at least one hidden project in the category.
+Fixed:
+
+- Add the missing zh translation for _Show {} hidden projects…_ at the end of each category. This text is shown only if there is at least one hidden project in the category.
 
 ### 0.0.1
 

@@ -1,10 +1,11 @@
-#import "@preview/cmarker:0.1.8": render
+#import "@preview/cmarker:0.1.10": render
 #import "utils.typ": simplify-number
 
 /// Make cmarker support HTML
 #let config = (
   heading-labels: "jupyter", // Let it preserve cases
   h1-level: 0,
+  set-document-title: false,
   scope: (
     image: (path, alt: none) => html.img(
       src: path,
@@ -13,8 +14,6 @@
     rule: html.hr,
   ),
   html: (
-    // Override `<h1>` to circumvent https://github.com/SabrinaJewson/cmarker.typ/issues/56
-    h1: (attrs, body) => title(body),
     picture: (attrs, body) => html.picture(..attrs, body),
     source: ("void", attrs => html.elem("source", attrs: attrs)),
   ),

@@ -2105,3 +2105,8 @@ projects:
     github_id: twarge/typeset
     category: writing
     labels: [app]
+
+  - name: Days since last Typst editor
+    github_id: sermuns/days-since-last-typst-editor
+    category: docs
+    labels: [web]

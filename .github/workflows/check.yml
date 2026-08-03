@@ -27,7 +27,7 @@ jobs:
             scripts
           sparse-checkout-cone-mode: false
 
-      - uses: taiki-e/install-action@v2
+      - uses: taiki-e/install-action@v2.85.5
         with:
           tool: just
       - name: Install boon and yq
@@ -72,7 +72,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - uses: taiki-e/install-action@v2
+      - uses: taiki-e/install-action@v2.85.5
         with:
           tool: just,sd
       - run: just --shell=bash package 0.0.0

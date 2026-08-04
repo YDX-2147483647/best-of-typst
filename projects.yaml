@@ -2110,3 +2110,9 @@ projects:
     github_id: sermuns/days-since-last-typst-editor
     category: docs
     labels: [web]
+    
+  - name: typst-post
+    github_id: BashfulHippo/typst-post
+    pypi_id: typst-post
+    category: coding
+    labels: [cli, runnable]

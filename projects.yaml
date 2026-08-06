@@ -2116,3 +2116,8 @@ projects:
     pypi_id: typst-post
     category: writing
     labels: [runnable]
+
+  - name: SeaSlides
+    github_id: touying-typ/seaslides
+    category: docs
+    labels: [extension, multilingual]

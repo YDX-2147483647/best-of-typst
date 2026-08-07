@@ -2121,3 +2121,9 @@ projects:
     github_id: touying-typ/seaslides
     category: docs
     labels: [extension, multilingual]
+
+  - name: typst2vast
+    github_id: jdkato/typst2vast
+    category: convert
+    labels: [runnable, extension]
+    cargo_id: typst2vast

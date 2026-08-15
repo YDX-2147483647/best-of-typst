@@ -2127,3 +2127,7 @@ projects:
     category: convert
     labels: [runnable, extension]
     cargo_id: typst2vast
+
+  - name: Quill
+    github_id: ReeseHatfield/quill
+    category: coding

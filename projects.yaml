@@ -2131,3 +2131,8 @@ projects:
   - name: Quill
     github_id: ReeseHatfield/quill
     category: coding
+
+  - name: Typst Format Panel
+    github_id: mmaunier/typst-format-panel
+    category: writing
+    labels: [extension, multilingual]

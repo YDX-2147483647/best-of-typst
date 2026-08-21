@@ -24,7 +24,7 @@
   <a href="https://codeberg.org/YDX/best-of-typst"><img alt="Mirror Codeberg" src="https://img.shields.io/badge/Mirror-Codeberg-2185D0?logo=codeberg&labelColor=white"></a>
 </p>
 
-This list contains 360 awesome open-source projects with a total of 53K stars grouped into
+This list contains 360 awesome open-source projects with a total of 54K stars grouped into
 11 categories. All projects are ranked by a project-quality score, which is calculated based on various
 metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel
 free to open an [issue](https://github.com/YDX-2147483647/best-of-typst/issues/new/choose), submit a [pull
@@ -36,16 +36,16 @@ welcome!
 
 ## Contents
 
-- [📚 Documentation](#docs) _34 projects_
-- [📝 Writing](#writing) _75 projects_
+- [📚 Documentation](#docs) _35 projects_
+- [📝 Writing](#writing) _79 projects_
 - [📐 Math](#math) _25 projects_
-- [🧾 Bibliography](#ref) _17 projects_
+- [🧾 Bibliography](#ref) _16 projects_
 - [⚔️ Mix writing](#mix) _37 projects_
-- [🎩 Conversion](#convert) _37 projects_
+- [🎩 Conversion](#convert) _38 projects_
 - [🚀 Package development](#pkg) _13 projects_
-- [🔢 WASM plugin development](#wasm) _10 projects_
+- [🔢 Wasm plugin development](#wasm) _10 projects_
 - [🏗 Documentation infrastructure](#docs-infra) _8 projects_
-- [💻 Programming](#coding) _63 projects_
+- [💻 Programming](#coding) _64 projects_
 - [🐱‍🐉 Miscellaneous](#misc) _38 projects_
 
 ## Explanation
@@ -72,39 +72,39 @@ welcome!
 
 _Supplement to the [official Typst documentation](https://typst.app/docs/), such as examples and translations._
 
-<details><summary><b><a href="https://typst-jp.github.io/docs/">Typst 日本語ドキュメント</a></b>  - 🥇15 ·  ⭐ 60 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🦋 Web</code> · <code>🐧 non-English</code><br>Typst Documentation 日本語版.</summary>
+<details><summary><b><a href="https://janosh.github.io/diagrams">Scientific Diagrams</a></b>  - 🥇15 ·  ⭐ 680 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code><br>Diagrams of concepts in physics/chemistry/ML.</summary>
 
-- [GitHub](https://github.com/typst-jp/docs) (👨‍💻 400 · 🔀 17 · 📋 97 - 14% open · ⏱️ 20.07.2026):
-
-	```
-	git clone https://github.com/typst-jp/docs
-	```
-</details>
-<details><summary><b><a href="https://janosh.github.io/diagrams">Scientific Diagrams</a></b>  - 🥇14 ·  ⭐ 660 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code><br>Diagrams of concepts in physics/chemistry/ML.</summary>
-
-- [GitHub](https://github.com/janosh/diagrams) (👨‍💻 11 · 🔀 76 · ⏱️ 16.07.2026):
+- [GitHub](https://github.com/janosh/diagrams) (👨‍💻 11 · 🔀 77 · ⏱️ 18.08.2026):
 
 	```
 	git clone https://github.com/janosh/diagrams
 	```
 </details>
-<details><summary><b><a href="https://typst-doc-cn.github.io/tutorial/">The Raindrop-Blue Book (Typst中文教程)</a></b>  - 🥇14 ·  ⭐ 210 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🦋 Web</code> · <code>🐧 non-English</code><br>Typst中文教程.</summary>
+<details><summary><b><a href="https://typst-jp.github.io/docs/">Typst 日本語ドキュメント</a></b>  - 🥇15 ·  ⭐ 62 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🦋 Web</code> · <code>🐧 non-English</code><br>Typst Documentation 日本語版.</summary>
 
-- [GitHub](https://github.com/typst-doc-cn/tutorial) (👨‍💻 9 · 🔀 28 · 📥 1.2K · 📋 16 - 68% open · ⏱️ 21.06.2026):
+- [GitHub](https://github.com/typst-jp/docs) (👨‍💻 400 · 🔀 17 · 📋 97 - 13% open · ⏱️ 11.08.2026):
+
+	```
+	git clone https://github.com/typst-jp/docs
+	```
+</details>
+<details><summary><b><a href="https://typst-doc-cn.github.io/tutorial/">The Raindrop-Blue Book (Typst中文教程)</a></b>  - 🥇14 ·  ⭐ 220 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🦋 Web</code> · <code>🐧 non-English</code><br>Typst中文教程.</summary>
+
+- [GitHub](https://github.com/typst-doc-cn/tutorial) (👨‍💻 9 · 🔀 29 · 📥 1.3K · 📋 18 - 66% open · ⏱️ 21.06.2026):
 
 	```
 	git clone https://github.com/typst-doc-cn/tutorial
 	```
 </details>
-<details><summary><b><a href="https://typst.dev/guide/">Typst 中文社区导航</a></b>  - 🥇13 ·  ⭐ 34 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code> · <code>🐧 non-English</code><br>Typst 中文社区导航——这里收集了一些官方文档和小蓝书中未提到的一些问题和小技巧，尤其是面向中文用户的。.</summary>
+<details><summary><b><a href="https://typst.dev/guide/">Typst 中文社区导航</a></b>  - 🥇13 ·  ⭐ 35 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code> · <code>🐧 non-English</code><br>Typst 中文社区导航——这里收集了一些官方文档和小蓝书中未提到的一些问题和小技巧，尤其是面向中文用户的。.</summary>
 
-- [GitHub](https://github.com/typst-doc-cn/guide) (👨‍💻 25 · 🔀 28 · 📥 1.3K · 📋 25 - 36% open · ⏱️ 20.07.2026):
+- [GitHub](https://github.com/typst-doc-cn/guide) (👨‍💻 25 · 🔀 29 · 📥 1.4K · 📋 34 - 41% open · ⏱️ 14.08.2026):
 
 	```
 	git clone https://github.com/typst-doc-cn/guide
 	```
 </details>
-<details><summary><b><a href="https://sitandr.github.io/typst-examples-book/book">Typst Examples Book</a></b>  - 🥈12 ·  ⭐ 510 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code><br>Book of educational examples for Typst.</summary>
+<details><summary><b><a href="https://sitandr.github.io/typst-examples-book/book">Typst Examples Book</a></b>  - 🥈12 ·  ⭐ 520 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code><br>Book of educational examples for Typst.</summary>
 
 - [GitHub](https://github.com/sitandr/typst-examples-book) (👨‍💻 28 · 🔀 39 · 📋 15 - 6% open · ⏱️ 02.06.2026):
 
@@ -112,63 +112,63 @@ _Supplement to the [official Typst documentation](https://typst.app/docs/), such
 	git clone https://github.com/sitandr/typst-examples-book
 	```
 </details>
-<details><summary><b><a href="https://github.com/johanvx/typst-undergradmath">typst-undergradmath</a></b>  - 🥈12 ·  ⭐ 150 · <code><a href="https://tldrlegal.com/license/creative-commons-attribution-sharealike-4-0-international-cc-by-sa-4-0">CC-BY-SA-4.0</a></code><br>A Typst port of undergradmath.</summary>
+<details><summary><b><a href="https://github.com/johanvx/typst-undergradmath">typst-undergradmath</a></b>  - 🥈12 ·  ⭐ 150 · 💤 · <code><a href="https://tldrlegal.com/license/creative-commons-attribution-sharealike-4-0-international-cc-by-sa-4-0">CC-BY-SA-4.0</a></code><br>A Typst port of undergradmath.</summary>
 
-- [GitHub](https://github.com/johanvx/typst-undergradmath) (👨‍💻 9 · 🔀 7 · 📥 2.7K · 📋 16 - 18% open · ⏱️ 30.04.2026):
+- [GitHub](https://github.com/johanvx/typst-undergradmath) (👨‍💻 9 · 🔀 8 · 📥 2.8K · 📋 16 - 18% open · ⏱️ 30.04.2026):
 
 	```
 	git clone https://github.com/johanvx/typst-undergradmath
 	```
 </details>
-<details><summary><b><a href="https://typst-doc-cn.github.io/clreq/">clreq-gap for typst</a></b>  - 🥈10 ·  ⭐ 31 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🦋 Web</code> · <code>🗺️ Multilingual</code><br>clreq-gap (Chinese layout gap analysis) for typst. 分析 Typst 与中文排版的差距。https://gap.zhtyp.art.</summary>
+<details><summary><b><a href="https://typst-doc-cn.github.io/clreq/">clreq-gap for typst</a></b>  - 🥈10 ·  ⭐ 32 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🦋 Web</code> · <code>🗺️ Multilingual</code><br>clreq-gap (Chinese layout gap analysis) for typst. 分析 Typst 与中文排版的差距。https://gap.zhtyp.art.</summary>
 
-- [GitHub](https://github.com/typst-doc-cn/clreq) (👨‍💻 5 · 🔀 4 · 📋 20 - 50% open · ⏱️ 18.07.2026):
+- [GitHub](https://github.com/typst-doc-cn/clreq) (👨‍💻 5 · 🔀 4 · 📋 21 - 52% open · ⏱️ 15.08.2026):
 
 	```
 	git clone https://github.com/typst-doc-cn/clreq
 	```
 </details>
-<details><summary><b><a href="https://github.com/lucifer1004/claude-skill-typst">lucifer1004/claude-skill-typst</a></b>  - 🥈9 ·  ⭐ 110 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Typst skill for agents.</summary>
+<details><summary><b><a href="https://github.com/lucifer1004/claude-skill-typst">lucifer1004/claude-skill-typst</a></b>  - 🥈9 ·  ⭐ 120 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Typst skill for agents.</summary>
 
-- [GitHub](https://github.com/lucifer1004/claude-skill-typst) (👨‍💻 2 · 🔀 4 · ⏱️ 20.07.2026):
+- [GitHub](https://github.com/lucifer1004/claude-skill-typst) (👨‍💻 2 · 🔀 5 · ⏱️ 17.08.2026):
 
 	```
 	git clone https://github.com/lucifer1004/claude-skill-typst
 	```
 </details>
-<details><summary><b><a href="https://github.com/johannesbrandenburger/typst-mcp">johannesbrandenburger/typst-mcp</a></b>  - 🥈7 ·  ⭐ 170 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>Typst MCP Server is an MCP (Model Context Protocol) implementation that helps AI models interact with Typst, a markup-..</summary>
+<details><summary><b><a href="https://github.com/johannesbrandenburger/typst-mcp">johannesbrandenburger/typst-mcp</a></b>  - 🥈7 ·  ⭐ 170 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>Typst MCP Server is an MCP (Model Context Protocol) implementation that helps AI models interact with Typst, a markup-..</summary>
 
-- [GitHub](https://github.com/johannesbrandenburger/typst-mcp) (👨‍💻 5 · 🔀 16 · 📋 3 - 66% open · ⏱️ 18.04.2026):
+- [GitHub](https://github.com/johannesbrandenburger/typst-mcp) (👨‍💻 5 · 🔀 18 · 📋 3 - 66% open · ⏱️ 18.04.2026):
 
 	```
 	git clone https://github.com/johannesbrandenburger/typst-mcp
 	```
 </details>
-<details><summary><b><a href="https://github.com/apcamargo/typst-skills">apcamargo/typst-skills</a></b>  - 🥈6 ·  ⭐ 180 · <code>❗&nbsp;Unlicensed</code> · <code>🧩 Extension</code><br>Agent skills that guide AI agents to write Typst code.</summary>
+<details><summary><b><a href="https://github.com/CRStefano/Typst-Handbook-A-Comprehensive-Guide">Typst: From Zero to Hero</a></b>  - 🥈7 ·  ⭐ 22 · 🐣 · <code><a href="https://tldrlegal.com/search?query=CC0-1.0">❗️&nbsp;CC0-1.0</a></code> · <code>🗺️ Multilingual</code><br>Elevate your documentation with this professional Typst manual template. Designed for clarity and performance. Perfect..</summary>
 
-- [GitHub](https://github.com/apcamargo/typst-skills) (🔀 9 · ⏱️ 08.07.2026):
-
-	```
-	git clone https://github.com/apcamargo/typst-skills
-	```
-</details>
-<details><summary><b><a href="https://github.com/CRStefano/Typst-Handbook-A-Comprehensive-Guide">Typst: From Zero to Hero</a></b>  - 🥈6 ·  ⭐ 18 · 🐣 · <code><a href="https://tldrlegal.com/search?query=CC0-1.0">❗️&nbsp;CC0-1.0</a></code> · <code>🗺️ Multilingual</code><br>Elevate your documentation with this professional Typst manual template. Designed for clarity and performance. Perfect..</summary>
-
-- [GitHub](https://github.com/CRStefano/Typst-Handbook-A-Comprehensive-Guide) (📋 6 - 16% open · ⏱️ 20.06.2026):
+- [GitHub](https://github.com/CRStefano/Typst-Handbook-A-Comprehensive-Guide) (📋 10 - 50% open · ⏱️ 20.06.2026):
 
 	```
 	git clone https://github.com/CRStefano/Typst-Handbook-A-Comprehensive-Guide
 	```
 </details>
-<details><summary><b><a href="https://github.com/MoYeRanqianzhi/typst-skill">MoYeRanqianzhi/typst-skill</a></b>  - 🥈5 ·  ⭐ 4 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>typst skill for agent.</summary>
+<details><summary><b><a href="https://tylina.github.io/">SeaSlides</a></b>  - 🥈7 ·  ⭐ 21 · ➕ · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code> · <code>🗺️ Multilingual</code><br>AI skills for presentation slides generation with Typst and Touying.</summary>
 
-- [GitHub](https://github.com/MoYeRanqianzhi/typst-skill) (👨‍💻 2 · ⏱️ 05.05.2026):
+- [GitHub](https://github.com/touying-typ/seaslides) (🔀 3 · ⏱️ 09.08.2026):
 
 	```
-	git clone https://github.com/MoYeRanqianzhi/typst-skill
+	git clone https://github.com/touying-typ/seaslides
 	```
 </details>
-<details><summary><b><a href="https://myriad-dreamin.github.io/interactive-typst-tutorial/">Typst 交互式教程</a></b>  - 🥈5 ·  ⭐ 3 · 🐣 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🦋 Web</code> · <code>🐧 non-English</code><br>Interactive Typst tutorial.</summary>
+<details><summary><b><a href="https://github.com/apcamargo/typst-skills">apcamargo/typst-skills</a></b>  - 🥈6 ·  ⭐ 200 · <code>❗&nbsp;Unlicensed</code> · <code>🧩 Extension</code><br>Agent skills that guide AI agents to write Typst code.</summary>
+
+- [GitHub](https://github.com/apcamargo/typst-skills) (🔀 10 · ⏱️ 08.07.2026):
+
+	```
+	git clone https://github.com/apcamargo/typst-skills
+	```
+</details>
+<details><summary><b><a href="https://myriad-dreamin.github.io/interactive-typst-tutorial/">Typst 交互式教程</a></b>  - 🥉5 ·  ⭐ 3 · 🐣 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🦋 Web</code> · <code>🐧 non-English</code><br>Interactive Typst tutorial.</summary>
 
 - [GitHub](https://github.com/Myriad-Dreamin/interactive-typst-tutorial) (⏱️ 21.06.2026):
 
@@ -176,12 +176,25 @@ _Supplement to the [official Typst documentation](https://typst.app/docs/), such
 	git clone https://github.com/Myriad-Dreamin/interactive-typst-tutorial
 	```
 </details>
-<details><summary><b><a href="https://hyperrick.github.io/typst-optical-kerning-bench/">Typst Optical Kerning Bench</a></b>  - 🥈5 ·  ⭐ 1 · 🐣 · <code>❗&nbsp;Unlicensed</code> · <code>🦋 Web</code><br>Reproducible optical kerning benchmark and preference study for Typst.</summary>
+<details><summary><b><a href="https://hyperrick.github.io/typst-optical-kerning-bench/">Typst Optical Kerning Bench</a></b>  - 🥉5 ·  ⭐ 1 · 🐣 · <code>❗&nbsp;Unlicensed</code> · <code>🦋 Web</code><br>Reproducible optical kerning benchmark and preference study for Typst.</summary>
 
 - [GitHub](https://github.com/Hyperrick/typst-optical-kerning-bench) (⏱️ 12.07.2026):
 
 	```
 	git clone https://github.com/Hyperrick/typst-optical-kerning-bench
+	```
+</details>
+<details><summary><b><a href="https://greasyfork.org/scripts/541162-github-info-on-typst-universe">GitHub info on Typst Universe</a></b>  - 🥉5 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Display information about the GitHub repository on typst.app/universe.</summary>
+
+- [Greasy Fork](https://greasyfork.org/scripts/541162)  (📥 2 (total) · 🌟 5):
+	[541162](https://update.greasyfork.org/scripts/541162/GitHub%20info%20on%20Typst%20Universe.user.js)
+</details>
+<details><summary><b><a href="https://github.com/MoYeRanqianzhi/typst-skill">MoYeRanqianzhi/typst-skill</a></b>  - 🥉4 ·  ⭐ 4 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>typst skill for agent.</summary>
+
+- [GitHub](https://github.com/MoYeRanqianzhi/typst-skill) (👨‍💻 2 · ⏱️ 05.05.2026):
+
+	```
+	git clone https://github.com/MoYeRanqianzhi/typst-skill
 	```
 </details>
 <details><summary><b><a href="https://ydx-2147483647.github.io/typst-set-font/">typst-set-font</a></b>  - 🥉4 ·  ⭐ 3 · <code>❗&nbsp;Unlicensed</code> · <code>🦋 Web</code> · <code>🐧 non-English</code><br>Setting Chinese font in Typst. 设置 Typst 中文字体。.</summary>
@@ -192,6 +205,14 @@ _Supplement to the [official Typst documentation](https://typst.app/docs/), such
 	git clone https://github.com/YDX-2147483647/typst-set-font
 	```
 </details>
+<details><summary><b><a href="https://typst-community.github.io/extra-docs/">Typst Extra Docs</a></b>  - 🥉4 ·  ⭐ 3 · <code>❗&nbsp;Unlicensed</code> · <code>🦋 Web</code><br>An unofficial collection of extra official documentations for Typst.</summary>
+
+- [GitHub](https://github.com/typst-community/extra-docs) (👨‍💻 2 · 📋 4 - 25% open · ⏱️ 09.08.2026):
+
+	```
+	git clone https://github.com/typst-community/extra-docs
+	```
+</details>
 <details><summary><b><a href="https://github.com/ultimatile/typst-raw-lang-tags">typst-raw-lang-tags</a></b>  - 🥉4 ·  ⭐ 3 · 🐣 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🥡 Runnable</code><br>Inspect language names and tags accepted by Typst raw code-block highlighting.</summary>
 
 - [GitHub](https://github.com/ultimatile/typst-raw-lang-tags) (👨‍💻 2 · ⏱️ 17.07.2026):
@@ -200,15 +221,7 @@ _Supplement to the [official Typst documentation](https://typst.app/docs/), such
 	git clone https://github.com/ultimatile/typst-raw-lang-tags
 	```
 </details>
-<details><summary><b><a href="https://snippyst.com">Snippyst</a></b>  - 🥉3 ·  ⭐ 5 · 💤 · <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-agpl-3-0">❗️&nbsp;AGPL-3.0</a></code> · <code>🦋 Web</code><br>An online, free, open-source snippet sharing platform for typst snippets.</summary>
-
-- [GitHub](https://github.com/Snippyst/frontend) (⏱️ 31.12.2025):
-
-	```
-	git clone https://github.com/Snippyst/frontend
-	```
-</details>
-<details><summary><b><a href="https://github.com/kongdd/expert-typst">Typst-expert Extension for Gemini-code</a></b>  - 🥉3 ·  ⭐ 5 · 💤 · <code>❗&nbsp;Unlicensed</code> · <code>🧩 Extension</code><br>Typst Expert for Gemini-CLI.</summary>
+<details><summary><b><a href="https://github.com/kongdd/expert-typst">Typst-expert Extension for Gemini-code</a></b>  - 🥉3 ·  ⭐ 7 · 💤 · <code>❗&nbsp;Unlicensed</code> · <code>🧩 Extension</code><br>Typst Expert for Gemini-CLI.</summary>
 
 - [GitHub](https://github.com/kongdd/expert-typst) (⏱️ 14.12.2025):
 
@@ -216,20 +229,20 @@ _Supplement to the [official Typst documentation](https://typst.app/docs/), such
 	git clone https://github.com/kongdd/typst-llm-expert
 	```
 </details>
-<details><summary><b><a href="https://huggingface.co/rkstgr/typer-1.5b-base-gguf">Typer</a></b>  - 🥉3 ·  ⭐ 3 · <code>❗&nbsp;Unlicensed</code><br>Typer is the first LLM trained specifically for Typst, a performant modern typesetting system for generating PDF..</summary>
+<details><summary><b><a href="https://snippyst.com">Snippyst</a></b>  - 🥉3 ·  ⭐ 6 · 💤 · <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-agpl-3-0">❗️&nbsp;AGPL-3.0</a></code> · <code>🦋 Web</code><br>An online, free, open-source snippet sharing platform for typst snippets.</summary>
+
+- [GitHub](https://github.com/Snippyst/frontend) (⏱️ 31.12.2025):
+
+	```
+	git clone https://github.com/Snippyst/frontend
+	```
+</details>
+<details><summary><b><a href="https://huggingface.co/rkstgr/typer-1.5b-base-gguf">Typer</a></b>  - 🥉3 ·  ⭐ 4 · <code>❗&nbsp;Unlicensed</code><br>Typer is the first LLM trained specifically for Typst, a performant modern typesetting system for generating PDF..</summary>
 
 - [GitHub](https://github.com/rkstgr/Typer) (⏱️ 03.06.2026):
 
 	```
 	git clone https://github.com/rkstgr/Typer
-	```
-</details>
-<details><summary><b><a href="https://typst-community.github.io/extra-docs/">Typst Extra Docs</a></b>  - 🥉3 ·  ⭐ 3 · 🐣 · <code>❗&nbsp;Unlicensed</code> · <code>🦋 Web</code><br>An unofficial collection of extra official documentations for Typst.</summary>
-
-- [GitHub](https://github.com/typst-community/extra-docs) (👨‍💻 2 · 📋 3 - 33% open · ⏱️ 20.07.2026):
-
-	```
-	git clone https://github.com/typst-community/extra-docs
 	```
 </details>
 <details><summary><b><a href="https://github.com/tzhtaylor/typst-undergradmath-zh">typst-undergradmath-zh</a></b>  - 🥉3 ·  ⭐ 1 · <code><a href="https://tldrlegal.com/license/creative-commons-attribution-sharealike-4-0-international-cc-by-sa-4-0">CC-BY-SA-4.0</a></code> · <code>🐧 non-English</code><br>A Typst port of undergradmath (in Chinese).</summary>
@@ -240,28 +253,28 @@ _Supplement to the [official Typst documentation](https://typst.app/docs/), such
 	git clone https://github.com/tzhtaylor/typst-undergradmath-zh
 	```
 </details>
-<details><summary><b><a href="https://liquidhelium.github.io/typlica/">Typlica</a></b>  - 🥉2 ·  ⭐ 8 · 🐣 · <code>❗&nbsp;Unlicensed</code> · <code>🦋 Web</code> · <code>🗺️ Multilingual</code><br>An interactive Typst exercise platform — bringing a Rustlings-style learning experience to the Typst world.</summary>
-
-- [GitHub](https://github.com/liquidhelium/typlica) (👨‍💻 2 · 🔀 1 · ⏱️ 20.04.2026):
-
-	```
-	git clone https://github.com/liquidhelium/typlica
-	```
-</details>
-<details><summary><b><a href="https://typst-cli-docs.vercel.app">Typst CLI Docs</a></b>  - 🥉2 ·  ⭐ 2 · 💤 · <code>❗&nbsp;Unlicensed</code> · <code>🦋 Web</code><br>A lightweight, static documentation site for the Typst command-line tooling.</summary>
-
-- [GitHub](https://github.com/Ayanprogrammer11/typst-cli-docs) (⏱️ 10.11.2025):
-
-	```
-	git clone https://github.com/Ayanprogrammer11/typst-cli-docs
-	```
-</details>
-<details><summary><b><a href="https://github.com/statzhero/typst-skill">statzhero/typst-skill</a></b>  - 🥉1 ·  ⭐ 9 · 🐣 · <code>❗&nbsp;Unlicensed</code> · <code>🧩 Extension</code><br>An LLM skill for modern Typst typesetting (0.14+).</summary>
+<details><summary><b><a href="https://github.com/statzhero/typst-skill">statzhero/typst-skill</a></b>  - 🥉2 ·  ⭐ 12 · 💤 · <code>❗&nbsp;Unlicensed</code> · <code>🧩 Extension</code><br>An LLM skill for modern Typst typesetting (0.14+).</summary>
 
 - [GitHub](https://github.com/statzhero/typst-skill) (🔀 2 · ⏱️ 30.04.2026):
 
 	```
 	git clone https://github.com/statzhero/typst-skill
+	```
+</details>
+<details><summary><b><a href="http://days-since-last-typst-editor.samake.se/">Days since last Typst editor</a></b>  - 🥉2 ·  ⭐ 11 · 🐣 · <code>❗&nbsp;Unlicensed</code> · <code>🦋 Web</code><br></summary>
+
+- [GitHub](https://github.com/sermuns/days-since-last-typst-editor) (⏱️ 19.08.2026):
+
+	```
+	git clone https://github.com/sermuns/days-since-last-typst-editor
+	```
+</details>
+<details><summary><b><a href="https://liquidhelium.github.io/typlica/">Typlica</a></b>  - 🥉2 ·  ⭐ 8 · 💤 · <code>❗&nbsp;Unlicensed</code> · <code>🦋 Web</code> · <code>🗺️ Multilingual</code><br>An interactive Typst exercise platform — bringing a Rustlings-style learning experience to the Typst world.</summary>
+
+- [GitHub](https://github.com/liquidhelium/typlica) (👨‍💻 2 · 🔀 1 · ⏱️ 20.04.2026):
+
+	```
+	git clone https://github.com/liquidhelium/typlica
 	```
 </details>
 <details><summary><b><a href="https://gist.github.com/Ayanprogrammer11/dfb420e81685acf68ca4dfa4f3081233">typst_docs_summary.txt</a></b>  - 🥉1 · <code>❗&nbsp;Unlicensed</code><br>A ready to copy-paste file into LLMs, to make them instantly aware of all the areas in Typst. (Trust me, they dont get..</summary>
@@ -275,9 +288,9 @@ _Supplement to the [official Typst documentation](https://typst.app/docs/), such
 	git clone https://github.com/OrangeX4/typst-universe-with-stars
 	```
 </details>
-<details><summary>Show 8 hidden projects...</summary>
+<details><summary>Show 7 hidden projects...</summary>
 
-<details><summary><b><a href="https://typst-doc-cn.github.io/docs/">Typst 中文文档网站</a></b>  - 🥈12 ·  ⭐ 55 · 💀 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🦋 Web</code> · <code>🐧 non-English</code><br>社区驱动的非官方 Typst 中文文档。.</summary>
+<details><summary><b><a href="https://typst-doc-cn.github.io/docs/">Typst 中文文档网站</a></b>  - 🥈12 ·  ⭐ 56 · 💀 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🦋 Web</code> · <code>🐧 non-English</code><br>社区驱动的非官方 Typst 中文文档。.</summary>
 
 - [GitHub](https://github.com/typst-doc-cn/typst-doc-cn.github.io) (👨‍💻 210 · 🔀 17 · ⏱️ 02.03.2025):
 
@@ -285,12 +298,7 @@ _Supplement to the [official Typst documentation](https://typst.app/docs/), such
 	git clone https://github.com/typst-doc-cn/typst-doc-cn.github.io
 	```
 </details>
-<details><summary><b><a href="https://greasyfork.org/scripts/541162-github-info-on-typst-universe">GitHub info on Typst Universe</a></b>  - 🥉4 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Display information about the GitHub repository on typst.app/universe.</summary>
-
-- [Greasy Fork](https://greasyfork.org/scripts/541162)  (📥 2 (total) · 🌟 5):
-	[541162](https://update.greasyfork.org/scripts/541162/GitHub%20info%20on%20Typst%20Universe.user.js)
-</details>
-<details><summary><b><a href="https://github.com/mewmew/typst-cheat-sheet/raw/master/cheat-sheet.pdf">Typst cheat sheet</a></b>  - 🥉3 ·  ⭐ 26 · 💀 · <code><a href="https://tldrlegal.com/search?query=0BSD">❗️&nbsp;0BSD</a></code><br>Typst cheat sheet.</summary>
+<details><summary><b><a href="https://github.com/mewmew/typst-cheat-sheet/raw/master/cheat-sheet.pdf">Typst cheat sheet</a></b>  - 🥉3 ·  ⭐ 29 · 💀 · <code><a href="https://tldrlegal.com/search?query=0BSD">❗️&nbsp;0BSD</a></code><br>Typst cheat sheet.</summary>
 
 - [GitHub](https://github.com/mewmew/typst-cheat-sheet) (📋 2 - 50% open · ⏱️ 08.10.2025):
 
@@ -347,150 +355,154 @@ _Supplement to the [official Typst documentation](https://typst.app/docs/), such
 
 _Compose articles and books._
 
-<details><summary><b><a href="https://myriad-dreamin.github.io/tinymist">tinymist</a></b>  - 🥇27 ·  ⭐ 3.4K · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🧩 Extension</code> · <code>🤖 CLI</code> · <code>🔌 API</code><br>Tinymist [ˈtaɪni mɪst] is an integrated language service for Typst [taɪpst].</summary>
+<details><summary><b><a href="https://myriad-dreamin.github.io/tinymist">tinymist</a></b>  - 🥇27 ·  ⭐ 3.5K · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🧩 Extension</code> · <code>🤖 CLI</code> · <code>🔌 API</code><br>Tinymist [ˈtaɪni mɪst] is an integrated language service for Typst [taɪpst].</summary>
 
-- [GitHub](https://github.com/Myriad-Dreamin/tinymist) (👨‍💻 140 · 🔀 170 · 📥 57K · 📋 770 - 26% open · ⏱️ 15.07.2026):
+- [GitHub](https://github.com/Myriad-Dreamin/tinymist) (👨‍💻 140 · 🔀 180 · 📥 69K · 📋 760 - 25% open · ⏱️ 20.08.2026):
 
 	```
 	git clone https://github.com/Myriad-Dreamin/tinymist
 	```
-- [Cargo](https://crates.io/crates/tinymist-query) (📥 190 / month · 📦 3 · ⏱️ 21.06.2026):
+- [Cargo](https://crates.io/crates/tinymist-query) (📥 190 / month · 📦 3 · ⏱️ 26.07.2026):
 	```
 	cargo install tinymist-query
 	```
 </details>
-<details><summary><b><a href="https://typstyle-rs.github.io/typstyle/">typstyle</a></b>  - 🥇23 ·  ⭐ 860 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🤖 CLI</code> · <code>🧩 Extension</code> · <code>🦋 Web</code> · <code>🔌 API</code><br>Beautiful and reliable typst code formatter.</summary>
+<details><summary><b><a href="https://typstyle-rs.github.io/typstyle/">typstyle</a></b>  - 🥇23 ·  ⭐ 880 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🤖 CLI</code> · <code>🧩 Extension</code> · <code>🦋 Web</code> · <code>🔌 API</code><br>Beautiful and reliable typst code formatter.</summary>
 
-- [GitHub](https://github.com/typstyle-rs/typstyle) (👨‍💻 23 · 🔀 29 · 📥 110K · 📦 3 · 📋 150 - 21% open · ⏱️ 21.06.2026):
+- [GitHub](https://github.com/typstyle-rs/typstyle) (👨‍💻 26 · 🔀 29 · 📥 120K · 📦 3 · 📋 150 - 21% open · ⏱️ 28.07.2026):
 
 	```
 	git clone https://github.com/typstyle-rs/typstyle
 	```
-- [npm](https://www.npmjs.com/package/@typstyle/typstyle-wasm-bundler) (📥 15K / month · 📦 2 · ⏱️ 20.06.2026):
+- [npm](https://www.npmjs.com/package/@typstyle/typstyle-wasm-bundler) (📥 16K / month · 📦 2 · ⏱️ 02.08.2026):
 	```
 	npm install @typstyle/typstyle-wasm-bundler
 	```
-- [Cargo](https://crates.io/crates/typstyle-core) (📥 9.7K / month · 📦 6 · ⏱️ 20.06.2026):
+- [Cargo](https://crates.io/crates/typstyle-core) (📥 7.7K / month · 📦 8 · ⏱️ 02.08.2026):
 	```
 	cargo install typstyle-core
 	```
-- [Greasy Fork](https://greasyfork.org/scripts/542164)  (📥 29 (total) · 🌟 21):
+- [Greasy Fork](https://greasyfork.org/scripts/542164)  (📥 35 (total) · 🌟 21):
 	[542164](https://update.greasyfork.org/scripts/542164/typstyle-tampermonkey.user.js)
 </details>
-<details><summary><b><a href="https://texlyre.github.io/texlyre/">TeXlyre</a></b>  - 🥇19 ·  ⭐ 900 · <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-agpl-3-0">❗️&nbsp;AGPL-3.0</a></code> · <code>🥡 Runnable</code> · <code>🦋 Web</code><br>A local-first LaTeX & Typst web editor with real-time collaboration & offline support.</summary>
+<details><summary><b><a href="https://texlyre.github.io/texlyre/">TeXlyre</a></b>  - 🥇19 ·  ⭐ 930 · <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-agpl-3-0">❗️&nbsp;AGPL-3.0</a></code> · <code>🥡 Runnable</code> · <code>🦋 Web</code><br>A local-first LaTeX & Typst web editor with real-time collaboration & offline support.</summary>
 
-- [GitHub](https://github.com/TeXlyre/texlyre) (👨‍💻 3 · 🔀 63 · 📋 56 - 3% open · ⏱️ 21.07.2026):
+- [GitHub](https://github.com/TeXlyre/texlyre) (👨‍💻 4 · 🔀 69 · 📋 61 - 8% open · ⏱️ 21.08.2026):
 
 	```
 	git clone https://github.com/TeXlyre/texlyre
 	```
 </details>
-<details><summary><b><a href="https://tyx-editor.com">TyX</a></b>  - 🥇16 ·  ⭐ 200 · 📉 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code> · <code>🎨 App</code><br>A LyX-like experience rewritten for Typst and the modern era.</summary>
+<details><summary><b><a href="https://github.com/vulogov/blackInkhaven">Inkhaven</a></b>  - 🥇17 ·  ⭐ 18 · 🐣 · <code><a href="https://tldrlegal.com/license/unlicense">Unlicense</a></code> · <code>🤖 CLI</code><br>Inkhaven is a standalone terminal application for writing books and long-form technical documentation. It pairs a..</summary>
 
-- [GitHub](https://github.com/tyx-editor/TyX) (👨‍💻 3 · 🔀 3 · 📥 5.2K · 📋 61 - 27% open · ⏱️ 21.06.2026):
+- [GitHub](https://github.com/vulogov/blackInkhaven) (👨‍💻 2 · 🔀 1 · 📥 14 · ⏱️ 21.08.2026):
+
+	```
+	git clone https://github.com/vulogov/blackInkhaven
+	```
+- [Cargo](https://crates.io/crates/inkhaven) (📥 1.3K / month · ⏱️ 12.08.2026):
+	```
+	cargo install inkhaven
+	```
+</details>
+<details><summary><b><a href="https://tyx-editor.com">TyX</a></b>  - 🥇16 ·  ⭐ 200 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code> · <code>🎨 App</code><br>A LyX-like experience rewritten for Typst and the modern era.</summary>
+
+- [GitHub](https://github.com/tyx-editor/TyX) (👨‍💻 3 · 🔀 3 · 📥 5.4K · 📋 61 - 27% open · ⏱️ 21.06.2026):
 
 	```
 	git clone https://github.com/tyx-editor/TyX
 	```
 </details>
-<details><summary><b><a href="https://katvan.app">Katvan</a></b>  - 🥇16 ·  ⭐ 170 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🎨 App</code><br>A bare-bones editor for Typst files, with a bias for Right-to-Left editing.</summary>
+<details><summary><b><a href="https://katvan.app">Katvan</a></b>  - 🥇16 ·  ⭐ 180 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🎨 App</code><br>A bare-bones editor for Typst files, with a bias for Right-to-Left editing.</summary>
 
-- [GitHub](https://github.com/IgKh/katvan) (👨‍💻 2 · 🔀 11 · 📥 4.8K · 📋 43 - 27% open · ⏱️ 17.07.2026):
+- [GitHub](https://github.com/IgKh/katvan) (👨‍💻 2 · 🔀 11 · 📥 5.1K · 📋 44 - 25% open · ⏱️ 17.07.2026):
 
 	```
 	git clone https://github.com/IgKh/katvan
 	```
 </details>
-<details><summary><b><a href="https://github.com/vulogov/blackInkhaven">Inkhaven</a></b>  - 🥇16 ·  ⭐ 15 · 🐣 · <code><a href="https://tldrlegal.com/license/unlicense">Unlicense</a></code> · <code>🤖 CLI</code><br>Inkhaven is a standalone terminal application for writing books and long-form technical documentation. It pairs a..</summary>
+<details><summary><b><a href="https://github.com/aburousan/hilbert-editor">Hilbert</a></b>  - 🥇16 ·  ⭐ 110 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code> · <code>🎨 App</code><br>Hilbert — an offline scientific IDE for Typst (Unofficial). Live PDF preview, physics/math tooling, live..</summary>
 
-- [GitHub](https://github.com/vulogov/blackInkhaven) (👨‍💻 2 · 📥 13 · ⏱️ 22.07.2026):
-
-	```
-	git clone https://github.com/vulogov/blackInkhaven
-	```
-- [Cargo](https://crates.io/crates/inkhaven) (📥 800 / month · ⏱️ 21.07.2026):
-	```
-	cargo install inkhaven
-	```
-</details>
-<details><summary><b><a href="https://github.com/chomosuke/typst-preview.nvim">chomosuke/typst-preview.nvim</a></b>  - 🥈15 ·  ⭐ 980 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🧩 Extension</code><br>Low latency typst preview for Neovim.</summary>
-
-- [GitHub](https://github.com/chomosuke/typst-preview.nvim) (👨‍💻 29 · 🔀 56 · 📋 86 - 15% open · ⏱️ 14.07.2026):
-
-	```
-	git clone https://github.com/chomosuke/typst-preview.nvim
-	```
-</details>
-<details><summary><b><a href="https://beautyxt.app">BeauTyXT</a></b>  - 🥈15 ·  ⭐ 220 · 📉 · <code><a href="https://tldrlegal.com/license/isc-license">ISC</a></code> · <code>🎨 App</code><br>A beautiful, private, secure, and minimalistic Plain Text and Markdown editor.</summary>
-
-- [GitHub](https://github.com/soupslurpr/BeauTyXT) (👨‍💻 7 · 🔀 15 · 📥 6.1K · 📋 100 - 41% open · ⏱️ 02.04.2026):
-
-	```
-	git clone https://github.com/soupslurpr/BeauTyXT
-	```
-</details>
-<details><summary><b><a href="https://github.com/hyrious/typst-syntax-highlight">hyrious/typst-syntax-highlight</a></b>  - 🥈14 ·  ⭐ 22 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Typst sublime text syntax highlighting.</summary>
-
-- [GitHub](https://github.com/hyrious/typst-syntax-highlight) (👨‍💻 6 · 🔀 4 · 📋 36 - 2% open · ⏱️ 16.06.2026):
-
-	```
-	git clone https://github.com/hyrious/typst-syntax-highlight
-	```
-</details>
-<details><summary><b><a href="https://typwriter.vercel.app">Ahdeyyy/Typwriter</a></b>  - 🥈14 ·  ⭐ 15 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🎨 App</code><br>A text editor for creating documents with typst.</summary>
-
-- [GitHub](https://github.com/Ahdeyyy/typwriter) (📥 1.5K · ⏱️ 21.07.2026):
-
-	```
-	git clone https://github.com/Ahdeyyy/typwriter
-	```
-</details>
-<details><summary><b><a href="https://github.com/kaarmu/typst.vim">typst.vim</a></b>  - 🥈13 ·  ⭐ 380 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Vim plugin for Typst.</summary>
-
-- [GitHub](https://github.com/kaarmu/typst.vim) (👨‍💻 30 · 🔀 39 · 📋 88 - 18% open · ⏱️ 17.12.2025):
-
-	```
-	git clone https://github.com/kaarmu/typst.vim
-	```
-</details>
-<details><summary><b><a href="https://github.com/collabst/collabst">Collabst</a></b>  - 🥈13 ·  ⭐ 340 · <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-agpl-3-0">❗️&nbsp;AGPL-3.0</a></code> · <code>🥡 Runnable</code><br>Self-hosted collaborative workspace for Typst.</summary>
-
-- [GitHub](https://github.com/collabst/collabst) (👨‍💻 5 · 🔀 28 · 📋 73 - 45% open · ⏱️ 15.06.2026):
-
-	```
-	git clone https://github.com/collabst/collabst
-	```
-</details>
-<details><summary><b><a href="https://github.com/k0src/Typst-for-Obsidian">Typst for Obsidian</a></b>  - 🥈13 ·  ⭐ 110 · 💤 · <code><a href="https://tldrlegal.com/search?query=0BSD">❗️&nbsp;0BSD</a></code> · <code>🧩 Extension</code><br>A Typst editor and renderer in Obsidian.</summary>
-
-- [GitHub](https://github.com/k0src/Typst-for-Obsidian) (🔀 7 · 📥 2.1K · 📋 10 - 60% open · ⏱️ 06.03.2026):
-
-	```
-	git clone https://github.com/k0src/Typst-for-Obsidian
-	```
-</details>
-<details><summary><b><a href="https://github.com/Omibranch/qnote">qnote</a></b>  - 🥈13 ·  ⭐ 95 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🎨 App</code> · <code>🗺️ Multilingual</code><br>Minimal Tauri desktop note editor with Markdown, PDF export, and file history.</summary>
-
-- [GitHub](https://github.com/Omibranch/qnote) (👨‍💻 3 · 🔀 4 · 📥 700 · ⏱️ 13.05.2026):
-
-	```
-	git clone https://github.com/Omibranch/qnote
-	```
-</details>
-<details><summary><b><a href="https://github.com/aburousan/hilbert-editor">Hilbert</a></b>  - 🥈13 ·  ⭐ 93 · ➕ · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code> · <code>🎨 App</code><br>Hilbert — an offline scientific IDE for Typst (Unofficial). Live PDF preview, physics/math tooling, live..</summary>
-
-- [GitHub](https://github.com/aburousan/hilbert-editor) (👨‍💻 2 · 🔀 3 · 📥 660 · 📋 16 - 37% open · ⏱️ 21.07.2026):
+- [GitHub](https://github.com/aburousan/hilbert-editor) (👨‍💻 2 · 🔀 5 · 📥 2.5K · 📋 31 - 3% open · ⏱️ 21.08.2026):
 
 	```
 	git clone https://github.com/aburousan/hilbert-editor
 	```
 </details>
-<details><summary><b><a href="https://github.com/Sovichea/typsastra">Typsastra</a></b>  - 🥈13 ·  ⭐ 11 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🎨 App</code><br>A complex-script-first Typst environment for research and long-form multilingual writing. Built with Tauri, Bun, and..</summary>
+<details><summary><b><a href="https://github.com/chomosuke/typst-preview.nvim">chomosuke/typst-preview.nvim</a></b>  - 🥈15 ·  ⭐ 990 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🧩 Extension</code><br>Low latency typst preview for Neovim.</summary>
 
-- [GitHub](https://github.com/Sovichea/typsastra) (👨‍💻 2 · 🔀 1 · 📥 150 · ⏱️ 21.07.2026):
+- [GitHub](https://github.com/chomosuke/typst-preview.nvim) (👨‍💻 29 · 🔀 57 · 📋 86 - 13% open · ⏱️ 14.07.2026):
+
+	```
+	git clone https://github.com/chomosuke/typst-preview.nvim
+	```
+</details>
+<details><summary><b><a href="https://beautyxt.app">BeauTyXT</a></b>  - 🥈15 ·  ⭐ 230 · 💤 · <code><a href="https://tldrlegal.com/license/isc-license">ISC</a></code> · <code>🎨 App</code><br>A beautiful, private, secure, and minimalistic Plain Text and Markdown editor.</summary>
+
+- [GitHub](https://github.com/soupslurpr/BeauTyXT) (👨‍💻 7 · 🔀 16 · 📥 6.3K · 📋 100 - 41% open · ⏱️ 02.04.2026):
+
+	```
+	git clone https://github.com/soupslurpr/BeauTyXT
+	```
+</details>
+<details><summary><b><a href="https://typwriter.vercel.app">Ahdeyyy/Typwriter</a></b>  - 🥈15 ·  ⭐ 19 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🎨 App</code><br>A text editor for creating documents with typst.</summary>
+
+- [GitHub](https://github.com/Ahdeyyy/typwriter) (📥 2.1K · 📋 5 - 40% open · ⏱️ 19.08.2026):
+
+	```
+	git clone https://github.com/Ahdeyyy/typwriter
+	```
+</details>
+<details><summary><b><a href="https://github.com/Sovichea/typsastra">Typsastra</a></b>  - 🥈14 ·  ⭐ 20 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🎨 App</code><br>A complex-script-first Typst environment for research and long-form multilingual writing. Built with Tauri, Bun, and..</summary>
+
+- [GitHub](https://github.com/Sovichea/typsastra) (👨‍💻 3 · 🔀 2 · 📥 1.7K · 📋 9 - 44% open · ⏱️ 21.08.2026):
 
 	```
 	git clone https://github.com/Sovichea/typsastra
+	```
+</details>
+<details><summary><b><a href="https://github.com/kaarmu/typst.vim">typst.vim</a></b>  - 🥈13 ·  ⭐ 380 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Vim plugin for Typst.</summary>
+
+- [GitHub](https://github.com/kaarmu/typst.vim) (👨‍💻 30 · 🔀 38 · 📋 88 - 18% open · ⏱️ 17.12.2025):
+
+	```
+	git clone https://github.com/kaarmu/typst.vim
+	```
+</details>
+<details><summary><b><a href="https://github.com/k0src/Typst-for-Obsidian">Typst for Obsidian</a></b>  - 🥈13 ·  ⭐ 110 · 💤 · <code><a href="https://tldrlegal.com/search?query=0BSD">❗️&nbsp;0BSD</a></code> · <code>🧩 Extension</code><br>A Typst editor and renderer in Obsidian.</summary>
+
+- [GitHub](https://github.com/k0src/Typst-for-Obsidian) (🔀 11 · 📥 2.3K · 📋 11 - 63% open · ⏱️ 06.03.2026):
+
+	```
+	git clone https://github.com/k0src/Typst-for-Obsidian
+	```
+</details>
+<details><summary><b><a href="https://crates.io/crates/typdiff">typdiff</a></b>  - 🥈13 ·  ⭐ 70 · 🐣 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🤖 CLI</code><br>A diff tool for Typst documents, similar to latexdiff for LaTeX.</summary>
+
+- [GitHub](https://github.com/sou1118/typdiff) (👨‍💻 6 · 🔀 6 · 📥 160 · 📋 8 - 62% open · ⏱️ 20.08.2026):
+
+	```
+	git clone https://github.com/sou1118/typdiff
+	```
+- [Cargo](https://crates.io/crates/typdiff) (📥 100 / month · ⏱️ 26.02.2026):
+	```
+	cargo install typdiff
+	```
+</details>
+<details><summary><b><a href="https://github.com/hyrious/typst-syntax-highlight">hyrious/typst-syntax-highlight</a></b>  - 🥈13 ·  ⭐ 22 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Typst sublime text syntax highlighting.</summary>
+
+- [GitHub](https://github.com/hyrious/typst-syntax-highlight) (👨‍💻 6 · 🔀 4 · 📋 37 - 2% open · ⏱️ 09.08.2026):
+
+	```
+	git clone https://github.com/hyrious/typst-syntax-highlight
+	```
+</details>
+<details><summary><b><a href="https://github.com/collabst/collabst">Collabst</a></b>  - 🥈12 ·  ⭐ 360 · <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-agpl-3-0">❗️&nbsp;AGPL-3.0</a></code> · <code>🥡 Runnable</code><br>Self-hosted collaborative workspace for Typst.</summary>
+
+- [GitHub](https://github.com/collabst/collabst) (👨‍💻 5 · 🔀 28 · 📋 73 - 45% open · ⏱️ 15.06.2026):
+
+	```
+	git clone https://github.com/collabst/collabst
 	```
 </details>
 <details><summary><b><a href="https://github.com/Bzero/typstwriter">typstwriter</a></b>  - 🥈12 ·  ⭐ 170 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🎨 App</code> · <code>🥡 Runnable</code><br>An integrated editor for the typst typesetting system.</summary>
@@ -505,39 +517,55 @@ _Compose articles and books._
 	pip install typstwriter
 	```
 </details>
-<details><summary><b><a href="https://github.com/ItsEthra/typst-live">typst-live</a></b>  - 🥈11 ·  ⭐ 140 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>Hot reloading for your typst files.</summary>
+<details><summary><b><a href="https://typstify.com">Typstify/Typstify</a></b>  - 🥈12 ·  ⭐ 92 · 🐣 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🎨 App</code><br>A cross-platform Typst editor.</summary>
 
-- [GitHub](https://github.com/ItsEthra/typst-live) (👨‍💻 7 · 🔀 13 · 📦 1 · 📋 20 - 30% open · ⏱️ 21.02.2026):
-
-	```
-	git clone https://github.com/ItsEthra/typst-live
-	```
-- [Cargo](https://crates.io/crates/typst-live) (📥 36 / month · ⏱️ 21.04.2024):
-	```
-	cargo install typst-live
-	```
-</details>
-<details><summary><b><a href="https://typstify.com">Typstify/Typstify</a></b>  - 🥈11 ·  ⭐ 74 · 🐣 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🎨 App</code><br>A cross-platform Typst editor.</summary>
-
-- [GitHub](https://github.com/typstify/typstify) (👨‍💻 2 · 🔀 6 · 📋 33 - 33% open · ⏱️ 13.07.2026):
+- [GitHub](https://github.com/typstify/typstify) (👨‍💻 3 · 🔀 7 · 📋 36 - 33% open · ⏱️ 18.08.2026):
 
 	```
 	git clone https://github.com/typstify/typstify
 	```
 </details>
-<details><summary><b><a href="https://www.npmjs.com/package/textlint-plugin-typst">textlint-plugin-typst</a></b>  - 🥈11 ·  ⭐ 22 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>textlint plugin to lint Typst.</summary>
+<details><summary><b><a href="https://github.com/ItsEthra/typst-live">typst-live</a></b>  - 🥈11 ·  ⭐ 140 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>Hot reloading for your typst files.</summary>
+
+- [GitHub](https://github.com/ItsEthra/typst-live) (👨‍💻 7 · 🔀 14 · 📦 1 · 📋 20 - 30% open · ⏱️ 21.02.2026):
+
+	```
+	git clone https://github.com/ItsEthra/typst-live
+	```
+- [Cargo](https://crates.io/crates/typst-live) (📥 33 / month · ⏱️ 21.04.2024):
+	```
+	cargo install typst-live
+	```
+</details>
+<details><summary><b><a href="https://github.com/Omibranch/qnote">qnote</a></b>  - 🥈11 ·  ⭐ 96 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🎨 App</code> · <code>🗺️ Multilingual</code><br>Minimal Tauri desktop note editor with Markdown, PDF export, and file history.</summary>
+
+- [GitHub](https://github.com/Omibranch/qnote) (👨‍💻 3 · 🔀 4 · 📥 780 · ⏱️ 13.05.2026):
+
+	```
+	git clone https://github.com/Omibranch/qnote
+	```
+</details>
+<details><summary><b><a href="https://github.com/lentilus/zeta">zeta ζ</a></b>  - 🥈10 ·  ⭐ 26 · <code>❗&nbsp;Unlicensed</code> · <code>🧩 Extension</code> · <code>🤖 CLI</code> · <code>🥡 Runnable</code><br>a performant lsp for navigating typst notes.</summary>
+
+- [GitHub](https://github.com/lentilus/zeta) (👨‍💻 4 · 🔀 3 · 📥 230 · ⏱️ 08.06.2026):
+
+	```
+	git clone https://github.com/lentilus/zeta
+	```
+</details>
+<details><summary><b><a href="https://www.npmjs.com/package/textlint-plugin-typst">textlint-plugin-typst</a></b>  - 🥈10 ·  ⭐ 22 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>textlint plugin to lint Typst.</summary>
 
 - [GitHub](https://github.com/textlint/textlint-plugin-typst) (👨‍💻 2 · 🔀 2 · 📦 6 · 📋 8 - 12% open · ⏱️ 04.03.2026):
 
 	```
 	git clone https://github.com/textlint/textlint-plugin-typst
 	```
-- [npm](https://www.npmjs.com/package/textlint-plugin-typst) (📥 160 / month · ⏱️ 04.03.2026):
+- [npm](https://www.npmjs.com/package/textlint-plugin-typst) (📥 90 / month · ⏱️ 04.03.2026):
 	```
 	npm install textlint-plugin-typst
 	```
 </details>
-<details><summary><b><a href="https://github.com/typster-io/typster">benzlokzik/typster</a></b>  - 🥈11 ·  ⭐ 10 · <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-agpl-3-0">❗️&nbsp;AGPL-3.0</a></code> · <code>🥡 Runnable</code><br>typst-app-like webapp.</summary>
+<details><summary><b><a href="https://github.com/typster-io/typster">benzlokzik/typster</a></b>  - 🥈10 ·  ⭐ 10 · <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-agpl-3-0">❗️&nbsp;AGPL-3.0</a></code> · <code>🥡 Runnable</code><br>typst-app-like webapp.</summary>
 
 - [GitHub](https://github.com/typster-io/typster) (👨‍💻 6 · 🔀 2 · 📋 30 - 20% open · ⏱️ 13.07.2026):
 
@@ -545,7 +573,7 @@ _Compose articles and books._
 	git clone https://github.com/benzlokzik/typster
 	```
 </details>
-<details><summary><b><a href="https://packagecontrol.io/packages/LSP-Tinymist">LSP-Tinymist</a></b>  - 🥈11 ·  ⭐ 5 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Typst support for Sublimes LSP plugin using the Tinymist language server.</summary>
+<details><summary><b><a href="https://packagecontrol.io/packages/LSP-Tinymist">LSP-Tinymist</a></b>  - 🥈10 ·  ⭐ 5 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Typst support for Sublimes LSP plugin using the Tinymist language server.</summary>
 
 - [GitHub](https://github.com/sublimelsp/LSP-Tinymist) (👨‍💻 3 · 📋 6 - 16% open · ⏱️ 22.06.2026):
 
@@ -553,23 +581,23 @@ _Compose articles and books._
 	git clone https://github.com/sublimelsp/LSP-Tinymist
 	```
 </details>
-<details><summary><b><a href="https://github.com/lentilus/zeta">zeta ζ</a></b>  - 🥈10 ·  ⭐ 23 · <code>❗&nbsp;Unlicensed</code> · <code>🧩 Extension</code> · <code>🤖 CLI</code> · <code>🥡 Runnable</code><br>a performant lsp for navigating typst notes.</summary>
+<details><summary><b><a href="https://zed.dev/extensions/typst">Typst Extension for Zed</a></b>  - 🥈9 ·  ⭐ 200 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🧩 Extension</code><br>Typst extension for zed.</summary>
 
-- [GitHub](https://github.com/lentilus/zeta) (👨‍💻 4 · 🔀 3 · 📥 220 · ⏱️ 08.06.2026):
-
-	```
-	git clone https://github.com/lentilus/zeta
-	```
-</details>
-<details><summary><b><a href="https://zed.dev/extensions/typst">Typst Extension for Zed</a></b>  - 🥈9 ·  ⭐ 190 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🧩 Extension</code><br>Typst extension for zed.</summary>
-
-- [GitHub](https://github.com/zed-extensions/typst) (👨‍💻 11 · 🔀 15 · 📋 34 - 55% open · ⏱️ 10.06.2026):
+- [GitHub](https://github.com/zed-extensions/typst) (👨‍💻 11 · 🔀 16 · 📋 36 - 58% open · ⏱️ 10.06.2026):
 
 	```
 	git clone https://github.com/zed-extensions/typst
 	```
 </details>
-<details><summary><b><a href="https://github.com/antonWetzel/typst-languagetool">typst-languagetool</a></b>  - 🥈9 ·  ⭐ 82 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code> · <code>🧩 Extension</code><br>LanguageTool Integration for Typst for spell and grammar check.</summary>
+<details><summary><b><a href="https://github.com/SeniorMars/tree-sitter-typst">SeniorMars/tree-sitter-typst</a></b>  - 🥈9 ·  ⭐ 170 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>A TreeSitter parser for the Typst File Format.</summary>
+
+- [GitHub](https://github.com/SeniorMars/tree-sitter-typst) (👨‍💻 2 · 🔀 7 · 📋 7 - 85% open · ⏱️ 28.07.2026):
+
+	```
+	git clone https://github.com/SeniorMars/tree-sitter-typst
+	```
+</details>
+<details><summary><b><a href="https://github.com/antonWetzel/typst-languagetool">typst-languagetool</a></b>  - 🥈9 ·  ⭐ 84 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code> · <code>🧩 Extension</code><br>LanguageTool Integration for Typst for spell and grammar check.</summary>
 
 - [GitHub](https://github.com/antonWetzel/typst-languagetool) (👨‍💻 15 · 🔀 20 · 📋 52 - 25% open · ⏱️ 28.06.2026):
 
@@ -577,88 +605,104 @@ _Compose articles and books._
 	git clone https://github.com/antonWetzel/typst-languagetool
 	```
 </details>
-<details><summary><b><a href="https://crates.io/crates/typdiff">typdiff</a></b>  - 🥈9 ·  ⭐ 64 · 🐣 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🤖 CLI</code><br>A diff tool for Typst documents, similar to latexdiff for LaTeX.</summary>
+<details><summary><b><a href="https://dailydaniel.github.io/typos/">dailydaniel/typos</a></b>  - 🥈9 ·  ⭐ 51 · 💤 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🎨 App</code> · <code>🤖 CLI</code><br>A Typst-native note-taking system powered by Rust and Tauri with typed metadata, cross-references, backlinks, and..</summary>
 
-- [GitHub](https://github.com/sou1118/typdiff) (👨‍💻 3 · 🔀 5 · 📥 120 · 📋 4 - 75% open · ⏱️ 22.04.2026):
-
-	```
-	git clone https://github.com/sou1118/typdiff
-	```
-- [Cargo](https://crates.io/crates/typdiff) (📥 43 / month · ⏱️ 26.02.2026):
-	```
-	cargo install typdiff
-	```
-</details>
-<details><summary><b><a href="https://github.com/Lin0u0/InkPond">InkPond</a></b>  - 🥈9 ·  ⭐ 57 · 🐣 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🎨 App</code> · <code>🗺️ Multilingual</code><br>A native iOS/iPadOS editor for Typst — the modern typesetting system.</summary>
-
-- [GitHub](https://github.com/Lin0u0/InkPond) (👨‍💻 5 · 🔀 5 · 📋 12 - 91% open · ⏱️ 03.07.2026):
-
-	```
-	git clone https://github.com/Lin0u0/InkPond
-	```
-</details>
-<details><summary><b><a href="https://dailydaniel.github.io/typos/">dailydaniel/typos</a></b>  - 🥈9 ·  ⭐ 47 · 💤 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🎨 App</code> · <code>🤖 CLI</code><br>A Typst-native note-taking system powered by Rust and Tauri with typed metadata, cross-references, backlinks, and..</summary>
-
-- [GitHub](https://github.com/dailydaniel/typos) (📥 320 · 📋 3 - 66% open · ⏱️ 27.03.2026):
+- [GitHub](https://github.com/dailydaniel/typos) (🔀 1 · 📥 340 · 📋 3 - 66% open · ⏱️ 27.03.2026):
 
 	```
 	git clone https://github.com/dailydaniel/typos
 	```
 </details>
-<details><summary><b><a href="https://github.com/SeniorMars/tree-sitter-typst">SeniorMars/tree-sitter-typst</a></b>  - 🥉8 ·  ⭐ 170 · 📈 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>A TreeSitter parser for the Typst File Format.</summary>
-
-- [GitHub](https://github.com/SeniorMars/tree-sitter-typst) (👨‍💻 2 · 🔀 6 · 📋 6 - 83% open · ⏱️ 28.06.2026):
-
-	```
-	git clone https://github.com/SeniorMars/tree-sitter-typst
-	```
-</details>
 <details><summary><b><a href="https://github.com/havarddj/typst-preview.el">typst-preview.el</a></b>  - 🥉8 ·  ⭐ 140 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🧩 Extension</code><br>Typst live preview minor mode for emacs.</summary>
 
-- [GitHub](https://github.com/havarddj/typst-preview.el) (👨‍💻 6 · 🔀 10 · 📋 14 - 7% open · ⏱️ 17.06.2026):
+- [GitHub](https://github.com/havarddj/typst-preview.el) (👨‍💻 6 · 🔀 10 · 📋 16 - 12% open · ⏱️ 17.06.2026):
 
 	```
 	git clone https://github.com/havarddj/typst-preview.el
 	```
 </details>
-<details><summary><b><a href="https://github.com/wflixu/typster">wflixu/typster</a></b>  - 🥉8 ·  ⭐ 62 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🎨 App</code> · <code>🐧 non-English</code><br>a typst reader and editor.</summary>
+<details><summary><b><a href="https://github.com/wflixu/typster">wflixu/typster</a></b>  - 🥉8 ·  ⭐ 63 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🎨 App</code> · <code>🐧 non-English</code><br>a typst reader and editor.</summary>
 
-- [GitHub](https://github.com/wflixu/typster) (👨‍💻 2 · 🔀 6 · 📥 640 · 📋 9 - 44% open · ⏱️ 06.12.2025):
+- [GitHub](https://github.com/wflixu/typster) (👨‍💻 2 · 🔀 6 · 📥 650 · 📋 9 - 44% open · ⏱️ 06.12.2025):
 
 	```
 	git clone https://github.com/wflixu/typster
 	```
 </details>
-<details><summary><b><a href="https://github.com/LDemetrios/Kvasir">Kvasir</a></b>  - 🥉8 ·  ⭐ 53 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🧩 Extension</code> · <code>🗺️ Multilingual</code><br>Plugin for Typst support in JetBrains platform: https://plugins.jetbrains.com/plugin/25061-kvasir.</summary>
+<details><summary><b><a href="https://github.com/Lin0u0/InkPond">InkPond</a></b>  - 🥉8 ·  ⭐ 61 · 🐣 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🎨 App</code> · <code>🗺️ Multilingual</code><br>A native iOS/iPadOS editor for Typst — the modern typesetting system.</summary>
 
-- [GitHub](https://github.com/LDemetrios/Kvasir) (🔀 2 · 📋 16 - 50% open · ⏱️ 18.05.2026):
+- [GitHub](https://github.com/Lin0u0/InkPond) (👨‍💻 5 · 🔀 6 · 📋 12 - 91% open · ⏱️ 03.07.2026):
 
 	```
-	git clone https://github.com/LDemetrios/Kvasir
+	git clone https://github.com/Lin0u0/InkPond
 	```
 </details>
-<details><summary><b><a href="https://github.com/antonWetzel/prettypst">Prettypst</a></b>  - 🥉7 ·  ⭐ 54 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code> · <code>🧩 Extension</code><br>Formatter for Typst.</summary>
+<details><summary><b><a href="https://github.com/antonWetzel/prettypst">Prettypst</a></b>  - 🥉8 ·  ⭐ 53 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code> · <code>🧩 Extension</code><br>Formatter for Typst.</summary>
 
-- [GitHub](https://github.com/antonWetzel/prettypst) (👨‍💻 2 · 🔀 4 · 📋 10 - 30% open · ⏱️ 21.06.2026):
+- [GitHub](https://github.com/antonWetzel/prettypst) (👨‍💻 2 · 🔀 4 · 📋 10 - 30% open · ⏱️ 22.07.2026):
 
 	```
 	git clone https://github.com/antonWetzel/prettypst
 	```
 </details>
-<details><summary><b><a href="https://github.com/iXORTech/Typstify">iXORTech/Typstify</a></b>  - 🥉7 ·  ⭐ 46 · 💤 · <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-agpl-3-0">❗️&nbsp;AGPL-3.0</a></code> · <code>🎨 App</code><br>A Typst Editor for iPad.</summary>
+<details><summary><b><a href="https://twarge.com/typeset">Typeset</a></b>  - 🥉8 ·  ⭐ 14 · 🐣 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🎨 App</code><br>Typst document creation for Apple devices.</summary>
 
-- [GitHub](https://github.com/iXORTech/Typstify) (👨‍💻 3 · 🔀 4 · 📋 7 - 42% open · ⏱️ 25.11.2025):
+- [GitHub](https://github.com/twarge/typeset) (🔀 1 · ⏱️ 21.08.2026):
 
 	```
-	git clone https://github.com/iXORTech/Typstify
+	git clone https://github.com/twarge/typeset
 	```
 </details>
-<details><summary><b><a href="https://github.com/arne314/typstar">Typstar</a></b>  - 🥉7 ·  ⭐ 26 · <code>❗&nbsp;Unlicensed</code> · <code>🧩 Extension</code><br>Neovim plugin for Typst providing auto snippets, Excalidraw & Rnote integration and [standalone] Anki flashcard export.</summary>
+<details><summary><b><a href="https://github.com/dbccccccc/Typst-Side-Agent">Typst Side Agent</a></b>  - 🥉8 ·  ⭐ 3 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>A multi-step AI assistant for typst.app.</summary>
 
-- [GitHub](https://github.com/arne314/typstar) (👨‍💻 4 · 🔀 3 · ⏱️ 17.07.2026):
+- [GitHub](https://github.com/dbccccccc/Typst-Side-Agent) (👨‍💻 3 · 🔀 1 · ⏱️ 21.08.2026):
 
 	```
-	git clone https://github.com/arne314/typstar
+	git clone https://github.com/dbccccccc/Typst-Side-Agent
+	```
+</details>
+<details><summary><b><a href="https://github.com/BashfulHippo/typst-post">typst-post</a></b>  - 🥉8 ·  ⭐ 3 · ➕ · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>Post-compilation utilities for Typst: booklet imposition, page rotation, reordering, and project packing.</summary>
+
+- [GitHub](https://github.com/BashfulHippo/typst-post) (⏱️ 08.08.2026):
+
+	```
+	git clone https://github.com/BashfulHippo/typst-post
+	```
+- [PyPi](https://pypi.org/project/typst-post) (📥 350 / month · ⏱️ 08.08.2026):
+	```
+	pip install typst-post
+	```
+</details>
+<details><summary><b><a href="https://github.com/tmagri/TypstEdit">tmagri/TypstEdit</a></b>  - 🥉8 ·  ⭐ 1 · ➕ · <code>❗&nbsp;Unlicensed</code> · <code>🎨 App</code><br>A native macOS editor for Typst.</summary>
+
+- [GitHub](https://github.com/tmagri/TypstEdit) (👨‍💻 2 · 📥 31 · ⏱️ 20.08.2026):
+
+	```
+	git clone https://github.com/tmagri/TypstEdit
+	```
+</details>
+<details><summary><b><a href="https://marketplace.visualstudio.com/items?itemName=mmaunier.typst-format-panel">Typst Format Panel</a></b>  - 🥉8 · ➕ · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code> · <code>🗺️ Multilingual</code><br>Interactive side panel for Typst editing in VSCode (bilingual EN/FR).</summary>
+
+- [GitHub](https://github.com/mmaunier/typst-format-panel) (⏱️ 18.08.2026):
+
+	```
+	git clone https://github.com/mmaunier/typst-format-panel
+	```
+</details>
+<details><summary><b><a href="https://github.com/PartyWumpus/typst-concealer">PartyWumpus/typst-concealer</a></b>  - 🥉7 ·  ⭐ 63 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>A neovim plugin for rendering typst inline using the kitty unicode graphics protocol.</summary>
+
+- [GitHub](https://github.com/PartyWumpus/typst-concealer) (👨‍💻 3 · 🔀 4 · 📋 10 - 30% open · ⏱️ 19.08.2026):
+
+	```
+	git clone https://github.com/PartyWumpus/typst-concealer
+	```
+</details>
+<details><summary><b><a href="https://github.com/LDemetrios/Kvasir">Kvasir</a></b>  - 🥉7 ·  ⭐ 54 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🧩 Extension</code> · <code>🗺️ Multilingual</code><br>Plugin for Typst support in JetBrains platform: https://plugins.jetbrains.com/plugin/25061-kvasir.</summary>
+
+- [GitHub](https://github.com/LDemetrios/Kvasir) (🔀 2 · 📋 16 - 50% open · ⏱️ 18.05.2026):
+
+	```
+	git clone https://github.com/LDemetrios/Kvasir
 	```
 </details>
 <details><summary><b><a href="https://typst-online-editor.vercel.app">Typst Online Editor</a></b>  - 🥉7 ·  ⭐ 25 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code><br>Typst online editor, built with NextJS using Typst.ts (Typst WASM compiler).</summary>
@@ -669,7 +713,7 @@ _Compose articles and books._
 	git clone https://github.com/Mapaor/typst-online-editor
 	```
 </details>
-<details><summary><b><a href="https://pku-typst.github.io/TOSS/">TOSS</a></b>  - 🥉7 ·  ⭐ 11 · 🐣 · <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-agpl-3-0">❗️&nbsp;AGPL-3.0</a></code> · <code>🥡 Runnable</code> · <code>🦋 Web</code><br>Typst Open-Source Server for collaborative editing.</summary>
+<details><summary><b><a href="https://pku-typst.github.io/TOSS/">TOSS</a></b>  - 🥉7 ·  ⭐ 12 · 🐣 · <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-agpl-3-0">❗️&nbsp;AGPL-3.0</a></code> · <code>🥡 Runnable</code> · <code>🦋 Web</code><br>Typst Open-Source Server for collaborative editing.</summary>
 
 - [GitHub](https://github.com/pku-typst/TOSS) (👨‍💻 2 · 🔀 2 · ⏱️ 21.07.2026):
 
@@ -677,7 +721,7 @@ _Compose articles and books._
 	git clone https://github.com/pku-typst/TOSS
 	```
 </details>
-<details><summary><b><a href="https://ortic.github.io/typst-wysiwyg/">Typst WYSIWYG</a></b>  - 🥉7 ·  ⭐ 5 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code> · <code>🦋 Web</code><br>Block-based WYSIWYG prototype for Typst documents — no code required.</summary>
+<details><summary><b><a href="https://ortic.github.io/typst-wysiwyg/">Typst WYSIWYG</a></b>  - 🥉7 ·  ⭐ 9 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code> · <code>🦋 Web</code><br>Block-based WYSIWYG prototype for Typst documents — no code required.</summary>
 
 - [GitHub](https://github.com/ortic/typst-wysiwyg) (⏱️ 07.07.2026):
 
@@ -685,31 +729,23 @@ _Compose articles and books._
 	git clone https://github.com/ortic/typst-wysiwyg
 	```
 </details>
-<details><summary><b><a href="https://github.com/dbccccccc/Typst-Side-Agent">Typst Side Agent</a></b>  - 🥉7 ·  ⭐ 2 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>A multi-step AI assistant for typst.app.</summary>
+<details><summary><b><a href="https://typesetter.trowell.net">Typesetter</a></b>  - 🥉6 ·  ⭐ 310 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🎨 App</code><br>Typst editor for focused writing.</summary>
 
-- [GitHub](https://github.com/dbccccccc/Typst-Side-Agent) (⏱️ 22.05.2026):
-
-	```
-	git clone https://github.com/dbccccccc/Typst-Side-Agent
-	```
-</details>
-<details><summary><b><a href="https://typesetter.trowell.net">Typesetter</a></b>  - 🥉6 ·  ⭐ 300 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🎨 App</code><br>Typst editor for focused writing.</summary>
-
-- [Codeberg](https://codeberg.org/haydn/typesetter) (🔀 19 · ⏱️ 21.07.2026):
+- [Codeberg](https://codeberg.org/haydn/typesetter) (🔀 20 · ⏱️ 29.07.2026):
 
 	```
 	git clone https://codeberg.org/haydn/typesetter
 	```
 </details>
-<details><summary><b><a href="https://codeberg.org/meow_king/typst-ts-mode">meow_king/typst-ts-mode</a></b>  - 🥉6 ·  ⭐ 59 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🧩 Extension</code><br>Typst tree sitter major mode for Emacs.</summary>
+<details><summary><b><a href="https://codeberg.org/meow_king/typst-ts-mode">meow_king/typst-ts-mode</a></b>  - 🥉6 ·  ⭐ 60 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🧩 Extension</code><br>Typst tree sitter major mode for Emacs.</summary>
 
-- [Codeberg](https://codeberg.org/meow_king/typst-ts-mode) (🔀 14 · ⏱️ 01.07.2026):
+- [Codeberg](https://codeberg.org/meow_king/typst-ts-mode) (🔀 15 · ⏱️ 01.07.2026):
 
 	```
 	git clone https://codeberg.org/meow_king/typst-ts-mode
 	```
 </details>
-<details><summary><b><a href="https://github.com/al-kot/typst-preview.nvim">al-kot/typst-preview.nvim</a></b>  - 🥉6 ·  ⭐ 53 · 💤 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🧩 Extension</code><br>Live typst preview directly in neovim.</summary>
+<details><summary><b><a href="https://github.com/al-kot/typst-preview.nvim">al-kot/typst-preview.nvim</a></b>  - 🥉6 ·  ⭐ 55 · 💤 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🧩 Extension</code><br>Live typst preview directly in neovim.</summary>
 
 - [GitHub](https://github.com/al-kot/typst-preview.nvim) (👨‍💻 3 · 🔀 6 · 📋 3 - 33% open · ⏱️ 15.12.2025):
 
@@ -717,31 +753,31 @@ _Compose articles and books._
 	git clone https://github.com/al-kot/typst-preview.nvim
 	```
 </details>
-<details><summary><b><a href="https://github.com/SuperMegaFort/TypstEdit">TypstEdit</a></b>  - 🥉5 ·  ⭐ 65 · 💤 · <code>❗&nbsp;Unlicensed</code> · <code>🎨 App</code><br>A lightweight, native macOS editor for Typst.</summary>
+<details><summary><b><a href="https://github.com/arne314/typstar">Typstar</a></b>  - 🥉6 ·  ⭐ 27 · <code>❗&nbsp;Unlicensed</code> · <code>🧩 Extension</code><br>Neovim plugin for Typst providing auto snippets, Excalidraw & Rnote integration and [standalone] Anki flashcard export.</summary>
 
-- [GitHub](https://github.com/SuperMegaFort/TypstEdit) (🔀 1 · 📥 370 · 📋 3 - 66% open · ⏱️ 09.12.2025):
+- [GitHub](https://github.com/arne314/typstar) (👨‍💻 4 · 🔀 3 · ⏱️ 17.07.2026):
+
+	```
+	git clone https://github.com/arne314/typstar
+	```
+</details>
+<details><summary><b><a href="https://github.com/kxxt/codemirror-lang-typst">codemirror-lang-typst</a></b>  - 🥉6 ·  ⭐ 9 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🧩 Extension</code><br>(Experimental) Typst language support for CodeMirror editor.</summary>
+
+- [GitHub](https://github.com/kxxt/codemirror-lang-typst) (👨‍💻 2 · 📦 5 · 📋 2 - 50% open · ⏱️ 09.08.2026):
+
+	```
+	git clone https://github.com/kxxt/codemirror-lang-typst
+	```
+</details>
+<details><summary><b><a href="https://github.com/SuperMegaFort/TypstEdit">SuperMegaFort/TypstEdit</a></b>  - 🥉5 ·  ⭐ 68 · 💤 · <code>❗&nbsp;Unlicensed</code> · <code>🎨 App</code><br>A lightweight, native macOS editor for Typst.</summary>
+
+- [GitHub](https://github.com/SuperMegaFort/TypstEdit) (🔀 2 · 📥 410 · 📋 3 - 66% open · ⏱️ 09.12.2025):
 
 	```
 	git clone https://github.com/SuperMegaFort/TypstEdit
 	```
 </details>
-<details><summary><b><a href="https://tyraria.typs.town/">tyraria</a></b>  - 🥉5 ·  ⭐ 34 · 💤 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🦋 Web</code><br>Recreate the online editing experience of typst.app based on tinymist and typst.ts.</summary>
-
-- [GitHub](https://github.com/ParaN3xus/tyraria) (👨‍💻 2 · 🔀 2 · 📋 8 - 50% open · ⏱️ 28.11.2025):
-
-	```
-	git clone https://github.com/ParaN3xus/tyraria
-	```
-</details>
-<details><summary><b><a href="https://github.com/CFiggers/typst-companion">Typst Companion</a></b>  - 🥉5 ·  ⭐ 11 · 💤 · <code>❗&nbsp;Unlicensed</code> · <code>🧩 Extension</code><br>A VS Code extension that adds Markdown-like editing niceties for typst (.typ) files.</summary>
-
-- [GitHub](https://github.com/CFiggers/typst-companion) (👨‍💻 3 · 🔀 3 · 📥 36 · 📋 7 - 71% open · ⏱️ 21.02.2026):
-
-	```
-	git clone https://github.com/CFiggers/typst-companion
-	```
-</details>
-<details><summary><b><a href="https://typst-editor-landing-page.vercel.app">MicheleYin/Typst-Editor</a></b>  - 🥉5 ·  ⭐ 3 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🎨 App</code><br>Ideally, a tauri based app for typist support.</summary>
+<details><summary><b><a href="https://typst-editor-landing-page.vercel.app">MicheleYin/Typst-Editor</a></b>  - 🥉5 ·  ⭐ 3 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🎨 App</code><br>Ideally, a tauri based app for typist support.</summary>
 
 - [GitHub](https://github.com/MicheleYin/Typst-Editor) (⏱️ 08.04.2026):
 
@@ -765,6 +801,14 @@ _Compose articles and books._
 	git clone https://github.com/lilBchii/tide
 	```
 </details>
+<details><summary><b><a href="https://github.com/CFiggers/typst-companion">Typst Companion</a></b>  - 🥉4 ·  ⭐ 11 · 💤 · <code>❗&nbsp;Unlicensed</code> · <code>🧩 Extension</code><br>A VS Code extension that adds Markdown-like editing niceties for typst (.typ) files.</summary>
+
+- [GitHub](https://github.com/CFiggers/typst-companion) (👨‍💻 3 · 🔀 3 · 📥 36 · 📋 7 - 71% open · ⏱️ 21.02.2026):
+
+	```
+	git clone https://github.com/CFiggers/typst-companion
+	```
+</details>
 <details><summary><b><a href="https://github.com/qwjyh/tinymist-clientfeatures.nvim">tinymist-clientfeatures.nvim</a></b>  - 🥉4 ·  ⭐ 5 · 💤 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🧩 Extension</code><br>Advanced features mainly for tinymist preview.</summary>
 
 - [GitHub](https://github.com/qwjyh/tinymist-clientfeatures.nvim) (⏱️ 30.01.2026):
@@ -773,25 +817,17 @@ _Compose articles and books._
 	git clone https://github.com/qwjyh/tinymist-clientfeatures.nvim
 	```
 </details>
-<details><summary><b><a href="https://marketplace.visualstudio.com/items?itemName=ffy6511.adjust-heading-in-tree">Adjust Heading in Tree</a></b>  - 🥉4 ·  ⭐ 2 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code> · <code>🗺️ Multilingual</code><br>在vscode中像操作“块”一样管理Typst、Markdown的内容. Manage the content of Typst and Markdown like operating blocks in vscode.</summary>
+<details><summary><b><a href="https://marketplace.visualstudio.com/items?itemName=ffy6511.adjust-heading-in-tree">Adjust Heading in Tree</a></b>  - 🥉4 ·  ⭐ 2 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code> · <code>🗺️ Multilingual</code><br>在vscode中像操作“块”一样管理Typst、Markdown的内容. Manage the content of Typst and Markdown like operating blocks in vscode.</summary>
 
-- [GitHub](https://github.com/ffy6511/Adjust-heading-in-tree) (👨‍💻 2 · 🔀 1 · 📥 5 · 📋 2 - 50% open · ⏱️ 30.04.2026):
+- [GitHub](https://github.com/ffy6511/Adjust-heading-in-tree) (👨‍💻 2 · 🔀 1 · 📥 5 · ⏱️ 30.04.2026):
 
 	```
 	git clone https://github.com/ffy6511/Adjust-heading-in-tree
 	```
 </details>
-<details><summary><b><a href="https://github.com/clysto/typst-vscode">Typst Basic VS Code Extension</a></b>  - 🥉4 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br></summary>
+<details><summary><b><a href="https://automataia.github.io/wasm-typst-studio-rs/">Typst Studio WASM</a></b>  - 🥉3 ·  ⭐ 55 · <code>❗&nbsp;Unlicensed</code> · <code>🥡 Runnable</code> · <code>🦋 Web</code><br>A WASM-powered Typst Studio built with Rust and Leptos. Features real-time document compilation to SVG/PDF, IEEE..</summary>
 
-- [GitHub](https://github.com/clysto/typst-vscode) (⏱️ 16.11.2025):
-
-	```
-	git clone https://github.com/clysto/typst-vscode
-	```
-</details>
-<details><summary><b><a href="https://automataia.github.io/wasm-typst-studio-rs/">Typst Studio WASM</a></b>  - 🥉3 ·  ⭐ 54 · <code>❗&nbsp;Unlicensed</code> · <code>🥡 Runnable</code> · <code>🦋 Web</code><br>A WASM-powered Typst Studio built with Rust and Leptos. Features real-time document compilation to SVG/PDF, IEEE..</summary>
-
-- [GitHub](https://github.com/automataIA/wasm-typst-studio-rs) (👨‍💻 2 · 🔀 12 · ⏱️ 09.07.2026):
+- [GitHub](https://github.com/automataIA/wasm-typst-studio-rs) (👨‍💻 2 · 🔀 13 · ⏱️ 09.07.2026):
 
 	```
 	git clone https://github.com/automataIA/wasm-typst-studio-rs
@@ -832,7 +868,7 @@ _Compose articles and books._
 <details><summary><b><a href="https://git.sr.ht/~mafty/tip">tip</a></b>  - 🥉1 · <code>❗&nbsp;Unlicensed</code> · <code>🧩 Extension</code><br>Typst Inline Preview, tip, seeks to emulate the fantastic experience of writing latex in org-mode with org-latex-..</summary>
 
 - _No project information available._</details>
-<details><summary>Show 18 hidden projects...</summary>
+<details><summary>Show 19 hidden projects...</summary>
 
 <details><summary><b><a href="https://github.com/nvarner/typst-lsp">typst-lsp</a></b>  - 🥇19 ·  ⭐ 1.2K · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code> · <code>🤖 CLI</code><br>[Deprecated] An early language server for Typst, plus a VS Code extension.</summary>
 
@@ -841,7 +877,7 @@ _Compose articles and books._
 	```
 	git clone https://github.com/nvarner/typst-lsp
 	```
-- [Cargo](https://crates.io/crates/typst-lsp) (📥 13 / month · ⏱️ 29.03.2023):
+- [Cargo](https://crates.io/crates/typst-lsp) (📥 12 / month · ⏱️ 29.03.2023):
 	```
 	cargo install typst-lsp
 	```
@@ -853,7 +889,7 @@ _Compose articles and books._
 	```
 	git clone https://github.com/Enter-tainer/typst-preview
 	```
-- [Cargo](https://crates.io/crates/typst-preview) (📥 96 / month · ⏱️ 09.06.2024):
+- [Cargo](https://crates.io/crates/typst-preview) (📥 120 / month · ⏱️ 09.06.2024):
 	```
 	cargo install typst-preview
 	```
@@ -865,22 +901,22 @@ _Compose articles and books._
 	```
 	git clone https://github.com/astrale-sharp/typstfmt
 	```
-- [Cargo](https://crates.io/crates/typstfmt) (📥 54 / month · ⏱️ 15.07.2023):
+- [Cargo](https://crates.io/crates/typstfmt) (📥 46 / month · ⏱️ 15.07.2023):
 	```
 	cargo install typstfmt
 	```
 </details>
 <details><summary><b><a href="https://github.com/uben0/tree-sitter-typst">uben0/tree-sitter-typst</a></b>  - 🥈15 ·  ⭐ 190 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Tree Sitter grammar for Typst.</summary>
 
-- [GitHub](https://github.com/uben0/tree-sitter-typst) (👨‍💻 8 · 🔀 24 · 📥 170 · 📦 11 · 📋 43 - 27% open · ⏱️ 10.02.2025):
+- [GitHub](https://github.com/uben0/tree-sitter-typst) (👨‍💻 8 · 🔀 25 · 📥 180 · 📦 12 · 📋 43 - 27% open · ⏱️ 10.02.2025):
 
 	```
 	git clone https://github.com/uben0/tree-sitter-typst
 	```
 </details>
-<details><summary><b><a href="https://github.com/Cubxity/typstudio">typstudio</a></b>  - 🥈11 ·  ⭐ 730 · 💀 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🎨 App</code><br>A W.I.P desktop application for a new typesetting language, typst.</summary>
+<details><summary><b><a href="https://github.com/Cubxity/typstudio">typstudio</a></b>  - 🥈11 ·  ⭐ 740 · 💀 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🎨 App</code><br>A W.I.P desktop application for a new typesetting language, typst.</summary>
 
-- [GitHub](https://github.com/Cubxity/typstudio) (👨‍💻 5 · 🔀 25 · 📥 4.9K · 📋 31 - 45% open · ⏱️ 11.04.2025):
+- [GitHub](https://github.com/Cubxity/typstudio) (👨‍💻 5 · 🔀 24 · 📥 4.9K · 📋 31 - 45% open · ⏱️ 11.04.2025):
 
 	```
 	git clone https://github.com/Cubxity/typstudio
@@ -894,12 +930,20 @@ _Compose articles and books._
 	git clone https://github.com/SeniorMars/typst.nvim
 	```
 </details>
-<details><summary><b><a href="https://github.com/Nxllpointer/tide">Nxllpointer/Tide</a></b>  - 🥉8 ·  ⭐ 93 · 💀 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🥡 Runnable</code><br>The Batteries-Included Typst Notetaking IDE.</summary>
+<details><summary><b><a href="https://github.com/Nxllpointer/tide">Nxllpointer/Tide</a></b>  - 🥉8 ·  ⭐ 94 · 💀 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🥡 Runnable</code><br>The Batteries-Included Typst Notetaking IDE.</summary>
 
 - [GitHub](https://github.com/Nxllpointer/tide) (⏱️ 17.03.2025):
 
 	```
 	git clone https://github.com/Nxllpointer/tide
+	```
+</details>
+<details><summary><b><a href="https://github.com/jeffa5/typstfmt">jeffa5/typstfmt</a></b>  - 🥉8 ·  ⭐ 34 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>A formatter for Typst code, with flake.nix and pre-commit.</summary>
+
+- [GitHub](https://github.com/jeffa5/typstfmt) (👨‍💻 4 · 🔀 4 · ⏱️ 24.10.2024):
+
+	```
+	git clone https://github.com/jeffa5/typstfmt
 	```
 </details>
 <details><summary><b><a href="https://github.com/frozolotl/tree-sitter-typst">frozolotl/tree-sitter-typst</a></b>  - 🥉7 ·  ⭐ 77 · 💀 · <code><a href="https://tldrlegal.com/search?query=EUPL-1.2">❗️&nbsp;EUPL-1.2</a></code> · <code>🧩 Extension</code><br>A tree-sitter grammar for the typst typesetting language with a focus on correctness.</summary>
@@ -910,20 +954,12 @@ _Compose articles and books._
 	git clone https://github.com/frozolotl/tree-sitter-typst
 	```
 </details>
-<details><summary><b><a href="https://github.com/jeffa5/typstfmt">jeffa5/typstfmt</a></b>  - 🥉7 ·  ⭐ 34 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>A formatter for Typst code, with flake.nix and pre-commit.</summary>
+<details><summary><b><a href="https://github.com/iXORTech/Typstify">iXORTech/Typstify</a></b>  - 🥉7 ·  ⭐ 48 · 💀 · <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-agpl-3-0">❗️&nbsp;AGPL-3.0</a></code> · <code>🎨 App</code><br>A Typst Editor for iPad.</summary>
 
-- [GitHub](https://github.com/jeffa5/typstfmt) (👨‍💻 4 · 🔀 4 · ⏱️ 24.10.2024):
-
-	```
-	git clone https://github.com/jeffa5/typstfmt
-	```
-</details>
-<details><summary><b><a href="https://github.com/PartyWumpus/typst-concealer">PartyWumpus/typst-concealer</a></b>  - 🥉6 ·  ⭐ 63 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>A neovim plugin for rendering typst inline using the kitty unicode graphics protocol.</summary>
-
-- [GitHub](https://github.com/PartyWumpus/typst-concealer) (👨‍💻 2 · 🔀 4 · 📋 10 - 30% open · ⏱️ 09.08.2025):
+- [GitHub](https://github.com/iXORTech/Typstify) (👨‍💻 3 · 🔀 4 · 📋 7 - 42% open · ⏱️ 25.11.2025):
 
 	```
-	git clone https://github.com/PartyWumpus/typst-concealer
+	git clone https://github.com/iXORTech/Typstify
 	```
 </details>
 <details><summary><b><a href="https://github.com/niuiic/typst-preview.nvim">niuiic/typst-preview.nvim</a></b>  - 🥉5 ·  ⭐ 49 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Neovim plugin to preview typst document.</summary>
@@ -932,6 +968,14 @@ _Compose articles and books._
 
 	```
 	git clone https://github.com/niuiic/typst-preview.nvim
+	```
+</details>
+<details><summary><b><a href="https://tyraria.typs.town/">tyraria</a></b>  - 🥉5 ·  ⭐ 34 · 💀 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🦋 Web</code><br>Recreate the online editing experience of typst.app based on tinymist and typst.ts.</summary>
+
+- [GitHub](https://github.com/ParaN3xus/tyraria) (👨‍💻 2 · 🔀 2 · 📋 8 - 50% open · ⏱️ 28.11.2025):
+
+	```
+	git clone https://github.com/ParaN3xus/tyraria
 	```
 </details>
 <details><summary><b><a href="https://github.com/MrPicklePinosaur/typst-conceal.vim">MrPicklePinosaur/typst-conceal.vim</a></b>  - 🥉5 ·  ⭐ 24 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>plugin for typst conceal.</summary>
@@ -950,20 +994,20 @@ _Compose articles and books._
 	git clone https://github.com/daskol/typstd
 	```
 </details>
-<details><summary><b><a href="https://github.com/kxxt/codemirror-lang-typst">codemirror-lang-typst</a></b>  - 🥉4 ·  ⭐ 9 · 💀 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🧩 Extension</code><br>(Experimental) Typst language support for CodeMirror editor.</summary>
-
-- [GitHub](https://github.com/kxxt/codemirror-lang-typst) (👨‍💻 2 · ⏱️ 07.08.2025):
-
-	```
-	git clone https://github.com/kxxt/codemirror-lang-typst
-	```
-</details>
-<details><summary><b><a href="https://github.com/bingqiao/TypstFFIApp">TypstFFIApp</a></b>  - 🥉3 ·  ⭐ 2 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>SwiftUI macOS App with Rust Typst FFI Library Demo.</summary>
+<details><summary><b><a href="https://github.com/bingqiao/TypstFFIApp">TypstFFIApp</a></b>  - 🥉4 ·  ⭐ 3 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>SwiftUI macOS App with Rust Typst FFI Library Demo.</summary>
 
 - [GitHub](https://github.com/bingqiao/TypstFFIApp) (⏱️ 23.06.2025):
 
 	```
 	git clone https://github.com/bingqiao/TypstFFIApp
+	```
+</details>
+<details><summary><b><a href="https://github.com/clysto/typst-vscode">Typst Basic VS Code Extension</a></b>  - 🥉4 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br></summary>
+
+- [GitHub](https://github.com/clysto/typst-vscode) (⏱️ 16.11.2025):
+
+	```
+	git clone https://github.com/clysto/typst-vscode
 	```
 </details>
 <details><summary><b><a href="https://github.com/kwangkim/Serifian">Serifian</a></b>  - 🥉3 ·  ⭐ 1 · 💀 · <code>❗&nbsp;Unlicensed</code> · <code>🎨 App</code><br>A Typst client for iPadOS.</summary>
@@ -999,91 +1043,71 @@ _Compose articles and books._
 
 _Typeset mathematical formulae._
 
-<details><summary><b><a href="https://detypify.quarticcat.com/">Detypify</a></b>  - 🥇19 ·  ⭐ 260 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code> · <code>🧩 Extension</code><br>Typst symbol classifier.</summary>
+<details><summary><b><a href="https://convert.silkyai.cn/">Tylax</a></b>  - 🥇19 ·  ⭐ 470 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🥡 Runnable</code> · <code>🔌 API</code> · <code>🦋 Web</code> · <code>🗺️ Multilingual</code><br>A bi-directional converter between Typst and LaTeX. Available as both a CLI tool and a Web interface.</summary>
 
-- [GitHub](https://github.com/QuarticCat/detypify) (👨‍💻 3 · 🔀 6 · 📥 490 · 📦 5 · 📋 8 - 12% open · ⏱️ 14.07.2026):
-
-	```
-	git clone https://github.com/QuarticCat/detypify
-	```
-- [npm](https://www.npmjs.com/package/detypify-service) (📥 1.5K / month · ⏱️ 26.02.2026):
-	```
-	npm install detypify-service
-	```
-</details>
-<details><summary><b><a href="https://convert.silkyai.cn/">Tylax</a></b>  - 🥇18 ·  ⭐ 450 · 🐣 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🥡 Runnable</code> · <code>🔌 API</code> · <code>🦋 Web</code> · <code>🗺️ Multilingual</code><br>A bi-directional converter between Typst and LaTeX. Available as both a CLI tool and a Web interface.</summary>
-
-- [GitHub](https://github.com/scipenai/tylax) (👨‍💻 3 · 🔀 9 · 📥 320 · 📦 5 · 📋 27 - 29% open · ⏱️ 18.07.2026):
+- [GitHub](https://github.com/scipenai/tylax) (👨‍💻 3 · 🔀 10 · 📥 1.1K · 📦 5 · 📋 28 - 28% open · ⏱️ 18.07.2026):
 
 	```
 	git clone https://github.com/scipenai/tylax
 	```
-- [Cargo](https://crates.io/crates/tylax) (📥 930 / month · 📦 5 · ⏱️ 18.07.2026):
+- [Cargo](https://crates.io/crates/tylax) (📥 1.1K / month · 📦 5 · ⏱️ 18.07.2026):
 	```
 	cargo install tylax
 	```
 </details>
 <details><summary><b><a href="https://mitex-rs.github.io/mitex/tools/underleaf.html">MiTeX</a></b>  - 🥇17 ·  ⭐ 600 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🥡 Runnable</code> · <code>🦋 Web</code> · <code>🌌 Typst package</code><br>LaTeX support for Typst, powered by Rust and WASM. https://mitex-rs.github.io/mitex/.</summary>
 
-- [GitHub](https://github.com/mitex-rs/mitex) (👨‍💻 15 · 🔀 27 · 📦 14 · 📋 85 - 41% open · ⏱️ 07.07.2026):
+- [GitHub](https://github.com/mitex-rs/mitex) (👨‍💻 15 · 🔀 29 · 📦 14 · 📋 85 - 41% open · ⏱️ 07.07.2026):
 
 	```
 	git clone https://github.com/mitex-rs/mitex
 	```
 </details>
+<details><summary><b><a href="https://detypify.quarticcat.com/">Detypify</a></b>  - 🥇17 ·  ⭐ 260 · 📉 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code> · <code>🧩 Extension</code><br>Typst symbol classifier.</summary>
+
+- [GitHub](https://github.com/QuarticCat/detypify) (👨‍💻 3 · 🔀 6 · 📥 500 · 📦 6 · 📋 8 - 12% open · ⏱️ 18.08.2026):
+
+	```
+	git clone https://github.com/QuarticCat/detypify
+	```
+- [npm](https://www.npmjs.com/package/detypify-service) (📥 950 / month · ⏱️ 26.02.2026):
+	```
+	npm install detypify-service
+	```
+</details>
 <details><summary><b><a href="https://qwinsi.github.io/tex2typst-webapp/">qwinsi/tex2typst</a></b>  - 🥇17 ·  ⭐ 110 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🦋 Web</code> · <code>🔌 API</code><br>JavaScript library for conversion between TeX/LaTeX and Typst math code.</summary>
 
-- [GitHub](https://github.com/qwinsi/tex2typst) (👨‍💻 6 · 🔀 11 · 📦 13 · 📋 32 - 9% open · ⏱️ 14.06.2026):
+- [GitHub](https://github.com/qwinsi/tex2typst) (👨‍💻 6 · 🔀 11 · 📦 14 · 📋 32 - 9% open · ⏱️ 14.06.2026):
 
 	```
 	git clone https://github.com/qwinsi/tex2typst
 	```
-- [npm](https://www.npmjs.com/package/tex2typst) (📥 2.3K / month · 📦 5 · ⏱️ 14.06.2026):
+- [npm](https://www.npmjs.com/package/tex2typst) (📥 2.7K / month · 📦 5 · ⏱️ 14.06.2026):
 	```
 	npm install tex2typst
 	```
 </details>
-<details><summary><b><a href="https://continuous-foundation.github.io/tex-to-typst/">continuous-foundation/tex-to-typst</a></b>  - 🥈16 ·  ⭐ 33 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Translate LaTeX or TeX math markup to typst.</summary>
+<details><summary><b><a href="https://continuous-foundation.github.io/tex-to-typst/">continuous-foundation/tex-to-typst</a></b>  - 🥈15 ·  ⭐ 33 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Translate LaTeX or TeX math markup to typst.</summary>
 
-- [GitHub](https://github.com/continuous-foundation/tex-to-typst) (👨‍💻 4 · 🔀 2 · 📦 32 · 📋 8 - 12% open · ⏱️ 17.07.2026):
+- [GitHub](https://github.com/continuous-foundation/tex-to-typst) (👨‍💻 4 · 🔀 2 · 📋 8 - 12% open · ⏱️ 10.08.2026):
 
 	```
 	git clone https://github.com/continuous-foundation/tex-to-typst
 	```
-- [npm](https://www.npmjs.com/package/tex-to-typst) (📥 7.1K / month · 📦 4 · ⏱️ 17.07.2026):
+- [npm](https://www.npmjs.com/package/tex-to-typst) (📥 3K / month · 📦 4 · ⏱️ 17.07.2026):
 	```
 	npm install tex-to-typst
 	```
 </details>
 <details><summary><b><a href="https://apps.gnome.org/en/Hieroglyphic/">Hieroglyphic</a></b>  - 🥈13 ·  ⭐ 120 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🎨 App</code> · <code>🗺️ Multilingual</code><br>Find LaTeX and Typst symbols.</summary>
 
-- [GitHub](https://github.com/FineFindus/Hieroglyphic) (👨‍💻 63 · 🔀 19 · 📥 170 · 📋 23 - 17% open · ⏱️ 19.07.2026):
+- [GitHub](https://github.com/FineFindus/Hieroglyphic) (👨‍💻 64 · 🔀 20 · 📥 180 · 📋 23 - 17% open · ⏱️ 17.08.2026):
 
 	```
 	git clone https://github.com/FineFindus/Hieroglyphic
 	```
 </details>
-<details><summary><b><a href="https://tejasprabhune.github.io/kern/">kern</a></b>  - 🥈12 ·  ⭐ 18 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>A fast, zero-dependency JavaScript library that renders Typst math syntax to HTML/CSS/MathML in the browser. Drop-in..</summary>
-
-- [GitHub](https://github.com/tejasprabhune/kern) (⏱️ 14.05.2026):
-
-	```
-	git clone https://github.com/tejasprabhune/kern
-	```
-- [npm](https://www.npmjs.com/package/kern-typ) (📥 77 / month · ⏱️ 16.05.2026):
-	```
-	npm install kern-typ
-	```
-</details>
-<details><summary><b><a href="https://luarocks.org/modules/pxwg/math-conceal.nvim">math-conceal.nvim</a></b>  - 🥈10 ·  ⭐ 59 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code> · <code>🗺️ Multilingual</code><br>Faster, Stronger LaTeX and Typst conceal for neovim with the power of Rust!.</summary>
-
-- [GitHub](https://github.com/pxwg/math-conceal.nvim) (👨‍💻 8 · 🔀 3 · 📋 21 - 19% open · ⏱️ 20.07.2026):
-
-	```
-	git clone https://github.com/pxwg/math-conceal.nvim
-	```
-</details>
-<details><summary><b><a href="https://typstpad.com">TypstPad</a></b>  - 🥈10 ·  ⭐ 28 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code><br>TypstPad is an online Typst formula editor for creating, previewing, and exporting math formulas.</summary>
+<details><summary><b><a href="https://typstpad.com">TypstPad</a></b>  - 🥈10 ·  ⭐ 29 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code><br>TypstPad is an online Typst formula editor for creating, previewing, and exporting math formulas.</summary>
 
 - [GitHub](https://github.com/dbccccccc/TypstPad) (🔀 2 · ⏱️ 13.07.2026):
 
@@ -1091,27 +1115,47 @@ _Typeset mathematical formulae._
 	git clone https://github.com/dbccccccc/TypstPad
 	```
 </details>
-<details><summary><b><a href="https://xyy-cas.github.io/tex2typst-UI/">tex2typst-rs</a></b>  - 🥉8 ·  ⭐ 15 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🔌 API</code> · <code>🦋 Web</code><br>A Rust library that converts TeX code to Typst code.</summary>
+<details><summary><b><a href="https://luarocks.org/modules/pxwg/math-conceal.nvim">math-conceal.nvim</a></b>  - 🥈9 ·  ⭐ 62 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code> · <code>🗺️ Multilingual</code><br>Faster, Stronger LaTeX and Typst conceal for neovim with the power of Rust!.</summary>
 
-- [GitHub](https://github.com/xyy-cas/tex2typst-rs) (👨‍💻 2 · 🔀 2 · 📦 4 · ⏱️ 19.06.2026):
+- [GitHub](https://github.com/pxwg/math-conceal.nvim) (👨‍💻 8 · 🔀 2 · 📋 24 - 16% open · ⏱️ 19.08.2026):
+
+	```
+	git clone https://github.com/pxwg/math-conceal.nvim
+	```
+</details>
+<details><summary><b><a href="https://tejasprabhune.github.io/kern/">kern</a></b>  - 🥈9 ·  ⭐ 18 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>A fast, zero-dependency JavaScript library that renders Typst math syntax to HTML/CSS/MathML in the browser. Drop-in..</summary>
+
+- [GitHub](https://github.com/tejasprabhune/kern) (⏱️ 14.05.2026):
+
+	```
+	git clone https://github.com/tejasprabhune/kern
+	```
+- [npm](https://www.npmjs.com/package/kern-typ) (📥 48 / month · ⏱️ 16.05.2026):
+	```
+	npm install kern-typ
+	```
+</details>
+<details><summary><b><a href="https://xyy-cas.github.io/tex2typst-UI/">tex2typst-rs</a></b>  - 🥈9 ·  ⭐ 15 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🔌 API</code> · <code>🦋 Web</code><br>A Rust library that converts TeX code to Typst code.</summary>
+
+- [GitHub](https://github.com/xyy-cas/tex2typst-rs) (👨‍💻 2 · 🔀 3 · 📦 5 · ⏱️ 19.06.2026):
 
 	```
 	git clone https://github.com/xyy-cas/tex2typst-rs
 	```
-- [Cargo](https://crates.io/crates/tex2typst-rs) (📥 510 / month · ⏱️ 17.02.2025):
+- [Cargo](https://crates.io/crates/tex2typst-rs) (📥 610 / month · ⏱️ 17.02.2025):
 	```
 	cargo install tex2typst-rs
 	```
 </details>
-<details><summary><b><a href="https://mapaor.github.io/copy-latex-firefox-extension/">CopyLaTeX</a></b>  - 🥉8 ·  ⭐ 12 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Firefox and Chrome extensions to quickly copy LaTeX or Typst code from mathematical expressions on the internet.</summary>
+<details><summary><b><a href="https://mapaor.github.io/copy-latex-firefox-extension/">CopyLaTeX</a></b>  - 🥉7 ·  ⭐ 13 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Firefox and Chrome extensions to quickly copy LaTeX or Typst code from mathematical expressions on the internet.</summary>
 
-- [GitHub](https://github.com/Mapaor/copy-latex-firefox-extension) (👨‍💻 2 · 🔀 1 · 📥 4 · ⏱️ 04.05.2026):
+- [GitHub](https://github.com/Mapaor/copy-latex-firefox-extension) (👨‍💻 2 · 🔀 2 · 📥 4 · 📋 2 - 50% open · ⏱️ 12.08.2026):
 
 	```
 	git clone https://github.com/Mapaor/copy-latex-firefox-extension
 	```
 </details>
-<details><summary><b><a href="https://vertsineu.github.io/typstation/">typstation</a></b>  - 🥉4 ·  ⭐ 5 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code><br>An online Typst math equation editor — write, preview, and export formulas in a single page.</summary>
+<details><summary><b><a href="https://vertsineu.github.io/typstation/">typstation</a></b>  - 🥉4 ·  ⭐ 5 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code><br>An online Typst math equation editor — write, preview, and export formulas in a single page.</summary>
 
 - [GitHub](https://github.com/Vertsineu/typstation) (⏱️ 15.04.2026):
 
@@ -1137,34 +1181,34 @@ _Typeset mathematical formulae._
 </details>
 <details><summary>Show 11 hidden projects...</summary>
 
-<details><summary><b><a href="https://0xpapercut.github.io/wypst/">Wypst</a></b>  - 🥈13 ·  ⭐ 96 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Typst math typesetting for the web.</summary>
+<details><summary><b><a href="https://0xpapercut.github.io/wypst/">Wypst</a></b>  - 🥈13 ·  ⭐ 95 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Typst math typesetting for the web.</summary>
 
 - [GitHub](https://github.com/andredalbosco/wypst) (👨‍💻 3 · 🔀 6 · 📥 20 · 📦 6 · 📋 7 - 57% open · ⏱️ 16.06.2024):
 
 	```
 	git clone https://github.com/andredalbosco/wypst
 	```
-- [npm](https://www.npmjs.com/package/wypst) (📥 48 / month · ⏱️ 03.05.2024):
+- [npm](https://www.npmjs.com/package/wypst) (📥 29 / month · ⏱️ 03.05.2024):
 	```
 	npm install wypst
 	```
 </details>
-<details><summary><b><a href="https://marketplace.visualstudio.com/items?itemName=surv.typst-math">Typst math VS Code Extension</a></b>  - 🥉9 ·  ⭐ 33 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>A VS Code extension to simplify math writing in Typst.</summary>
+<details><summary><b><a href="https://marketplace.visualstudio.com/items?itemName=surv.typst-math">Typst math VS Code Extension</a></b>  - 🥈9 ·  ⭐ 33 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>A VS Code extension to simplify math writing in Typst.</summary>
 
-- [GitHub](https://github.com/supersurviveur/typst-math) (👨‍💻 3 · 🔀 2 · 📥 25 · 📋 34 - 11% open · ⏱️ 30.06.2025):
+- [GitHub](https://github.com/jthillard/typst-math) (👨‍💻 3 · 🔀 2 · 📥 25 · 📋 34 - 11% open · ⏱️ 30.06.2025):
 
 	```
 	git clone https://github.com/supersurviveur/typst-math
 	```
 </details>
-<details><summary><b><a href="https://github.com/Lowmst/markdown-it-typst-math">Markdown-It Typst Math</a></b>  - 🥉8 ·  ⭐ 4 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Markdown It plugin that adds Typst math equation rendering.</summary>
+<details><summary><b><a href="https://github.com/Lowmst/markdown-it-typst-math">Markdown-It Typst Math</a></b>  - 🥉8 ·  ⭐ 3 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Markdown It plugin that adds Typst math equation rendering.</summary>
 
 - [GitHub](https://github.com/Lowmst/markdown-it-typst-math) (📥 11 · 📦 2 · ⏱️ 02.09.2025):
 
 	```
 	git clone https://github.com/Lowmst/markdown-it-typst-math
 	```
-- [npm](https://www.npmjs.com/package/@lowmst/markdown-it-typst-math) (📥 26 / month · ⏱️ 03.09.2025):
+- [npm](https://www.npmjs.com/package/@lowmst/markdown-it-typst-math) (📥 32 / month · ⏱️ 03.09.2025):
 	```
 	npm install @lowmst/markdown-it-typst-math
 	```
@@ -1244,7 +1288,7 @@ _Links, citations, and bibliography. (in addition to the official [hayagriva](ht
 
 <details><summary><b><a href="https://addons.mozilla.org/en-US/firefox/addon/yank/">yank</a></b>  - 🥇9 ·  ⭐ 13 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>A Firefox extension to copy current tab URL and title to clipboard, formatted for a markup language. Supports several..</summary>
 
-- [GitHub](https://github.com/roosta/yank) (👨‍💻 2 · 🔀 1 · 📥 42 · 📦 4 · ⏱️ 13.07.2026):
+- [GitHub](https://github.com/roosta/yank) (👨‍💻 2 · 🔀 1 · 📥 42 · 📦 4 · ⏱️ 12.08.2026):
 
 	```
 	git clone https://github.com/roosta/yank
@@ -1252,7 +1296,7 @@ _Links, citations, and bibliography. (in addition to the official [hayagriva](ht
 </details>
 <details><summary><b><a href="https://ydx-2147483647.github.io/hayagriva-gb-tracking/">Hayagriva对GB/T 7714—2015的支持情况</a></b>  - 🥇9 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code> · <code>🦋 Web</code> · <code>🐧 non-English</code><br>测试Hayagriva对GB/T 7714—2015的支持情况 Is Hayagriva ready for GB/T 7714—2015?.</summary>
 
-- [GitHub](https://github.com/YDX-2147483647/hayagriva-gb-tracking) (👨‍💻 2 · 📥 440 · ⏱️ 02.07.2026):
+- [GitHub](https://github.com/YDX-2147483647/hayagriva-gb-tracking) (👨‍💻 2 · 📥 460 · ⏱️ 27.07.2026):
 
 	```
 	git clone https://github.com/YDX-2147483647/hayagriva-gb-tracking
@@ -1274,23 +1318,15 @@ _Links, citations, and bibliography. (in addition to the official [hayagriva](ht
 	git clone https://github.com/jassielof/hayagriva-manager
 	```
 </details>
-<details><summary><b><a href="https://github.com/noClaps/cite">noClaps/cite</a></b>  - 🥈7 · 🐣 · <code><a href="https://tldrlegal.com/search?query=0BSD">❗️&nbsp;0BSD</a></code> · <code>🥡 Runnable</code><br>A tool to generate Hayagriva citations from DOI URLs.</summary>
+<details><summary><b><a href="https://jonasloos.github.io/bibtex-to-hayagriva-webapp/">Webapp for converting BibTeX to Hayagriva</a></b>  - 🥈5 ·  ⭐ 34 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code><br>A webapp to convert from Bibtex to Hayagriva.</summary>
 
-- [GitHub](https://github.com/noClaps/cite) (📥 1 · ⏱️ 05.07.2026):
-
-	```
-	git clone https://github.com/noClaps/cite
-	```
-</details>
-<details><summary><b><a href="https://jonasloos.github.io/bibtex-to-hayagriva-webapp/">Webapp for converting BibTeX to Hayagriva</a></b>  - 🥉5 ·  ⭐ 33 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code><br>A webapp to convert from Bibtex to Hayagriva.</summary>
-
-- [GitHub](https://github.com/JonasLoos/bibtex-to-hayagriva-webapp) (👨‍💻 2 · 📋 5 - 20% open · ⏱️ 07.07.2026):
+- [GitHub](https://github.com/JonasLoos/bibtex-to-hayagriva-webapp) (👨‍💻 2 · 🔀 1 · 📋 5 - 20% open · ⏱️ 07.07.2026):
 
 	```
 	git clone https://github.com/JonasLoos/bibtex-to-hayagriva-webapp
 	```
 </details>
-<details><summary><b><a href="https://ydx-2147483647.github.io/haya-view-test/">haya-view-test</a></b>  - 🥉5 · 🐣 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🦋 Web</code><br>View Hayagrivas result against the CSL Test Suite.</summary>
+<details><summary><b><a href="https://ydx-2147483647.github.io/haya-view-test/">haya-view-test</a></b>  - 🥈5 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🦋 Web</code><br>View Hayagrivas result against the CSL Test Suite.</summary>
 
 - [GitHub](https://github.com/YDX-2147483647/haya-view-test) (👨‍💻 2 · ⏱️ 19.06.2026):
 
@@ -1300,7 +1336,7 @@ _Links, citations, and bibliography. (in addition to the official [hayagriva](ht
 </details>
 <details><summary><b><a href="https://typst-doc-cn.github.io/csl-sanitizer/">CSL sanitizer for Hayagriva</a></b>  - 🥉2 ·  ⭐ 1 · <code>❗&nbsp;Unlicensed</code> · <code>🥡 Runnable</code> · <code>🗺️ Multilingual</code><br>CSL sanitizer for Hayagriva——可用于 Hayagriva 的 CSL 样式.</summary>
 
-- [GitHub](https://github.com/typst-doc-cn/csl-sanitizer) (👨‍💻 2 · 🔀 1 · ⏱️ 02.07.2026):
+- [GitHub](https://github.com/typst-doc-cn/csl-sanitizer) (👨‍💻 2 · 🔀 1 · ⏱️ 01.08.2026):
 
 	```
 	git clone https://github.com/typst-doc-cn/csl-sanitizer
@@ -1318,11 +1354,11 @@ _Links, citations, and bibliography. (in addition to the official [hayagriva](ht
 	```
 	git clone https://github.com/FNNDSC/tohaya
 	```
-- [npm](https://www.npmjs.com/package/tohaya) (📥 82 / month · ⏱️ 23.09.2025):
+- [npm](https://www.npmjs.com/package/tohaya) (📥 25 / month · ⏱️ 23.09.2025):
 	```
 	npm install tohaya
 	```
-- [Cargo](https://crates.io/crates/tohaya) (📥 4.3 / month · ⏱️ 23.09.2025):
+- [Cargo](https://crates.io/crates/tohaya) (📥 5.3 / month · ⏱️ 23.09.2025):
 	```
 	cargo install tohaya
 	```
@@ -1334,24 +1370,12 @@ _Links, citations, and bibliography. (in addition to the official [hayagriva](ht
 	```
 	git clone https://github.com/citation-js/plugin-hayagriva
 	```
-- [npm](https://www.npmjs.com/package/@citation-js/plugin-hayagriva) (📥 76 / month · 📦 2 · ⏱️ 27.12.2024):
+- [npm](https://www.npmjs.com/package/@citation-js/plugin-hayagriva) (📥 15 / month · 📦 2 · ⏱️ 27.12.2024):
 	```
 	npm install @citation-js/plugin-hayagriva
 	```
 </details>
-<details><summary><b><a href="http://tsdocs.dev/docs/citationberg">citationberg.js</a></b>  - 🥉6 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>🦀 citationberg Rust crate for JavaScript.</summary>
-
-- [GitHub](https://github.com/jcbhmr/citationberg.js) (⏱️ 16.01.2024):
-
-	```
-	git clone https://github.com/jcbhmr/citationberg.js
-	```
-- [npm](https://www.npmjs.com/package/citationberg) (📥 23 / month · ⏱️ 13.01.2024):
-	```
-	npm install citationberg
-	```
-</details>
-<details><summary><b><a href="https://github.com/MordragT/bib_kit">Bib Kit</a></b>  - 🥉5 ·  ⭐ 19 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Provides an firefox extension to create citations in the hayagriva format used by typst.</summary>
+<details><summary><b><a href="https://github.com/MordragT/bib_kit">Bib Kit</a></b>  - 🥈5 ·  ⭐ 20 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Provides an firefox extension to create citations in the hayagriva format used by typst.</summary>
 
 - [GitHub](https://github.com/MordragT/bib_kit) (📋 7 - 42% open · ⏱️ 21.04.2023):
 
@@ -1359,12 +1383,24 @@ _Links, citations, and bibliography. (in addition to the official [hayagriva](ht
 	git clone https://github.com/MordragT/bib_kit
 	```
 </details>
-<details><summary><b><a href="https://github.com/typst-community/setup-hayagriva">typst-community/setup-hayagriva</a></b>  - 🥉5 ·  ⭐ 2 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code><br>🏷️ Installs the Hayagriva CLI for GitHub Actions.</summary>
+<details><summary><b><a href="https://github.com/typst-community/setup-hayagriva">typst-community/setup-hayagriva</a></b>  - 🥈5 ·  ⭐ 2 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code><br>🏷️ Installs the Hayagriva CLI for GitHub Actions.</summary>
 
 - [GitHub](https://github.com/typst-community/setup-hayagriva) (⏱️ 06.02.2024):
 
 	```
 	git clone https://github.com/typst-community/setup-hayagriva
+	```
+</details>
+<details><summary><b><a href="http://tsdocs.dev/docs/citationberg">citationberg.js</a></b>  - 🥈5 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>🦀 citationberg Rust crate for JavaScript.</summary>
+
+- [GitHub](https://github.com/jcbhmr/citationberg.js) (⏱️ 16.01.2024):
+
+	```
+	git clone https://github.com/jcbhmr/citationberg.js
+	```
+- [npm](https://www.npmjs.com/package/citationberg) (📥 11 / month · ⏱️ 13.01.2024):
+	```
+	npm install citationberg
 	```
 </details>
 <details><summary><b><a href="https://github.com/csimide/cslper">cslper</a></b>  - 🥉2 ·  ⭐ 3 · 💀 · <code>❗&nbsp;Unlicensed</code> · <code>🥡 Runnable</code> · <code>🐧 non-English</code><br>自用的 Typst 引用文献处理脚本（用于处理 `et al.` 和 `等`）.</summary>
@@ -1400,59 +1436,59 @@ _Links, citations, and bibliography. (in addition to the official [hayagriva](ht
 
 _Mix Typst into other documents._
 
-<details><summary><b><a href="https://textext.github.io/textext/">TexText</a></b>  - 🥇20 ·  ⭐ 1.1K · 💤 · <code><a href="https://tldrlegal.com/license/bsd-3-clause-license-revised">BSD-3</a></code> · <code>🧩 Extension</code><br>Re-editable LaTeX/ typst graphics for Inkscape.</summary>
+<details><summary><b><a href="https://textext.github.io/textext/">TexText</a></b>  - 🥇21 ·  ⭐ 1.1K · 💤 · <code><a href="https://tldrlegal.com/license/bsd-3-clause-license-revised">BSD-3</a></code> · <code>🧩 Extension</code><br>Re-editable LaTeX/ typst graphics for Inkscape.</summary>
 
-- [GitHub](https://github.com/textext/textext) (👨‍💻 22 · 🔀 48 · 📥 190K · 📋 310 - 7% open · ⏱️ 06.01.2026):
+- [GitHub](https://github.com/textext/textext) (👨‍💻 22 · 🔀 49 · 📥 190K · 📋 310 - 7% open · ⏱️ 06.01.2026):
 
 	```
 	git clone https://github.com/textext/textext
 	```
 </details>
-<details><summary><b><a href="https://vincentarelbundock.github.io/calepin">Calepin</a></b>  - 🥇18 ·  ⭐ 160 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🤖 CLI</code> · <code>🧩 Extension</code><br>Computational notebooks in Typst.</summary>
+<details><summary><b><a href="https://typst.overflow.cat">astro-typst</a></b>  - 🥇19 ·  ⭐ 200 · 📈 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>All-in-one Typst integration for Astro.</summary>
 
-- [GitHub](https://github.com/vincentarelbundock/calepin) (👨‍💻 8 · 🔀 5 · 📥 1.4K · 📋 94 - 20% open · ⏱️ 17.07.2026):
+- [GitHub](https://github.com/OverflowCat/astro-typst) (👨‍💻 5 · 🔀 9 · 📦 52 · 📋 33 - 36% open · ⏱️ 02.08.2026):
+
+	```
+	git clone https://github.com/OverflowCat/astro-typst
+	```
+- [npm](https://www.npmjs.com/package/astro-typst) (📥 1K / month · ⏱️ 02.08.2026):
+	```
+	npm install astro-typst
+	```
+</details>
+<details><summary><b><a href="https://vincentarelbundock.github.io/calepin">Calepin</a></b>  - 🥇18 ·  ⭐ 170 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🤖 CLI</code> · <code>🧩 Extension</code><br>Computational notebooks in Typst.</summary>
+
+- [GitHub](https://github.com/vincentarelbundock/calepin) (👨‍💻 8 · 🔀 6 · 📥 1.3K · 📋 99 - 4% open · ⏱️ 20.08.2026):
 
 	```
 	git clone https://github.com/vincentarelbundock/calepin
 	```
 </details>
-<details><summary><b><a href="https://npmx.dev/package/@typstmate/typst-syntax">obsidian-typst-mate</a></b>  - 🥇17 ·  ⭐ 210 · 💤 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🧩 Extension</code><br>Render math expressions with Typst instead of MathJax in Obsidian.</summary>
+<details><summary><b><a href="https://q.uiver.app">quiver</a></b>  - 🥇17 ·  ⭐ 3.6K · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code><br>A modern commutative diagram editor for the web.</summary>
 
-- [GitHub](https://github.com/azyarashi/obsidian-typst-mate) (👨‍💻 5 · 🔀 10 · 📥 31K · 📦 1 · 📋 92 - 25% open · ⏱️ 12.03.2026):
-
-	```
-	git clone https://github.com/azyarashi/obsidian-typst-mate
-	```
-</details>
-<details><summary><b><a href="https://q.uiver.app">quiver</a></b>  - 🥇16 ·  ⭐ 3.6K · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code><br>A modern commutative diagram editor for the web.</summary>
-
-- [GitHub](https://github.com/varkor/quiver) (👨‍💻 9 · 🔀 120 · 📋 270 - 20% open · ⏱️ 18.07.2026):
+- [GitHub](https://github.com/varkor/quiver) (👨‍💻 10 · 🔀 120 · 📋 270 - 16% open · ⏱️ 30.07.2026):
 
 	```
 	git clone https://github.com/varkor/quiver
 	```
 </details>
-<details><summary><b><a href="https://typst.overflow.cat">astro-typst</a></b>  - 🥇16 ·  ⭐ 190 · 💤 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>All-in-one Typst integration for Astro.</summary>
+<details><summary><b><a href="https://npmx.dev/package/@typstmate/typst-syntax">obsidian-typst-mate</a></b>  - 🥈16 ·  ⭐ 220 · 💤 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🧩 Extension</code><br>Render math expressions with Typst instead of MathJax in Obsidian.</summary>
 
-- [GitHub](https://github.com/OverflowCat/astro-typst) (👨‍💻 5 · 🔀 9 · 📦 51 · 📋 32 - 37% open · ⏱️ 06.01.2026):
+- [GitHub](https://github.com/azyarashi/obsidian-typst-mate) (👨‍💻 5 · 🔀 14 · 📥 33K · 📦 1 · 📋 93 - 25% open · ⏱️ 12.03.2026):
 
 	```
-	git clone https://github.com/OverflowCat/astro-typst
-	```
-- [npm](https://www.npmjs.com/package/astro-typst) (📥 840 / month · ⏱️ 26.12.2025):
-	```
-	npm install astro-typst
+	git clone https://github.com/azyarashi/obsidian-typst-mate
 	```
 </details>
 <details><summary><b><a href="https://extensions.blender.org/add-ons/typst-importer/">Blender Typst Importer</a></b>  - 🥈11 ·  ⭐ 20 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🧩 Extension</code><br>Blender extension to render typst content. Examples: https://kolibril13.github.io/bpy-gallery/n4typst_examples/.</summary>
 
-- [GitHub](https://github.com/kolibril13/blender_typst_importer) (👨‍💻 2 · 🔀 4 · 📥 1.2K · 📋 12 - 66% open · ⏱️ 15.07.2026):
+- [GitHub](https://github.com/kolibril13/blender_typst_importer) (👨‍💻 2 · 🔀 4 · 📥 1.3K · 📋 13 - 69% open · ⏱️ 15.07.2026):
 
 	```
 	git clone https://github.com/kolibril13/blender_typst_importer
 	```
 </details>
-<details><summary><b><a href="https://splines.github.io/pptypst/">PPTypst</a></b>  - 🥈10 ·  ⭐ 140 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code> · <code>🧩 Extension</code><br>Bring the power of Typst to PowerPoint.</summary>
+<details><summary><b><a href="https://splines.github.io/pptypst/">PPTypst</a></b>  - 🥈10 ·  ⭐ 140 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code> · <code>🧩 Extension</code><br>Bring the power of Typst to PowerPoint.</summary>
 
 - [GitHub](https://github.com/Splines/pptypst) (👨‍💻 2 · 🔀 2 · 📋 31 - 22% open · ⏱️ 07.06.2026):
 
@@ -1467,19 +1503,19 @@ _Mix Typst into other documents._
 	```
 	git clone https://github.com/patrick-kidger/typst_pyimage
 	```
-- [PyPi](https://pypi.org/project/typst-pyimage) (📥 250 / month · ⏱️ 26.09.2025):
+- [PyPi](https://pypi.org/project/typst-pyimage) (📥 47 / month · ⏱️ 26.09.2025):
 	```
 	pip install typst-pyimage
 	```
 </details>
-<details><summary><b><a href="https://duskmoon314.github.io/mdbook-typst-math/">mdbook-typst-math</a></b>  - 🥈9 ·  ⭐ 16 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>mdbook typst preprocessor.</summary>
+<details><summary><b><a href="https://duskmoon314.github.io/mdbook-typst-math/">mdbook-typst-math</a></b>  - 🥈9 ·  ⭐ 17 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>mdbook typst preprocessor.</summary>
 
-- [GitHub](https://github.com/duskmoon314/mdbook-typst-math) (👨‍💻 3 · 🔀 1 · 📥 56 · 📋 6 - 16% open · ⏱️ 25.01.2026):
+- [GitHub](https://github.com/duskmoon314/mdbook-typst-math) (👨‍💻 4 · 🔀 2 · 📥 67 · 📋 6 - 16% open · ⏱️ 10.08.2026):
 
 	```
 	git clone https://github.com/duskmoon314/mdbook-typst-math
 	```
-- [Cargo](https://crates.io/crates/mdbook-typst-math) (📥 21 / month · ⏱️ 26.12.2025):
+- [Cargo](https://crates.io/crates/mdbook-typst-math) (📥 23 / month · ⏱️ 26.12.2025):
 	```
 	cargo install mdbook-typst-math
 	```
@@ -1492,55 +1528,47 @@ _Mix Typst into other documents._
 	git clone https://github.com/frozolotl/typst-ansi-hl
 	```
 </details>
-<details><summary><b><a href="https://github.com/Quorafind/typst-toolbox">Typst Toolbox</a></b>  - 🥈9 ·  ⭐ 13 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🧩 Extension</code> · <code>🗺️ Multilingual</code><br>A comprehensive Typst integration toolbox for Obsidian, enabling seamless Markdown-to-Typst conversion, document..</summary>
+<details><summary><b><a href="https://github.com/Quorafind/typst-toolbox">Typst Toolbox</a></b>  - 🥈9 ·  ⭐ 13 · 💤 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🧩 Extension</code> · <code>🗺️ Multilingual</code><br>A comprehensive Typst integration toolbox for Obsidian, enabling seamless Markdown-to-Typst conversion, document..</summary>
 
-- [GitHub](https://github.com/Quorafind/typst-toolbox) (📥 590 · ⏱️ 01.04.2026):
+- [GitHub](https://github.com/Quorafind/typst-toolbox) (📥 760 · ⏱️ 01.04.2026):
 
 	```
 	git clone https://github.com/Quorafind/typst-toolbox
 	```
 </details>
-<details><summary><b><a href="https://github.com/uwni/11ty-pst">11ty-pst</a></b>  - 🥈9 ·  ⭐ 6 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>An Eleventy plugin that enables you to write content in Typst format with automatic dual HTML/PDF output generation.</summary>
+<details><summary><b><a href="https://github.com/uwni/11ty-pst">11ty-pst</a></b>  - 🥈9 ·  ⭐ 7 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>An Eleventy plugin that enables you to write content in Typst format with automatic dual HTML/PDF output generation.</summary>
 
 - [GitHub](https://github.com/uwni/11ty-pst) (👨‍💻 3 · 🔀 2 · 📦 1 · ⏱️ 04.07.2026):
 
 	```
 	git clone https://github.com/uwni/11ty-pst
 	```
-- [npm](https://www.npmjs.com/package/eleventy-plugin-typst) (📥 66 / month · ⏱️ 19.01.2026):
+- [npm](https://www.npmjs.com/package/eleventy-plugin-typst) (📥 56 / month · ⏱️ 19.01.2026):
 	```
 	npm install eleventy-plugin-typst
 	```
 </details>
-<details><summary><b><a href="https://github.com/fogsong233/Typsidian">Typsidian</a></b>  - 🥉8 ·  ⭐ 40 · 💤 · <code>❗&nbsp;Unlicensed</code> · <code>🧩 Extension</code><br>A typst tool for obsidian.</summary>
+<details><summary><b><a href="https://github.com/fogsong233/Typsidian">Typsidian</a></b>  - 🥉8 ·  ⭐ 41 · 💤 · <code>❗&nbsp;Unlicensed</code> · <code>🧩 Extension</code><br>A typst tool for obsidian.</summary>
 
-- [GitHub](https://github.com/fogsong233/Typsidian) (👨‍💻 3 · 🔀 2 · 📥 440 · 📋 8 - 50% open · ⏱️ 13.12.2025):
+- [GitHub](https://github.com/fogsong233/Typsidian) (👨‍💻 3 · 🔀 2 · 📥 450 · 📋 8 - 50% open · ⏱️ 13.12.2025):
 
 	```
 	git clone https://github.com/fogsong233/Typsidian
 	```
 </details>
-<details><summary><b><a href="https://github.com/andreasKroepelin/TypstJlyfish.jl">TypstJlyfish.jl</a></b>  - 🥉7 ·  ⭐ 100 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Integrate Julia computations in your Typst document.</summary>
-
-- [GitHub](https://github.com/andreasKroepelin/TypstJlyfish.jl) (👨‍💻 2 · 🔀 3 · 📋 10 - 70% open · ⏱️ 26.11.2025):
-
-	```
-	git clone https://github.com/andreasKroepelin/TypstJlyfish.jl
-	```
-</details>
-<details><summary><b><a href="https://github.com/carpe-diem/typst-fillable">typst-fillable</a></b>  - 🥉7 ·  ⭐ 36 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Create fillable PDF forms from Typst templates with interactive text fields, checkboxes, and radio buttons.</summary>
+<details><summary><b><a href="https://github.com/carpe-diem/typst-fillable">typst-fillable</a></b>  - 🥉7 ·  ⭐ 40 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Create fillable PDF forms from Typst templates with interactive text fields, checkboxes, and radio buttons.</summary>
 
 - [GitHub](https://github.com/carpe-diem/typst-fillable) (👨‍💻 1 · 🔀 2 · ⏱️ 30.12.2025):
 
 	```
 	git clone https://github.com/carpe-diem/typst-fillable
 	```
-- [PyPi](https://pypi.org/project/typst-fillable) (📥 91 / month · ⏱️ 29.12.2025):
+- [PyPi](https://pypi.org/project/typst-fillable) (📥 58 / month · ⏱️ 29.12.2025):
 	```
 	pip install typst-fillable
 	```
 </details>
-<details><summary><b><a href="https://github.com/jmpunkt/ox-typst">ox-typst.el</a></b>  - 🥉6 ·  ⭐ 130 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🧩 Extension</code><br>Org-mode to Typst exporter.</summary>
+<details><summary><b><a href="https://github.com/jmpunkt/ox-typst">ox-typst.el</a></b>  - 🥉6 ·  ⭐ 140 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🧩 Extension</code><br>Org-mode to Typst exporter.</summary>
 
 - [GitHub](https://github.com/jmpunkt/ox-typst) (👨‍💻 9 · 🔀 18 · 📋 21 - 38% open · ⏱️ 02.05.2026):
 
@@ -1548,15 +1576,15 @@ _Mix Typst into other documents._
 	git clone https://github.com/jmpunkt/ox-typst
 	```
 </details>
-<details><summary><b><a href="https://github.com/sitandr/mdbook-typst-highlight">mdbook-typst-highlight</a></b>  - 🥉5 ·  ⭐ 16 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🤖 CLI</code><br>Mdbook preprocessor to highlight Typst code (temporary solution until a good highlight.js syntax appears).</summary>
+<details><summary><b><a href="https://github.com/sitandr/mdbook-typst-highlight">mdbook-typst-highlight</a></b>  - 🥉5 ·  ⭐ 17 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🤖 CLI</code><br>Mdbook preprocessor to highlight Typst code (temporary solution until a good highlight.js syntax appears).</summary>
 
-- [GitHub](https://github.com/sitandr/mdbook-typst-highlight) (👨‍💻 2 · 🔀 2 · 📥 310 · 📋 2 - 50% open · ⏱️ 06.02.2026):
+- [GitHub](https://github.com/sitandr/mdbook-typst-highlight) (👨‍💻 2 · 🔀 2 · 📥 340 · 📋 2 - 50% open · ⏱️ 06.02.2026):
 
 	```
 	git clone https://github.com/sitandr/mdbook-typst-highlight
 	```
 </details>
-<details><summary><b><a href="https://github.com/johannesber/typst-ppt-addin">typst-ppt-addin</a></b>  - 🥉5 ·  ⭐ 12 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code> · <code>🥡 Runnable</code><br>PoC: Typst PowerPoint Add-In.</summary>
+<details><summary><b><a href="https://github.com/johannesber/typst-ppt-addin">typst-ppt-addin</a></b>  - 🥉5 ·  ⭐ 13 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code> · <code>🥡 Runnable</code><br>PoC: Typst PowerPoint Add-In.</summary>
 
 - [GitHub](https://github.com/johannesber/typst-ppt-addin) (⏱️ 18.02.2026):
 
@@ -1564,9 +1592,9 @@ _Mix Typst into other documents._
 	git clone https://github.com/johannesber/typst-ppt-addin
 	```
 </details>
-<details><summary><b><a href="https://github.com/alexanderkoller/typstit">Typstit</a></b>  - 🥉5 ·  ⭐ 6 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🎨 App</code><br>Insert Typst snippets into other applications (LaTeXit for Typst).</summary>
+<details><summary><b><a href="https://github.com/alexanderkoller/typstit">Typstit</a></b>  - 🥉4 ·  ⭐ 6 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🎨 App</code><br>Insert Typst snippets into other applications (LaTeXit for Typst).</summary>
 
-- [GitHub](https://github.com/alexanderkoller/typstit) (📥 22 · 📋 14 - 21% open · ⏱️ 30.04.2026):
+- [GitHub](https://github.com/alexanderkoller/typstit) (📥 23 · 📋 14 - 21% open · ⏱️ 30.04.2026):
 
 	```
 	git clone https://github.com/alexanderkoller/typstit
@@ -1580,32 +1608,32 @@ _Mix Typst into other documents._
 	git clone https://github.com/neruthes/typst-synthform
 	```
 </details>
-<details><summary>Show 17 hidden projects...</summary>
+<details><summary>Show 18 hidden projects...</summary>
 
-<details><summary><b><a href="https://github.com/fenjalien/obsidian-typst">obsidian-typst</a></b>  - 🥇16 ·  ⭐ 530 · 💀 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🧩 Extension</code><br>Renders typst code blocks in Obsidian into images using Typst through the power of WASM!.</summary>
+<details><summary><b><a href="https://github.com/fenjalien/obsidian-typst">obsidian-typst</a></b>  - 🥈16 ·  ⭐ 540 · 💀 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🧩 Extension</code><br>Renders typst code blocks in Obsidian into images using Typst through the power of WASM!.</summary>
 
-- [GitHub](https://github.com/fenjalien/obsidian-typst) (👨‍💻 6 · 🔀 28 · 📥 46K · 📋 62 - 50% open · ⏱️ 03.11.2024):
+- [GitHub](https://github.com/fenjalien/obsidian-typst) (👨‍💻 6 · 🔀 29 · 📥 48K · 📋 62 - 50% open · ⏱️ 03.11.2024):
 
 	```
 	git clone https://github.com/fenjalien/obsidian-typst
 	```
 </details>
-<details><summary><b><a href="https://github.com/andredalbosco/obsidian-wypst">obsidian-wypst</a></b>  - 🥈11 ·  ⭐ 80 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>High quality rendering of Typst in Obsidian, powered by wypst.</summary>
+<details><summary><b><a href="https://github.com/andredalbosco/obsidian-wypst">obsidian-wypst</a></b>  - 🥈11 ·  ⭐ 81 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>High quality rendering of Typst in Obsidian, powered by wypst.</summary>
 
-- [GitHub](https://github.com/andredalbosco/obsidian-wypst) (👨‍💻 3 · 🔀 10 · 📥 13K · 📋 28 - 85% open · ⏱️ 15.05.2024):
+- [GitHub](https://github.com/andredalbosco/obsidian-wypst) (👨‍💻 3 · 🔀 11 · 📥 14K · 📋 28 - 85% open · ⏱️ 15.05.2024):
 
 	```
 	git clone https://github.com/andredalbosco/obsidian-wypst
 	```
 </details>
-<details><summary><b><a href="https://slidev-addon-typst.vercel.app">slidev-addon-typst</a></b>  - 🥈9 ·  ⭐ 55 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Typst addon for Slidev.</summary>
+<details><summary><b><a href="https://slidev-addon-typst.vercel.app">slidev-addon-typst</a></b>  - 🥈9 ·  ⭐ 56 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Typst addon for Slidev.</summary>
 
 - [GitHub](https://github.com/shigma/slidev-addon-typst) (👨‍💻 1 · ⏱️ 21.05.2025):
 
 	```
 	git clone https://github.com/shigma/slidev-addon-typst
 	```
-- [npm](https://www.npmjs.com/package/slidev-addon-typst) (📥 45 / month · ⏱️ 21.05.2025):
+- [npm](https://www.npmjs.com/package/slidev-addon-typst) (📥 34 / month · ⏱️ 21.05.2025):
 	```
 	npm install slidev-addon-typst
 	```
@@ -1617,17 +1645,25 @@ _Mix Typst into other documents._
 	```
 	git clone https://github.com/Xecades/markdown-it-typst
 	```
-- [npm](https://www.npmjs.com/package/@xecades/markdown-it-typst) (📥 27 / month · ⏱️ 28.04.2025):
+- [npm](https://www.npmjs.com/package/@xecades/markdown-it-typst) (📥 19 / month · ⏱️ 28.04.2025):
 	```
 	npm install @xecades/markdown-it-typst
 	```
 </details>
 <details><summary><b><a href="https://t.yw.je">Typst commute editor</a></b>  - 🥉8 ·  ⭐ 30 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code><br>Drawing commutative diagrams for Typst commute.</summary>
 
-- [GitHub](https://github.com/EricWay1024/tikzcd-editor) (👨‍💻 11 · 📥 8 · ⏱️ 31.10.2023):
+- [GitHub](https://github.com/EricWay1024/tikzcd-editor) (👨‍💻 11 · 📥 9 · ⏱️ 31.10.2023):
 
 	```
 	git clone https://github.com/EricWay1024/tikzcd-editor
+	```
+</details>
+<details><summary><b><a href="https://github.com/andreasKroepelin/TypstJlyfish.jl">TypstJlyfish.jl</a></b>  - 🥉7 ·  ⭐ 100 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Integrate Julia computations in your Typst document.</summary>
+
+- [GitHub](https://github.com/andreasKroepelin/TypstJlyfish.jl) (👨‍💻 2 · 🔀 3 · 📋 10 - 70% open · ⏱️ 26.11.2025):
+
+	```
+	git clone https://github.com/andreasKroepelin/TypstJlyfish.jl
 	```
 </details>
 <details><summary><b><a href="https://github.com/eWloYW8/python-markdown-typst">python-markdown-typst</a></b>  - 🥉7 ·  ⭐ 5 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code> · <code>🧩 Extension</code><br>A Python Markdown extension for MkDocs that compiles typst fenced code blocks into inline SVG images.</summary>
@@ -1642,7 +1678,7 @@ _Mix Typst into other documents._
 	pip install markdown-typst
 	```
 </details>
-<details><summary><b><a href="https://github.com/remimimimimi/org-typst-preview.el">org-typst-preview.el</a></b>  - 🥉5 ·  ⭐ 80 · 💀 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code><br>Preview Typst code blocks in org-mode (not necessarily) buffers.</summary>
+<details><summary><b><a href="https://github.com/remimimimimi/org-typst-preview.el">org-typst-preview.el</a></b>  - 🥉5 ·  ⭐ 81 · 💀 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code><br>Preview Typst code blocks in org-mode (not necessarily) buffers.</summary>
 
 - [GitHub](https://github.com/remimimimimi/org-typst-preview.el) (👨‍💻 4 · 🔀 9 · 📋 6 - 83% open · ⏱️ 14.02.2025):
 
@@ -1666,9 +1702,9 @@ _Mix Typst into other documents._
 	git clone https://github.com/jheuel/typst_embed_pdf
 	```
 </details>
-<details><summary><b><a href="https://github.com/admk/typstex">TypsTeX</a></b>  - 🥉4 ·  ⭐ 8 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Embed Typst in LaTeX.</summary>
+<details><summary><b><a href="https://github.com/admk/typstex">TypsTeX</a></b>  - 🥉4 ·  ⭐ 9 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Embed Typst in LaTeX.</summary>
 
-- [GitHub](https://github.com/admk/typstex) (🔀 1 · ⏱️ 22.01.2025):
+- [GitHub](https://github.com/admk/typstex) (🔀 2 · ⏱️ 22.01.2025):
 
 	```
 	git clone https://github.com/admk/typstex
@@ -1739,185 +1775,185 @@ _Mix Typst into other documents._
 
 _Convert a Typst document from or into other formats, and generate online websites. (in addition to [Pandoc](https://pandoc.org))_
 
-<details><summary><b><a href="https://crates.io/crates/typlite">Typlite</a></b>  - 🥇27 ·  ⭐ 3.4K · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🤖 CLI</code><br>Converts a subset of typst to markdown, LaTeX, and Word.</summary>
+<details><summary><b><a href="https://crates.io/crates/typlite">Typlite</a></b>  - 🥇27 ·  ⭐ 3.5K · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🤖 CLI</code><br>Converts a subset of typst to markdown, LaTeX, and Word.</summary>
 
-- [GitHub](https://github.com/Myriad-Dreamin/tinymist) (👨‍💻 140 · 🔀 170 · 📥 57K · 📋 770 - 26% open · ⏱️ 15.07.2026):
+- [GitHub](https://github.com/Myriad-Dreamin/tinymist) (👨‍💻 140 · 🔀 180 · 📥 69K · 📋 760 - 25% open · ⏱️ 20.08.2026):
 
 	```
 	git clone https://github.com/Myriad-Dreamin/tinymist
 	```
-- [Cargo](https://crates.io/crates/typlite) (📥 390 / month · 📦 3 · ⏱️ 21.06.2026):
+- [Cargo](https://crates.io/crates/typlite) (📥 440 / month · 📦 3 · ⏱️ 26.07.2026):
 	```
 	cargo install typlite
 	```
 </details>
 <details><summary><b><a href="https://myriad-dreamin.github.io/shiroa/">Shiro A</a></b>  - 🥇19 ·  ⭐ 660 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🤖 CLI</code><br>shiroa is a simple tool for creating modern online books in pure typst.</summary>
 
-- [GitHub](https://github.com/Myriad-Dreamin/shiroa) (👨‍💻 18 · 🔀 30 · 📥 49K · 📋 62 - 33% open · ⏱️ 14.07.2026):
+- [GitHub](https://github.com/Myriad-Dreamin/shiroa) (👨‍💻 18 · 🔀 30 · 📥 50K · 📋 62 - 33% open · ⏱️ 14.07.2026):
 
 	```
 	git clone https://github.com/Myriad-Dreamin/shiroa
 	```
 </details>
-<details><summary><b><a href="https://crates.io/crates/tola">tola</a></b>  - 🥇17 ·  ⭐ 170 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>SSG for typst-based websites - keep your focus on the content.</summary>
+<details><summary><b><a href="https://typsphinx.readthedocs.io/">typsphinx</a></b>  - 🥇19 ·  ⭐ 12 · 📈 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Sphinx extension for Typst output format support.</summary>
 
-- [GitHub](https://github.com/tola-rs/tola-ssg) (👨‍💻 3 · 🔀 5 · 📥 380 · 📋 49 - 40% open · ⏱️ 10.05.2026):
+- [GitHub](https://github.com/YuSabo90002/typsphinx) (👨‍💻 3 · 🔀 2 · 📥 47 · 📋 29 - 3% open · ⏱️ 15.08.2026):
 
 	```
-	git clone https://github.com/tola-rs/tola-ssg
+	git clone https://github.com/YuSabo90002/typsphinx
 	```
-- [Cargo](https://crates.io/crates/tola) (📥 32 / month · ⏱️ 28.12.2025):
+- [PyPi](https://pypi.org/project/typsphinx) (📥 1K / month · ⏱️ 15.08.2026):
 	```
-	cargo install tola
+	pip install typsphinx
 	```
 </details>
-<details><summary><b><a href="https://kodama-community.github.io">Kodama</a></b>  - 🥇16 ·  ⭐ 210 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🤖 CLI</code> · <code>🐧 non-English</code><br>A Typst-friendly static Zettelkästen site generator.</summary>
+<details><summary><b><a href="https://kodama-community.github.io">Kodama</a></b>  - 🥇16 ·  ⭐ 220 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🤖 CLI</code> · <code>🐧 non-English</code><br>A Typst-friendly static Zettelkästen site generator.</summary>
 
-- [GitHub](https://github.com/kodama-community/kodama) (👨‍💻 8 · 🔀 14 · 📥 400 · 📋 48 - 8% open · ⏱️ 19.07.2026):
+- [GitHub](https://github.com/kodama-community/kodama) (👨‍💻 8 · 🔀 15 · 📥 450 · 📋 48 - 6% open · ⏱️ 20.08.2026):
 
 	```
 	git clone https://github.com/kokic/kodama
 	```
 </details>
-<details><summary><b><a href="https://rheo.ohrg.org">rheo</a></b>  - 🥇16 ·  ⭐ 180 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🤖 CLI</code><br>Typesetting and static site engine based on Typst.</summary>
+<details><summary><b><a href="https://rheo.ohrg.org">rheo</a></b>  - 🥇16 ·  ⭐ 190 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🤖 CLI</code><br>Typesetting and static site engine based on Typst.</summary>
 
-- [GitHub](https://github.com/freecomputinglab/rheo) (👨‍💻 2 · 🔀 4 · 📥 750 · 📋 57 - 14% open · ⏱️ 21.07.2026):
+- [GitHub](https://github.com/freecomputinglab/rheo) (👨‍💻 2 · 🔀 4 · 📥 940 · 📋 59 - 16% open · ⏱️ 16.08.2026):
 
 	```
 	git clone https://github.com/freecomputinglab/rheo
 	```
 </details>
-<details><summary><b><a href="https://github.com/YuSabo90002/typsphinx">typsphinx</a></b>  - 🥇16 ·  ⭐ 11 · 📈 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code><br>Sphinx extension for Typst output format support.</summary>
+<details><summary><b><a href="https://crates.io/crates/tola">tola</a></b>  - 🥈15 ·  ⭐ 170 · 📉 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>SSG for typst-based websites - keep your focus on the content.</summary>
 
-- [GitHub](https://github.com/YuSabo90002/typsphinx) (👨‍💻 2 · 🔀 1 · 📥 37 · 📋 27 - 7% open · ⏱️ 20.07.2026):
+- [GitHub](https://github.com/tola-rs/tola-ssg) (👨‍💻 4 · 🔀 7 · 📥 400 · 📋 49 - 40% open · ⏱️ 19.08.2026):
 
 	```
-	git clone https://github.com/YuSabo90002/typsphinx
+	git clone https://github.com/tola-rs/tola-ssg
 	```
-- [PyPi](https://pypi.org/project/typsphinx) (📥 650 / month · ⏱️ 20.07.2026):
+- [Cargo](https://crates.io/crates/tola) (📥 45 / month · ⏱️ 28.12.2025):
 	```
-	pip install typsphinx
+	cargo install tola
 	```
 </details>
-<details><summary><b><a href="https://typ2docx.sgh.ng">typ2docx</a></b>  - 🥈13 ·  ⭐ 100 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>Convert math-rich Typst project to Microsoft Word format.</summary>
+<details><summary><b><a href="https://typ2docx.sgh.ng">typ2docx</a></b>  - 🥈13 ·  ⭐ 110 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>Convert math-rich Typst project to Microsoft Word format.</summary>
 
-- [GitHub](https://github.com/sghng/typ2docx) (👨‍💻 3 · 🔀 4 · 📥 290 · 📋 34 - 35% open · ⏱️ 29.03.2026):
+- [GitHub](https://github.com/sghng/typ2docx) (👨‍💻 3 · 🔀 4 · 📥 330 · 📋 34 - 35% open · ⏱️ 29.03.2026):
 
 	```
 	git clone https://github.com/sghng/typ2docx
 	```
-- [PyPi](https://pypi.org/project/typ2docx) (📥 110 / month · ⏱️ 07.12.2025):
+- [PyPi](https://pypi.org/project/typ2docx) (⏱️ 07.12.2025):
 	```
 	pip install typ2docx
 	```
 </details>
 <details><summary><b><a href="https://typ.rowlib.com/en/">Typsite</a></b>  - 🥈12 ·  ⭐ 200 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🤖 CLI</code><br>Static site generator(SSG) for typst.</summary>
 
-- [GitHub](https://github.com/Glomzzz/typsite) (👨‍💻 3 · 🔀 4 · 📥 470 · 📋 16 - 25% open · ⏱️ 21.05.2026):
+- [GitHub](https://github.com/Glomzzz/typsite) (👨‍💻 3 · 🔀 4 · 📥 510 · 📋 16 - 25% open · ⏱️ 21.05.2026):
 
 	```
 	git clone https://github.com/Glomzzz/typsite
 	```
 </details>
-<details><summary><b><a href="https://github.com/touying-typ/touying-exporter">Touying Exporter</a></b>  - 🥈12 ·  ⭐ 140 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>Export presentation slides in various formats for Touying.</summary>
+<details><summary><b><a href="https://n2t.fisica.cat">notion2typst</a></b>  - 🥈12 ·  ⭐ 2 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code> · <code>🦋 Web</code><br>NAST - Notion Abstract Syntax Tree tools monorepo.</summary>
 
-- [GitHub](https://github.com/touying-typ/touying-exporter) (👨‍💻 3 · 🔀 9 · 📦 2 · 📋 12 - 66% open · ⏱️ 13.12.2025):
+- [GitHub](https://github.com/Mapaor/nast) (⏱️ 09.08.2026):
 
 	```
-	git clone https://github.com/touying-typ/touying-exporter
+	git clone https://github.com/Mapaor/nast
 	```
-- [PyPi](https://pypi.org/project/touying) (📥 720 / month · ⏱️ 13.12.2025):
+- [npm](https://www.npmjs.com/package/@nast/notion2typst) (📥 250 / month · ⏱️ 02.08.2026):
 	```
-	pip install touying
+	npm install @nast/notion2typst
 	```
 </details>
-<details><summary><b><a href="https://wade-cheng.com/compile-typst-site/">compile-typst-site</a></b>  - 🥈12 ·  ⭐ 6 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🤖 CLI</code><br>Command-line program for static site generation using Typst.</summary>
-
-- [GitHub](https://github.com/wade-cheng/compile-typst-site) (📥 560 · 📋 41 - 29% open · ⏱️ 27.02.2026):
-
-	```
-	git clone https://github.com/wade-cheng/compile-typst-site
-	```
-- [Cargo](https://crates.io/crates/compile-typst-site) (📥 14 / month · ⏱️ 27.02.2026):
-	```
-	cargo install compile-typst-site
-	```
-</details>
-<details><summary><b><a href="https://myriad-dreamin.github.io/tylant/">tylant</a></b>  - 🥈11 ·  ⭐ 100 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🥡 Runnable</code><br>The static-site blog template using astro and typst.</summary>
-
-- [GitHub](https://github.com/Myriad-Dreamin/tylant) (👨‍💻 3 · 🔀 12 · 📋 5 - 60% open · ⏱️ 20.06.2026):
-
-	```
-	git clone https://github.com/Myriad-Dreamin/tylant
-	```
-- [npm](https://www.npmjs.com/package/@myriaddreamin/tylant) (📥 190 / month · ⏱️ 30.05.2025):
-	```
-	npm install @myriaddreamin/tylant
-	```
-</details>
-<details><summary><b><a href="https://github.com/LegNeato/mdbook-typst">LegNeato/mdbook-typst</a></b>  - 🥈11 ·  ⭐ 81 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>An mdBook backend to output Typst markup, pdf, png, or svg.</summary>
+<details><summary><b><a href="https://github.com/LegNeato/mdbook-typst">LegNeato/mdbook-typst</a></b>  - 🥈11 ·  ⭐ 81 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>An mdBook backend to output Typst markup, pdf, png, or svg.</summary>
 
 - [GitHub](https://github.com/LegNeato/mdbook-typst) (👨‍💻 3 · 🔀 9 · 📋 25 - 28% open · ⏱️ 12.04.2026):
 
 	```
 	git clone https://github.com/LegNeato/mdbook-typst
 	```
-- [Cargo](https://crates.io/crates/mdbook-typst) (📥 39 / month · ⏱️ 12.04.2026):
+- [Cargo](https://crates.io/crates/mdbook-typst) (📥 38 / month · ⏱️ 12.04.2026):
 	```
 	cargo install mdbook-typst
 	```
 </details>
-<details><summary><b><a href="https://github.com/touying-typ/typ2pptx">typ2pptx</a></b>  - 🥈11 ·  ⭐ 41 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>convert typst to pptx.</summary>
+<details><summary><b><a href="https://lucifer1004.github.io/typub/">typub</a></b>  - 🥈11 ·  ⭐ 34 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🤖 CLI</code> · <code>🗺️ Multilingual</code><br>Typub - A Typst-first local CMS.</summary>
 
-- [GitHub](https://github.com/touying-typ/typ2pptx) (🔀 2 · ⏱️ 28.05.2026):
-
-	```
-	git clone https://github.com/touying-typ/typ2pptx
-	```
-- [PyPi](https://pypi.org/project/typ2pptx) (📥 280 / month · ⏱️ 28.05.2026):
-	```
-	pip install typ2pptx
-	```
-</details>
-<details><summary><b><a href="https://lucifer1004.github.io/typub/">typub</a></b>  - 🥈11 ·  ⭐ 33 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🤖 CLI</code> · <code>🗺️ Multilingual</code><br>Typub - A Typst-first local CMS.</summary>
-
-- [GitHub](https://github.com/lucifer1004/typub) (👨‍💻 1 · 📥 19 · 📋 4 - 75% open · ⏱️ 11.07.2026):
+- [GitHub](https://github.com/lucifer1004/typub) (👨‍💻 1 · 📥 20 · 📋 4 - 75% open · ⏱️ 11.07.2026):
 
 	```
 	git clone https://github.com/lucifer1004/typub
 	```
-- [Cargo](https://crates.io/crates/typub) (📥 15 / month · ⏱️ 19.06.2026):
+- [Cargo](https://crates.io/crates/typub) (📥 17 / month · ⏱️ 19.06.2026):
 	```
 	cargo install typub
 	```
 </details>
-<details><summary><b><a href="https://github.com/KaiserY/mdbook-typst-pdf">KaiserY/mdbook-typst-pdf</a></b>  - 🥈10 ·  ⭐ 51 · 💤 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🤖 CLI</code> · <code>🥡 Runnable</code><br>mdbook typst pdf backend.</summary>
+<details><summary><b><a href="https://wade-cheng.com/compile-typst-site/">compile-typst-site</a></b>  - 🥈11 ·  ⭐ 6 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🤖 CLI</code><br>Command-line program for static site generation using Typst.</summary>
+
+- [GitHub](https://github.com/wade-cheng/compile-typst-site) (📥 570 · 📋 41 - 29% open · ⏱️ 27.02.2026):
+
+	```
+	git clone https://github.com/wade-cheng/compile-typst-site
+	```
+- [Cargo](https://crates.io/crates/compile-typst-site) (📥 23 / month · ⏱️ 27.02.2026):
+	```
+	cargo install compile-typst-site
+	```
+</details>
+<details><summary><b><a href="https://github.com/touying-typ/touying-exporter">Touying Exporter</a></b>  - 🥈10 ·  ⭐ 140 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>Export presentation slides in various formats for Touying.</summary>
+
+- [GitHub](https://github.com/touying-typ/touying-exporter) (👨‍💻 3 · 🔀 10 · 📦 2 · 📋 12 - 66% open · ⏱️ 13.12.2025):
+
+	```
+	git clone https://github.com/touying-typ/touying-exporter
+	```
+- [PyPi](https://pypi.org/project/touying) (⏱️ 13.12.2025):
+	```
+	pip install touying
+	```
+</details>
+<details><summary><b><a href="https://myriad-dreamin.github.io/tylant/">tylant</a></b>  - 🥈10 ·  ⭐ 100 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🥡 Runnable</code><br>The static-site blog template using astro and typst.</summary>
+
+- [GitHub](https://github.com/Myriad-Dreamin/tylant) (👨‍💻 3 · 🔀 12 · 📋 5 - 60% open · ⏱️ 20.06.2026):
+
+	```
+	git clone https://github.com/Myriad-Dreamin/tylant
+	```
+- [npm](https://www.npmjs.com/package/@myriaddreamin/tylant) (📥 37 / month · ⏱️ 30.05.2025):
+	```
+	npm install @myriaddreamin/tylant
+	```
+</details>
+<details><summary><b><a href="https://github.com/KaiserY/mdbook-typst-pdf">KaiserY/mdbook-typst-pdf</a></b>  - 🥈10 ·  ⭐ 52 · 💤 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🤖 CLI</code> · <code>🥡 Runnable</code><br>mdbook typst pdf backend.</summary>
 
 - [GitHub](https://github.com/KaiserY/mdbook-typst-pdf) (👨‍💻 2 · 🔀 7 · 📥 2.5K · 📦 1 · 📋 10 - 50% open · ⏱️ 28.03.2026):
 
 	```
 	git clone https://github.com/KaiserY/mdbook-typst-pdf
 	```
-- [Cargo](https://crates.io/crates/mdbook-typst-pdf) (📥 46 / month · 📦 1 · ⏱️ 28.03.2026):
+- [Cargo](https://crates.io/crates/mdbook-typst-pdf) (📥 48 / month · 📦 1 · ⏱️ 28.03.2026):
 	```
 	cargo install mdbook-typst-pdf
 	```
 </details>
-<details><summary><b><a href="https://mapaor.github.io/markdown2typst/">markdown2typst</a></b>  - 🥈10 ·  ⭐ 15 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code> · <code>🦋 Web</code><br>A JavaScript library for converting Markdown to Typst code.</summary>
+<details><summary><b><a href="https://github.com/touying-typ/typ2pptx">typ2pptx</a></b>  - 🥈10 ·  ⭐ 45 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>convert typst to pptx.</summary>
 
-- [GitHub](https://github.com/Mapaor/markdown2typst) (🔀 2 · 📦 1 · ⏱️ 15.01.2026):
+- [GitHub](https://github.com/touying-typ/typ2pptx) (👨‍💻 2 · 🔀 3 · ⏱️ 03.08.2026):
 
 	```
-	git clone https://github.com/Mapaor/markdown2typst
+	git clone https://github.com/touying-typ/typ2pptx
 	```
-- [npm](https://www.npmjs.com/package/markdown2typst) (📥 490 / month · ⏱️ 14.01.2026):
+- [PyPi](https://pypi.org/project/typ2pptx) (⏱️ 03.08.2026):
 	```
-	npm install markdown2typst
+	pip install typ2pptx
 	```
 </details>
-<details><summary><b><a href="https://hanwenguo.github.io/weibian/">Weibian</a></b>  - 🥉9 ·  ⭐ 15 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🤖 CLI</code><br>韦编: A Note System Powered by Typst.</summary>
+<details><summary><b><a href="https://hanwenguo.github.io/weibian/">Weibian</a></b>  - 🥉9 ·  ⭐ 18 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🤖 CLI</code><br>韦编: A Note System Powered by Typst.</summary>
 
-- [GitHub](https://github.com/hanwenguo/weibian) (🔀 1 · 📥 52 · ⏱️ 10.07.2026):
+- [GitHub](https://github.com/hanwenguo/weibian) (🔀 1 · 📥 68 · ⏱️ 12.08.2026):
 
 	```
 	git clone https://github.com/hanwenguo/weibian
@@ -1930,19 +1966,47 @@ _Convert a Typst document from or into other formats, and generate online websit
 	```
 	git clone https://github.com/maucworks/typst-pagemaker
 	```
-- [PyPi](https://pypi.org/project/typst-pagemaker) (⏱️ 12.05.2026):
+- [PyPi](https://pypi.org/project/typst-pagemaker) (📥 97 / month · ⏱️ 12.05.2026):
 	```
 	pip install typst-pagemaker
 	```
 </details>
-<details><summary><b><a href="https://github.com/Acture/docpack">docpack</a></b>  - 🥉8 ·  ⭐ 5 · 💤 · <code><a href="https://tldrlegal.com/search?query=AGPL-3.0-only">❗️&nbsp;AGPL-3.0-only</a></code> · <code>🤖 CLI</code><br>🔁 Convert structured data (CSV/JSON/YAML/TOML/XLSX) into Typst syntax for embedding in documents.</summary>
+<details><summary><b><a href="https://github.com/8LWXpg/jupyter2typst">Jupyter to Typst converter</a></b>  - 🥉8 ·  ⭐ 20 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🤖 CLI</code><br>Jupyter to Typst converter with template support.</summary>
 
-- [GitHub](https://github.com/Acture/docpack) (🔀 1 · 📥 25 · ⏱️ 06.03.2026):
+- [GitHub](https://github.com/8LWXpg/jupyter2typst) (📥 130 · 📋 4 - 50% open · ⏱️ 20.08.2026):
+
+	```
+	git clone https://github.com/8LWXpg/jupyter2typst
+	```
+</details>
+<details><summary><b><a href="https://mapaor.github.io/markdown2typst/">markdown2typst</a></b>  - 🥉8 ·  ⭐ 16 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code> · <code>🦋 Web</code><br>A JavaScript library for converting Markdown to Typst code.</summary>
+
+- [GitHub](https://github.com/Mapaor/markdown2typst) (👨‍💻 2 · 🔀 2 · 📦 1 · ⏱️ 03.08.2026):
+
+	```
+	git clone https://github.com/Mapaor/markdown2typst
+	```
+- [npm](https://www.npmjs.com/package/markdown2typst) (📥 450 / month · ⏱️ 14.01.2026):
+	```
+	npm install markdown2typst
+	```
+</details>
+<details><summary><b><a href="https://github.com/brendandebeasi/em-dee-pdf">em-dee-pdf</a></b>  - 🥉8 ·  ⭐ 6 · 🐣 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🥡 Runnable</code> · <code>🔌 API</code><br>Markdown to PDF converter with beautiful templates.</summary>
+
+- [GitHub](https://github.com/brendandebeasi/em-dee-pdf) (👨‍💻 3 · 🔀 1 · 📥 36 · ⏱️ 05.06.2026):
+
+	```
+	git clone https://github.com/brendandebeasi/em-dee-pdf
+	```
+</details>
+<details><summary><b><a href="https://github.com/Acture/docpack">docpack</a></b>  - 🥉8 ·  ⭐ 6 · 💤 · <code><a href="https://tldrlegal.com/search?query=AGPL-3.0-only">❗️&nbsp;AGPL-3.0-only</a></code> · <code>🤖 CLI</code><br>🔁 Convert structured data (CSV/JSON/YAML/TOML/XLSX) into Typst syntax for embedding in documents.</summary>
+
+- [GitHub](https://github.com/Acture/docpack) (🔀 1 · 📥 26 · ⏱️ 06.03.2026):
 
 	```
 	git clone https://github.com/Acture/docpack
 	```
-- [Cargo](https://crates.io/crates/docpack) (📥 2.7 / month · ⏱️ 06.03.2026):
+- [Cargo](https://crates.io/crates/docpack) (📥 3.3 / month · ⏱️ 06.03.2026):
 	```
 	cargo install docpack
 	```
@@ -1954,42 +2018,14 @@ _Convert a Typst document from or into other formats, and generate online websit
 	```
 	git clone https://github.com/Tiefseetauchner/TiefDownConverter
 	```
-- [Cargo](https://crates.io/crates/tiefdownconverter) (📥 8.7 / month · ⏱️ 30.10.2025):
+- [Cargo](https://crates.io/crates/tiefdownconverter) (📥 12 / month · ⏱️ 30.10.2025):
 	```
 	cargo install tiefdownconverter
 	```
 </details>
-<details><summary><b><a href="https://n2t.fisica.cat">notion2typst</a></b>  - 🥉8 ·  ⭐ 2 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code> · <code>🦋 Web</code><br>NAST - Notion Abstract Syntax Tree tools monorepo.</summary>
+<details><summary><b><a href="https://github.com/Acture/docpack">d2typ</a></b>  - 🥉7 ·  ⭐ 6 · 💤 · <code><a href="https://tldrlegal.com/search?query=AGPL-3.0-only">❗️&nbsp;AGPL-3.0-only</a></code> · <code>🤖 CLI</code><br>🔁 Convert structured data (CSV/JSON/YAML/TOML/XLSX) into Typst syntax for embedding in documents.</summary>
 
-- [GitHub](https://github.com/Mapaor/nast) (⏱️ 03.03.2026):
-
-	```
-	git clone https://github.com/Mapaor/nast
-	```
-- [npm](https://www.npmjs.com/package/@nast/notion2typst) (📥 50 / month · ⏱️ 03.03.2026):
-	```
-	npm install @nast/notion2typst
-	```
-</details>
-<details><summary><b><a href="https://github.com/8LWXpg/jupyter2typst">Jupyter to Typst converter</a></b>  - 🥉7 ·  ⭐ 20 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🤖 CLI</code><br>Jupyter to Typst converter with template support.</summary>
-
-- [GitHub](https://github.com/8LWXpg/jupyter2typst) (📥 130 · 📋 4 - 50% open · ⏱️ 23.04.2026):
-
-	```
-	git clone https://github.com/8LWXpg/jupyter2typst
-	```
-</details>
-<details><summary><b><a href="https://github.com/brendandebeasi/em-dee-pdf">em-dee-pdf</a></b>  - 🥉7 ·  ⭐ 7 · 🐣 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🥡 Runnable</code> · <code>🔌 API</code><br>Markdown to PDF converter with beautiful templates.</summary>
-
-- [GitHub](https://github.com/brendandebeasi/em-dee-pdf) (👨‍💻 3 · 🔀 1 · 📥 17 · ⏱️ 05.06.2026):
-
-	```
-	git clone https://github.com/brendandebeasi/em-dee-pdf
-	```
-</details>
-<details><summary><b><a href="https://github.com/Acture/docpack">d2typ</a></b>  - 🥉7 ·  ⭐ 5 · 💤 · <code><a href="https://tldrlegal.com/search?query=AGPL-3.0-only">❗️&nbsp;AGPL-3.0-only</a></code> · <code>🤖 CLI</code><br>🔁 Convert structured data (CSV/JSON/YAML/TOML/XLSX) into Typst syntax for embedding in documents.</summary>
-
-- [GitHub](https://github.com/Acture/docpack) (🔀 1 · 📥 25 · ⏱️ 06.03.2026):
+- [GitHub](https://github.com/Acture/docpack) (🔀 1 · 📥 26 · ⏱️ 06.03.2026):
 
 	```
 	git clone https://github.com/acture/d2typ
@@ -2007,7 +2043,19 @@ _Convert a Typst document from or into other formats, and generate online websit
 	git clone https://github.com/leichaoL/typst-table-paste
 	```
 </details>
-<details><summary><b><a href="https://github.com/aualbert/typst2latex">Typst2Latex</a></b>  - 🥉5 ·  ⭐ 13 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>An oppiniated converter from unequivocal-ams typst documents to human-friendly latex.</summary>
+<details><summary><b><a href="https://github.com/jdkato/typst2vast">typst2vast</a></b>  - 🥉6 · ➕ · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code> · <code>🧩 Extension</code><br>CLI to convert Typst to HTML for Vale, parsing without evaluating.</summary>
+
+- [GitHub](https://github.com/jdkato/typst2vast) (⏱️ 07.08.2026):
+
+	```
+	git clone https://github.com/jdkato/typst2vast
+	```
+- [Cargo](https://crates.io/crates/typst2vast) (📥 110 / month · ⏱️ 07.08.2026):
+	```
+	cargo install typst2vast
+	```
+</details>
+<details><summary><b><a href="https://github.com/aualbert/typst2latex">Typst2Latex</a></b>  - 🥉5 ·  ⭐ 12 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>An oppiniated converter from unequivocal-ams typst documents to human-friendly latex.</summary>
 
 - [GitHub](https://github.com/aualbert/typst2latex) (👨‍💻 2 · ⏱️ 04.12.2025):
 
@@ -2023,36 +2071,28 @@ _Convert a Typst document from or into other formats, and generate online websit
 	git clone https://github.com/13m0n4de/pandoc-typst-catppuccin
 	```
 </details>
-<details><summary><b><a href="https://github.com/terefang/pandoc-typst-setup-template">pandoc typst setup template</a></b>  - 🥉4 ·  ⭐ 1 · <code>❗&nbsp;Unlicensed</code> · <code>🥡 Runnable</code><br>a template to setup a pandoc and typst project for pdf publication.</summary>
+<details><summary><b><a href="https://codeberg.org/TheZoq2/ttt">Typst To Tex (ttt)</a></b>  - 🥉3 ·  ⭐ 27 · 💤 · <code>❗&nbsp;Unlicensed</code> · <code>🥡 Runnable</code><br>It compiles a typst document to a latex document doing most of the heavy lifting, and allows you to do the final..</summary>
 
-- [GitHub](https://github.com/terefang/pandoc-typst-setup-template) (⏱️ 21.05.2026):
-
-	```
-	git clone https://github.com/terefang/pandoc-typst-setup-template
-	```
-</details>
-<details><summary><b><a href="https://github.com/Magi3r/md-typ-pdf">md-typ-pdf</a></b>  - 🥉3 ·  ⭐ 9 · 💤 · <code>❗&nbsp;Unlicensed</code> · <code>🥡 Runnable</code><br>Convert markdown files to PDF using typst.</summary>
-
-- [GitHub](https://github.com/Magi3r/md-typ-pdf) (👨‍💻 2 · 🔀 2 · ⏱️ 20.11.2025):
-
-	```
-	git clone https://github.com/Magi3r/md-typ-pdf
-	```
-</details>
-<details><summary><b><a href="https://codeberg.org/TheZoq2/ttt">Typst To Tex (ttt)</a></b>  - 🥉2 ·  ⭐ 26 · <code>❗&nbsp;Unlicensed</code> · <code>🥡 Runnable</code><br>It compiles a typst document to a latex document doing most of the heavy lifting, and allows you to do the final..</summary>
-
-- [Codeberg](https://codeberg.org/TheZoq2/ttt) (🔀 2 · ⏱️ 24.04.2026):
+- [Codeberg](https://codeberg.org/TheZoq2/ttt) (🔀 3 · ⏱️ 24.04.2026):
 
 	```
 	git clone https://codeberg.org/TheZoq2/ttt
 	```
-- [GitLab](https://gitlab.com/TheZoq2/ttt) (🔀 2 · ⏱️ 24.04.2026):
+- [GitLab](https://gitlab.com/TheZoq2/ttt) (🔀 3 · ⏱️ 24.04.2026):
 
 	```
 	git clone https://gitlab.com/TheZoq2/ttt
 	```
 </details>
-<details><summary>Show 7 hidden projects...</summary>
+<details><summary><b><a href="https://github.com/terefang/pandoc-typst-setup-template">pandoc typst setup template</a></b>  - 🥉3 ·  ⭐ 1 · <code>❗&nbsp;Unlicensed</code> · <code>🥡 Runnable</code><br>a template to setup a pandoc and typst project for pdf publication.</summary>
+
+- [GitHub](https://github.com/terefang/pandoc-typst-setup-template) (⏱️ 31.07.2026):
+
+	```
+	git clone https://github.com/terefang/pandoc-typst-setup-template
+	```
+</details>
+<details><summary>Show 8 hidden projects...</summary>
 
 <details><summary><b><a href="https://github.com/xudesheng/mdbook-typstpdf">xudesheng/mdbook-typstpdf</a></b>  - 🥉7 ·  ⭐ 2 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>A limited-purpose tool for converting mdbook projects to PDF using Typst.</summary>
 
@@ -2061,14 +2101,14 @@ _Convert a Typst document from or into other formats, and generate online websit
 	```
 	git clone https://github.com/xudesheng/mdbook-typstpdf
 	```
-- [Cargo](https://crates.io/crates/mdbook-typstpdf) (📥 7.7 / month · ⏱️ 31.12.2025):
+- [Cargo](https://crates.io/crates/mdbook-typstpdf) (📥 9.3 / month · ⏱️ 31.12.2025):
 	```
 	cargo install mdbook-typstpdf
 	```
 </details>
-<details><summary><b><a href="https://wenbin-liu.github.io/typst-hugo-demo/">typst-hugo</a></b>  - 🥉6 ·  ⭐ 18 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🤖 CLI</code> · <code>🗺️ Multilingual</code><br>A typst to html compiler for hugo.</summary>
+<details><summary><b><a href="https://wenbin-liu.github.io/typst-hugo-demo/">typst-hugo</a></b>  - 🥉6 ·  ⭐ 17 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🤖 CLI</code> · <code>🗺️ Multilingual</code><br>A typst to html compiler for hugo.</summary>
 
-- [GitHub](https://github.com/wenbin-liu/typst-hugo) (👨‍💻 3 · 🔀 1 · 📥 270 · ⏱️ 16.05.2025):
+- [GitHub](https://github.com/wenbin-liu/typst-hugo) (👨‍💻 3 · 🔀 1 · 📥 280 · ⏱️ 16.05.2025):
 
 	```
 	git clone https://github.com/wenbin-liu/typst-hugo
@@ -2076,7 +2116,7 @@ _Convert a Typst document from or into other formats, and generate online websit
 </details>
 <details><summary><b><a href="https://gitlab.com/nullst/typsytex">typsytex</a></b>  - 🥉6 · 💀 · <code>❗&nbsp;Unlicensed</code> · <code>🥡 Runnable</code><br>A tool that converts typst markup to an equivalent LaTeX code.</summary>
 
-- [PyPi](https://pypi.org/project/typsytex) (⏱️ 28.06.2024):
+- [PyPi](https://pypi.org/project/typsytex) (📥 12 / month · ⏱️ 28.06.2024):
 	```
 	pip install typsytex
 	```
@@ -2114,7 +2154,15 @@ _Convert a Typst document from or into other formats, and generate online websit
 	git clone https://github.com/PhosCity/inkscape2cetz
 	```
 </details>
-<details><summary><b><a href="https://hongjr03.github.io/excel-to-typst/paste">Excel to Typst Converter</a></b>  - 🥉2 ·  ⭐ 35 · 💀 · <code>❗&nbsp;Unlicensed</code> · <code>🦋 Web</code><br>Tool that convert Excel table to Typst table.</summary>
+<details><summary><b><a href="https://github.com/Magi3r/md-typ-pdf">md-typ-pdf</a></b>  - 🥉3 ·  ⭐ 9 · 💀 · <code>❗&nbsp;Unlicensed</code> · <code>🥡 Runnable</code><br>Convert markdown files to PDF using typst.</summary>
+
+- [GitHub](https://github.com/Magi3r/md-typ-pdf) (👨‍💻 2 · 🔀 2 · ⏱️ 20.11.2025):
+
+	```
+	git clone https://github.com/Magi3r/md-typ-pdf
+	```
+</details>
+<details><summary><b><a href="https://hongjr03.github.io/excel-to-typst/paste">Excel to Typst Converter</a></b>  - 🥉2 ·  ⭐ 36 · 💀 · <code>❗&nbsp;Unlicensed</code> · <code>🦋 Web</code><br>Tool that convert Excel table to Typst table.</summary>
 
 - [GitHub](https://github.com/hongjr03/excel-to-typst) (👨‍💻 2 · 🔀 1 · ⏱️ 18.02.2025):
 
@@ -2131,41 +2179,41 @@ _Convert a Typst document from or into other formats, and generate online websit
 
 _Facilitate development of [Typst packages and templates](https://github.com/typst/packages)._
 
-<details><summary><b><a href="https://typst-community.github.io/tytanic/">Tytanic</a></b>  - 🥇17 ·  ⭐ 120 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🤖 CLI</code><br>A test runner for typst projects.</summary>
+<details><summary><b><a href="https://typst-community.github.io/tytanic/">Tytanic</a></b>  - 🥇17 ·  ⭐ 130 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🤖 CLI</code><br>A test runner for typst projects.</summary>
 
-- [GitHub](https://github.com/typst-community/tytanic) (👨‍💻 15 · 🔀 13 · 📥 15K · 📋 130 - 23% open · ⏱️ 17.07.2026):
+- [GitHub](https://github.com/typst-community/tytanic) (👨‍💻 16 · 🔀 13 · 📥 17K · 📋 140 - 24% open · ⏱️ 11.08.2026):
 
 	```
 	git clone https://github.com/typst-community/tytanic
 	```
-- [Cargo](https://crates.io/crates/tytanic) (📥 320 / month · ⏱️ 17.07.2026):
+- [Cargo](https://crates.io/crates/tytanic) (📥 310 / month · ⏱️ 17.07.2026):
 	```
 	cargo install tytanic
 	```
 </details>
-<details><summary><b><a href="https://github.com/typst-community/utpm">UTPM</a></b>  - 🥇15 ·  ⭐ 140 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🤖 CLI</code><br>A package manager for local and remote Typst packages.</summary>
+<details><summary><b><a href="https://github.com/typst/package-check">typst-package-check</a></b>  - 🥇16 ·  ⭐ 34 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🥡 Runnable</code><br>A tool to check Typst packages.</summary>
 
-- [GitHub](https://github.com/typst-community/utpm) (👨‍💻 16 · 🔀 17 · 📥 970 · 📋 51 - 7% open · ⏱️ 23.05.2026):
-
-	```
-	git clone https://github.com/typst-community/utpm
-	```
-- [Cargo](https://crates.io/crates/utpm) (📥 50 / month · ⏱️ 13.04.2026):
-	```
-	cargo install utpm
-	```
-</details>
-<details><summary><b><a href="https://github.com/typst/package-check">typst-package-check</a></b>  - 🥇15 ·  ⭐ 33 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🥡 Runnable</code><br>A tool to check Typst packages.</summary>
-
-- [GitHub](https://github.com/typst/package-check) (👨‍💻 7 · 🔀 9 · 📦 9 · 📋 51 - 23% open · ⏱️ 20.07.2026):
+- [GitHub](https://github.com/typst/package-check) (👨‍💻 7 · 🔀 9 · 📦 9 · 📋 52 - 25% open · ⏱️ 10.08.2026):
 
 	```
 	git clone https://github.com/typst/package-check
 	```
 </details>
-<details><summary><b><a href="https://npikall.github.io/gotpm/">GoTPM</a></b>  - 🥈13 ·  ⭐ 3 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🤖 CLI</code><br>A cli tool to manage Typst Packages.</summary>
+<details><summary><b><a href="https://github.com/typst-community/utpm">UTPM</a></b>  - 🥈13 ·  ⭐ 140 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🤖 CLI</code><br>A package manager for local and remote Typst packages.</summary>
 
-- [GitHub](https://github.com/npikall/gotpm) (📥 100 · 📋 10 - 40% open · ⏱️ 28.06.2026):
+- [GitHub](https://github.com/typst-community/utpm) (👨‍💻 16 · 🔀 17 · 📥 1.1K · 📋 51 - 7% open · ⏱️ 23.05.2026):
+
+	```
+	git clone https://github.com/typst-community/utpm
+	```
+- [Cargo](https://crates.io/crates/utpm) (📥 46 / month · ⏱️ 13.04.2026):
+	```
+	cargo install utpm
+	```
+</details>
+<details><summary><b><a href="https://npikall.github.io/gotpm/">GoTPM</a></b>  - 🥈13 ·  ⭐ 5 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🤖 CLI</code><br>A cli tool to manage Typst Packages.</summary>
+
+- [GitHub](https://github.com/npikall/gotpm) (📥 130 · 📋 21 - 28% open · ⏱️ 19.08.2026):
 
 	```
 	git clone https://github.com/npikall/gotpm
@@ -2175,14 +2223,14 @@ _Facilitate development of [Typst packages and templates](https://github.com/typ
 	go install github.com/npikall/gotpm
 	```
 </details>
-<details><summary><b><a href="https://github.com/mkpoli/tyler">Tyler</a></b>  - 🥈10 ·  ⭐ 33 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>Typst package (libraries, templates) publishing utilty CLI tool.</summary>
+<details><summary><b><a href="https://github.com/mkpoli/tyler">Tyler</a></b>  - 🥉9 ·  ⭐ 33 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>Typst package (libraries, templates) publishing utilty CLI tool.</summary>
 
-- [GitHub](https://github.com/mkpoli/tyler) (👨‍💻 1 · ⏱️ 10.05.2026):
+- [GitHub](https://github.com/mkpoli/tyler) (👨‍💻 1 · ⏱️ 04.08.2026):
 
 	```
 	git clone https://github.com/mkpoli/tyler
 	```
-- [npm](https://www.npmjs.com/package/@mkpoli/tyler) (📥 110 / month · ⏱️ 10.05.2026):
+- [npm](https://www.npmjs.com/package/@mkpoli/tyler) (📥 390 / month · ⏱️ 04.08.2026):
 	```
 	npm install @mkpoli/tyler
 	```
@@ -2203,7 +2251,7 @@ _Facilitate development of [Typst packages and templates](https://github.com/typ
 	git clone https://github.com/jassielof/typm
 	```
 </details>
-<details><summary><b><a href="https://typst-community.github.io/json-schemas/">typst-community/json-schemas</a></b>  - 🥉4 ·  ⭐ 1 · ➕ · <code><a href="https://tldrlegal.com/license/mozilla-public-license-2-0-mpl-2">MPL-2.0</a></code><br>JSON Schemas for Typst.</summary>
+<details><summary><b><a href="https://typst-community.github.io/json-schemas/">typst-community/json-schemas</a></b>  - 🥉4 ·  ⭐ 1 · <code><a href="https://tldrlegal.com/license/mozilla-public-license-2-0-mpl-2">MPL-2.0</a></code><br>JSON Schemas for Typst.</summary>
 
 - [GitHub](https://github.com/typst-community/json-schemas) (👨‍💻 2 · ⏱️ 20.07.2026):
 
@@ -2211,9 +2259,9 @@ _Facilitate development of [Typst packages and templates](https://github.com/typ
 	git clone https://github.com/typst-community/json-schemas
 	```
 </details>
-<details><summary><b><a href="https://codeberg.org/ensko/typst-package-template">typst-package-template (for codeberg/forgejo)</a></b>  - 🥉2 ·  ⭐ 2 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code><br>A template to start your Typst package repositories from – personal fork.</summary>
+<details><summary><b><a href="https://codeberg.org/ensko/typst-package-template">typst-package-template (for codeberg/forgejo)</a></b>  - 🥉3 ·  ⭐ 2 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code><br>A template to start your Typst package repositories from – personal fork.</summary>
 
-- [Codeberg](https://codeberg.org/ensko/typst-package-template) (🔀 1 · ⏱️ 12.02.2026):
+- [Codeberg](https://codeberg.org/ensko/typst-package-template) (🔀 1 · ⏱️ 12.08.2026):
 
 	```
 	git clone https://codeberg.org/ensko/typst-package-template
@@ -2221,26 +2269,26 @@ _Facilitate development of [Typst packages and templates](https://github.com/typ
 </details>
 <details><summary>Show 4 hidden projects...</summary>
 
-<details><summary><b><a href="https://github.com/sjfhsjfh/typship">typship</a></b>  - 🥈10 ·  ⭐ 28 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🤖 CLI</code><br>A Typst package CLI tool.</summary>
+<details><summary><b><a href="https://github.com/sjfhsjfh/typship">typship</a></b>  - 🥈11 ·  ⭐ 28 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🤖 CLI</code><br>A Typst package CLI tool.</summary>
 
 - [GitHub](https://github.com/sjfhsjfh/typship) (👨‍💻 4 · 🔀 4):
 
 	```
 	git clone https://github.com/sjfhsjfh/typship
 	```
-- [Cargo](https://crates.io/crates/typship) (📥 140 / month · ⏱️ 07.05.2025):
+- [Cargo](https://crates.io/crates/typship) (📥 170 / month · ⏱️ 07.05.2025):
 	```
 	cargo install typship
 	```
 </details>
-<details><summary><b><a href="https://github.com/ntjess/showman">showman</a></b>  - 🥈10 ·  ⭐ 19 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>Automagic typst package documentation & development.</summary>
+<details><summary><b><a href="https://github.com/ntjess/showman">showman</a></b>  - 🥉10 ·  ⭐ 20 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>Automagic typst package documentation & development.</summary>
 
 - [GitHub](https://github.com/ntjess/showman) (👨‍💻 2 · 🔀 2 · 📦 44 · ⏱️ 28.11.2024):
 
 	```
 	git clone https://github.com/ntjess/showman
 	```
-- [PyPi](https://pypi.org/project/showman) (📥 90 / month · ⏱️ 10.11.2024):
+- [PyPi](https://pypi.org/project/showman) (📥 48 / month · ⏱️ 10.11.2024):
 	```
 	pip install showman
 	```
@@ -2264,44 +2312,44 @@ _Facilitate development of [Typst packages and templates](https://github.com/typ
 </details>
 <br>
 
-<h2 id='wasm'>🔢 WASM plugin development</h2>
+<h2 id='wasm'>🔢 Wasm plugin development</h2>
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
 _Facilitate development of [Typst WebAssembly plugins](https://typst.app/docs/reference/foundations/plugin/)._
 
-<details><summary><b><a href="https://crates.io/crates/wasm-minimal-protocol">wasm-minimal-protocol</a></b>  - 🥇19 ·  ⭐ 96 · <code><a href="https://tldrlegal.com/license/unlicense">Unlicense</a></code> · <code>🔌 API</code><br>A minimal protocol to write Typst plugins, a CLI tool to stub WASI imports, and example Typst plugins written in..</summary>
+<details><summary><b><a href="https://crates.io/crates/wasm-minimal-protocol">wasm-minimal-protocol</a></b>  - 🥇19 ·  ⭐ 98 · <code><a href="https://tldrlegal.com/license/unlicense">Unlicense</a></code> · <code>🔌 API</code><br>A minimal protocol to write Typst plugins, a CLI tool to stub WASI imports, and example Typst plugins written in..</summary>
 
-- [GitHub](https://github.com/typst-community/wasm-minimal-protocol) (👨‍💻 15 · 🔀 19 · 📥 210 · 📦 75 · 📋 18 - 5% open · ⏱️ 10.07.2026):
+- [GitHub](https://github.com/typst-community/wasm-minimal-protocol) (👨‍💻 16 · 🔀 20 · 📥 240 · 📦 76 · 📋 19 - 5% open · ⏱️ 26.07.2026):
 
 	```
 	git clone https://github.com/typst-community/wasm-minimal-protocol
 	```
-- [Cargo](https://crates.io/crates/wasm-minimal-protocol) (📥 1.3K / month · 📦 4 · ⏱️ 12.04.2026):
+- [Cargo](https://crates.io/crates/wasm-minimal-protocol) (📥 1.9K / month · 📦 4 · ⏱️ 12.04.2026):
 	```
 	cargo install wasm-minimal-protocol
 	```
 </details>
-<details><summary><b><a href="https://github.com/typst-community/wasm-minimal-protocol#wasi-stub">wasi-stub</a></b>  - 🥈16 ·  ⭐ 96 · <code><a href="https://tldrlegal.com/license/unlicense">Unlicense</a></code> · <code>🤖 CLI</code><br>Detect all WASI-related imports in a WebAssembly file, and replace them with stubs that do nothing.</summary>
+<details><summary><b><a href="https://github.com/typst-community/wasm-minimal-protocol#wasi-stub">wasi-stub</a></b>  - 🥈16 ·  ⭐ 98 · <code><a href="https://tldrlegal.com/license/unlicense">Unlicense</a></code> · <code>🤖 CLI</code><br>Detect all WASI-related imports in a WebAssembly file, and replace them with stubs that do nothing.</summary>
 
-- [GitHub](https://github.com/typst-community/wasm-minimal-protocol) (👨‍💻 15 · 🔀 19 · 📥 210 · 📦 75 · 📋 18 - 5% open · ⏱️ 10.07.2026):
+- [GitHub](https://github.com/typst-community/wasm-minimal-protocol) (👨‍💻 16 · 🔀 20 · 📥 240 · 📦 76 · 📋 19 - 5% open · ⏱️ 26.07.2026):
 
 	```
 	git clone https://github.com/typst-community/wasm-minimal-protocol
 	```
-- [Cargo](https://crates.io/crates/wasi-stub) (📥 27 / month · ⏱️ 06.03.2026):
+- [Cargo](https://crates.io/crates/wasi-stub) (📥 25 / month · ⏱️ 06.03.2026):
 	```
 	cargo install wasi-stub
 	```
 </details>
-<details><summary><b><a href="https://github.com/Uhrendoktor/sertyp">sertyp</a></b>  - 🥈9 ·  ⭐ 5 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code> · <code>🌌 Typst package</code><br>Typst Serialization and Deserialization.</summary>
+<details><summary><b><a href="https://github.com/Uhrendoktor/sertyp">sertyp</a></b>  - 🥈10 ·  ⭐ 5 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code> · <code>🌌 Typst package</code><br>Typst Serialization and Deserialization.</summary>
 
 - [GitHub](https://github.com/Uhrendoktor/sertyp) (👨‍💻 2 · 🔀 1 · ⏱️ 13.07.2026):
 
 	```
 	git clone https://github.com/Uhrendoktor/sertyp
 	```
-- [Cargo](https://crates.io/crates/sertyp) (📥 17 / month · ⏱️ 13.07.2026):
+- [Cargo](https://crates.io/crates/sertyp) (📥 23 / month · ⏱️ 13.07.2026):
 	```
 	cargo install sertyp
 	```
@@ -2313,20 +2361,12 @@ _Facilitate development of [Typst WebAssembly plugins](https://typst.app/docs/re
 	```
 	git clone https://github.com/T1mVo/typwire
 	```
-- [Cargo](https://crates.io/crates/typwire) (📥 3.3 / month · ⏱️ 15.12.2025):
+- [Cargo](https://crates.io/crates/typwire) (📥 4.3 / month · ⏱️ 15.12.2025):
 	```
 	cargo install typwire
 	```
 </details>
-<details><summary><b><a href="https://github.com/Robotechnic/WebAssembly-protocol-generator">Wasm protocol generator (wasmpg)</a></b>  - 🥉5 ·  ⭐ 2 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>A simple tool to generate a protocol for a wasm module. It generates functions for c and typst to encode and decode..</summary>
-
-- [GitHub](https://github.com/Robotechnic/WebAssembly-protocol-generator) (👨‍💻 3 · 🔀 2 · ⏱️ 25.05.2026):
-
-	```
-	git clone https://github.com/Robotechnic/WebAssembly-protocol-generator
-	```
-</details>
-<details><summary><b><a href="https://typst-community.github.io/wasm-zig-typst/">typst-community/wasm-zig-typst</a></b>  - 🥉5 · 🐣 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>Small Zig module for Typst plugins.</summary>
+<details><summary><b><a href="https://typst-community.github.io/wasm-zig-typst/">typst-community/wasm-zig-typst</a></b>  - 🥉5 · 💤 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>Small Zig module for Typst plugins.</summary>
 
 - [GitHub](https://github.com/typst-community/wasm-zig-typst) (👨‍💻 2 · ⏱️ 14.04.2026):
 
@@ -2334,15 +2374,23 @@ _Facilitate development of [Typst WebAssembly plugins](https://typst.app/docs/re
 	git clone https://github.com/typst-community/wasm-zig-typst
 	```
 </details>
+<details><summary><b><a href="https://github.com/Robotechnic/WebAssembly-protocol-generator">Wasm protocol generator (wasmpg)</a></b>  - 🥉3 ·  ⭐ 2 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>A simple tool to generate a protocol for a wasm module. It generates functions for c and typst to encode and decode..</summary>
+
+- [GitHub](https://github.com/Robotechnic/WebAssembly-protocol-generator) (👨‍💻 3 · 🔀 2 · ⏱️ 25.05.2026):
+
+	```
+	git clone https://github.com/Robotechnic/WebAssembly-protocol-generator
+	```
+</details>
 <details><summary><b><a href="http://wasm-minimal-protocol.nimpylib.org/">nimpylib/wasm-minimal-protocol</a></b>  - 🥉2 ·  ⭐ 2 · 🐣 · <code>❗&nbsp;Unlicensed</code> · <code>🔌 API</code><br>A minimal protocol to write typst plugins using Nim.</summary>
 
-- [GitHub](https://github.com/nimpylib/wasm_minimal_protocol) (⏱️ 26.06.2026):
+- [GitHub](https://github.com/nimpylib/wasm_minimal_protocol) (⏱️ 18.08.2026):
 
 	```
 	git clone https://github.com/nimpylib/wasm-minimal-protocol
 	```
 </details>
-<details><summary><b><a href="https://github.com/ParaN3xus/typst-xcc-wrapper">typst-xcc-wrapper</a></b>  - 🥉1 · 🐣 · <code>❗&nbsp;Unlicensed</code> · <code>🌌 Typst package</code><br></summary>
+<details><summary><b><a href="https://github.com/ParaN3xus/typst-xcc-wrapper">typst-xcc-wrapper</a></b>  - 🥉1 · 💤 · <code>❗&nbsp;Unlicensed</code> · <code>🌌 Typst package</code><br></summary>
 
 - [GitHub](https://github.com/ParaN3xus/typst-xcc-wrapper) (⏱️ 18.04.2026):
 
@@ -2359,7 +2407,7 @@ _Facilitate development of [Typst WebAssembly plugins](https://typst.app/docs/re
 	```
 	git clone https://github.com/sjfhsjfh/typst-wasm
 	```
-- [Cargo](https://crates.io/crates/typst-wasm-protocol) (📥 98 / month · ⏱️ 09.03.2025):
+- [Cargo](https://crates.io/crates/typst-wasm-protocol) (📥 110 / month · ⏱️ 09.03.2025):
 	```
 	cargo install typst-wasm-protocol
 	```
@@ -2405,7 +2453,7 @@ _Infrastructure of building the [Typst documentation](https://typst.app/docs/), 
 	git clone https://github.com/typst-gost/typst-mdx-docs
 	```
 </details>
-<details><summary><b><a href="https://github.com/JL710/typst-mdbook-docs">Typst MdBook Docs</a></b>  - 🥉4 ·  ⭐ 14 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>This tool generates Typst documentation in Markdown and builds an MdBook from it.</summary>
+<details><summary><b><a href="https://github.com/JL710/typst-mdbook-docs">Typst MdBook Docs</a></b>  - 🥉4 ·  ⭐ 13 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>This tool generates Typst documentation in Markdown and builds an MdBook from it.</summary>
 
 - [GitHub](https://github.com/JL710/typst-mdbook-docs) (🔀 2 · ⏱️ 01.07.2026):
 
@@ -2413,7 +2461,7 @@ _Infrastructure of building the [Typst documentation](https://typst.app/docs/), 
 	git clone https://github.com/JL710/typst-mdbook-docs
 	```
 </details>
-<details><summary><b><a href="https://github.com/Engage-Press/typst-docs">Engage-Press/typst-docs</a></b>  - 🥉4 ·  ⭐ 5 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🥡 Runnable</code><br>Tool to build a local mirror of the typst documentation.</summary>
+<details><summary><b><a href="https://github.com/Engage-Press/typst-docs">Engage-Press/typst-docs</a></b>  - 🥉4 ·  ⭐ 5 · 💤 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🥡 Runnable</code><br>Tool to build a local mirror of the typst documentation.</summary>
 
 - [GitHub](https://github.com/Engage-Press/typst-docs) (👨‍💻 2 · 🔀 1 · ⏱️ 18.04.2026):
 
@@ -2456,140 +2504,116 @@ _Infrastructure of building the [Typst documentation](https://typst.app/docs/), 
 
 _Bindings to programming languages and deployable robots._
 
-<details><summary><b><a href="https://myriad-dreamin.github.io/typst.ts">typst.ts</a></b>  - 🥇27 ·  ⭐ 1.2K · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code> · <code>🤖 CLI</code> · <code>🧩 Extension</code><br>Run Typst in JavaScriptWorld.</summary>
+<details><summary><b><a href="https://myriad-dreamin.github.io/typst.ts">typst.ts</a></b>  - 🥇28 ·  ⭐ 1.2K · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code> · <code>🤖 CLI</code> · <code>🧩 Extension</code><br>Run Typst in JavaScriptWorld.</summary>
 
-- [GitHub](https://github.com/Myriad-Dreamin/typst.ts) (👨‍💻 39 · 🔀 76 · 📥 6.1K · 📦 3 · 📋 150 - 31% open · ⏱️ 03.07.2026):
+- [GitHub](https://github.com/Myriad-Dreamin/typst.ts) (👨‍💻 41 · 🔀 79 · 📥 6.7K · 📦 3 · 📋 150 - 34% open · ⏱️ 03.07.2026):
 
 	```
 	git clone https://github.com/Myriad-Dreamin/typst.ts
 	```
-- [npm](https://www.npmjs.com/package/@myriaddreamin/typst.ts) (📥 120K / month · 📦 39 · ⏱️ 29.06.2026):
+- [npm](https://www.npmjs.com/package/@myriaddreamin/typst.ts) (📥 170K / month · 📦 39 · ⏱️ 29.06.2026):
 	```
 	npm install @myriaddreamin/typst.ts
 	```
-- [Cargo](https://crates.io/crates/typst-ts-core) (📥 370 / month · 📦 14 · ⏱️ 15.07.2024):
+- [Cargo](https://crates.io/crates/typst-ts-core) (📥 410 / month · 📦 14 · ⏱️ 15.07.2024):
 	```
 	cargo install typst-ts-core
 	```
 </details>
-<details><summary><b><a href="https://typst-py.readthedocs.io/en/latest/">typst-py</a></b>  - 🥇21 ·  ⭐ 340 · 📉 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>Python binding to typst.</summary>
+<details><summary><b><a href="https://typst-py.readthedocs.io/en/latest/">typst-py</a></b>  - 🥇27 ·  ⭐ 340 · 📈 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>Python binding to typst.</summary>
 
-- [GitHub](https://github.com/messense/typst-py) (👨‍💻 27 · 🔀 29 · 📋 46 - 8% open · ⏱️ 18.07.2026):
+- [GitHub](https://github.com/messense/typst-py) (👨‍💻 30 · 🔀 30 · 📋 49 - 14% open · ⏱️ 18.07.2026):
 
 	```
 	git clone https://github.com/messense/typst-py
 	```
-- [PyPi](https://pypi.org/project/typst) (📦 71 · ⏱️ 16.06.2026):
+- [PyPi](https://pypi.org/project/typst) (📥 580K / month · 📦 82 · ⏱️ 16.06.2026):
 	```
 	pip install typst
 	```
 </details>
 <details><summary><b><a href="https://crates.io/crates/typst-as-lib">typst-as-lib</a></b>  - 🥇20 ·  ⭐ 120 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Easily use typst from rust.</summary>
 
-- [GitHub](https://github.com/Relacibo/typst-as-lib) (👨‍💻 5 · 🔀 13 · 📦 66 · 📋 27 - 48% open · ⏱️ 29.06.2026):
+- [GitHub](https://github.com/Relacibo/typst-as-lib) (👨‍💻 5 · 🔀 14 · 📦 71 · 📋 27 - 48% open · ⏱️ 29.06.2026):
 
 	```
 	git clone https://github.com/Relacibo/typst-as-lib
 	```
-- [Cargo](https://crates.io/crates/typst-as-lib) (📥 93K / month · 📦 26 · ⏱️ 29.06.2026):
+- [Cargo](https://crates.io/crates/typst-as-lib) (📥 130K / month · 📦 26 · ⏱️ 29.06.2026):
 	```
 	cargo install typst-as-lib
 	```
 </details>
-<details><summary><b><a href="https://typst-wasm.github.io/typst-wasm/">typst-wasm</a></b>  - 🥇15 ·  ⭐ 24 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>A promise based API for compiling typst using wasm in as many runtimes as possible.</summary>
+<details><summary><b><a href="https://typst-wasm.github.io/typst-wasm/">typst-wasm</a></b>  - 🥇15 ·  ⭐ 36 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>A promise based API for compiling typst using wasm in as many runtimes as possible.</summary>
 
-- [GitHub](https://github.com/typst-wasm/typst-wasm) (👨‍💻 2 · ⏱️ 17.07.2026):
+- [GitHub](https://github.com/typst-wasm/typst-wasm) (👨‍💻 2 · ⏱️ 20.07.2026):
 
 	```
 	git clone https://github.com/typst-wasm/typst-wasm
 	```
-- [npm](https://www.npmjs.com/package/typst-wasm) (📥 1.3K / month · 📦 2 · ⏱️ 17.07.2026):
+- [npm](https://www.npmjs.com/package/typst-wasm) (📥 460 / month · 📦 2 · ⏱️ 17.07.2026):
 	```
 	npm install typst-wasm
 	```
 </details>
-<details><summary><b><a href="https://crates.io/crates/typst-bake">typst-bake</a></b>  - 🥇14 ·  ⭐ 18 · 🐣 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>Bake Typst templates, fonts, and packages into your Rust binary — use Typst as a self-contained, embedded library.</summary>
+<details><summary><b><a href="https://pumasai.github.io/SummaryTables.jl/">SummaryTables.jl</a></b>  - 🥇14 ·  ⭐ 100 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>A Julia package for creating publication-ready tables in HTML, docx, LaTeX and Typst.</summary>
+
+- [GitHub](https://github.com/PumasAI/SummaryTables.jl) (👨‍💻 7 · 🔀 4 · 📋 44 - 38% open · ⏱️ 07.08.2026):
+
+	```
+	git clone https://github.com/PumasAI/SummaryTables.jl
+	```
+</details>
+<details><summary><b><a href="https://crates.io/crates/typst-bake">typst-bake</a></b>  - 🥇14 ·  ⭐ 19 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>Bake Typst templates, fonts, and packages into your Rust binary — use Typst as a self-contained, embedded library.</summary>
 
 - [GitHub](https://github.com/elgar328/typst-bake) (👨‍💻 3 · 🔀 2 · 📦 1 · ⏱️ 23.06.2026):
 
 	```
 	git clone https://github.com/elgar328/typst-bake
 	```
-- [Cargo](https://crates.io/crates/typst-bake) (📥 250 / month · 📦 2 · ⏱️ 23.06.2026):
+- [Cargo](https://crates.io/crates/typst-bake) (📥 200 / month · 📦 2 · ⏱️ 23.06.2026):
 	```
 	cargo install typst-bake
 	```
 </details>
-<details><summary><b><a href="https://loqusion.github.io/typix/">Typix</a></b>  - 🥇13 ·  ⭐ 330 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>Deterministic Typst compilation with Nix.</summary>
+<details><summary><b><a href="https://loqusion.github.io/typix/">Typix</a></b>  - 🥈13 ·  ⭐ 330 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>Deterministic Typst compilation with Nix.</summary>
 
-- [GitHub](https://github.com/loqusion/typix) (👨‍💻 7 · 🔀 13 · 📋 15 - 33% open · ⏱️ 07.07.2026):
+- [GitHub](https://github.com/loqusion/typix) (👨‍💻 7 · 🔀 13 · 📋 16 - 31% open · ⏱️ 07.08.2026):
 
 	```
 	git clone https://github.com/loqusion/typix
 	```
 </details>
-<details><summary><b><a href="https://pumasai.github.io/SummaryTables.jl/">SummaryTables.jl</a></b>  - 🥇13 ·  ⭐ 100 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>A Julia package for creating publication-ready tables in HTML, docx, LaTeX and Typst.</summary>
+<details><summary><b><a href="https://github.com/marketplace/actions/setup-typst">typst-community/setup-typst</a></b>  - 🥈13 ·  ⭐ 180 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🗺️ Multilingual</code><br>📑 Install Typst and add it to the PATH with package management.</summary>
 
-- [GitHub](https://github.com/PumasAI/SummaryTables.jl) (👨‍💻 7 · 🔀 3 · 📋 42 - 38% open · ⏱️ 10.07.2026):
+- [GitHub](https://github.com/typst-community/setup-typst) (👨‍💻 7 · 🔀 7 · 📋 20 - 5% open · ⏱️ 15.08.2026):
 
 	```
-	git clone https://github.com/PumasAI/SummaryTables.jl
+	git clone https://github.com/typst-community/setup-typst
 	```
 </details>
-<details><summary><b><a href="https://github.com/a-musing-moose/django-typst-engine">Django Typst</a></b>  - 🥇13 ·  ⭐ 12 · <code><a href="https://tldrlegal.com/license/bsd-3-clause-license-revised">BSD-3</a></code> · <code>🧩 Extension</code><br>A Django template engine that uses Typst to render Portable Document Format (PDF) files.</summary>
+<details><summary><b><a href="https://github.com/a-musing-moose/django-typst-engine">Django Typst</a></b>  - 🥈13 ·  ⭐ 13 · <code><a href="https://tldrlegal.com/license/bsd-3-clause-license-revised">BSD-3</a></code> · <code>🧩 Extension</code><br>A Django template engine that uses Typst to render Portable Document Format (PDF) files.</summary>
 
-- [GitHub](https://github.com/a-musing-moose/django-typst-engine) (👨‍💻 4 · 🔀 2 · ⏱️ 06.06.2026):
+- [GitHub](https://github.com/a-musing-moose/django-typst-engine) (👨‍💻 4 · 🔀 2 · ⏱️ 31.07.2026):
 
 	```
 	git clone https://github.com/a-musing-moose/django-typst-engine
 	```
-- [PyPi](https://pypi.org/project/django_typst) (📥 580 / month · ⏱️ 05.06.2026):
+- [PyPi](https://pypi.org/project/django_typst) (📥 780 / month · ⏱️ 05.06.2026):
 	```
 	pip install django_typst
 	```
 </details>
-<details><summary><b><a href="https://github.com/KillTheMule/derive_typst_intoval">derive_typst_intoval</a></b>  - 🥇13 ·  ⭐ 3 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>Derive typstIntoValue for structs.</summary>
+<details><summary><b><a href="https://github.com/KillTheMule/derive_typst_intoval">derive_typst_intoval</a></b>  - 🥈13 ·  ⭐ 3 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>Derive typstIntoValue for structs.</summary>
 
-- [GitHub](https://github.com/KillTheMule/derive_typst_intoval) (👨‍💻 4 · 🔀 7 · 📦 12 · ⏱️ 26.06.2026):
+- [GitHub](https://github.com/KillTheMule/derive_typst_intoval) (👨‍💻 4 · 🔀 7 · 📦 13 · ⏱️ 26.06.2026):
 
 	```
 	git clone https://github.com/KillTheMule/derive_typst_intoval
 	```
-- [Cargo](https://crates.io/crates/derive_typst_intoval) (📥 3.3K / month · 📦 2 · ⏱️ 19.08.2025):
+- [Cargo](https://crates.io/crates/derive_typst_intoval) (📥 4.2K / month · 📦 2 · ⏱️ 19.08.2025):
 	```
 	cargo install derive_typst_intoval
-	```
-</details>
-<details><summary><b><a href="https://github.com/EinMaulwurf/tytable">tytable</a></b>  - 🥇13 ·  ⭐ 3 · ➕ · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🔌 API</code><br>Typst tables from Polars DataFrames, with a tinytable-inspired API.</summary>
-
-- [GitHub](https://github.com/EinMaulwurf/tytable) (📥 17 · ⏱️ 20.07.2026):
-
-	```
-	git clone https://github.com/EinMaulwurf/tytable
-	```
-- [PyPi](https://pypi.org/project/tytable) (📥 760 / month · ⏱️ 20.07.2026):
-	```
-	pip install tytable
-	```
-</details>
-<details><summary><b><a href="https://github.com/voxell-tech/velyst">Velyst</a></b>  - 🥈12 ·  ⭐ 260 · 📈 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>Interactive Typst content creator using Vello and Bevy.</summary>
-
-- [GitHub](https://github.com/voxell-tech/velyst) (👨‍💻 5 · 🔀 9 · 📦 1 · 📋 40 - 42% open · ⏱️ 14.07.2026):
-
-	```
-	git clone https://github.com/voxell-tech/velyst
-	```
-- [Cargo](https://crates.io/crates/velyst) (📥 4.7 / month · ⏱️ 26.01.2025):
-	```
-	cargo install velyst
-	```
-</details>
-<details><summary><b><a href="https://github.com/marketplace/actions/setup-typst">typst-community/setup-typst</a></b>  - 🥈12 ·  ⭐ 180 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🗺️ Multilingual</code><br>📑 Install Typst and add it to the PATH with package management.</summary>
-
-- [GitHub](https://github.com/typst-community/setup-typst) (👨‍💻 7 · 🔀 7 · 📋 20 - 5% open · ⏱️ 24.06.2026):
-
-	```
-	git clone https://github.com/typst-community/setup-typst
 	```
 </details>
 <details><summary><b><a href="https://crates.io/crates/typwriter">0x6b/typwriter</a></b>  - 🥈12 ·  ⭐ 6 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code><br>A Rust library for compiling, formatting, and watching Typst documents, with PDF metadata and permission management.</summary>
@@ -2599,9 +2623,33 @@ _Bindings to programming languages and deployable robots._
 	```
 	git clone https://github.com/0x6b/typwriter
 	```
-- [Cargo](https://crates.io/crates/typwriter) (📥 28 / month · ⏱️ 03.05.2026):
+- [Cargo](https://crates.io/crates/typwriter) (📥 32 / month · ⏱️ 03.05.2026):
 	```
 	cargo install typwriter
+	```
+</details>
+<details><summary><b><a href="https://github.com/EinMaulwurf/tytable">tytable</a></b>  - 🥈12 ·  ⭐ 4 · 🐣 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🔌 API</code><br>Typst tables from Polars DataFrames, with a tinytable-inspired API.</summary>
+
+- [GitHub](https://github.com/EinMaulwurf/tytable) (📥 20 · ⏱️ 11.08.2026):
+
+	```
+	git clone https://github.com/EinMaulwurf/tytable
+	```
+- [PyPi](https://pypi.org/project/tytable) (⏱️ 11.08.2026):
+	```
+	pip install tytable
+	```
+</details>
+<details><summary><b><a href="https://github.com/voxell-tech/velyst">Velyst</a></b>  - 🥈11 ·  ⭐ 260 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>Interactive Typst content creator using Vello and Bevy.</summary>
+
+- [GitHub](https://github.com/voxell-tech/velyst) (👨‍💻 5 · 🔀 10 · 📦 1 · 📋 40 - 42% open · ⏱️ 14.07.2026):
+
+	```
+	git clone https://github.com/voxell-tech/velyst
+	```
+- [Cargo](https://crates.io/crates/velyst) (📥 4.3 / month · ⏱️ 26.01.2025):
+	```
+	cargo install velyst
 	```
 </details>
 <details><summary><b><a href="https://jakobjpeters.github.io/Typstry.jl/">Typstry.jl</a></b>  - 🥈11 ·  ⭐ 100 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>The Julia to Typst Interface.</summary>
@@ -2612,35 +2660,43 @@ _Bindings to programming languages and deployable robots._
 	git clone https://github.com/jakobjpeters/Typstry.jl
 	```
 </details>
-<details><summary><b><a href="https://github.com/daskol/mpl-typst">Typst Matplotlib Backend</a></b>  - 🥈11 ·  ⭐ 82 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Typst backend for matplotlib (Python visualization library).</summary>
+<details><summary><b><a href="https://github.com/fallible-algebra/bevy_typst_textures">bevy_typst_textures</a></b>  - 🥈11 ·  ⭐ 15 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Integrating typst as a texture generator for Bevy.</summary>
 
-- [GitHub](https://github.com/daskol/mpl-typst) (👨‍💻 5 · 🔀 6 · 📥 9 · 📦 2 · 📋 19 - 36% open · ⏱️ 27.06.2026):
-
-	```
-	git clone https://github.com/daskol/mpl-typst
-	```
-</details>
-<details><summary><b><a href="https://github.com/beibingyangliuying/python-typst">typstpy</a></b>  - 🥈11 ·  ⭐ 11 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Python interface to generate Typst code.</summary>
-
-- [GitHub](https://github.com/beibingyangliuying/python-typst) (📦 2 · 📋 3 - 33% open · ⏱️ 24.05.2026):
+- [GitHub](https://github.com/fallible-algebra/bevy_typst_textures) (⏱️ 02.07.2026):
 
 	```
-	git clone https://github.com/beibingyangliuying/python-typst
+	git clone https://github.com/fallible-algebra/bevy_typst_textures
 	```
-- [PyPi](https://pypi.org/project/typstpy) (📥 2.6K / month · ⏱️ 02.06.2026):
+- [Cargo](https://crates.io/crates/bevy_typst_textures) (📥 26 / month · ⏱️ 02.07.2026):
 	```
-	pip install typstpy
+	cargo install bevy_typst_textures
 	```
 </details>
 <details><summary><b><a href="https://github.com/RossSmyth/press">Press</a></b>  - 🥈10 ·  ⭐ 110 · <code>❗&nbsp;Unlicensed</code> · <code>🔌 API</code><br>Typst document building in nix.</summary>
 
-- [GitHub](https://github.com/RossSmyth/press) (👨‍💻 9 · 🔀 9 · 📋 13 - 7% open · ⏱️ 19.07.2026):
+- [GitHub](https://github.com/RossSmyth/press) (👨‍💻 9 · 🔀 9 · 📋 14 - 7% open · ⏱️ 16.08.2026):
 
 	```
 	git clone https://github.com/RossSmyth/press
 	```
 </details>
-<details><summary><b><a href="https://github.com/jgm/typst-hs">typst-hs</a></b>  - 🥈10 ·  ⭐ 71 · <code>❗&nbsp;Unlicensed</code> · <code>🔌 API</code><br>Haskell library for parsing and evaluating typst.</summary>
+<details><summary><b><a href="https://github.com/mattfbacon/typst-bot">mattfbacon/typst-bot</a></b>  - 🥈10 ·  ⭐ 110 · <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-agpl-3-0">❗️&nbsp;AGPL-3.0</a></code><br>A discord bot to render Typst code.</summary>
+
+- [GitHub](https://github.com/mattfbacon/typst-bot) (👨‍💻 12 · 🔀 21 · 📋 25 - 16% open · ⏱️ 13.08.2026):
+
+	```
+	git clone https://github.com/mattfbacon/typst-bot
+	```
+</details>
+<details><summary><b><a href="https://github.com/daskol/mpl-typst">Typst Matplotlib Backend</a></b>  - 🥈10 ·  ⭐ 84 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Typst backend for matplotlib (Python visualization library).</summary>
+
+- [GitHub](https://github.com/daskol/mpl-typst) (👨‍💻 5 · 🔀 8 · 📥 9 · 📦 2 · 📋 19 - 36% open · ⏱️ 11.08.2026):
+
+	```
+	git clone https://github.com/daskol/mpl-typst
+	```
+</details>
+<details><summary><b><a href="https://github.com/jgm/typst-hs">typst-hs</a></b>  - 🥈10 ·  ⭐ 74 · <code>❗&nbsp;Unlicensed</code> · <code>🔌 API</code><br>Haskell library for parsing and evaluating typst.</summary>
 
 - [GitHub](https://github.com/jgm/typst-hs) (👨‍💻 7 · 🔀 10 · 📋 70 - 21% open · ⏱️ 21.07.2026):
 
@@ -2648,16 +2704,24 @@ _Bindings to programming languages and deployable robots._
 	git clone https://github.com/jgm/typst-hs
 	```
 </details>
-<details><summary><b><a href="https://krokotsch.eu/pypst/">Pypst</a></b>  - 🥈10 ·  ⭐ 52 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Declarative Typst in Python with Pandas data frame support.</summary>
+<details><summary><b><a href="https://krokotsch.eu/pypst/">Pypst</a></b>  - 🥈10 ·  ⭐ 52 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Declarative Typst in Python with Pandas data frame support.</summary>
 
-- [GitHub](https://github.com/tilman151/pypst) (👨‍💻 2 · 🔀 3 · 📦 5 · 📋 5 - 40% open · ⏱️ 28.12.2025):
+- [GitHub](https://github.com/tilman151/pypst) (👨‍💻 2 · 🔀 3 · 📦 5 · ⏱️ 15.08.2026):
 
 	```
 	git clone https://github.com/tilman151/pypst
 	```
-- [PyPi](https://pypi.org/project/pypst) (📦 2 · ⏱️ 28.12.2025):
+- [PyPi](https://pypi.org/project/pypst) (📦 2 · ⏱️ 15.08.2026):
 	```
 	pip install pypst
+	```
+</details>
+<details><summary><b><a href="https://rubygems.org/gems/typst">typst-rb</a></b>  - 🥈10 ·  ⭐ 39 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>Ruby binding to typst, a new markup-based typesetting system that is powerful and easy to learn.</summary>
+
+- [GitHub](https://github.com/actsasflinn/typst-rb) (👨‍💻 4 · 🔀 4 · 📥 1 · 📋 5 - 20% open · ⏱️ 15.08.2026):
+
+	```
+	git clone https://github.com/actsasflinn/typst-rb
 	```
 </details>
 <details><summary><b><a href="https://github.com/Dadido3/go-typst">go-typst</a></b>  - 🥈10 ·  ⭐ 35 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>A small go module to utilize Typst for PDF, SVG or PNG document/report generation.</summary>
@@ -2672,21 +2736,9 @@ _Bindings to programming languages and deployable robots._
 	go install github.com/Dadido3/go-typst
 	```
 </details>
-<details><summary><b><a href="https://github.com/fallible-algebra/bevy_typst_textures">bevy_typst_textures</a></b>  - 🥈10 ·  ⭐ 15 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Integrating typst as a texture generator for Bevy.</summary>
+<details><summary><b><a href="https://github.com/fatihcatalkaya/java-typst">java-typst</a></b>  - 🥈10 ·  ⭐ 16 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>A library to render Typst templates in Java.</summary>
 
-- [GitHub](https://github.com/fallible-algebra/bevy_typst_textures) (⏱️ 02.07.2026):
-
-	```
-	git clone https://github.com/fallible-algebra/bevy_typst_textures
-	```
-- [Cargo](https://crates.io/crates/bevy_typst_textures) (📥 20 / month · ⏱️ 02.07.2026):
-	```
-	cargo install bevy_typst_textures
-	```
-</details>
-<details><summary><b><a href="https://github.com/fatihcatalkaya/java-typst">java-typst</a></b>  - 🥈10 ·  ⭐ 13 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>A library to render Typst templates in Java.</summary>
-
-- [GitHub](https://github.com/fatihcatalkaya/java-typst) (👨‍💻 2 · 📦 2 · ⏱️ 06.05.2026):
+- [GitHub](https://github.com/fatihcatalkaya/java-typst) (👨‍💻 2 · 🔀 1 · 📦 2 · ⏱️ 27.07.2026):
 
 	```
 	git clone https://github.com/fatihcatalkaya/java-typst
@@ -2700,27 +2752,75 @@ _Bindings to programming languages and deployable robots._
 	</dependency>
 	```
 </details>
-<details><summary><b><a href="https://github.com/tola-rs/typst-batch">typst-batch</a></b>  - 🥈10 ·  ⭐ 4 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Typst unofficial library for batch processing — friendly API, shared resources, virtual files, customizable diagnostics.</summary>
+<details><summary><b><a href="https://github.com/slashformotion/typst-http-api">Typst HTTP API</a></b>  - 🥈9 ·  ⭐ 39 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code> · <code>🦋 Web</code><br>Compile typst documents with a simple HTTP request.</summary>
 
-- [GitHub](https://github.com/tola-rs/typst-batch) (⏱️ 24.05.2026):
+- [GitHub](https://github.com/slashformotion/typst-http-api) (👨‍💻 3 · 🔀 6 · ⏱️ 20.01.2026):
 
 	```
-	git clone https://github.com/tola-ssg/typst-batch
-	```
-- [Cargo](https://crates.io/crates/typst-batch) (📥 70 / month · ⏱️ 24.05.2026):
-	```
-	cargo install typst-batch
+	git clone https://github.com/slashformotion/typst-http-api
 	```
 </details>
-<details><summary><b><a href="https://github.com/leus/Typst.Native">Typst.Native</a></b>  - 🥈10 ·  ⭐ 3 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>.NET bindings for Typst — compile Typst documents to PDF, SVG, and PNG directly from .NET.</summary>
+<details><summary><b><a href="https://github.com/evolvedlight/typstsharp">typstsharp</a></b>  - 🥈9 ·  ⭐ 18 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Typst binding for C#.</summary>
 
-- [GitHub](https://github.com/leus/Typst.Native) (👨‍💻 3 · 📥 12 · ⏱️ 14.07.2026):
+- [GitHub](https://github.com/evolvedlight/typstsharp) (👨‍💻 3 · 🔀 2 · 📥 2 · 📋 9 - 11% open · ⏱️ 10.08.2026):
+
+	```
+	git clone https://github.com/evolvedlight/typstsharp
+	```
+</details>
+<details><summary><b><a href="https://github.com/francescoalemanno/gotypst">gotypst</a></b>  - 🥈9 ·  ⭐ 12 · 💤 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>gotypst is a Go package that compiles Typst code into a PDF. It provides an easy-to-use function to pass Typst markup..</summary>
+
+- [GitHub](https://github.com/francescoalemanno/gotypst) (👨‍💻 2 · 📦 4 · ⏱️ 23.03.2026):
+
+	```
+	git clone https://github.com/francescoalemanno/gotypst
+	```
+- [Go](https://pkg.go.dev/github.com/francescoalemanno/gotypst) (📦 2 · ⏱️ 23.03.2026):
+	```
+	go install github.com/francescoalemanno/gotypst
+	```
+</details>
+<details><summary><b><a href="https://github.com/beibingyangliuying/python-typst">typstpy</a></b>  - 🥈9 ·  ⭐ 11 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Python interface to generate Typst code.</summary>
+
+- [GitHub](https://github.com/beibingyangliuying/python-typst) (📦 2 · 📋 3 - 33% open · ⏱️ 24.05.2026):
+
+	```
+	git clone https://github.com/beibingyangliuying/python-typst
+	```
+- [PyPi](https://pypi.org/project/typstpy) (📥 2K / month · ⏱️ 02.06.2026):
+	```
+	pip install typstpy
+	```
+</details>
+<details><summary><b><a href="https://www.npmjs.com/package/typst-raster">typst-raster</a></b>  - 🥈9 ·  ⭐ 11 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Blazing-fast Typst → PNG/JPEG/WebP renderer for Node.js using native Rust compiler + Sharp.</summary>
+
+- [GitHub](https://github.com/RayZ3R0/typst-raster) (🔀 2 · ⏱️ 05.12.2025):
+
+	```
+	git clone https://github.com/RayZ3R0/typst-raster
+	```
+- [npm](https://www.npmjs.com/package/typst-raster) (📥 250 / month · ⏱️ 05.12.2025):
+	```
+	npm install typst-raster
+	```
+</details>
+<details><summary><b><a href="https://github.com/leus/Typst.Native">Typst.Native</a></b>  - 🥈9 ·  ⭐ 4 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>.NET bindings for Typst — compile Typst documents to PDF, SVG, and PNG directly from .NET.</summary>
+
+- [GitHub](https://github.com/leus/Typst.Native) (👨‍💻 3 · 🔀 1 · 📥 12 · ⏱️ 01.08.2026):
 
 	```
 	git clone https://github.com/leus/Typst.Native
 	```
 </details>
-<details><summary><b><a href="https://bengale93.github.io/typ-tables/">typ-tables</a></b>  - 🥈10 ·  ⭐ 2 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Generate Typst Tables from DataFrames.</summary>
+<details><summary><b><a href="https://github.com/HackingGate/typst-out">HackingGate/typst-out</a></b>  - 🥈9 ·  ⭐ 3 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code><br>This GitHub action builds Typst files in your repository using a custom Typst ref, producing configurable output files..</summary>
+
+- [GitHub](https://github.com/HackingGate/typst-out) (👨‍💻 3 · 📋 7 - 14% open · ⏱️ 03.02.2026):
+
+	```
+	git clone https://github.com/HackingGate/typst-out
+	```
+</details>
+<details><summary><b><a href="https://bengale93.github.io/typ-tables/">typ-tables</a></b>  - 🥈9 ·  ⭐ 2 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Generate Typst Tables from DataFrames.</summary>
 
 - [GitHub](https://github.com/BenGale93/typ-tables) (📋 11 - 18% open · ⏱️ 16.06.2026):
 
@@ -2732,15 +2832,7 @@ _Bindings to programming languages and deployable robots._
 	pip install typ-tables
 	```
 </details>
-<details><summary><b><a href="https://github.com/slashformotion/typst-http-api">Typst HTTP API</a></b>  - 🥉9 ·  ⭐ 39 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code> · <code>🦋 Web</code><br>Compile typst documents with a simple HTTP request.</summary>
-
-- [GitHub](https://github.com/slashformotion/typst-http-api) (👨‍💻 3 · 🔀 5 · ⏱️ 20.01.2026):
-
-	```
-	git clone https://github.com/slashformotion/typst-http-api
-	```
-</details>
-<details><summary><b><a href="https://y-sunflower.github.io/r2typ/">r2typ</a></b>  - 🥉9 ·  ⭐ 21 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>r2typ (R to Typst): An R package for generating Typst markup.</summary>
+<details><summary><b><a href="https://y-sunflower.github.io/r2typ/">r2typ</a></b>  - 🥉8 ·  ⭐ 21 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>r2typ (R to Typst): An R package for generating Typst markup.</summary>
 
 - [GitHub](https://github.com/y-sunflower/r2typ) (📥 26 · 📋 38 - 5% open · ⏱️ 26.03.2026):
 
@@ -2748,85 +2840,33 @@ _Bindings to programming languages and deployable robots._
 	git clone https://github.com/y-sunflower/r2typ
 	```
 </details>
-<details><summary><b><a href="https://github.com/francescoalemanno/gotypst">gotypst</a></b>  - 🥉9 ·  ⭐ 12 · 💤 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>gotypst is a Go package that compiles Typst code into a PDF. It provides an easy-to-use function to pass Typst markup..</summary>
+<details><summary><b><a href="https://github.com/tola-rs/typst-batch">typst-batch</a></b>  - 🥉8 ·  ⭐ 4 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Typst unofficial library for batch processing — friendly API, shared resources, virtual files, customizable diagnostics.</summary>
 
-- [GitHub](https://github.com/francescoalemanno/gotypst) (👨‍💻 2 · 📦 3 · ⏱️ 23.03.2026):
+- [GitHub](https://github.com/tola-rs/typst-batch) (🔀 1 · ⏱️ 24.05.2026):
 
 	```
-	git clone https://github.com/francescoalemanno/gotypst
+	git clone https://github.com/tola-ssg/typst-batch
 	```
-- [Go](https://pkg.go.dev/github.com/francescoalemanno/gotypst) (📦 2 · ⏱️ 23.03.2026):
+- [Cargo](https://crates.io/crates/typst-batch) (📥 71 / month · ⏱️ 24.05.2026):
 	```
-	go install github.com/francescoalemanno/gotypst
+	cargo install typst-batch
 	```
 </details>
-<details><summary><b><a href="https://www.npmjs.com/package/typst-raster">typst-raster</a></b>  - 🥉9 ·  ⭐ 11 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Blazing-fast Typst → PNG/JPEG/WebP renderer for Node.js using native Rust compiler + Sharp.</summary>
+<details><summary><b><a href="https://docs.rs/typst-embedded-package/">Typst-Embedded-Package</a></b>  - 🥉8 ·  ⭐ 2 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Support to embed typst package to the binary.</summary>
 
-- [GitHub](https://github.com/RayZ3R0/typst-raster) (🔀 2 · ⏱️ 05.12.2025):
-
-	```
-	git clone https://github.com/RayZ3R0/typst-raster
-	```
-- [npm](https://www.npmjs.com/package/typst-raster) (📥 300 / month · ⏱️ 05.12.2025):
-	```
-	npm install typst-raster
-	```
-</details>
-<details><summary><b><a href="https://github.com/HackingGate/typst-out">HackingGate/typst-out</a></b>  - 🥉9 ·  ⭐ 3 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code><br>This GitHub action builds Typst files in your repository using a custom Typst ref, producing configurable output files..</summary>
-
-- [GitHub](https://github.com/HackingGate/typst-out) (👨‍💻 3 · 📋 7 - 14% open · ⏱️ 03.02.2026):
-
-	```
-	git clone https://github.com/HackingGate/typst-out
-	```
-</details>
-<details><summary><b><a href="https://github.com/mattfbacon/typst-bot">mattfbacon/typst-bot</a></b>  - 🥉8 ·  ⭐ 110 · <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-agpl-3-0">❗️&nbsp;AGPL-3.0</a></code><br>A discord bot to render Typst code.</summary>
-
-- [GitHub](https://github.com/mattfbacon/typst-bot) (👨‍💻 12 · 🔀 21 · 📋 24 - 16% open · ⏱️ 17.07.2026):
-
-	```
-	git clone https://github.com/mattfbacon/typst-bot
-	```
-</details>
-<details><summary><b><a href="https://rubygems.org/gems/typst">typst-rb</a></b>  - 🥉8 ·  ⭐ 36 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>Ruby binding to typst, a new markup-based typesetting system that is powerful and easy to learn.</summary>
-
-- [GitHub](https://github.com/actsasflinn/typst-rb) (👨‍💻 3 · 🔀 4 · ⏱️ 08.07.2026):
-
-	```
-	git clone https://github.com/actsasflinn/typst-rb
-	```
-</details>
-<details><summary><b><a href="https://y-sunflower.github.io/tynding/">tynding</a></b>  - 🥉8 ·  ⭐ 22 · 🐣 · <code>❗&nbsp;Unlicensed</code> · <code>🔌 API</code><br>Typst bindings for R.</summary>
-
-- [GitHub](https://github.com/y-sunflower/tynding) (👨‍💻 1 · 📥 1 · 📋 26 - 19% open · ⏱️ 06.07.2026):
-
-	```
-	git clone https://github.com/y-sunflower/tynding
-	```
-</details>
-<details><summary><b><a href="https://docs.rs/typst-embedded-package/">Typst-Embedded-Package</a></b>  - 🥉8 ·  ⭐ 2 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Support to embed typst package to the binary.</summary>
-
-- [GitHub](https://github.com/tguichaoua/typst-embedded-package) (👨‍💻 2 · 🔀 2 · 📋 2 - 50% open · ⏱️ 21.01.2026):
+- [GitHub](https://github.com/tguichaoua/typst-embedded-package) (👨‍💻 2 · 🔀 2 · ⏱️ 26.07.2026):
 
 	```
 	git clone https://github.com/tguichaoua/typst-embedded-package
 	```
-- [Cargo](https://crates.io/crates/typst-embedded-package) (📥 480 / month · ⏱️ 22.01.2026):
+- [Cargo](https://crates.io/crates/typst-embedded-package) (📥 290 / month · ⏱️ 26.07.2026):
 	```
 	cargo install typst-embedded-package
 	```
 </details>
-<details><summary><b><a href="https://github.com/tfachmann/typst-as-library">Typst as Library</a></b>  - 🥉7 ·  ⭐ 140 · 💤 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code><br>Simple demo that demonstrates how to use typst as a library in Rust.</summary>
+<details><summary><b><a href="https://github.com/varunbpatil/typst-go-wasm">typst-go-wasm</a></b>  - 🥉7 ·  ⭐ 26 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Go library for PDF generation from Typst templates, powered by WebAssembly.</summary>
 
-- [GitHub](https://github.com/tfachmann/typst-as-library) (👨‍💻 4 · 🔀 14 · 📋 9 - 44% open · ⏱️ 16.11.2025):
-
-	```
-	git clone https://github.com/tfachmann/typst-as-library
-	```
-</details>
-<details><summary><b><a href="https://github.com/varunbpatil/typst-go-wasm">typst-go-wasm</a></b>  - 🥉7 ·  ⭐ 18 · 🐣 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>Go library for PDF generation from Typst templates, powered by WebAssembly.</summary>
-
-- [GitHub](https://github.com/varunbpatil/typst-go-wasm) (⏱️ 08.06.2026):
+- [GitHub](https://github.com/varunbpatil/typst-go-wasm) (👨‍💻 1 · 🔀 1 · 📦 1 · ⏱️ 08.06.2026):
 
 	```
 	git clone https://github.com/varunbpatil/typst-go-wasm
@@ -2834,6 +2874,14 @@ _Bindings to programming languages and deployable robots._
 - [Go](https://pkg.go.dev/github.com/varunbpatil/typst-go-wasm) (⏱️ 16.05.2026):
 	```
 	go install github.com/varunbpatil/typst-go-wasm
+	```
+</details>
+<details><summary><b><a href="https://y-sunflower.github.io/tynding/">tynding</a></b>  - 🥉7 ·  ⭐ 22 · 🐣 · <code>❗&nbsp;Unlicensed</code> · <code>🔌 API</code><br>Typst bindings for R.</summary>
+
+- [GitHub](https://github.com/y-sunflower/tynding) (👨‍💻 1 · 📥 1 · 📋 26 - 19% open · ⏱️ 06.07.2026):
+
+	```
+	git clone https://github.com/y-sunflower/tynding
 	```
 </details>
 <details><summary><b><a href="https://github.com/hiifong/typst-go">typst-go</a></b>  - 🥉7 ·  ⭐ 5 · <code>❗&nbsp;Unlicensed</code> · <code>🔌 API</code><br>Go bindings for Typst.</summary>
@@ -2856,14 +2904,6 @@ _Bindings to programming languages and deployable robots._
 	git clone https://github.com/megatank58/typit
 	```
 </details>
-<details><summary><b><a href="https://github.com/evolvedlight/typstsharp">typstsharp</a></b>  - 🥉6 ·  ⭐ 15 · <code>❗&nbsp;Unlicensed</code> · <code>🔌 API</code><br>Typst binding for C#.</summary>
-
-- [GitHub](https://github.com/evolvedlight/typstsharp) (👨‍💻 2 · 🔀 1 · 📥 2 · 📋 6 - 16% open · ⏱️ 27.06.2026):
-
-	```
-	git clone https://github.com/evolvedlight/typstsharp
-	```
-</details>
 <details><summary><b><a href="https://github.com/rousbound/typst-lua">typst-lua</a></b>  - 🥉6 ·  ⭐ 14 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>Lua binding for Typst, a new markup-based typesetting system that is powerful and easy to learn.</summary>
 
 - [GitHub](https://github.com/rousbound/typst-lua) (👨‍💻 3 · 🔀 1 · 📥 30 · ⏱️ 09.05.2026):
@@ -2872,9 +2912,9 @@ _Bindings to programming languages and deployable robots._
 	git clone https://github.com/rousbound/typst-lua
 	```
 </details>
-<details><summary><b><a href="https://t.me/TypstBot">Typst Telegram Bot</a></b>  - 🥉6 ·  ⭐ 10 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code><br>Render math expression with typst markup language in Telegram.</summary>
+<details><summary><b><a href="https://t.me/TypstBot">Typst Telegram Bot</a></b>  - 🥉6 ·  ⭐ 10 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code><br>Render math expression with typst markup language in Telegram.</summary>
 
-- [GitHub](https://github.com/daskol/typst-telegram-bot) (🔀 1 · ⏱️ 27.04.2026):
+- [GitHub](https://github.com/daskol/typst-telegram-bot) (🔀 1 · 📋 6 - 16% open · ⏱️ 27.04.2026):
 
 	```
 	git clone https://github.com/daskol/typst-telegram-bot
@@ -2887,19 +2927,27 @@ _Bindings to programming languages and deployable robots._
 	```
 	git clone https://github.com/BrokenSource/Typenaut
 	```
-- [PyPi](https://pypi.org/project/typenaut) (⏱️ 31.03.2026):
+- [PyPi](https://pypi.org/project/typenaut) (📥 6 / month · ⏱️ 31.03.2026):
 	```
 	pip install typenaut
 	```
 </details>
+<details><summary><b><a href="https://github.com/marketplace/actions/quill-typst-validator">Quill</a></b>  - 🥉6 ·  ⭐ 2 · ➕ · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code><br>A batteries-included workflow for typst code validation.</summary>
+
+- [GitHub](https://github.com/ReeseHatfield/quill) (📋 4 - 50% open · ⏱️ 13.08.2026):
+
+	```
+	git clone https://github.com/ReeseHatfield/quill
+	```
+</details>
 <details><summary><b><a href="https://codeberg.org/sbinet/typst-cffi">typst-cffi</a></b>  - 🥉6 ·  ⭐ 1 · <code><a href="https://tldrlegal.com/license/bsd-3-clause-license-revised">BSD-3</a></code> · <code>🔌 API</code><br>C-FFI for Typst.</summary>
 
-- [Codeberg](https://codeberg.org/sbinet/typst-cffi) (🔀 0 · ⏱️ 16.06.2026):
+- [Codeberg](https://codeberg.org/sbinet/typst-cffi) (🔀 0 · ⏱️ 27.07.2026):
 
 	```
 	git clone https://codeberg.org/sbinet/typst-cffi
 	```
-- [Cargo](https://crates.io/crates/typst-cffi) (📥 11 / month · ⏱️ 16.06.2026):
+- [Cargo](https://crates.io/crates/typst-cffi) (📥 18 / month · ⏱️ 27.07.2026):
 	```
 	cargo install typst-cffi
 	```
@@ -2914,7 +2962,7 @@ _Bindings to programming languages and deployable robots._
 </details>
 <details><summary><b><a href="https://codeberg.org/sbinet/daktilo">daktilo</a></b>  - 🥉5 ·  ⭐ 1 · <code><a href="https://tldrlegal.com/license/bsd-3-clause-license-revised">BSD-3</a></code> · <code>🔌 API</code><br>A simple-minded Cgo interface to Typst with extra Go tools for Typst.</summary>
 
-- [Codeberg](https://codeberg.org/sbinet/daktilo) (🔀 0 · ⏱️ 16.06.2026):
+- [Codeberg](https://codeberg.org/sbinet/daktilo) (🔀 0 · ⏱️ 27.07.2026):
 
 	```
 	git clone https://codeberg.org/sbinet/daktilo
@@ -2942,10 +2990,18 @@ _Bindings to programming languages and deployable robots._
 </details>
 <details><summary><b><a href="https://github.com/aszenz/php-typst">php-typst</a></b>  - 🥉3 ·  ⭐ 6 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🔌 API</code><br>PHP extension for compiling Typst documents.</summary>
 
-- [GitHub](https://github.com/aszenz/php-typst) (👨‍💻 2 · ⏱️ 31.03.2026):
+- [GitHub](https://github.com/aszenz/php-typst) (👨‍💻 2 · 🔀 1 · ⏱️ 31.03.2026):
 
 	```
 	git clone https://github.com/aszenz/php-typst
+	```
+</details>
+<details><summary><b><a href="https://github.com/destroyerOfOfficeChairs/dooc_embed_typst">dooc_embed_typst</a></b>  - 🥉3 ·  ⭐ 5 · <code>❗&nbsp;Unlicensed</code> · <code>🔌 API</code><br>A minimalist, self-contained wrapper for embedding Typst in Rust.</summary>
+
+- [GitHub](https://github.com/destroyerOfOfficeChairs/dooc_embed_typst) (🔀 2 · ⏱️ 20.08.2026):
+
+	```
+	git clone https://github.com/destroyerOfOfficeChairs/dooc_embed_typst
 	```
 </details>
 <details><summary><b><a href="https://bithesis.bitnp.net/guide/ask-computer.html">YDX-2147483647/faq-bot</a></b>  - 🥉3 ·  ⭐ 3 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🐧 non-English</code><br>BIThesis 交流群和 Typst 非官方中文交流群的机器人。.</summary>
@@ -2972,15 +3028,7 @@ _Bindings to programming languages and deployable robots._
 	git clone https://github.com/WangHaoZhengMing/libtypst
 	```
 </details>
-<details><summary><b><a href="https://github.com/destroyerOfOfficeChairs/dooc_embed_typst">dooc_embed_typst</a></b>  - 🥉2 ·  ⭐ 5 · 💤 · <code>❗&nbsp;Unlicensed</code> · <code>🔌 API</code><br>A minimalist, self-contained wrapper for embedding Typst in Rust.</summary>
-
-- [GitHub](https://github.com/destroyerOfOfficeChairs/dooc_embed_typst) (🔀 2 · ⏱️ 30.12.2025):
-
-	```
-	git clone https://github.com/destroyerOfOfficeChairs/dooc_embed_typst
-	```
-</details>
-<details><summary><b><a href="https://gitlab.com/typst_cxx/typst_cxx">typst_cxx</a></b>  - 🥉1 ·  ⭐ 2 · <code>❗&nbsp;Unlicensed</code> · <code>🔌 API</code><br></summary>
+<details><summary><b><a href="https://gitlab.com/typst_cxx/typst_cxx">typst_cxx</a></b>  -  ⭐ 2 · <code>❗&nbsp;Unlicensed</code> · <code>🔌 API</code><br></summary>
 
 - [GitLab](https://gitlab.com/typst_cxx/typst_cxx) (🔀 0 · ⏱️ 28.05.2026):
 
@@ -2988,21 +3036,29 @@ _Bindings to programming languages and deployable robots._
 	git clone https://gitlab.com/typst_cxx/typst_cxx
 	```
 </details>
-<details><summary>Show 10 hidden projects...</summary>
+<details><summary>Show 11 hidden projects...</summary>
 
 <details><summary><b><a href="https://typst.community/typst.js">typst.js</a></b>  - 🥇16 ·  ⭐ 38 · 💀 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>📦 Typst for JavaScript.</summary>
 
-- [GitHub](https://github.com/typst-community/typst.js) (👨‍💻 4 · 🔀 7 · 📦 26 · 📋 10 - 50% open · ⏱️ 09.02.2024):
+- [GitHub](https://github.com/typst-community/typst.js) (👨‍💻 4 · 🔀 7 · 📦 27 · 📋 10 - 50% open · ⏱️ 09.02.2024):
 
 	```
 	git clone https://github.com/typst-community/typst.js
 	```
-- [npm](https://www.npmjs.com/package/typst) (📥 9.9K / month · 📦 2 · ⏱️ 18.12.2023):
+- [npm](https://www.npmjs.com/package/typst) (📥 12K / month · 📦 2 · ⏱️ 18.12.2023):
 	```
 	npm install typst
 	```
 </details>
-<details><summary><b><a href="https://github.com/lvignoli/typst-action">lvignoli/typst-action</a></b>  - 🥉7 ·  ⭐ 93 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code><br>Typst GitHub action.</summary>
+<details><summary><b><a href="https://github.com/tfachmann/typst-as-library">Typst as Library</a></b>  - 🥉7 ·  ⭐ 140 · 💀 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code><br>Simple demo that demonstrates how to use typst as a library in Rust.</summary>
+
+- [GitHub](https://github.com/tfachmann/typst-as-library) (👨‍💻 4 · 🔀 14 · 📋 9 - 44% open · ⏱️ 16.11.2025):
+
+	```
+	git clone https://github.com/tfachmann/typst-as-library
+	```
+</details>
+<details><summary><b><a href="https://github.com/lvignoli/typst-action">lvignoli/typst-action</a></b>  - 🥉7 ·  ⭐ 95 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code><br>Typst GitHub action.</summary>
 
 - [GitHub](https://github.com/lvignoli/typst-action) (👨‍💻 5 · 🔀 19 · 📋 9 - 77% open · ⏱️ 16.02.2025):
 
@@ -3010,7 +3066,7 @@ _Bindings to programming languages and deployable robots._
 	git clone https://github.com/lvignoli/typst-action
 	```
 </details>
-<details><summary><b><a href="https://hexdocs.pm/ex_typst">ExTypst</a></b>  - 🥉6 ·  ⭐ 31 · 💀 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>Elixir bindings and helpers for the typst typesetting system.</summary>
+<details><summary><b><a href="https://hexdocs.pm/ex_typst">ExTypst</a></b>  - 🥉6 ·  ⭐ 30 · 💀 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>Elixir bindings and helpers for the typst typesetting system.</summary>
 
 - [GitHub](https://github.com/viniciusmuller/ex_typst) (👨‍💻 2 · 🔀 10 · ⏱️ 06.08.2023):
 
@@ -3085,90 +3141,90 @@ _Bindings to programming languages and deployable robots._
 
 <a href="#contents"><img align="right" width="15" height="15" src="https://git.io/JtehR" alt="Back to top"></a>
 
-<details><summary><b><a href="https://rendercv.com">RenderCV</a></b>  - 🥇32 ·  ⭐ 17K · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>Resume builder for academics and engineers.</summary>
+<details><summary><b><a href="https://rendercv.com">RenderCV</a></b>  - 🥇31 ·  ⭐ 17K · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>Resume builder for academics and engineers.</summary>
 
-- [GitHub](https://github.com/rendercv/rendercv) (👨‍💻 63 · 🔀 1.3K · 📥 2.1K · 📦 520 · 📋 330 - 10% open · ⏱️ 25.03.2026):
+- [GitHub](https://github.com/rendercv/rendercv) (👨‍💻 63 · 🔀 1.3K · 📥 2.3K · 📦 580 · 📋 340 - 11% open · ⏱️ 25.03.2026):
 
 	```
 	git clone https://github.com/rendercv/rendercv
 	```
-- [PyPi](https://pypi.org/project/rendercv) (📥 150K / month · 📦 2 · ⏱️ 21.03.2026):
+- [PyPi](https://pypi.org/project/rendercv) (📥 160K / month · 📦 2 · ⏱️ 21.03.2026):
 	```
 	pip install rendercv
 	```
 </details>
-<details><summary><b><a href="https://crates.io/crates/crates_io_og_image">crates_io_og_image</a></b>  - 🥇17 ·  ⭐ 15 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>OpenGraph image generation for crates.io packages.</summary>
+<details><summary><b><a href="https://crates.io/crates/crates_io_og_image">crates_io_og_image</a></b>  - 🥇17 ·  ⭐ 16 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🔌 API</code><br>OpenGraph image generation for crates.io packages.</summary>
 
-- [GitHub](https://github.com/rust-lang/crates_io_og_image) (👨‍💻 5 · 🔀 5 · 📦 16 · 📋 4 - 25% open · ⏱️ 18.06.2026):
+- [GitHub](https://github.com/rust-lang/crates_io_og_image) (👨‍💻 5 · 🔀 5 · 📦 18 · 📋 4 - 25% open · ⏱️ 09.08.2026):
 
 	```
 	git clone https://github.com/rust-lang/crates_io_og_image
 	```
-- [Cargo](https://crates.io/crates/crates_io_og_image) (📥 910 / month · ⏱️ 11.06.2026):
+- [Cargo](https://crates.io/crates/crates_io_og_image) (📥 1.1K / month · ⏱️ 11.06.2026):
 	```
 	cargo install crates_io_og_image
 	```
 </details>
-<details><summary><b><a href="https://github.com/Sajjon/klirr">klirr</a></b>  - 🥇13 ·  ⭐ 130 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🤖 CLI</code><br>Zero-maintenance and smart FOSS generating beautiful invoices for services and expenses.</summary>
+<details><summary><b><a href="https://github.com/Sajjon/klirr">klirr</a></b>  - 🥇12 ·  ⭐ 140 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🤖 CLI</code><br>Zero-maintenance and smart FOSS generating beautiful invoices for services and expenses.</summary>
 
-- [GitHub](https://github.com/Sajjon/klirr) (👨‍💻 7 · 🔀 6 · 📥 170 · ⏱️ 01.06.2026):
+- [GitHub](https://github.com/Sajjon/klirr) (👨‍💻 7 · 🔀 6 · 📥 180 · ⏱️ 01.06.2026):
 
 	```
 	git clone https://github.com/Sajjon/klirr
 	```
-- [Cargo](https://crates.io/crates/klirr) (📥 48 / month · ⏱️ 06.05.2026):
+- [Cargo](https://crates.io/crates/klirr) (📥 54 / month · ⏱️ 06.05.2026):
 	```
 	cargo install klirr
 	```
 </details>
-<details><summary><b><a href="https://oicana.com">Oicana</a></b>  - 🥇13 ·  ⭐ 36 · <code><a href="https://tldrlegal.com/search?query=MulanPSL-1.0">❗️&nbsp;MulanPSL-1.0</a></code> · <code>🔌 API</code> · <code>🤖 CLI</code><br>Cross-Platform PDF templating based on Typst.</summary>
+<details><summary><b><a href="https://oicana.com">Oicana</a></b>  - 🥇12 ·  ⭐ 36 · <code><a href="https://tldrlegal.com/search?query=MulanPSL-1.0">❗️&nbsp;MulanPSL-1.0</a></code> · <code>🔌 API</code> · <code>🤖 CLI</code><br>Cross-Platform PDF templating based on Typst.</summary>
 
-- [GitHub](https://github.com/oicana/oicana) (👨‍💻 1 · 🔀 1 · 📥 1.3K · 📋 5 - 60% open · ⏱️ 20.07.2026):
+- [GitHub](https://github.com/oicana/oicana) (👨‍💻 1 · 🔀 1 · 📥 1.1K · 📋 5 - 60% open · ⏱️ 17.08.2026):
 
 	```
 	git clone https://github.com/oicana/oicana
 	```
-- [npm](https://www.npmjs.com/package/@oicana/node) (📥 950 / month · ⏱️ 20.07.2026):
+- [npm](https://www.npmjs.com/package/@oicana/node) (📥 450 / month · ⏱️ 17.08.2026):
 	```
 	npm install @oicana/node
 	```
-- [Cargo](https://crates.io/crates/oicana_cli) (📥 78 / month · ⏱️ 20.07.2026):
+- [Cargo](https://crates.io/crates/oicana_cli) (📥 86 / month · ⏱️ 26.07.2026):
 	```
 	cargo install oicana_cli
 	```
 </details>
-<details><summary><b><a href="https://mnemo.world">mnemo</a></b>  - 🥈12 ·  ⭐ 51 · <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-agpl-3-0">❗️&nbsp;AGPL-3.0</a></code><br>A local-first, cross-platform note-taking app leveraging the Typst ecosystem. Designed to minimize distractions and..</summary>
+<details><summary><b><a href="https://mnemo.world">mnemo</a></b>  - 🥈11 ·  ⭐ 51 · <code><a href="https://tldrlegal.com/license/gnu-affero-general-public-license-v3-agpl-3-0">❗️&nbsp;AGPL-3.0</a></code><br>A local-first, cross-platform note-taking app leveraging the Typst ecosystem. Designed to minimize distractions and..</summary>
 
-- [GitHub](https://github.com/lemueldls/mnemo) (👨‍💻 3 · 🔀 2 · 📥 770 · ⏱️ 28.06.2026):
+- [GitHub](https://github.com/lemueldls/mnemo) (👨‍💻 3 · 🔀 2 · 📥 870 · ⏱️ 28.06.2026):
 
 	```
 	git clone https://github.com/lemueldls/mnemo
 	```
 </details>
-<details><summary><b><a href="https://academicid.io/">SapienAI</a></b>  - 🥈10 ·  ⭐ 200 · <code>❗&nbsp;Unlicensed</code> · <code>🥡 Runnable</code> · <code>🦋 Web</code><br>Self-hosted academic chatbot, research workspaces and editor (LaTex, Typst, markdown, ...) leveraging local and..</summary>
+<details><summary><b><a href="https://github.com/Coekjan/typst-upgrade">Typst Upgrade</a></b>  - 🥈11 ·  ⭐ 23 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🤖 CLI</code><br>Upgrade your typst packages.</summary>
 
-- [GitHub](https://github.com/Academic-ID/sapienAI) (🔀 21 · 📋 13 - 69% open · ⏱️ 13.06.2026):
-
-	```
-	git clone https://github.com/Academic-ID/sapienAI
-	```
-</details>
-<details><summary><b><a href="https://github.com/Coekjan/typst-upgrade">Typst Upgrade</a></b>  - 🥈10 ·  ⭐ 23 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🤖 CLI</code><br>Upgrade your typst packages.</summary>
-
-- [GitHub](https://github.com/Coekjan/typst-upgrade) (👨‍💻 2 · 🔀 1 · 📥 580 · ⏱️ 20.07.2026):
+- [GitHub](https://github.com/Coekjan/typst-upgrade) (👨‍💻 2 · 🔀 1 · 📥 610 · ⏱️ 19.08.2026):
 
 	```
 	git clone https://github.com/Coekjan/typst-upgrade
 	```
 </details>
+<details><summary><b><a href="https://academicid.io/">SapienAI</a></b>  - 🥈9 ·  ⭐ 200 · <code>❗&nbsp;Unlicensed</code> · <code>🥡 Runnable</code> · <code>🦋 Web</code><br>Self-hosted academic chatbot, research workspaces and editor (LaTex, Typst, markdown, ...) leveraging local and..</summary>
+
+- [GitHub](https://github.com/Academic-ID/sapienAI) (🔀 20 · 📋 13 - 69% open · ⏱️ 13.06.2026):
+
+	```
+	git clone https://github.com/Academic-ID/sapienAI
+	```
+</details>
 <details><summary><b><a href="https://github.com/hooyuser/typst_font_manager">typfont</a></b>  - 🥈9 ·  ⭐ 14 · <code><a href="https://tldrlegal.com/license/gnu-general-public-license-v3-gpl-3">❗️&nbsp;GPL-3.0</a></code> · <code>🤖 CLI</code><br>A CLI tool to manage fonts for Typst projects.</summary>
 
-- [GitHub](https://github.com/hooyuser/typst_font_manager) (👨‍💻 2 · 📥 170 · ⏱️ 29.06.2026):
+- [GitHub](https://github.com/hooyuser/typst_font_manager) (👨‍💻 2 · 📥 180 · ⏱️ 29.06.2026):
 
 	```
 	git clone https://github.com/hooyuser/typst_font_manager
 	```
-- [Cargo](https://crates.io/crates/typst_font_manager) (📥 12 / month · ⏱️ 12.04.2025):
+- [Cargo](https://crates.io/crates/typst_font_manager) (📥 14 / month · ⏱️ 12.04.2025):
 	```
 	cargo install typst_font_manager
 	```
@@ -3188,20 +3244,20 @@ _Bindings to programming languages and deployable robots._
 	```
 	git clone https://github.com/liquidhelium/tanim
 	```
-- [Cargo](https://crates.io/crates/tanim-cli) (📥 6.7 / month · ⏱️ 21.03.2026):
+- [Cargo](https://crates.io/crates/tanim-cli) (📥 8 / month · ⏱️ 21.03.2026):
 	```
 	cargo install tanim-cli
 	```
 </details>
 <details><summary><b><a href="https://noteworthy.benjaminlee.kr">Noteworthy</a></b>  - 🥈7 ·  ⭐ 120 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code><br>A powerful academic framework for typst.</summary>
 
-- [GitHub](https://github.com/sihooleebd/noteworthy) (👨‍💻 2 · 🔀 1 · ⏱️ 05.07.2026):
+- [GitHub](https://github.com/sihooleebd/noteworthy) (👨‍💻 2 · 🔀 1 · ⏱️ 20.08.2026):
 
 	```
 	git clone https://github.com/sihooleebd/noteworthy
 	```
 </details>
-<details><summary><b><a href="https://gistd.myriad-dreamin.com/">gistd</a></b>  - 🥈7 ·  ⭐ 38 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🦋 Web</code> · <code>🗺️ Multilingual</code> · <code>🧩 Extension</code><br>Instantly share typst documents on git and other network storage.</summary>
+<details><summary><b><a href="https://gistd.myriad-dreamin.com/">gistd</a></b>  - 🥈7 ·  ⭐ 40 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🦋 Web</code> · <code>🗺️ Multilingual</code> · <code>🧩 Extension</code><br>Instantly share typst documents on git and other network storage.</summary>
 
 - [GitHub](https://github.com/Myriad-Dreamin/gistd) (👨‍💻 3 · 🔀 1 · 📋 13 - 15% open · ⏱️ 30.06.2026):
 
@@ -3211,10 +3267,18 @@ _Bindings to programming languages and deployable robots._
 </details>
 <details><summary><b><a href="https://github.com/aualbert/kino">Kino</a></b>  - 🥈7 ·  ⭐ 27 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🥡 Runnable</code> · <code>🌌 Typst package</code><br>A Typst package and utilities for creating animations.</summary>
 
-- [GitHub](https://github.com/aualbert/kino) (🔀 2 · ⏱️ 24.12.2025):
+- [GitHub](https://github.com/aualbert/kino) (🔀 1 · ⏱️ 24.12.2025):
 
 	```
 	git clone https://github.com/aualbert/kino
+	```
+</details>
+<details><summary><b><a href="https://presio.xyz">Presio</a></b>  - 🥈7 ·  ⭐ 20 · 🐣 · <code>❗&nbsp;Unlicensed</code> · <code>🦋 Web</code> · <code>🌌 Typst package</code><br>Present PDFs from your browser. Including speaker notes, mp4/YouTube/Vimeo support and more! Presentations stay on..</summary>
+
+- [GitHub](https://github.com/benedict-armstrong/presio) (👨‍💻 3 · 🔀 2 · 📥 380 · 📋 20 - 85% open · ⏱️ 12.08.2026):
+
+	```
+	git clone https://github.com/benedict-armstrong/presio
 	```
 </details>
 <details><summary><b><a href="https://github.com/lucifer1004/github-stats-typst">github-stats-typst</a></b>  - 🥈7 ·  ⭐ 9 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code><br>Generating GitHub Stats SVGs using Typst.</summary>
@@ -3225,15 +3289,7 @@ _Bindings to programming languages and deployable robots._
 	git clone https://github.com/lucifer1004/github-stats-typst
 	```
 </details>
-<details><summary><b><a href="https://github.com/ParaN3xus/jupytypst">jupytypst</a></b>  - 🥈7 ·  ⭐ 3 · 🐣 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🥡 Runnable</code><br></summary>
-
-- [GitHub](https://github.com/ParaN3xus/jupytypst) (⏱️ 01.05.2026):
-
-	```
-	git clone https://github.com/ParaN3xus/jupytypst
-	```
-</details>
-<details><summary><b><a href="https://7sdream.github.io/fonts-and-layout-zhCN/">全球文种的字体与布局</a></b>  - 🥉6 ·  ⭐ 40 · <code>❗&nbsp;Unlicensed</code> · <code>🐧 non-English</code><br>《Fonts and Layout for Global Scripts》中文版。一本关于字体设计、Unicode和计算机中复杂文本处理的免费书籍。.</summary>
+<details><summary><b><a href="https://7sdream.github.io/fonts-and-layout-zhCN/">全球文种的字体与布局</a></b>  - 🥉6 ·  ⭐ 39 · 💤 · <code>❗&nbsp;Unlicensed</code> · <code>🐧 non-English</code><br>《Fonts and Layout for Global Scripts》中文版。一本关于字体设计、Unicode和计算机中复杂文本处理的免费书籍。.</summary>
 
 - [GitHub](https://github.com/7sDream/fonts-and-layout-zhCN) (👨‍💻 3 · 🔀 3 · 📥 280 · 📋 2 - 50% open · ⏱️ 19.04.2026):
 
@@ -3241,15 +3297,7 @@ _Bindings to programming languages and deployable robots._
 	git clone https://github.com/7sDream/fonts-and-layout-zhCN
 	```
 </details>
-<details><summary><b><a href="https://www.mdxport.com/">MDXport</a></b>  - 🥉6 ·  ⭐ 30 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code><br>Markdown to PDF/Cards/Slides, Perfect Typesetting, Powered by Typst.</summary>
-
-- [GitHub](https://github.com/cosformula/mdxport) (👨‍💻 1 · 🔀 2 · ⏱️ 28.05.2026):
-
-	```
-	git clone https://github.com/cosformula/mdxport
-	```
-</details>
-<details><summary><b><a href="https://lucifer1004.github.io/leetcode.typ/">leetcode.typ</a></b>  - 🥉5 ·  ⭐ 38 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code><br>Solving Leetcode problems in Typst.</summary>
+<details><summary><b><a href="https://lucifer1004.github.io/leetcode.typ/">leetcode.typ</a></b>  - 🥉5 ·  ⭐ 39 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code><br>Solving Leetcode problems in Typst.</summary>
 
 - [GitHub](https://github.com/lucifer1004/leetcode.typ) (👨‍💻 2 · 🔀 2 · ⏱️ 09.01.2026):
 
@@ -3257,12 +3305,12 @@ _Bindings to programming languages and deployable robots._
 	git clone https://github.com/lucifer1004/leetcode.typ
 	```
 </details>
-<details><summary><b><a href="https://presio.xyz">Presio</a></b>  - 🥉5 ·  ⭐ 16 · 🐣 · <code>❗&nbsp;Unlicensed</code> · <code>🦋 Web</code> · <code>🌌 Typst package</code><br>Present PDFs from your browser. Including speaker notes, mp4/YouTube/Vimeo support and more! Presentations stay on..</summary>
+<details><summary><b><a href="https://www.mdxport.com/">MDXport</a></b>  - 🥉5 ·  ⭐ 29 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code><br>Markdown to PDF/Cards/Slides, Perfect Typesetting, Powered by Typst.</summary>
 
-- [GitHub](https://github.com/benedict-armstrong/presio) (👨‍💻 2 · 🔀 2 · 📥 210 · 📋 2 - 50% open · ⏱️ 16.07.2026):
+- [GitHub](https://github.com/cosformula/mdxport) (👨‍💻 1 · 🔀 2 · ⏱️ 28.05.2026):
 
 	```
-	git clone https://github.com/benedict-armstrong/presio
+	git clone https://github.com/cosformula/mdxport
 	```
 </details>
 <details><summary><b><a href="https://discord.gg/KXuVQnMcdX">Typst Dependency Checker Action</a></b>  - 🥉5 ·  ⭐ 3 · 💤 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code><br>An easy to use and automated method to make sure your Typst dependencies/imports are up to date.</summary>
@@ -3273,15 +3321,15 @@ _Bindings to programming languages and deployable robots._
 	git clone https://github.com/TomVer99/typst-check-deps
 	```
 </details>
-<details><summary><b><a href="http://inkycap.org/">InkyCap</a></b>  - 🥉4 ·  ⭐ 16 · 🐣 · <code><a href="https://tldrlegal.com/search?query=LiLiQ-P-1.1">❗️&nbsp;LiLiQ-P-1.1</a></code> · <code>🎨 App</code><br>InkyCap Notes is a personal knowledge management (PKM) tool that uses Typst markup. It focuses on academics, writers,..</summary>
+<details><summary><b><a href="http://inkycap.org/">InkyCap</a></b>  - 🥉4 ·  ⭐ 17 · 🐣 · <code><a href="https://tldrlegal.com/search?query=LiLiQ-P-1.1">❗️&nbsp;LiLiQ-P-1.1</a></code> · <code>🎨 App</code><br>InkyCap Notes is a personal knowledge management (PKM) tool that uses Typst markup. It focuses on academics, writers,..</summary>
 
-- [Codeberg](https://codeberg.org/InkyCap/app) (🔀 3 · ⏱️ 06.07.2026):
+- [Codeberg](https://codeberg.org/InkyCap/app) (🔀 3 · ⏱️ 20.08.2026):
 
 	```
 	git clone https://codeberg.org/InkyCap/app
 	```
 </details>
-<details><summary><b><a href="https://github.com/gunasekar/imprint">imprint</a></b>  - 🥉4 ·  ⭐ 14 · 🐣 · <code>❗&nbsp;Unlicensed</code> · <code>🥡 Runnable</code><br>Turn Markdown into branded, typeset PDFs — specs, design docs, and reports that look official.</summary>
+<details><summary><b><a href="https://github.com/gunasekar/imprint">imprint</a></b>  - 🥉4 ·  ⭐ 16 · 🐣 · <code>❗&nbsp;Unlicensed</code> · <code>🥡 Runnable</code><br>Turn Markdown into branded, typeset PDFs — specs, design docs, and reports that look official.</summary>
 
 - [GitHub](https://github.com/gunasekar/imprint) (⏱️ 12.07.2026):
 
@@ -3297,6 +3345,22 @@ _Bindings to programming languages and deployable robots._
 	git clone https://github.com/ParaN3xus/typst-snippets
 	```
 </details>
+<details><summary><b><a href="https://github.com/ParaN3xus/jupytypst">jupytypst</a></b>  - 🥉4 ·  ⭐ 3 · 🐣 · <code><a href="https://tldrlegal.com/license/apache-license-2-0-apache-2-0">Apache-2</a></code> · <code>🥡 Runnable</code><br></summary>
+
+- [GitHub](https://github.com/ParaN3xus/jupytypst) (⏱️ 01.05.2026):
+
+	```
+	git clone https://github.com/ParaN3xus/jupytypst
+	```
+</details>
+<details><summary><b><a href="https://github.com/WangHaoZhengMing/typst_preview">Typst Preview - macOS Quick Look Extension</a></b>  - 🥉2 ·  ⭐ 4 · 💤 · <code>❗&nbsp;Unlicensed</code> · <code>🥡 Runnable</code> · <code>🗺️ Multilingual</code><br>A macOS Quick Look extension for Typst files, integrating the Rust compiler via C bindings for high-performance..</summary>
+
+- [GitHub](https://github.com/WangHaoZhengMing/typst_preview) (👨‍💻 4 · 🔀 1 · ⏱️ 08.03.2026):
+
+	```
+	git clone https://github.com/WangHaoZhengMing/typst_preview
+	```
+</details>
 <details><summary><b><a href="https://github.com/wensimehrp/tanim">Tanim the Script</a></b>  - 🥉2 ·  ⭐ 3 · 💤 · <code>❗&nbsp;Unlicensed</code> · <code>🥡 Runnable</code><br>Animate Typst. See https://github.com/liquidhelium/tanim for a complete CLI program that serves the same purpose.</summary>
 
 - [GitHub](https://github.com/wensimehrp/tanim) (⏱️ 02.02.2026):
@@ -3305,29 +3369,21 @@ _Bindings to programming languages and deployable robots._
 	git clone https://github.com/WenSimEHRP/tanim
 	```
 </details>
-<details><summary><b><a href="https://github.com/WangHaoZhengMing/typst_preview">Typst Preview - macOS Quick Look Extension</a></b>  - 🥉2 ·  ⭐ 3 · 💤 · <code>❗&nbsp;Unlicensed</code> · <code>🥡 Runnable</code> · <code>🗺️ Multilingual</code><br>A macOS Quick Look extension for Typst files, integrating the Rust compiler via C bindings for high-performance..</summary>
-
-- [GitHub](https://github.com/WangHaoZhengMing/typst_preview) (👨‍💻 4 · 🔀 1 · ⏱️ 08.03.2026):
-
-	```
-	git clone https://github.com/WangHaoZhengMing/typst_preview
-	```
-</details>
 <details><summary>Show 13 hidden projects...</summary>
 
-<details><summary><b><a href="https://github.com/OrangeX4/typst-sympy-calculator">Typst Sympy Calculator</a></b>  - 🥈9 ·  ⭐ 62 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code> · <code>🥡 Runnable</code><br>Parse typst math expressions into sympy form for calc and define your custom functions in typst files.</summary>
+<details><summary><b><a href="https://github.com/OrangeX4/typst-sympy-calculator">Typst Sympy Calculator</a></b>  - 🥈9 ·  ⭐ 63 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🧩 Extension</code> · <code>🥡 Runnable</code><br>Parse typst math expressions into sympy form for calc and define your custom functions in typst files.</summary>
 
 - [GitHub](https://github.com/OrangeX4/typst-sympy-calculator) (👨‍💻 1 · 🔀 6 · 📦 2 · 📋 4 - 50% open · ⏱️ 28.01.2024):
 
 	```
 	git clone https://github.com/OrangeX4/typst-sympy-calculator
 	```
-- [PyPi](https://pypi.org/project/typst-sympy-calculator) (⏱️ 28.01.2024):
+- [PyPi](https://pypi.org/project/typst-sympy-calculator) (📥 31 / month · ⏱️ 28.01.2024):
 	```
 	pip install typst-sympy-calculator
 	```
 </details>
-<details><summary><b><a href="https://sylvanfranklin.github.io/nonsense/">Nonsense™</a></b>  - 🥈8 ·  ⭐ 390 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code> · <code>🌌 Typst package</code><br>Nonsensical Math Paper Generator.</summary>
+<details><summary><b><a href="https://sylvanfranklin.github.io/nonsense/">Nonsense™</a></b>  - 🥈8 ·  ⭐ 400 · 💀 · <code><a href="https://tldrlegal.com/license/mit-license">MIT</a></code> · <code>🦋 Web</code> · <code>🌌 Typst package</code><br>Nonsensical Math Paper Generator.</summary>
 
 - [GitHub](https://github.com/SylvanFranklin/nonsense) (👨‍💻 8 · 🔀 10 · ⏱️ 20.09.2025):
 
@@ -3367,7 +3423,7 @@ _Bindings to programming languages and deployable robots._
 	git clone https://github.com/frozolotl/typst-mutilate
 	```
 </details>
-<details><summary><b><a href="https://github.com/rkstgr/TypstBench">TypstBench</a></b>  - 🥉4 ·  ⭐ 21 · 💀 · <code>❗&nbsp;Unlicensed</code> · <code>🥡 Runnable</code><br>Benchmarking LLMs on Typst.</summary>
+<details><summary><b><a href="https://github.com/rkstgr/TypstBench">TypstBench</a></b>  - 🥉4 ·  ⭐ 22 · 💀 · <code>❗&nbsp;Unlicensed</code> · <code>🥡 Runnable</code><br>Benchmarking LLMs on Typst.</summary>
 
 - [GitHub](https://github.com/rkstgr/TypstBench) (⏱️ 26.05.2025):
 
@@ -3417,7 +3473,7 @@ _Bindings to programming languages and deployable robots._
 </details>
 <details><summary><b><a href="https://github.com/ChaseRensberger/typstscript">typstscript</a></b>  - 🥉2 ·  ⭐ 1 · 💀 · <code>❗&nbsp;Unlicensed</code> · <code>🤖 CLI</code><br>A CLI tool for creating Typst screenplay projects.</summary>
 
-- [GitHub](https://github.com/ChaseRensberger/typstscript) (📥 79 · ⏱️ 22.07.2025):
+- [GitHub](https://github.com/ChaseRensberger/typstscript) (📥 120 · ⏱️ 22.07.2025):
 
 	```
 	git clone https://github.com/ChaseRensberger/typstscript

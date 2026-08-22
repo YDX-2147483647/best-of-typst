@@ -2136,3 +2136,8 @@ projects:
     github_id: mmaunier/typst-format-panel
     category: writing
     labels: [extension, multilingual]
+
+  - name: Ksav
+    github_id: SYKhayyat/ksav
+    category: writing
+    labels: [app, web, multilingual]

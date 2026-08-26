@@ -45,7 +45,13 @@ Note that these licenses are different from CC BY-SA 4.0 [used by the main TCDM 
 
 ## Changelog
 
-### 0.0.3
+### 0.0.4 (current)
+
+Fixed:
+
+- Previously, if no new items have been added since the last update, then building against a new update will trigger _error: dictionary does not contain key "new_addition"_. This is now fixed.
+
+### [0.0.3](https://typst.app/universe/package/tcdm/0.0.3/) - 2026-07-27
 
 Changed:
 
@@ -55,12 +61,12 @@ Fixed:
 
 - In previous versions, deleted GitHub projects with a homepage set manually trigger _error: expected string, found none_ via `_link(p.github_url)[GitHub]`. Now these projects will be hidden correctly.
 
-### 0.0.2
+### [0.0.2](https://typst.app/universe/package/tcdm/0.0.2/) - 2026-01-16
 
 Fixed:
 
 - Add the missing zh translation for _Show {} hidden projects…_ at the end of each category. This text is shown only if there is at least one hidden project in the category.
 
-### 0.0.1
+### [0.0.1](https://typst.app/universe/package/tcdm/0.0.1/) - 2026-01-07
 
 Initial release derived from the TCDM project.

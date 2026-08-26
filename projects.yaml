@@ -2141,3 +2141,9 @@ projects:
     github_id: SYKhayyat/ksav
     category: writing
     labels: [app, web, multilingual]
+
+  - name: TPIX
+    github_id: typstify/tpix-cli
+    category: pkg
+    labels: [cli]
+    go_id: github.com/typstify/tpix-cli

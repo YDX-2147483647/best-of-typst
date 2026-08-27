@@ -113,7 +113,7 @@
       } else if p.trending < 0 {
         _tag(title: babel(en: "Trending down", zh: "排名正在下降"), "📉")
       }
-    } else if p.new_addition != none and p.new_addition {
+    } else if p.at("new_addition", default: none) != none and p.new_addition {
       _tag(title: babel(en: "Recently added", zh: "最近添加"), "➕")
     }
   }

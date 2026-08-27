@@ -2147,3 +2147,9 @@ projects:
     category: pkg
     labels: [cli]
     go_id: github.com/typstify/tpix-cli
+
+  - name: sphinx-typst-math
+    github_id: munechika-koyo/sphinx-typst-math
+    category: mix
+    labels: [extension]
+    pypi_id: sphinx-typst-math

@@ -14,7 +14,7 @@
         "type": "object",
         "properties": {
           "category": {
-            "type": "string"
+            "$ref": "#/definitions/category"
           },
           "title": {
             "type": "string"
@@ -73,20 +73,7 @@
             "type": "string"
           },
           "category": {
-            "type": "string",
-            "enum": [
-              "docs",
-              "writing",
-              "math",
-              "ref",
-              "mix",
-              "convert",
-              "pkg",
-              "wasm",
-              "docs-infra",
-              "coding",
-              "misc"
-            ]
+            "$ref": "#/definitions/category"
           },
           "labels": {
             "type": "array",
@@ -194,6 +181,30 @@
         ],
         "additionalProperties": false
       }
+    }
+  },
+  "definitions": {
+    "category": {
+      "type": "string",
+      "enum": [
+        "docs",
+        "writing--text",
+        "writing--visual",
+        "writing--assist",
+        "writing--agent",
+        "math",
+        "ref",
+        "mix",
+        "convert",
+        "pkg",
+        "wasm",
+        "docs-infra",
+        "coding--compiler",
+        "coding--gen",
+        "coding--tooling",
+        "coding--service",
+        "misc"
+      ]
     }
   },
   "required": [

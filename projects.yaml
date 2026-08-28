@@ -21,9 +21,18 @@ categories:
   - category: docs
     title: 📚 Documentation
     subtitle: Supplement to the [official Typst documentation](https://typst.app/docs/), such as examples and translations.
-  - category: writing
-    title: 📝 Writing
-    subtitle: Compose articles and books.
+  - category: writing--text
+    title: 📝 Writing — ✍️ Text editing
+    subtitle: Compose articles and books by editing `*.typ` sources, usually with the help of auto-completion and live preview.
+  - category: writing--visual
+    title: 📝 Writing — 👓 Visual editing
+    subtitle: Compose articles and books by editing Typst documents visually with WYSIWYG editors, inline previewers, and graphical tools.
+  - category: writing--assist
+    title: 📝 Writing — 🛠️ Assistance
+    subtitle: Format and lint Typst documents, check spelling and grammar, and post-process the output.
+  - category: writing--agent
+    title: 📝 Writing — 💬 AI/LLM
+    subtitle: Compose articles and books by describing your goals with natural language. (in addition to [Context7](https://context7.com/websites/typst_app))
   - category: math
     title: 📐 Math
     subtitle: Typeset mathematical formulae.
@@ -32,7 +41,7 @@ categories:
     subtitle: Links, citations, and bibliography. (in addition to the official [hayagriva](https://github.com/typst/hayagriva))
   - category: mix
     title: ⚔️ Mix writing
-    subtitle: Mix Typst into other documents.
+    subtitle: Mix Typst snippets into other documents or environments.
   - category: convert
     title: 🎩 Conversion
     subtitle: Convert a Typst document from or into other formats, and generate online websites. (in addition to [Pandoc](https://pandoc.org))
@@ -45,9 +54,14 @@ categories:
   - category: docs-infra
     title: 🏗 Documentation infrastructure
     subtitle: Infrastructure of building the [Typst documentation](https://typst.app/docs/), such as [local preview](https://github.com/typst/typst/issues/2089).
-  - category: coding
-    title: 💻 Programming
-    subtitle: Bindings to programming languages and deployable robots.
+  - category: coding--compiler
+    title: 💻 Programming — 🖨️ Compiling Typst documents
+  - category: coding--gen
+    title: 💻 Programming — 📨 Generating Typst code
+  - category: coding--tooling
+    title: 💻 Programming — 👢 Tooling
+  - category: coding--service
+    title: 💻 Programming — 📮 Robots and services
   - category: misc
     title: 🐱‍🐉 Miscellaneous
 
@@ -146,19 +160,19 @@ projects:
 
   - name: tinymist
     github_id: Myriad-Dreamin/tinymist
-    category: writing
+    category: writing--text
     labels: [extension, cli, api]
     cargo_id: tinymist-query
 
   - name: typst-lsp
     github_id: nvarner/typst-lsp
     cargo_id: typst-lsp
-    category: writing
+    category: writing--text
     labels: [extension, cli]
 
   - name: typstyle
     github_id: typstyle-rs/typstyle
-    category: writing
+    category: writing--assist
     labels: [cli, extension, web, api]
     cargo_id: typstyle-core
     npm_id: "@typstyle/typstyle-wasm-bundler"
@@ -169,23 +183,23 @@ projects:
 
   - name: typstfmt
     github_id: astrale-sharp/typstfmt
-    category: writing
+    category: writing--assist
     labels: [cli, extension, api]
     cargo_id: typstfmt
 
   - name: Katvan
     github_id: IgKh/katvan
-    category: writing
+    category: writing--text
     labels: [app]
 
   - name: dailydaniel/typos
     github_id: dailydaniel/typos
-    category: writing
+    category: writing--text
     labels: [app, cli]
 
   - name: TyX
     github_id: tyx-editor/TyX
-    category: writing
+    category: writing--visual
     labels: [web, app]
 
   - name: Shiro A
@@ -256,14 +270,14 @@ projects:
 
   - name: typst.ts
     github_id: Myriad-Dreamin/typst.ts
-    category: coding
+    category: coding--compiler
     labels: [api, cli, extension]
     npm_id: "@myriaddreamin/typst.ts"
     cargo_id: typst-ts-core
 
   - name: Typst Upgrade
     github_id: Coekjan/typst-upgrade
-    category: misc
+    category: coding--tooling
     labels: [cli]
 
   - name: typstscript
@@ -319,7 +333,9 @@ projects:
   - name: Typer
     github_id: rkstgr/Typer
     homepage: https://huggingface.co/rkstgr/typer-1.5b-base-gguf
-    category: docs
+    category: writing--agent
+    # NOTE: This license was manually recorded on 2026-08-28.
+    license: Apache-2.0
     # NOTE: This description was manually recorded on 2025-08-21.
     description: |
       Typer is the first LLM trained specifically for Typst, a performant modern typesetting system for generating PDF documents.
@@ -357,7 +373,7 @@ projects:
 
   - name: Typst rules based on ast-grep
     github_id: YDX-2147483647/ast-grep-typst
-    category: coding
+    category: writing--assist
     labels: [web, cli]
 
   - name: RenderCV
@@ -368,7 +384,7 @@ projects:
 
   - name: typstudio
     github_id: Cubxity/typstudio
-    category: writing
+    category: writing--text
     labels: [app]
 
   - name: obsidian-typst
@@ -379,7 +395,7 @@ projects:
   - name: Typst Preview VSCode
     github_id: Enter-tainer/typst-preview
     cargo_id: typst-preview
-    category: writing
+    category: writing--text
     labels: [extension]
 
   - name: MiTeX
@@ -394,12 +410,15 @@ projects:
 
   - name: Typix
     github_id: loqusion/typix
-    category: coding
+    category: coding--tooling
     labels: [runnable]
 
   - name: BeauTyXT
     github_id: soupslurpr/BeauTyXT
-    category: writing
+    # NOTE: This description was manually recorded on 2026-08-28.
+    description: |
+      BeauTyXT is a beautiful, private, secure, and minimalistic Plain Text and Markdown editor. It once supported Typst, but the support was removed in version 67 published on 2026-04-02.
+    category: writing--text
     labels: [app]
 
   - name: Detypify
@@ -417,7 +436,7 @@ projects:
   - name: typst-py
     pypi_id: typst
     github_id: messense/typst-py
-    category: coding
+    category: coding--compiler
     labels: [api]
 
   - name: yank
@@ -470,7 +489,7 @@ projects:
 
   - name: YDX-2147483647/faq-bot
     github_id: YDX-2147483647/faq-bot
-    category: coding
+    category: coding--service
     labels: [non-english]
 
   - name: tola
@@ -481,22 +500,22 @@ projects:
 
   - name: chomosuke/typst-preview.nvim
     github_id: chomosuke/typst-preview.nvim
-    category: writing
+    category: writing--text
     labels: [extension]
 
   - name: niuiic/typst-preview.nvim
     github_id: niuiic/typst-preview.nvim
-    category: writing
+    category: writing--text
     labels: [extension]
 
   - name: al-kot/typst-preview.nvim
     github_id: al-kot/typst-preview.nvim
-    category: writing
+    category: writing--text
     labels: [extension]
 
   - name: typst.vim
     github_id: kaarmu/typst.vim
-    category: writing
+    category: writing--text
     labels: [extension]
 
   - name: Markdown-It Typst Math
@@ -521,7 +540,7 @@ projects:
 
   - name: typst-community/setup-typst
     github_id: typst-community/setup-typst
-    category: coding
+    category: coding--tooling
     labels: [multilingual]
 
   - name: mathyml
@@ -607,7 +626,7 @@ projects:
     # As of 2026-07-13, the app is no longer available on Flathub.
     # > This application is no longer maintained. Migration to net.trowell.typesetter is recommended
     # homepage: https://flathub.org/apps/app.drey.Typewriter
-    category: writing
+    category: writing--text
     labels: [app]
     gitlab_id: https://gitlab.gnome.org/api/graphql::JanGernert/typewriter
     # NOTE: This license was recorded manually on 2025-08-23.
@@ -620,19 +639,19 @@ projects:
 
   - name: Typst Telegram Bot
     github_id: daskol/typst-telegram-bot
-    category: coding
+    category: coding--service
 
   - name: mattfbacon/typst-bot
     github_id: mattfbacon/typst-bot
-    category: coding
+    category: coding--service
 
   - name: gitlab-ci-typst
     gitlab_id: IvanSanchez/gitlab-ci-typst
-    category: coding
+    category: coding--tooling
 
   - name: lvignoli/typst-action
     github_id: lvignoli/typst-action
-    category: coding
+    category: coding--tooling
 
   - name: typst-pandoc
     github_id: lvignoli/typst-pandoc
@@ -641,40 +660,40 @@ projects:
 
   - name: typst-live
     github_id: ItsEthra/typst-live
-    category: writing
+    category: writing--assist
     cargo_id: typst-live
     labels: [runnable]
 
   - name: textlint-plugin-typst
     github_id: textlint/textlint-plugin-typst
-    category: writing
+    category: writing--assist
     npm_id: textlint-plugin-typst
     labels: [extension]
 
   - name: typstwriter
     github_id: Bzero/typstwriter
-    category: writing
+    category: writing--text
     labels: [app, runnable]
     pypi_id: typstwriter
 
   - name: SapienAI
     github_id: Academic-ID/sapienAI
-    category: misc
+    category: writing--agent
     labels: [runnable, web]
 
   - name: SeniorMars/tree-sitter-typst
     github_id: SeniorMars/tree-sitter-typst
-    category: writing
+    category: writing--text
     labels: [extension]
 
   - name: uben0/tree-sitter-typst
     github_id: uben0/tree-sitter-typst
-    category: writing
+    category: writing--text
     labels: [extension]
 
   - name: frozolotl/tree-sitter-typst
     github_id: frozolotl/tree-sitter-typst
-    category: writing
+    category: writing--text
     labels: [extension]
 
   - name: Typst Sync
@@ -693,12 +712,12 @@ projects:
 
   - name: Typstar
     github_id: arne314/typstar
-    category: writing
+    category: writing--text
     labels: [extension]
 
   - name: MrPicklePinosaur/typst-conceal.vim
     github_id: MrPicklePinosaur/typst-conceal.vim
-    category: writing
+    category: writing--visual
     labels: [extension]
 
   - name: Typst Sympy Calculator
@@ -714,19 +733,19 @@ projects:
 
   - name: typst.nvim
     github_id: SeniorMars/typst.nvim
-    category: writing
+    category: writing--text
     labels: [extension]
 
   - name: Typstd
     github_id: daskol/typstd
-    category: writing
+    category: writing--text
     labels: [extension]
 
   - name: meow_king/typst-ts-mode
     codeberg_id: meow_king/typst-ts-mode
     # NOTE: This license was manually recorded on 2025-11-10.
     license: GPL-3.0
-    category: writing
+    category: writing--text
     labels: [extension]
 
   - name: leetcode.typ
@@ -736,27 +755,28 @@ projects:
   - name: typst-rb
     github_id: actsasflinn/typst-rb
     homepage: https://rubygems.org/gems/typst
-    category: coding
+    category: coding--compiler
     labels: [api]
 
   - name: Typstry.jl
     github_id: jakobjpeters/Typstry.jl
-    category: coding
+    category: coding--gen
     labels: [api]
 
   - name: Typst Matplotlib Backend
     github_id: daskol/mpl-typst
-    category: coding
+    pypi_id: mpl-typst
+    category: coding--compiler
     labels: [api]
 
   - name: Typst HTTP API
     github_id: slashformotion/typst-http-api
-    category: coding
+    category: coding--service
     labels: [runnable, web]
 
   - name: zeta ζ
     github_id: lentilus/zeta
-    category: writing
+    category: writing--visual
     labels: [extension, cli, runnable]
 
   - name: Nonsense™
@@ -767,27 +787,27 @@ projects:
   - name: Pypst
     github_id: tilman151/pypst
     pypi_id: pypst
-    category: coding
+    category: coding--gen
     labels: [api]
 
   - name: Kvasir
     github_id: LDemetrios/Kvasir
-    category: writing
+    category: writing--text
     labels: [extension, multilingual]
 
   - name: Django Typst
     github_id: a-musing-moose/django-typst-engine
     pypi_id: django_typst
-    category: coding
+    category: coding--compiler
     labels: [extension]
 
   - name: Press
-    category: coding
+    category: coding--tooling
     github_id: RossSmyth/press
     labels: [api]
 
   - name: php-typst
-    category: coding
+    category: coding--compiler
     github_id: aszenz/php-typst
     labels: [api]
 
@@ -797,27 +817,27 @@ projects:
     labels: [extension]
 
   - name: Nxllpointer/Tide
-    category: writing
+    category: writing--visual
     github_id: Nxllpointer/tide
     labels: [runnable]
 
   - name: Velyst
-    category: coding
+    category: coding--compiler
     github_id: voxell-tech/velyst
     labels: [api]
     cargo_id: velyst
 
   - name: iXORTech/Typstify
-    category: writing
+    category: writing--text
     github_id: iXORTech/Typstify
     labels: [app]
 
   - name: Typst as Library
-    category: coding
+    category: coding--compiler
     github_id: tfachmann/typst-as-library
 
   - name: discourse-typst
-    category: coding
+    category: coding--service
     github_id: Heinenen/discourse-typst
     labels: [extension]
 
@@ -827,8 +847,9 @@ projects:
     labels: [cli]
 
   - name: TyKo
-    category: coding
+    category: coding--gen
     github_id: LDemetrios/TyKo
+    maven_id: org.ldemetrios:tyko-model
     # NOTE: This description was manually recorded on 2025-08-22.
     description: |
       Kotlin bindings for Typst
@@ -851,17 +872,17 @@ projects:
     labels: [extension]
 
   - name: typst-preview.el
-    category: writing
+    category: writing--text
     labels: [extension]
     github_id: havarddj/typst-preview.el
 
   - name: Prettypst
-    category: writing
+    category: writing--assist
     github_id: antonWetzel/prettypst
     labels: [runnable, extension]
 
   - name: gotypst
-    category: coding
+    category: coding--compiler
     github_id: francescoalemanno/gotypst
     go_id: github.com/francescoalemanno/gotypst
     labels: [api]
@@ -873,7 +894,7 @@ projects:
 
   - name: Serifian
     github_id: kwangkim/Serifian
-    category: writing
+    category: writing--text
     labels: [app]
 
   - name: typst-notebook
@@ -882,7 +903,7 @@ projects:
     github_id: freundTech/typst-notebook
 
   - name: typst-gh-action
-    category: coding
+    category: coding--tooling
     github_id: thehydrogen/typst-gh-action
 
   - name: Shell Escape for Typst
@@ -891,7 +912,7 @@ projects:
     labels: [typst-package]
 
   - name: typst_cxx
-    category: coding
+    category: coding--compiler
     gitlab_id: typst_cxx/typst_cxx
     labels: [api]
 
@@ -913,7 +934,7 @@ projects:
     npm_id: tohaya
 
   - name: TypstBench
-    category: misc
+    category: writing--agent
     github_id: rkstgr/TypstBench
     labels: [runnable]
 
@@ -930,14 +951,14 @@ projects:
     labels: [api]
 
   - name: typst.js
-    category: coding
+    category: coding--compiler
     github_id: typst-community/typst.js
     npm_id: typst
     labels: [api]
 
   - name: HackingGate/typst-out
     github_id: HackingGate/typst-out
-    category: coding
+    category: coding--tooling
 
   - name: typst-community/setup-hayagriva
     github_id: typst-community/setup-hayagriva
@@ -945,7 +966,7 @@ projects:
 
   - name: typst-community/typst-install
     github_id: typst-community/typst-install
-    category: misc
+    category: coding--tooling
 
   - name: tex2typst-rs
     homepage: https://xyy-cas.github.io/tex2typst-UI/
@@ -956,13 +977,13 @@ projects:
 
   - name: typst-as-lib
     github_id: Relacibo/typst-as-lib
-    category: coding
+    category: coding--compiler
     cargo_id: typst-as-lib
     labels: [api]
 
   - name: go-typst
     github_id: Dadido3/go-typst
-    category: coding
+    category: coding--compiler
     labels: [api]
     go_id: github.com/Dadido3/go-typst
 
@@ -974,32 +995,32 @@ projects:
 
   - name: johannesbrandenburger/typst-mcp
     github_id: johannesbrandenburger/typst-mcp
-    category: docs
+    category: writing--agent
     labels: [runnable]
 
   - name: FujishigeTemma/typst-mcp
     github_id: FujishigeTemma/typst-mcp
-    category: docs
+    category: writing--agent
     labels: [runnable]
 
   - name: Typst Basic VS Code Extension
     github_id: clysto/typst-vscode
-    category: writing
+    category: writing--text
     labels: [extension]
 
   - name: Typst Companion
     github_id: CFiggers/typst-companion
-    category: writing
+    category: writing--text
     labels: [extension]
 
   - name: tyraria
     github_id: ParaN3xus/tyraria
-    category: writing
+    category: writing--text
     labels: [web]
 
   - name: bevy_typst_textures
     github_id: fallible-algebra/bevy_typst_textures
-    category: coding
+    category: coding--compiler
     labels: [api]
     cargo_id: bevy_typst_textures
 
@@ -1011,19 +1032,19 @@ projects:
 
   - name: serialize-typst-value
     github_id: LinusU/serialize-typst-value
-    category: coding
+    category: coding--gen
     labels: [api]
     npm_id: serialize-typst-value
 
   - name: Typst-Embedded-Package
     github_id: tguichaoua/typst-embedded-package
-    category: coding
+    category: coding--tooling
     labels: [api]
     cargo_id: typst-embedded-package
 
   - name: java-typst
     github_id: fatihcatalkaya/java-typst
-    category: coding
+    category: coding--compiler
     labels: [api]
     maven_id: io.github.fatihcatalkaya:java-typst
 
@@ -1051,7 +1072,7 @@ projects:
 
   - name: typfont
     github_id: hooyuser/typst_font_manager
-    category: misc
+    category: writing--assist
     labels: [cli]
     cargo_id: typst_font_manager
 
@@ -1072,7 +1093,7 @@ projects:
 
   - name: PartyWumpus/typst-concealer
     github_id: PartyWumpus/typst-concealer
-    category: writing
+    category: writing--visual
     labels: [extension]
 
   - name: MixTex-OCR-WebRebuild
@@ -1082,7 +1103,7 @@ projects:
 
   - name: gistd
     github_id: Myriad-Dreamin/gistd
-    category: misc
+    category: coding--service
     labels: [web, multilingual, extension]
 
   - name: 11ty-pst
@@ -1105,7 +1126,7 @@ projects:
 
   - name: Typst Studio
     gitlab_id: gnoooo/typst_studio
-    category: writing
+    category: writing--text
     labels: [app]
 
   - name: pagemaker
@@ -1122,7 +1143,7 @@ projects:
 
   - name: Typst dev builds
     github_id: typst-community/dev-builds
-    category: misc
+    category: coding--tooling
     labels: [cli]
 
   - name: quiver
@@ -1135,12 +1156,12 @@ projects:
     codeberg_id: haydn/typesetter
     # NOTE: This license was manually recorded on 2025-11-10.
     license: GPL-3.0
-    category: writing
+    category: writing--text
     labels: [app]
 
   - name: TeXlyre
     github_id: TeXlyre/texlyre
-    category: writing
+    category: writing--text
     labels: [runnable, web]
 
   - name: Kodama
@@ -1155,14 +1176,14 @@ projects:
 
   - name: typst-go
     github_id: hiifong/typst-go
-    category: coding
+    category: coding--compiler
     labels: [api]
     go_id: github.com/hiifong/typst-go
 
   - name: typeset.live
     # Not to be confused with https://typst.app/universe/package/typsy.
     github_id: arashatt/typsy
-    category: writing
+    category: writing--text
     labels: [web]
     # NOTE: This homepage was manually recorded on 2025-10-20.
     homepage: https://typeset.live
@@ -1171,13 +1192,13 @@ projects:
     codeberg_id: sbinet/daktilo
     # NOTE: This license was manually recorded on 2025-11-10.
     license: BSD-3-Clause
-    category: coding
+    category: coding--compiler
     labels: [api]
     go_id: codeberg.org/sbinet/daktilo
 
   - name: Typst Dependency Checker Action
     github_id: TomVer99/typst-check-deps
-    category: misc
+    category: coding--tooling
 
   - name: typst-mutilate
     github_id: frozolotl/typst-mutilate
@@ -1193,7 +1214,7 @@ projects:
   - name: Typst Extension for Zed
     github_id: zed-extensions/typst
     homepage: https://zed.dev/extensions/typst
-    category: writing
+    category: writing--text
     labels: [extension]
 
   - name: slidev-addon-typst
@@ -1225,12 +1246,12 @@ projects:
     # NOTE: This description was manually recorded on 2025-11-09.
     description: |
       Generate Typst code programmatically with Nu code.
-    category: coding
+    category: coding--gen
     labels: [api]
 
   - name: typst-languagetool
     github_id: antonWetzel/typst-languagetool
-    category: writing
+    category: writing--assist
     labels: [runnable, extension]
 
   - name: ox-typst.el
@@ -1251,19 +1272,19 @@ projects:
   - name: typst-cffi
     codeberg_id: sbinet/typst-cffi
     license: BSD-3
-    category: coding
+    category: coding--compiler
     labels: [api]
     cargo_id: typst-cffi
 
   - name: typstpy
     github_id: beibingyangliuying/python-typst
-    category: coding
+    category: coding--gen
     labels: [api]
     pypi_id: typstpy
 
   - name: TypstGenerator.jl
     github_id: onecalfman/TypstGenerator.jl
-    category: coding
+    category: coding--gen
     labels: [api]
 
   - name: TypstJlyfish.jl
@@ -1278,7 +1299,7 @@ projects:
 
   - name: r2typ
     github_id: y-sunflower/r2typ
-    category: coding
+    category: coding--gen
     labels: [api]
 
   - name: Typst PDF embedder (typst-pdf.py)
@@ -1305,7 +1326,7 @@ projects:
 
   - name: typstsharp
     github_id: evolvedlight/typstsharp
-    category: coding
+    category: coding--compiler
     labels: [api]
 
   - name: typst-hugo
@@ -1329,12 +1350,12 @@ projects:
 
   - name: wflixu/typster
     github_id: wflixu/typster
-    category: writing
+    category: writing--visual
     labels: [app, non-english]
 
   - name: benzlokzik/typster
     github_id: benzlokzik/typster
-    category: writing
+    category: writing--text
     labels: [runnable]
 
   - name: LaTeX-math-expressions-in-Typst
@@ -1362,44 +1383,44 @@ projects:
   - name: LSP-Tinymist
     github_id: sublimelsp/LSP-Tinymist
     homepage: https://packagecontrol.io/packages/LSP-Tinymist
-    category: writing
+    category: writing--text
     labels: [extension]
 
   - name: Typst Studio WASM
     github_id: automataIA/wasm-typst-studio-rs
-    category: writing
+    category: writing--text
     labels: [runnable, web]
 
   - name: SuperMegaFort/TypstEdit
     github_id: SuperMegaFort/TypstEdit
-    category: writing
+    category: writing--text
     labels: [app]
 
   - name: tmagri/TypstEdit
     # This repo contains commits from SuperMegaFort/TypstEdit.
     # https://github.com/tmagri/TypstEdit/commits?after=2c5326082e64a9f2c1bf4207f2d05b96a23593b5+174
     github_id: tmagri/TypstEdit
-    category: writing
+    category: writing--text
     labels: [app]
 
   - name: lilBchii/Tide
     github_id: lilBchii/tide
-    category: writing
+    category: writing--text
     labels: [app]
 
   - name: TypstFFIApp
     github_id: bingqiao/TypstFFIApp
-    category: writing
+    category: writing--text
     labels: [runnable]
 
   - name: Ahdeyyy/Typwriter
     github_id: Ahdeyyy/typwriter
-    category: writing
+    category: writing--text
     labels: [app]
 
   - name: codemirror-lang-typst
     github_id: kxxt/codemirror-lang-typst
-    category: writing
+    category: writing--text
     labels: [extension]
 
   - name: typst-fumadocs
@@ -1424,12 +1445,12 @@ projects:
 
   - name: dooc_embed_typst
     github_id: destroyerOfOfficeChairs/dooc_embed_typst
-    category: coding
+    category: coding--compiler
     labels: [api]
 
   - name: Typst for Obsidian
     github_id: k0src/Typst-for-Obsidian
-    category: writing
+    category: writing--text
     labels: [extension]
 
   - name: Typst commute editor
@@ -1454,17 +1475,17 @@ projects:
 
   - name: apcamargo/typst-skills
     github_id: apcamargo/typst-skills
-    category: docs
+    category: writing--agent
     labels: [extension]
 
   - name: Typst Online Editor
     github_id: Mapaor/typst-online-editor
-    category: writing
+    category: writing--text
     labels: [web]
 
   - name: Adjust Heading in Tree
     github_id: ffy6511/Adjust-heading-in-tree
-    category: writing
+    category: writing--visual
     labels: [extension, multilingual]
 
   - name: typst-fillable
@@ -1515,7 +1536,7 @@ projects:
     labels: [runnable]
 
   - name: tip
-    category: writing
+    category: writing--visual
     homepage: https://git.sr.ht/~mafty/tip
     # NOTE: This description was manually recorded on 2026-01-13.
     description: |
@@ -1539,7 +1560,7 @@ projects:
     github_id: hyrious/typst-syntax-highlight
     # This overrides typst.app set on GitHub
     homepage: https://github.com/hyrious/typst-syntax-highlight
-    category: writing
+    category: writing--text
     labels: [extension]
 
   - name: CopyLaTeX
@@ -1554,18 +1575,18 @@ projects:
 
   - name: typst-batch
     github_id: tola-ssg/typst-batch
-    category: coding
+    category: coding--compiler
     labels: [api]
     cargo_id: typst-batch
 
   - name: lucifer1004/claude-skill-typst
     github_id: lucifer1004/claude-skill-typst
-    category: docs
+    category: writing--agent
     labels: [extension]
 
   - name: Cursor for Typst
     github_id: sumsupee/cursorfortypst
-    category: writing
+    category: writing--agent
     labels: [web]
 
   - name: Typst Extra Docs
@@ -1600,7 +1621,7 @@ projects:
 
   - name: typst-bake
     github_id: elgar328/typst-bake
-    category: coding
+    category: coding--compiler
     labels: [api]
     cargo_id: typst-bake
 
@@ -1611,7 +1632,7 @@ projects:
 
   - name: Citar-Typst
     codeberg_id: ashton314/citar-typst
-    category: writing
+    category: ref
     # NOTE: This license was manually recorded on 2026-02-20.
     license: GPLv3
     labels: [extension]
@@ -1647,7 +1668,7 @@ projects:
 
   - name: libtypst
     github_id: WangHaoZhengMing/libtypst
-    category: coding
+    category: coding--compiler
     labels: [api]
 
   - name: Typst Preview - macOS Quick Look Extension
@@ -1657,14 +1678,14 @@ projects:
 
   - name: derive_typst_intoval
     github_id: KillTheMule/derive_typst_intoval
-    category: coding
+    category: coding--gen
     labels: [api]
     cargo_id: derive_typst_intoval
 
   - name: Typst.Native
     # nuget_id: Typst.Native
     github_id: leus/Typst.Native
-    category: coding
+    category: coding--compiler
     labels: [api]
 
   - name: Typst Universe with Stars
@@ -1699,12 +1720,12 @@ projects:
   - name: typdiff
     github_id: sou1118/typdiff
     cargo_id: typdiff
-    category: writing
+    category: writing--assist
     labels: [cli]
 
   - name: typst-test-helper.nvim
     github_id: saecki/typst-test-helper.nvim
-    category: coding
+    category: coding--tooling
     labels: [extension]
 
   - name: Typst PDF Embedder
@@ -1729,7 +1750,7 @@ projects:
   - name: Typenaut
     pypi_id: typenaut
     github_id: BrokenSource/Typenaut
-    category: coding
+    category: coding--gen
     labels: [api]
 
   - name: typsphinx
@@ -1742,7 +1763,7 @@ projects:
     github_id: RayZ3R0/typst-raster
     npm_id: typst-raster
     labels: [api]
-    category: coding
+    category: coding--compiler
 
   - name: md-typ-pdf
     github_id: Magi3r/md-typ-pdf
@@ -1757,7 +1778,7 @@ projects:
 
   - name: typtaps
     github_id: IrregularPersona/TypTaps
-    category: writing
+    category: writing--text
     # NOTE: This description was manually recorded on 2026-03-18 to override GitHub.
     description: |
       A minimal Typst editor with live preview.
@@ -1789,39 +1810,39 @@ projects:
 
   - name: PPT-AGENT
     github_id: EMOAIRX/ppt-agent
-    category: writing
+    category: writing--agent
     labels: [web, non-english]
 
   - name: typst-lua
     github_id: rousbound/typst-lua
-    category: coding
+    category: coding--compiler
     labels: [api]
 
   - name: matryoshka
     github_id: freundTech/typst-matryoshka
-    category: misc
+    category: coding--compiler
     labels: [typst-package]
 
   - name: typst-hs
     github_id: jgm/typst-hs
-    category: coding
+    category: coding--compiler
     labels: [api]
 
   - name: ExTypst
     github_id: viniciusmuller/ex_typst
-    category: coding
+    category: coding--compiler
     labels: [api]
 
   - name: typit
     github_id: megatank58/typit
-    category: coding
+    category: coding--service
 
   - name: "@InTypBot / Typst Inline Math Bot"
     github_id: asqarslanov/in-typ-bot
-    category: coding
+    category: coding--service
 
   - name: jeffa5/typstfmt
-    category: writing
+    category: writing--assist
     github_id: jeffa5/typstfmt
     # NOTE: This description was manually recorded on 2026-03-18 to override GitHub.
     # The repo was moved to https://git.jeffas.net/typstfmt/files/README.md.html, but there are no new commits.
@@ -1843,7 +1864,7 @@ projects:
 
   - name: TypstForm.wl
     github_id: anandijain/TypstForm.wl
-    category: coding
+    category: coding--gen
     # NOTE: This description was manually recorded on 2026-03-18.
     description: |
       Make Typst strings in Wolfram Mathematica.
@@ -1852,33 +1873,33 @@ projects:
   - name: 0x6b/typwriter
     github_id: 0x6b/typwriter
     cargo_id: typwriter
-    category: coding
+    category: coding--compiler
 
   - name: Typst-Coder
     github_id: TechxGenus/Typst-Coder
     # NOTE: This description was manually recorded on 2026-03-18.
     description: |
       Collect relevant data and training models to improve Typst support in AI programming tools.
-    category: misc
+    category: writing--agent
 
   - name: SummaryTables.jl
     github_id: PumasAI/SummaryTables.jl
-    category: coding
+    category: coding--gen
     labels: [api]
 
   - name: typst-font-compare
     github_id: frozolotl/typst-font-compare
-    category: misc
+    category: writing--assist
     labels: [runnable]
 
   - name: InkPond
     github_id: Lin0u0/InkPond
-    category: writing
+    category: writing--text
     labels: [app, multilingual]
 
   - name: statzhero/typst-skill
     github_id: statzhero/typst-skill
-    category: docs
+    category: writing--agent
     labels: [extension]
 
   - name: noClaps/cite
@@ -1894,7 +1915,7 @@ projects:
 
   - name: MoYeRanqianzhi/typst-skill
     github_id: MoYeRanqianzhi/typst-skill
-    category: docs
+    category: writing--agent
     labels: [extension]
 
   - name: Hieroglyphic
@@ -1926,7 +1947,7 @@ projects:
 
   - name: tinymist-clientfeatures.nvim
     github_id: qwjyh/tinymist-clientfeatures.nvim
-    category: writing
+    category: writing--text
     labels: [extension]
 
   - name: Typlica
@@ -1936,7 +1957,7 @@ projects:
 
   - name: Typst Side Agent
     github_id: dbccccccc/Typst-Side-Agent
-    category: writing
+    category: writing--agent
     labels: [extension]
 
   - name: Typstit
@@ -1946,7 +1967,7 @@ projects:
 
   - name: qnote
     github_id: Omibranch/qnote
-    category: writing
+    category: writing--text
     labels: [app, multilingual]
 
   - name: jupytypst
@@ -1956,7 +1977,7 @@ projects:
 
   - name: MicheleYin/Typst-Editor
     github_id: MicheleYin/Typst-Editor
-    category: writing
+    category: writing--text
     labels: [app]
     homepage: https://typst-editor-landing-page.vercel.app
 
@@ -1976,7 +1997,7 @@ projects:
 
   - name: typ-tables
     github_id: BenGale93/typ-tables
-    category: coding
+    category: coding--gen
     labels: [api]
     pypi_id: typ-tables
 
@@ -1988,18 +2009,18 @@ projects:
 
   - name: Collabst
     github_id: collabst/collabst
-    category: writing
+    category: writing--text
     labels: [runnable]
 
   - name: Inkhaven
     github_id: vulogov/blackInkhaven
-    category: writing
+    category: writing--text
     labels: [cli]
     cargo_id: inkhaven
 
   - name: typst-go-wasm
     github_id: varunbpatil/typst-go-wasm
-    category: coding
+    category: coding--compiler
     labels: [api]
     go_id: github.com/varunbpatil/typst-go-wasm
 
@@ -2025,7 +2046,7 @@ projects:
 
   - name: Typst WYSIWYG
     github_id: ortic/typst-wysiwyg
-    category: writing
+    category: writing--visual
     labels: [runnable, web]
 
   - name: typst-xcc-wrapper
@@ -2052,7 +2073,7 @@ projects:
 
   - name: Hilbert
     github_id: aburousan/hilbert-editor
-    category: writing
+    category: writing--text
     labels: [runnable, app]
 
   - name: TypM
@@ -2062,12 +2083,12 @@ projects:
 
   - name: Typstify/Typstify
     github_id: typstify/typstify
-    category: writing
+    category: writing--text
     labels: [app]
 
   - name: tynding
     github_id: y-sunflower/tynding
-    category: coding
+    category: coding--compiler
     labels: [api]
 
   - name: typst-community/json-schemas
@@ -2076,23 +2097,23 @@ projects:
 
   - name: TOSS
     github_id: pku-typst/TOSS
-    category: writing
+    category: writing--text
     labels: [runnable, web]
 
   - name: Typsastra
     github_id: Sovichea/typsastra
-    category: writing
+    category: writing--text
     labels: [app]
 
   - name: typst-wasm
     github_id: typst-wasm/typst-wasm
-    category: coding
+    category: coding--compiler
     labels: [api]
     npm_id: typst-wasm
 
   - name: tytable
     github_id: EinMaulwurf/tytable
-    category: coding
+    category: coding--gen
     labels: [api]
     pypi_id: tytable
 
@@ -2103,7 +2124,7 @@ projects:
 
   - name: Typeset
     github_id: twarge/typeset
-    category: writing
+    category: writing--text
     labels: [app]
 
   - name: Days since last Typst editor
@@ -2114,12 +2135,12 @@ projects:
   - name: typst-post
     github_id: BashfulHippo/typst-post
     pypi_id: typst-post
-    category: writing
+    category: writing--assist
     labels: [runnable]
 
   - name: SeaSlides
     github_id: touying-typ/seaslides
-    category: docs
+    category: writing--agent
     labels: [extension, multilingual]
 
   - name: typst2vast
@@ -2130,16 +2151,16 @@ projects:
 
   - name: Quill
     github_id: ReeseHatfield/quill
-    category: coding
+    category: writing--assist
 
   - name: Typst Format Panel
     github_id: mmaunier/typst-format-panel
-    category: writing
+    category: writing--text
     labels: [extension, multilingual]
 
   - name: Ksav
     github_id: SYKhayyat/ksav
-    category: writing
+    category: writing--text
     labels: [app, web, multilingual]
 
   - name: TPIX

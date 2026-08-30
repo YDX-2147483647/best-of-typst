@@ -20,6 +20,16 @@
   let (configuration: raw_configuration, categories: raw_categories, labels) = projects-yaml
   let configuration = default-configuration + raw_configuration
 
+  // Usually, the `projects` field in `projects.yaml` should be ignored.
+  // However we have split some categories in 2026-08. The following is a temporary workaround during the transition period.
+  // https://github.com/YDX-2147483647/best-of-typst/issues/363
+  for project in projects-yaml.projects {
+    let index = projects-data.position(p => p.name == project.name)
+    if index != none {
+      projects-data.at(index).category = project.category
+    }
+  }
+
   // Calculate data
 
   let categories = raw_categories.map(((category, ..rest)) => (category, rest)).to-dict()

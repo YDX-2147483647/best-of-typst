@@ -38,15 +38,21 @@ body:
       options:
         # sync-categories: start
         - 📚 Documentation
-        - 📝 Writing
+        - 📝 Writing — ✍️ Text editing
+        - 📝 Writing — 👓 Visual editing
+        - 📝 Writing — 🛠️ Assistance
+        - 📝 Writing — 💬 AI/LLM
         - 📐 Math
         - 🧾 Bibliography
         - ⚔️ Mix writing
         - 🎩 Conversion
         - 🚀 Package development
-        - 🔢 WASM plugin development
+        - 🔢 Wasm plugin development
         - 🏗 Documentation infrastructure
-        - 💻 Programming
+        - 💻 Programming — 🖨️ Compiling Typst documents
+        - 💻 Programming — 📨 Generating Typst code
+        - 💻 Programming — 👢 Tooling
+        - 💻 Programming — 📮 Robots and services
         - 🐱‍🐉 Miscellaneous
         # sync-categories: end
 

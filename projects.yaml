@@ -2178,4 +2178,7 @@ projects:
   - name: typr
     github_id: christopherkenny/typr
     category: coding--compiler
+    # NOTE: This description was manually recorded on 2025-08-30.
+    description: |
+      The goal of typr is to render Typst documents from R. By default, it will try to use the Typst CLI. If the Typst CLI is not installed, it will try to use Quarto, which bundles Typst.
     labels: [api]

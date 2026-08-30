@@ -2178,4 +2178,7 @@ projects:
   - name: typst-shared-library
     github_id: LDemetrios/typst-shared-library
     category: coding--compiler
+    # NOTE: This description was manually recorded on 2025-08-21.
+    description: |
+      Typst Library for JNA (Java Native Access), a fork of Typst.
     labels: [api]

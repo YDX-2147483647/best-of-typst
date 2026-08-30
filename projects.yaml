@@ -2174,3 +2174,8 @@ projects:
     category: mix
     labels: [extension]
     pypi_id: sphinx-typst-math
+
+  - name: ext-typst
+    github_id: carthage-software/ext-typst
+    category: coding--compiler
+    labels: [api]

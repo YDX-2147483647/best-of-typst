@@ -2175,6 +2175,14 @@ projects:
     labels: [extension]
     pypi_id: sphinx-typst-math
 
+  - name: typst-shared-library
+    github_id: LDemetrios/typst-shared-library
+    category: coding--compiler
+    # NOTE: This description was manually recorded on 2025-08-30.
+    description: |
+      Typst Library for JNA (Java Native Access), a fork of Typst.
+    labels: [api]
+
   - name: ext-typst
     github_id: carthage-software/ext-typst
     category: coding--compiler

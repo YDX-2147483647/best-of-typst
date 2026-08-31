@@ -1321,7 +1321,7 @@ projects:
 
   - name: Typst-expert Extension for Gemini-code
     github_id: kongdd/typst-llm-expert
-    category: docs
+    category: writing--agent
     labels: [extension]
 
   - name: typstsharp
@@ -1378,7 +1378,7 @@ projects:
     # NOTE: This description was manually recorded on 2025-12-05.
     description: |
       A ready to copy-paste file into LLMs, to make them instantly aware of all the areas in Typst. (Trust me, they don't get the typst syntax well even after a web search. So I created this!). I have tried it in CLAUDE and it works really well! I am sure it'll work with other AI models like ChatGPT, gemini, etc.
-    category: docs
+    category: writing--agent
 
   - name: LSP-Tinymist
     github_id: sublimelsp/LSP-Tinymist
@@ -2178,4 +2178,12 @@ projects:
   - name: ext-typst
     github_id: carthage-software/ext-typst
     category: coding--compiler
+    labels: [api]
+
+  - name: typr
+    github_id: christopherkenny/typr
+    category: coding--compiler
+    # NOTE: This description was manually recorded on 2025-08-30.
+    description: |
+      The goal of typr is to render Typst documents from R. By default, it will try to use the Typst CLI. If the Typst CLI is not installed, it will try to use Quarto, which bundles Typst.
     labels: [api]

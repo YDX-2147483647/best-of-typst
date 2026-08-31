@@ -2175,6 +2175,11 @@ projects:
     labels: [extension]
     pypi_id: sphinx-typst-math
 
+  - name: ext-typst
+    github_id: carthage-software/ext-typst
+    category: coding--compiler
+    labels: [api]
+
   - name: typr
     github_id: christopherkenny/typr
     category: coding--compiler

@@ -2195,3 +2195,8 @@ projects:
     description: |
       The goal of typr is to render Typst documents from R. By default, it will try to use the Typst CLI. If the Typst CLI is not installed, it will try to use Quarto, which bundles Typst.
     labels: [api]
+
+  - name: DBV Typst Editor
+    github_id: davidbuenov/dbv-typst-editor
+    category: writing--text
+    labels: [app, multilingual]

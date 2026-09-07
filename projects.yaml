@@ -2199,4 +2199,6 @@ projects:
   - name: DBV Typst Editor
     github_id: davidbuenov/dbv-typst-editor
     category: writing--text
+    # NOTE: This homepage was manually recorded on 2026-09-07. The root page was in Español, and the page recorded here was in English.
+    homepage: https://davidbuenov.github.io/dbv-typst-editor/en/
     labels: [app, multilingual]

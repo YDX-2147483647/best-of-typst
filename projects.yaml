@@ -2208,3 +2208,8 @@ projects:
     category: ref
     labels: [cli]
     cargo_id: autobib
+
+  - name: dsh-tylina
+    github_id: tylina/dsh-tylina
+    category: writing--agent
+    labels: [extension, multilingual]

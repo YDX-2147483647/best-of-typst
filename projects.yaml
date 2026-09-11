@@ -2127,8 +2127,15 @@ projects:
     category: writing--text
     labels: [app]
 
-  - name: Days since last Typst editor
+  - name: Days since last Typst editor (by sermuns, the original)
     github_id: sermuns/days-since-last-typst-editor
+    category: docs
+    labels: [web]
+
+  - name: Days since last Typst editor (by noClaps, a fork)
+    codeberg_id: noClaps/days-since-last-typst-editor
+    # NOTE: This license was manually recorded on 2026-09-11.
+    license: null
     category: docs
     labels: [web]
 

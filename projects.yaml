@@ -2208,3 +2208,8 @@ projects:
     category: ref
     labels: [cli]
     cargo_id: autobib
+
+  - name: Texpile
+    github_id: texpile/texpile
+    category: writing--text
+    labels: [app]

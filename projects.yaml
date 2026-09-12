@@ -2213,3 +2213,8 @@ projects:
     github_id: tylina/dsh-tylina
     category: writing--agent
     labels: [extension, multilingual]
+
+  - name: Texpile
+    github_id: texpile/texpile
+    category: writing--text
+    labels: [app]

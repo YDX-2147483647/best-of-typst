@@ -2218,3 +2218,8 @@ projects:
     github_id: texpile/texpile
     category: writing--text
     labels: [app]
+
+  - name: TypFormula
+    github_id: Chenyang-Wang-1999/TypFormula
+    category: writing--visual
+    labels: [app, non-english]

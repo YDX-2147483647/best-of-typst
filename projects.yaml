@@ -2223,3 +2223,14 @@ projects:
     github_id: Chenyang-Wang-1999/TypFormula
     category: writing--visual
     labels: [app, non-english]
+
+  - name: Platen
+    homepage: https://platen.wisha.page
+    # NOTE: The license and description were manually recorded from Flathub on 2026-09-14.
+    # https://flathub.org/apps/page.wisha.platen
+    # source code: https://tangled.org/wisha.page/platen
+    license: GPL-3.0-only
+    description: |
+      A Typst/LaTeX equation editor intended for use when making presentations.
+    category: math
+    labels: [app]

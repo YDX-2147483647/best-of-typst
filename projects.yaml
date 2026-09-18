@@ -2234,3 +2234,8 @@ projects:
       A Typst/LaTeX equation editor intended for use when making presentations.
     category: math
     labels: [app]
+
+  - name: lynchpin
+    github_id: liquidhelium/lynchpin
+    category: convert
+    labels: [runnable]

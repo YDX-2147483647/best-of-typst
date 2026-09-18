@@ -2234,3 +2234,8 @@ projects:
       A Typst/LaTeX equation editor intended for use when making presentations.
     category: math
     labels: [app]
+
+  - name: Rubrol
+    github_id: maxcomperatore/rubrol
+    category: coding--service
+    labels: [api]

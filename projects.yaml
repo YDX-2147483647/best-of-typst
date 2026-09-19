@@ -2241,3 +2241,8 @@ projects:
     homepage: https://forum.typst.app/t/lynchpin-wip-terminal-export-for-typst/8813
     category: convert
     labels: [runnable]
+
+  - name: Rubrol
+    github_id: maxcomperatore/rubrol
+    category: coding--service
+    labels: [api]

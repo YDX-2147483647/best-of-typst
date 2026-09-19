@@ -2235,6 +2235,13 @@ projects:
     category: math
     labels: [app]
 
+  - name: lynchpin
+    github_id: liquidhelium/lynchpin
+    # NOTE: This homepage was manually recorded on 2026-09-18 because the lack of repo README.
+    homepage: https://forum.typst.app/t/lynchpin-wip-terminal-export-for-typst/8813
+    category: convert
+    labels: [runnable]
+
   - name: Rubrol
     github_id: maxcomperatore/rubrol
     category: coding--service

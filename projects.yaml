@@ -2246,3 +2246,8 @@ projects:
     github_id: maxcomperatore/rubrol
     category: coding--service
     labels: [api]
+
+  - name: Galley
+    github_id: vitofico/galley
+    category: writing--text
+    labels: [web]

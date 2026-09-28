@@ -1574,7 +1574,7 @@ projects:
     labels: [extension]
 
   - name: typst-batch
-    github_id: tola-ssg/typst-batch
+    github_id: tola-rs/typst-batch
     category: coding--compiler
     labels: [api]
     cargo_id: typst-batch

@@ -2251,3 +2251,13 @@ projects:
     github_id: vitofico/galley
     category: writing--text
     labels: [web]
+
+  - name: Typst Ultra
+    homepage: https://marketplace.visualstudio.com/items?itemName=weixu.wx-vsce-typst-ultra
+    # NOTE: The license and description were manually recorded from package.json on 2025-09-28.
+    license: MIT
+    description: |
+      Typst language server and live preview on unmodified upstream typst, compiled to a single WASM artifact — diagnostics, completion, hover, goto-definition, semantic tokens, formatting, BibTeX bibliographies, two-way-synced preview, and PDF/SVG/PNG export
+    github_id: xuwaters/vscode-extensions # extensions/typst-ultra/
+    category: writing--text
+    labels: [extension]

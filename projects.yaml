@@ -2261,3 +2261,8 @@ projects:
     github_id: xuwaters/vscode-extensions # extensions/typst-ultra/
     category: writing--text
     labels: [extension]
+
+  - name: justmytyp
+    github_id: trespaul/justmytyp
+    category: coding--service
+    labels: [runnable]

@@ -2251,3 +2251,8 @@ projects:
     github_id: vitofico/galley
     category: writing--text
     labels: [web]
+
+  - name: justmytyp
+    github_id: trespaul/justmytyp
+    category: coding--service
+    labels: [runnable]

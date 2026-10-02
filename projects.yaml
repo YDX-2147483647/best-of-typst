@@ -2266,3 +2266,8 @@ projects:
     github_id: trespaul/justmytyp
     category: coding--service
     labels: [runnable]
+
+  - name: Typst2ANSI
+    codeberg_id: noClaps/typst2ansi
+    category: mix
+    labels: [web]

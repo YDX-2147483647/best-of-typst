@@ -2267,6 +2267,11 @@ projects:
     category: coding--service
     labels: [runnable]
 
+  - name: Documentación de Typst en español rioplatense (es-AR)
+    github_id: jassielof/typst
+    category: docs
+    labels: [web, non-english]
+
   - name: Typst2ANSI
     codeberg_id: noClaps/typst2ansi
     # NOTE: This license was manually recorded on 2026-10-02.

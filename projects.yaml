@@ -2267,6 +2267,11 @@ projects:
     category: coding--service
     labels: [runnable]
 
+  - name: 留白 LeftBlank
+    github_id: leftblank-app/leftblank
+    category: writing--text
+    labels: [app, multilingual]
+
   - name: Documentación de Typst en español rioplatense (es-AR)
     github_id: jassielof/typst
     category: docs

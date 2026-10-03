@@ -2267,6 +2267,11 @@ projects:
     category: coding--service
     labels: [runnable]
 
+  - name: JoTypst
+    github_id: aspyk/jotypst
+    category: mix
+    labels: [extension]
+
   - name: 留白 LeftBlank
     github_id: leftblank-app/leftblank
     category: writing--text

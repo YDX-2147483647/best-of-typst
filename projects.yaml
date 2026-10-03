@@ -2266,3 +2266,8 @@ projects:
     github_id: trespaul/justmytyp
     category: coding--service
     labels: [runnable]
+
+  - name: Documentación de Typst en español rioplatense (es-AR)
+    github_id: jassielof/typst
+    category: docs
+    labels: [web, non-english]

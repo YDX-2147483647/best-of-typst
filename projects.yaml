@@ -2288,3 +2288,8 @@ projects:
     license: 0BSD
     category: mix
     labels: [web]
+
+  - name: Typst Preview Auto
+    github_id: TechnoLukas/TypstPreviewAuto
+    category: writing--text
+    labels: [extension]

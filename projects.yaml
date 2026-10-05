@@ -2291,5 +2291,7 @@ projects:
 
   - name: Typst Preview Auto
     github_id: TechnoLukas/TypstPreviewAuto
+    # NOTE: This homepage was manually recorded on 2026-10-05.
+    homepage: https://marketplace.visualstudio.com/items?itemName=technolukas.typst-preview-auto
     category: writing--text
     labels: [extension]

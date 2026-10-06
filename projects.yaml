@@ -2300,3 +2300,9 @@ projects:
     github_id: Oleafly/Oleafly
     category: writing--text
     labels: [app, multilingual]
+
+  - name: Typlet
+    github_id: dbccccccc/Typlet
+    category: math
+    labels: [api]
+    npm_id: typlet

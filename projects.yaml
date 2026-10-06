@@ -2288,3 +2288,8 @@ projects:
     license: 0BSD
     category: mix
     labels: [web]
+
+  - name: Oleafly
+    github_id: Oleafly/Oleafly
+    category: writing--text
+    labels: [app, multilingual]

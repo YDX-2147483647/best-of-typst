@@ -2301,6 +2301,12 @@ projects:
     category: writing--text
     labels: [app, multilingual]
 
+  - name: mmtypst
+    github_id: shiguri-01/mmtypst
+    category: math
+    labels: [api]
+    npm_id: mmtypst
+
   - name: Typlet
     github_id: dbccccccc/Typlet
     category: math

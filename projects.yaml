@@ -1441,7 +1441,7 @@ projects:
   - name: TypstPad
     github_id: dbccccccc/TypstPad
     category: math
-    labels: [web]
+    labels: [web, multilingual]
 
   - name: dooc_embed_typst
     github_id: destroyerOfOfficeChairs/dooc_embed_typst
@@ -2306,3 +2306,9 @@ projects:
     category: math
     labels: [api]
     npm_id: mmtypst
+
+  - name: Typlet
+    github_id: dbccccccc/Typlet
+    category: math
+    labels: [api]
+    npm_id: typlet

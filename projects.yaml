@@ -2301,6 +2301,15 @@ projects:
     category: writing--text
     labels: [app, multilingual]
 
+  - name: TypLens
+    github_id: dbccccccc/TypLens
+    homepage: https://huggingface.co/dbcccc/TypLens
+    # NOTE: This description was manually recorded on 2026-10-06.
+    description: |
+      Converts an image of a printed mathematical formula directly into Typst math source. Its 29.2-million-parameter model can run locally in a browser using the supplied full-precision or compact ONNX graphs.
+    category: math
+    labels: [runnable]
+
   - name: mmtypst
     github_id: shiguri-01/mmtypst
     category: math

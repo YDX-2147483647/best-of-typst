@@ -2324,5 +2324,7 @@ projects:
 
   - name: typst-crystalline
     github_id: Dikluwe/typst-crystalline
+    # Override the default `main` branch
+    homepage: https://github.com/Dikluwe/typst-crystalline/tree/Tekt
     category: misc
     labels: [non-english]

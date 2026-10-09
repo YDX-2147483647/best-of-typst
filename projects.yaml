@@ -2321,3 +2321,8 @@ projects:
     category: math
     labels: [api]
     npm_id: typlet
+
+  - name: typst-crystalline
+    github_id: Dikluwe/typst-crystalline
+    category: misc
+    labels: [non-english]

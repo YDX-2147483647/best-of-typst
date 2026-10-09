@@ -1916,7 +1916,7 @@ projects:
   - name: MoYeRanqianzhi/typst-skill
     github_id: MoYeRanqianzhi/typst-skill
     category: writing--agent
-    labels: [extension]
+    labels: [extension, multilingual]
 
   - name: Hieroglyphic
     github_id: FineFindus/Hieroglyphic
@@ -2321,8 +2321,3 @@ projects:
     category: math
     labels: [api]
     npm_id: typlet
-
-  - name: MoYeRanqianzhi/typst-skill
-    github_id: MoYeRanqianzhi/typst-skill
-    category: writing--agent
-    labels: [extension, multilingual]

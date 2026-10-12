@@ -2328,3 +2328,8 @@ projects:
     homepage: https://github.com/Dikluwe/typst-crystalline/tree/Tekt
     category: misc
     labels: [non-english]
+
+  - name: copier-typst-package
+    github_id: npikall/copier-typst-package
+    category: pkg
+    labels: [extension]

@@ -2333,3 +2333,8 @@ projects:
     github_id: npikall/copier-typst-package
     category: pkg
     labels: [extension]
+
+  - name: Hayman
+    github_id: jassielof/hayman
+    category: ref
+    labels: [runnable]

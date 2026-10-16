@@ -2338,3 +2338,8 @@ projects:
     github_id: jassielof/hayman
     category: ref
     labels: [runnable]
+
+  - name: Resume Builder
+    github_id: gianfrancodemarco/resume-builder
+    category: misc
+    labels: [web]

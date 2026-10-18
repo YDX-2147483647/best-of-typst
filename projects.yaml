@@ -2343,3 +2343,9 @@ projects:
     github_id: gianfrancodemarco/resume-builder
     category: misc
     labels: [web]
+
+  - name: typst-pkg-sync
+    codeberg_id: ressler/typst-pkg-sync
+    category: pkg
+    labels: [runnable]
+    pypi_id: typst-pkg-sync

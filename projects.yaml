@@ -2346,4 +2346,6 @@ projects:
 
   - name: Typst and Pipeline Essentials
     codeberg_id: ressler/typst-and-pipeline-essentials
+    # NOTE: This license was manually recorded on 2026-10-18.
+    license: MIT
     category: coding--tooling

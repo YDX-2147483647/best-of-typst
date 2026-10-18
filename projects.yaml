@@ -2343,3 +2343,7 @@ projects:
     github_id: gianfrancodemarco/resume-builder
     category: misc
     labels: [web]
+
+  - name: Typst and Pipeline Essentials
+    codeberg_id: ressler/typst-and-pipeline-essentials
+    category: coding--tooling

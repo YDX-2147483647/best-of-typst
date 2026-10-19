@@ -2349,3 +2349,11 @@ projects:
     # NOTE: This license was manually recorded on 2026-10-18.
     license: MIT
     category: coding--tooling
+
+  - name: typst-pkg-sync
+    codeberg_id: ressler/typst-pkg-sync
+    # NOTE: This license was manually recorded on 2026-10-18.
+    license: MIT
+    category: pkg
+    labels: [runnable]
+    pypi_id: typst-pkg-sync

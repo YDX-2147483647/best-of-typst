@@ -2344,6 +2344,12 @@ projects:
     category: misc
     labels: [web]
 
+  - name: Typst and Pipeline Essentials
+    codeberg_id: ressler/typst-and-pipeline-essentials
+    # NOTE: This license was manually recorded on 2026-10-18.
+    license: MIT
+    category: coding--tooling
+
   - name: typst-pkg-sync
     codeberg_id: ressler/typst-pkg-sync
     # NOTE: This license was manually recorded on 2026-10-18.

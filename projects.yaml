@@ -2357,3 +2357,8 @@ projects:
     category: pkg
     labels: [runnable]
     pypi_id: typst-pkg-sync
+
+  - name: fl-grtg/typst-editor
+    github_id: fl-grtg/typst-editor
+    category: writing--text
+    labels: [runnable]

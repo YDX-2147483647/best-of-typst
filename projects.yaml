@@ -2362,3 +2362,9 @@ projects:
     github_id: fl-grtg/typst-editor
     category: writing--text
     labels: [runnable]
+
+  - name: pptx-typst
+    github_id: Sovichea/pptx-typst
+    category: convert
+    labels: [runnable]
+    pypi_id: pptx-typst

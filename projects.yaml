@@ -2368,3 +2368,8 @@ projects:
     category: convert
     labels: [runnable]
     pypi_id: pptx-typst
+
+  - name: Mapaor/typst-api
+    github_id: Mapaor/typst-api
+    category: coding--service
+    labels: [runnable]

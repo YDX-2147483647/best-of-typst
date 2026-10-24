@@ -2373,3 +2373,8 @@ projects:
     github_id: Mapaor/typst-api
     category: coding--service
     labels: [runnable]
+
+  - name: Typstの日本語組版対応状況
+    github_id: typst-jp/jlreq
+    category: docs
+    labels: [web, non-english]

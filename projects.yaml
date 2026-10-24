@@ -2363,6 +2363,12 @@ projects:
     category: writing--text
     labels: [runnable]
 
+  - name: pptx-typst
+    github_id: Sovichea/pptx-typst
+    category: convert
+    labels: [runnable]
+    pypi_id: pptx-typst
+
   - name: Mapaor/typst-api
     github_id: Mapaor/typst-api
     category: coding--service

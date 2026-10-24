@@ -2373,3 +2373,9 @@ projects:
     github_id: Mapaor/typst-api
     category: coding--service
     labels: [runnable]
+
+  - name: typdeck
+    github_id: 3w36zj6/typdeck
+    category: convert
+    labels: [cli]
+    npm_id: typdeck

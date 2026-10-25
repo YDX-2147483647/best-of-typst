@@ -2378,3 +2378,9 @@ projects:
     github_id: typst-jp/jlreq
     category: docs
     labels: [web, non-english]
+
+  - name: typdeck
+    github_id: 3w36zj6/typdeck
+    category: convert
+    labels: [cli]
+    npm_id: typdeck

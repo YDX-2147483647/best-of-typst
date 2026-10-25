@@ -2374,6 +2374,11 @@ projects:
     category: coding--service
     labels: [runnable]
 
+  - name: Typstの日本語組版対応状況
+    github_id: typst-jp/jlreq
+    category: docs
+    labels: [web, non-english]
+
   - name: typdeck
     github_id: 3w36zj6/typdeck
     category: convert

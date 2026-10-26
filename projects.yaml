@@ -2384,3 +2384,8 @@ projects:
     category: convert
     labels: [cli]
     npm_id: typdeck
+
+  - name: typst-updater
+    github_id: talios/typst-updater
+    category: coding--tooling
+    labels: [cli]

@@ -2398,3 +2398,9 @@ projects:
   - name: Typst.otf
     github_id: coclique/typst.otf
     category: misc
+
+  - name: Untie
+    github_id: caelyreth/untie
+    category: math
+    labels: [api, web]
+    go_id: github.com/caelyreth/untie

@@ -2394,3 +2394,7 @@ projects:
     github_id: ArchiBC/typst-pdf-notebook
     category: mix
     labels: [extension]
+
+  - name: Typst.otf
+    github_id: coclique/typst.otf
+    category: misc

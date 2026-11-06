@@ -2404,3 +2404,7 @@ projects:
     category: math
     labels: [api, web]
     go_id: github.com/caelyreth/untie
+
+  - name: Typst_jll.jl
+    github_id: JuliaBinaryWrappers/Typst_jll.jl
+    category: coding--tooling

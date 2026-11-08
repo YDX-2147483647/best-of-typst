@@ -2408,3 +2408,8 @@ projects:
   - name: Typst_jll.jl
     github_id: JuliaBinaryWrappers/Typst_jll.jl
     category: coding--tooling
+
+  - name: trust
+    github_id: liquidhelium/trust
+    category: convert
+    labels: [runnable]

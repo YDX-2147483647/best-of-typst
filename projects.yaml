@@ -2413,3 +2413,9 @@ projects:
     github_id: liquidhelium/trust
     category: convert
     labels: [runnable]
+
+  - name: @flukxr/typst-cli
+    github_id: flukxr/typst-cli
+    category: coding--tooling
+    labels: [runnable]
+    npm_id: @flukxr/typst-cli

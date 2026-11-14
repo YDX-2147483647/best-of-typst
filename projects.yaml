@@ -2360,8 +2360,10 @@ projects:
 
   - name: fl-grtg/typst-editor
     github_id: fl-grtg/typst-editor
+    # NOTE: This license was manually recorded on 2026-11-14.
+    license: Apache-2.0
     category: writing--text
-    labels: [runnable]
+    labels: [web, runnable]
 
   - name: pptx-typst
     github_id: Sovichea/pptx-typst

@@ -2414,8 +2414,8 @@ projects:
     category: convert
     labels: [runnable]
 
-  - name: @flukxr/typst-cli
+  - name: "@flukxr/typst-cli"
     github_id: flukxr/typst-cli
     category: coding--tooling
     labels: [runnable]
-    npm_id: @flukxr/typst-cli
+    npm_id: "@flukxr/typst-cli"

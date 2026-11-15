@@ -2425,3 +2425,9 @@ projects:
     category: coding--tooling
     labels: [runnable]
     npm_id: "@flukxr/typst-cli"
+
+  - name: typush
+    github_id: Vncntvx/typush
+    category: pkg
+    labels: [cli, multilingual]
+    go_id: github.com/Vncntvx/typush

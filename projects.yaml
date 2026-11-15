@@ -2419,3 +2419,9 @@ projects:
     category: coding--compiler
     labels: [api]
     npm_id: "@flukxr/typst-api"
+
+  - name: "@flukxr/typst-cli"
+    github_id: flukxr/typst-cli
+    category: coding--tooling
+    labels: [runnable]
+    npm_id: "@flukxr/typst-cli"

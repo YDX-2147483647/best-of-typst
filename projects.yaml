@@ -2425,3 +2425,8 @@ projects:
     category: coding--tooling
     labels: [runnable]
     npm_id: "@flukxr/typst-cli"
+
+  - name: typst_of_jupyter
+    github_id: dermesser/typst_of_jupyter
+    category: convert
+    labels: [runnable]

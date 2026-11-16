@@ -2425,3 +2425,8 @@ projects:
     category: coding--tooling
     labels: [runnable]
     npm_id: "@flukxr/typst-cli"
+
+  - name: Easy Typst Editor
+    github_id: qnai-ai/Easy_Typst_Editor
+    category: writing--visual
+    labels: [app, multilingual]

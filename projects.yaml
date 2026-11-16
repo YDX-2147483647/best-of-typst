@@ -2426,6 +2426,12 @@ projects:
     labels: [runnable]
     npm_id: "@flukxr/typst-cli"
 
+  - name: typush
+    github_id: Vncntvx/typush
+    category: pkg
+    labels: [cli, multilingual]
+    go_id: github.com/Vncntvx/typush
+
   - name: typst_of_jupyter
     github_id: dermesser/typst_of_jupyter
     category: convert

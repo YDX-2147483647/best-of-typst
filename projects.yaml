@@ -2441,3 +2441,11 @@ projects:
     github_id: dermesser/typst_of_jupyter
     category: convert
     labels: [runnable]
+
+  - name: PageRush SDKs
+    github_id: arsi-consultancy/pagerush-sdks
+    category: coding--service
+    labels: [api]
+    npm_id: pagerush
+    pypi_id: pagerush
+    go_id: github.com/arsi-consultancy/pagerush-sdks/go

@@ -2449,3 +2449,8 @@ projects:
     npm_id: pagerush
     pypi_id: pagerush
     go_id: github.com/arsi-consultancy/pagerush-sdks/go
+
+  - name: typst-redline
+    github_id: cvsvensson/typst-redline
+    category: writing--assist
+    labels: [cli, extension]

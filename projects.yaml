@@ -2454,3 +2454,8 @@ projects:
     github_id: cvsvensson/typst-redline
     category: writing--assist
     labels: [cli, extension]
+
+  - name: typst-dev-container
+    github_id: 1solomonwakhungu/typst-dev-container
+    category: coding--tooling
+    labels: [runnable]

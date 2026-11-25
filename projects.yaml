@@ -1494,10 +1494,12 @@ projects:
     labels: [api]
     pypi_id: typst-fillable
 
-  - name: Hayagriva Manager
-    github_id: jassielof/hayagriva-manager
+  - name: Hayman
+    # The repo was renamed from jassielof/hayagriva-manager on 2026-09-02.
+    # https://github.com/jassielof/hayman/commit/202aefa8620181595f6a1ea599388d7a34223994
+    github_id: jassielof/hayman
     category: ref
-    labels: [web]
+    labels: [runnable]
 
   - name: typst-undergradmath-zh
     github_id: tzhtaylor/typst-undergradmath-zh
@@ -2333,11 +2335,6 @@ projects:
     github_id: npikall/copier-typst-package
     category: pkg
     labels: [extension]
-
-  - name: Hayman
-    github_id: jassielof/hayman
-    category: ref
-    labels: [runnable]
 
   - name: Resume Builder
     github_id: gianfrancodemarco/resume-builder

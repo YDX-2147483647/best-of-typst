@@ -2456,3 +2456,8 @@ projects:
     github_id: 1solomonwakhungu/typst-dev-container
     category: coding--tooling
     labels: [runnable]
+
+  - name: TypstRay
+    github_id: IgKh/typst-ray
+    category: misc
+    labels: [web]

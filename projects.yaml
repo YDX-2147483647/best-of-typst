@@ -2457,6 +2457,11 @@ projects:
     category: coding--tooling
     labels: [runnable]
 
+  - name: TypstRay
+    github_id: IgKh/typst-ray
+    category: misc
+    labels: [web]
+
   - name: scholzdev/Typo
     github_id: scholzdev/typo
     category: writing--text

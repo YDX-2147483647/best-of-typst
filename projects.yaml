@@ -2461,3 +2461,8 @@ projects:
     github_id: IgKh/typst-ray
     category: misc
     labels: [web]
+
+  - name: scholzdev/Typo
+    github_id: scholzdev/typo
+    category: writing--text
+    labels: [app, multilingual]

@@ -2466,3 +2466,10 @@ projects:
     github_id: scholzdev/typo
     category: writing--text
     labels: [app, multilingual]
+
+  - name: Grammata
+    github_id: lfreyes97/grammata
+    # NOTE: This homepage was manually recorded on 2026-11-28.
+    homepage: https://lfreyes97.github.io/grammata/
+    category: writing--text
+    labels: [app, multilingual]

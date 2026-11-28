@@ -2466,3 +2466,8 @@ projects:
     github_id: scholzdev/typo
     category: writing--text
     labels: [app, multilingual]
+
+  - name: typst-xlatory
+    github_id: marcwiki/typst-xlatory
+    category: convert
+    labels: [cli, multilingual]

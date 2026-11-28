@@ -2466,3 +2466,8 @@ projects:
     github_id: scholzdev/typo
     category: writing--text
     labels: [app, multilingual]
+
+  - name: Grammata
+    github_id: lfreyes97/grammata
+    category: writing--text
+    labels: [app, multilingual]
